@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "name": "PublicGenericControlProperties",
+  "steps": [
+    {
+      "id": "string",
+      "op": "control",
+      "args": {
+        "style": "String Control",
+        "label": "Text",
+        "x": 40,
+        "y": 40
+      }
+    },
+    {
+      "id": "stringSource",
+      "op": "object_info",
+      "args": {
+        "object_id": "$string.object_id"
+      }
+    },
+    {
+      "id": "stringRef",
+      "op": "control_reference",
+      "args": {
+        "control_id": "$string.object_id"
+      }
+    },
+    {
+      "id": "stringRefTerms",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$stringRef.reference_constant_id"
+      }
+    },
+    {
+      "id": "stringProperty",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Property Node",
+        "x": 400,
+        "y": 40
+      }
+    },
+    {
+      "id": "stringClass",
+      "op": "property_class",
+      "args": {
+        "property_id": "$stringProperty.object_id",
+        "class_name": "VI Server:控件"
+      }
+    },
+    {
+      "id": "stringSelect",
+      "op": "property_select",
+      "args": {
+        "property_id": "$stringProperty.object_id",
+        "property_id_strings": [
+          "6327806"
+        ],
+        "allow_alternate_names": false
+      }
+    },
+    {
+      "id": "stringRead",
+      "op": "property_item_write",
+      "args": {
+        "property_item_id": "$stringSelect.property_item_ids.0",
+        "is_write": false
+      }
+    },
+    {
+      "id": "stringUnbound",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$stringProperty.object_id"
+      }
+    },
+    {
+      "id": "stringBind",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$stringRefTerms.pins.0",
+        "sink_terminal": "$stringUnbound.pins.reference"
+      }
+    },
+    {
+      "id": "stringInfo",
+      "op": "property_info",
+      "args": {
+        "property_id": "$stringProperty.object_id"
+      }
+    },
+    {
+      "id": "stringPropertyIdentity",
+      "op": "object_info",
+      "args": {
+        "object_id": "$stringProperty.object_id"
+      }
+    },
+    {
+      "id": "cluster",
+      "op": "control",
+      "args": {
+        "style": "Cluster",
+        "label": "Mixed",
+        "x": 40,
+        "y": 160
+      }
+    },
+    {
+      "id": "status",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$cluster.object_id",
+        "style": "Horizontal Toggle Switch",
+        "label": "status",
+        "x": 10,
+        "y": 10
+      }
+    },
+    {
+      "id": "code",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$cluster.object_id",
+        "style": "Numeric Control",
+        "label": "code",
+        "x": 10,
+        "y": 60,
+        "representation": 3
+      }
+    },
+    {
+      "id": "source",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$cluster.object_id",
+        "style": "String Control",
+        "label": "source",
+        "x": 10,
+        "y": 110
+      }
+    },
+    {
+      "id": "clusterSource",
+      "op": "object_info",
+      "args": {
+        "object_id": "$cluster.object_id"
+      }
+    },
+    {
+      "id": "clusterRef",
+      "op": "control_reference",
+      "args": {
+        "control_id": "$cluster.object_id"
+      }
+    },
+    {
+      "id": "clusterRefTerms",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$clusterRef.reference_constant_id"
+      }
+    },
+    {
+      "id": "clusterProperty",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Property Node",
+        "x": 400,
+        "y": 160
+      }
+    },
+    {
+      "id": "clusterClass",
+      "op": "property_class",
+      "args": {
+        "property_id": "$clusterProperty.object_id",
+        "class_name": "VI Server:控件"
+      }
+    },
+    {
+      "id": "clusterSelect",
+      "op": "property_select",
+      "args": {
+        "property_id": "$clusterProperty.object_id",
+        "property_id_strings": [
+          "6327806"
+        ],
+        "allow_alternate_names": false
+      }
+    },
+    {
+      "id": "clusterRead",
+      "op": "property_item_write",
+      "args": {
+        "property_item_id": "$clusterSelect.property_item_ids.0",
+        "is_write": false
+      }
+    },
+    {
+      "id": "clusterUnbound",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$clusterProperty.object_id"
+      }
+    },
+    {
+      "id": "clusterBind",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$clusterRefTerms.pins.0",
+        "sink_terminal": "$clusterUnbound.pins.reference"
+      }
+    },
+    {
+      "id": "clusterInfo",
+      "op": "property_info",
+      "args": {
+        "property_id": "$clusterProperty.object_id"
+      }
+    },
+    {
+      "id": "clusterPropertyIdentity",
+      "op": "object_info",
+      "args": {
+        "object_id": "$clusterProperty.object_id"
+      }
+    },
+    {
+      "id": "slide",
+      "op": "control",
+      "args": {
+        "style": "Horizontal Slide",
+        "label": "Level",
+        "x": 40,
+        "y": 320
+      }
+    },
+    {
+      "id": "slideSource",
+      "op": "object_info",
+      "args": {
+        "object_id": "$slide.object_id"
+      }
+    },
+    {
+      "id": "slideRef",
+      "op": "control_reference",
+      "args": {
+        "control_id": "$slide.object_id"
+      }
+    },
+    {
+      "id": "slideRefTerms",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$slideRef.reference_constant_id"
+      }
+    },
+    {
+      "id": "slideProperty",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Property Node",
+        "x": 400,
+        "y": 320
+      }
+    },
+    {
+      "id": "slideClass",
+      "op": "property_class",
+      "args": {
+        "property_id": "$slideProperty.object_id",
+        "class_name": "VI Server:控件"
+      }
+    },
+    {
+      "id": "slideSelect",
+      "op": "property_select",
+      "args": {
+        "property_id": "$slideProperty.object_id",
+        "property_id_strings": [
+          "6327806"
+        ],
+        "allow_alternate_names": false
+      }
+    },
+    {
+      "id": "slideRead",
+      "op": "property_item_write",
+      "args": {
+        "property_item_id": "$slideSelect.property_item_ids.0",
+        "is_write": false
+      }
+    },
+    {
+      "id": "slideUnbound",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$slideProperty.object_id"
+      }
+    },
+    {
+      "id": "slideBind",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$slideRefTerms.pins.0",
+        "sink_terminal": "$slideUnbound.pins.reference"
+      }
+    },
+    {
+      "id": "slideInfo",
+      "op": "property_info",
+      "args": {
+        "property_id": "$slideProperty.object_id"
+      }
+    },
+    {
+      "id": "slidePropertyIdentity",
+      "op": "object_info",
+      "args": {
+        "object_id": "$slideProperty.object_id"
+      }
+    }
+  ]
+}

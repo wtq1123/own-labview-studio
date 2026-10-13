@@ -1,0 +1,66 @@
+{
+  "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner.vi",
+  "actual_loaded_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner.vi",
+  "sha256": "688d431c067bb1806d98b0b572a077309204e1660411058acd508e1aa00e1c8c",
+  "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetObjectInfo.vi",
+  "source_sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+  "source_unchanged": true,
+  "exec_state": 1,
+  "callee_paths": [],
+  "native_abi_verified": true,
+  "inputs": {
+    "object_id": [
+      14,
+      16391,
+      2415,
+      25194,
+      25955,
+      29791,
+      26980
+    ]
+  },
+  "outputs": {
+    "owner_id": [
+      22,
+      16496,
+      8,
+      3,
+      4,
+      0,
+      2159,
+      30574,
+      25970,
+      24425,
+      25600
+    ],
+    "error out": [
+      54,
+      16464,
+      3,
+      12,
+      16417,
+      1651,
+      29793,
+      29813,
+      29440,
+      10,
+      16387,
+      1123,
+      28516,
+      25856,
+      16,
+      16432,
+      -1,
+      -1,
+      1651,
+      28533,
+      29283,
+      25856,
+      2405,
+      29298,
+      28530,
+      8303,
+      30068
+    ]
+  }
+}

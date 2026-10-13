@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "name": "IndicatorDefaults",
+  "steps": [
+    {
+      "id": "number",
+      "op": "control",
+      "args": {
+        "y": 40,
+        "style": "Numeric Indicator",
+        "label": "NumberOut",
+        "x": 40
+      }
+    },
+    {
+      "id": "flag",
+      "op": "control",
+      "args": {
+        "y": 40,
+        "style": "Horizontal Toggle Switch",
+        "label": "FlagOut",
+        "x": 220
+      }
+    },
+    {
+      "id": "direction",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$flag.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "numberDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$number.object_id",
+        "value": -2.5
+      }
+    },
+    {
+      "id": "flagDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$flag.object_id",
+        "value": true
+      }
+    }
+  ]
+}

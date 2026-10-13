@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "name": "ForContinueIfTrue",
+  "steps": [
+    {
+      "id": "loop",
+      "op": "for",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "For Loop",
+        "x": 150,
+        "y": 100,
+        "bounds": [
+          500,
+          350
+        ]
+      }
+    },
+    {
+      "id": "body",
+      "op": "for_info",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "ports",
+      "op": "for_terminals",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "count",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$ports.count_id"
+      }
+    },
+    {
+      "id": "setCount",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$count.constant_id",
+        "value": 6
+      }
+    },
+    {
+      "id": "enable",
+      "op": "for_conditional",
+      "args": {
+        "for_id": "$loop.for_id",
+        "has_conditional_terminal": true
+      }
+    },
+    {
+      "id": "stop",
+      "op": "for_stop",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "polarity",
+      "op": "for_stop_if_true",
+      "args": {
+        "for_id": "$loop.for_id",
+        "stop_if_true": false
+      }
+    },
+    {
+      "id": "polarityRead",
+      "op": "for_stop_if_true_info",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "compare",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$body.diagram_id",
+        "style": "Less?",
+        "x": 300,
+        "y": 200
+      }
+    },
+    {
+      "id": "counterWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$ports.counter_id",
+        "sink_terminal": "$compare.pins.x"
+      }
+    },
+    {
+      "id": "limit",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$compare.pins.y"
+      }
+    },
+    {
+      "id": "setLimit",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$limit.constant_id",
+        "value": 3
+      }
+    },
+    {
+      "id": "stopWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$compare.terminal_ids.0",
+        "sink_terminal": "$stop.stop_id"
+      }
+    },
+    {
+      "id": "last",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$ports.counter_id"
+      }
+    },
+    {
+      "id": "lastLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$last.control_id",
+        "label": "Last iteration"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "helpers": {
+    "Native_Create": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_Create.vi",
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "authorship": "User-authored NI VI Scripting helper, historically authored using licensed vendor tooling",
+      "runtime_callee_policy": "Must have zero callees; live-checked before every execution"
+    },
+    "Native_AddNode_v2": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddNode_v2.vi",
+      "sha256": "fd7882f16d22220470d59e9acccdfa0b89e7475262fa3949a5eaf30adcc2c709",
+      "authorship": "User-authored NI VI Scripting helper, historically authored using licensed vendor tooling",
+      "runtime_callee_policy": "Must have zero callees; live-checked before every execution"
+    },
+    "Native_AddControl_v2": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddControl_v2.vi",
+      "sha256": "3ff175fd05d93e5dd18c862465559b4ba718aeac03b78472048ca376e72c8329",
+      "authorship": "User-authored NI VI Scripting helper, historically authored using licensed vendor tooling",
+      "runtime_callee_policy": "Must have zero callees; live-checked before every execution"
+    },
+    "Native_Wire": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_Wire.vi",
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "authorship": "User-authored NI VI Scripting helper, historically authored using licensed vendor tooling",
+      "runtime_callee_policy": "Must have zero callees; live-checked before every execution"
+    },
+    "Native_GetTerminalName": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetTerminalName.vi",
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "authorship": "User-authored NI VI Scripting helper, historically authored using licensed vendor tooling",
+      "runtime_callee_policy": "Must have zero callees; live-checked before every execution"
+    }
+  },
+  "historical_evidence": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\tests\\NativeAddition_20260924_v2\\acceptance.json",
+  "independent_helper_rebuild": false,
+  "vendor_runtime_required": false
+}

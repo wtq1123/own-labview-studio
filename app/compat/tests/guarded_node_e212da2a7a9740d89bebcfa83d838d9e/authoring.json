@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "source_sha256": "e93db76f92dcce3467726671cdac20db2d8ba28a95784494e348d53111ea9e5d",
+  "created_sha256": "dea278358f127ccdf0b601114f9fd2cb64814e6882c8d666e4ce918c2d0ffab5",
+  "source_preserved": true,
+  "execution_state": 1,
+  "creation": {
+    "id": 2904555685,
+    "kind": "Function",
+    "pins": {
+      "error out": 2928672956,
+      "object refnum": 2929721533,
+      "bounds": 2930770110,
+      "auto wire? (F)": 2931818687,
+      "path": 2932867264,
+      "vi object class": 2933915841,
+      "error in (no error)": 2934964418,
+      "position/next to": 2936012995,
+      "style": 2937061572,
+      "owner refnum": 2938110149
+    }
+  },
+  "reader": {
+    "id": 2895118492,
+    "kind": "Property",
+    "pins": {
+      "reference": 2916090032,
+      "reference out": 2917138609,
+      "error in (no error)": 2918187186,
+      "error out": 2919235763,
+      "Terms[]": 2920284340
+    }
+  },
+  "native_callees": [],
+  "source_or_guarded_helper_executed": false,
+  "ni_process_before": [
+    {
+      "id": 36800,
+      "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+      "start_ticks": 639274071498694560
+    }
+  ],
+  "ni_process_after": [
+    {
+      "id": 36800,
+      "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+      "start_ticks": 639274071498694560
+    }
+  ]
+}

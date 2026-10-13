@@ -1,0 +1,12 @@
+app/projects/
+app/tests/*/
+app/tests/*.json
+app/tests/*.log
+app/ni-operation-in-progress.json
+app/compat/__pycache__/
+app/development/__pycache__/
+*.pdb
+*.tmp
+*.bak
+*.aliases
+*.lvlps

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "name": "ArrayMoveI32Matrix",
+  "steps": [
+    {
+      "id": "source",
+      "op": "control",
+      "args": {
+        "label": "Element",
+        "style": "Numeric Control",
+        "x": 30,
+        "y": 40
+      }
+    },
+    {
+      "id": "rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$source.object_id",
+        "representation": 3
+      }
+    },
+    {
+      "id": "sourceDirection",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$source.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "array",
+      "op": "control",
+      "args": {
+        "label": "Values",
+        "style": "Array",
+        "x": 300,
+        "y": 40
+      }
+    },
+    {
+      "id": "oppositeDirection",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$array.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "move",
+      "op": "array_move_element",
+      "args": {
+        "control_id": "$source.object_id",
+        "owner_id": "$array.object_id",
+        "x": 15,
+        "y": 20
+      }
+    },
+    {
+      "id": "dimensions",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$array.object_id",
+        "dimensions": 2
+      }
+    },
+    {
+      "id": "info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$array.object_id"
+      }
+    },
+    {
+      "id": "peer",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$info.terminal_id"
+      }
+    },
+    {
+      "id": "peerLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$peer.control_id",
+        "label": "Echo"
+      }
+    },
+    {
+      "id": "final",
+      "op": "array_info",
+      "args": {
+        "array_id": "$array.object_id"
+      }
+    },
+    {
+      "id": "dir",
+      "op": "is_indicator",
+      "args": {
+        "control_id": "$array.object_id"
+      }
+    },
+    {
+      "id": "savedValues",
+      "op": "array_default",
+      "args": {
+        "array_id": "$array.object_id",
+        "value": [
+          [
+            1,
+            3
+          ],
+          [
+            5,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "id": "savedPeer",
+      "op": "array_default",
+      "args": {
+        "array_id": "$peer.control_id",
+        "value": [
+          [
+            1,
+            3
+          ],
+          [
+            5,
+            7
+          ]
+        ]
+      }
+    }
+  ]
+}

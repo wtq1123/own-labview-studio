@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "name": "NumericValues",
+  "steps": [
+    {
+      "id": "v0",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 40,
+        "label": "DBL",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "v0rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$v0.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "v0info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$v0.object_id"
+      }
+    },
+    {
+      "id": "v0echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$v0info.terminal_id"
+      }
+    },
+    {
+      "id": "v0label",
+      "op": "label",
+      "args": {
+        "label": "DBLEcho",
+        "control_id": "$v0echo.control_id"
+      }
+    },
+    {
+      "id": "v1",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 120,
+        "label": "SGL",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "v1rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$v1.object_id",
+        "representation": 2
+      }
+    },
+    {
+      "id": "v1info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$v1.object_id"
+      }
+    },
+    {
+      "id": "v1echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$v1info.terminal_id"
+      }
+    },
+    {
+      "id": "v1label",
+      "op": "label",
+      "args": {
+        "label": "SGLEcho",
+        "control_id": "$v1echo.control_id"
+      }
+    },
+    {
+      "id": "v2",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 200,
+        "label": "I32",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "v2rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$v2.object_id",
+        "representation": 3
+      }
+    },
+    {
+      "id": "v2info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$v2.object_id"
+      }
+    },
+    {
+      "id": "v2echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$v2info.terminal_id"
+      }
+    },
+    {
+      "id": "v2label",
+      "op": "label",
+      "args": {
+        "label": "I32Echo",
+        "control_id": "$v2echo.control_id"
+      }
+    },
+    {
+      "id": "v3",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 280,
+        "label": "U32",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "v3rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$v3.object_id",
+        "representation": 6
+      }
+    },
+    {
+      "id": "v3info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$v3.object_id"
+      }
+    },
+    {
+      "id": "v3echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$v3info.terminal_id"
+      }
+    },
+    {
+      "id": "v3label",
+      "op": "label",
+      "args": {
+        "label": "U32Echo",
+        "control_id": "$v3echo.control_id"
+      }
+    },
+    {
+      "id": "v4",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 360,
+        "label": "I64",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "v4rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$v4.object_id",
+        "representation": 12
+      }
+    },
+    {
+      "id": "v4info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$v4.object_id"
+      }
+    },
+    {
+      "id": "v4echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$v4info.terminal_id"
+      }
+    },
+    {
+      "id": "v4label",
+      "op": "label",
+      "args": {
+        "label": "I64Echo",
+        "control_id": "$v4echo.control_id"
+      }
+    },
+    {
+      "id": "v5",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 440,
+        "label": "U64",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "v5rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$v5.object_id",
+        "representation": 13
+      }
+    },
+    {
+      "id": "v5info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$v5.object_id"
+      }
+    },
+    {
+      "id": "v5echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$v5info.terminal_id"
+      }
+    },
+    {
+      "id": "v5label",
+      "op": "label",
+      "args": {
+        "label": "U64Echo",
+        "control_id": "$v5echo.control_id"
+      }
+    },
+    {
+      "id": "v0default",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$v0.object_id"
+      }
+    },
+    {
+      "id": "v1default",
+      "op": "control_default",
+      "args": {
+        "value": 0.125,
+        "control_id": "$v1.object_id"
+      }
+    },
+    {
+      "id": "v2default",
+      "op": "control_default",
+      "args": {
+        "value": -123,
+        "control_id": "$v2.object_id"
+      }
+    },
+    {
+      "id": "v3default",
+      "op": "control_default",
+      "args": {
+        "value": 123,
+        "control_id": "$v3.object_id"
+      }
+    },
+    {
+      "id": "v4default",
+      "op": "control_default",
+      "args": {
+        "value": -123,
+        "control_id": "$v4.object_id"
+      }
+    },
+    {
+      "id": "v5default",
+      "op": "control_default",
+      "args": {
+        "value": 123,
+        "control_id": "$v5.object_id"
+      }
+    }
+  ]
+}

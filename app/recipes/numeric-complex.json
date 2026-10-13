@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "name": "NumericComplex",
+  "steps": [
+    {
+      "id": "z0real",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 60,
+        "label": "CEXTRealIn",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "z0realrep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$z0real.object_id",
+        "representation": 0
+      }
+    },
+    {
+      "id": "z0realinfo",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z0real.object_id"
+      }
+    },
+    {
+      "id": "z0imag",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 140,
+        "label": "CEXTImagIn",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "z0imagrep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$z0imag.object_id",
+        "representation": 0
+      }
+    },
+    {
+      "id": "z0imaginfo",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z0imag.object_id"
+      }
+    },
+    {
+      "id": "z0join",
+      "op": "node",
+      "args": {
+        "x": 300,
+        "y": 60,
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Re/Im To Complex"
+      }
+    },
+    {
+      "id": "z0split",
+      "op": "node",
+      "args": {
+        "x": 500,
+        "y": 60,
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Complex To Re/Im"
+      }
+    },
+    {
+      "id": "z0rwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z0realinfo.terminal_id",
+        "sink_terminal": "$z0join.pins.x"
+      }
+    },
+    {
+      "id": "z0iwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z0imaginfo.terminal_id",
+        "sink_terminal": "$z0join.pins.y"
+      }
+    },
+    {
+      "id": "z0cwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z0join.pins.x + iy",
+        "sink_terminal": "$z0split.pins.x + iy"
+      }
+    },
+    {
+      "id": "z0complex",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z0join.pins.x + iy"
+      }
+    },
+    {
+      "id": "z0clabel",
+      "op": "label",
+      "args": {
+        "label": "CEXTValue",
+        "control_id": "$z0complex.control_id"
+      }
+    },
+    {
+      "id": "z0crep",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z0complex.control_id"
+      }
+    },
+    {
+      "id": "z0rout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z0split.pins.x"
+      }
+    },
+    {
+      "id": "z0rlabel",
+      "op": "label",
+      "args": {
+        "label": "CEXTRealOut",
+        "control_id": "$z0rout.control_id"
+      }
+    },
+    {
+      "id": "z0iout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z0split.pins.y"
+      }
+    },
+    {
+      "id": "z0ilabel",
+      "op": "label",
+      "args": {
+        "label": "CEXTImagOut",
+        "control_id": "$z0iout.control_id"
+      }
+    },
+    {
+      "id": "z1real",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 260,
+        "label": "CDBLRealIn",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "z1realrep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$z1real.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "z1realinfo",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z1real.object_id"
+      }
+    },
+    {
+      "id": "z1imag",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 340,
+        "label": "CDBLImagIn",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "z1imagrep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$z1imag.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "z1imaginfo",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z1imag.object_id"
+      }
+    },
+    {
+      "id": "z1join",
+      "op": "node",
+      "args": {
+        "x": 300,
+        "y": 260,
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Re/Im To Complex"
+      }
+    },
+    {
+      "id": "z1split",
+      "op": "node",
+      "args": {
+        "x": 500,
+        "y": 260,
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Complex To Re/Im"
+      }
+    },
+    {
+      "id": "z1rwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z1realinfo.terminal_id",
+        "sink_terminal": "$z1join.pins.x"
+      }
+    },
+    {
+      "id": "z1iwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z1imaginfo.terminal_id",
+        "sink_terminal": "$z1join.pins.y"
+      }
+    },
+    {
+      "id": "z1cwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z1join.pins.x + iy",
+        "sink_terminal": "$z1split.pins.x + iy"
+      }
+    },
+    {
+      "id": "z1complex",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z1join.pins.x + iy"
+      }
+    },
+    {
+      "id": "z1clabel",
+      "op": "label",
+      "args": {
+        "label": "CDBLValue",
+        "control_id": "$z1complex.control_id"
+      }
+    },
+    {
+      "id": "z1crep",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z1complex.control_id"
+      }
+    },
+    {
+      "id": "z1rout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z1split.pins.x"
+      }
+    },
+    {
+      "id": "z1rlabel",
+      "op": "label",
+      "args": {
+        "label": "CDBLRealOut",
+        "control_id": "$z1rout.control_id"
+      }
+    },
+    {
+      "id": "z1iout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z1split.pins.y"
+      }
+    },
+    {
+      "id": "z1ilabel",
+      "op": "label",
+      "args": {
+        "label": "CDBLImagOut",
+        "control_id": "$z1iout.control_id"
+      }
+    },
+    {
+      "id": "z2real",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 460,
+        "label": "CSGLRealIn",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "z2realrep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$z2real.object_id",
+        "representation": 2
+      }
+    },
+    {
+      "id": "z2realinfo",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z2real.object_id"
+      }
+    },
+    {
+      "id": "z2imag",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 540,
+        "label": "CSGLImagIn",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "z2imagrep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$z2imag.object_id",
+        "representation": 2
+      }
+    },
+    {
+      "id": "z2imaginfo",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z2imag.object_id"
+      }
+    },
+    {
+      "id": "z2join",
+      "op": "node",
+      "args": {
+        "x": 300,
+        "y": 460,
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Re/Im To Complex"
+      }
+    },
+    {
+      "id": "z2split",
+      "op": "node",
+      "args": {
+        "x": 500,
+        "y": 460,
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Complex To Re/Im"
+      }
+    },
+    {
+      "id": "z2rwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z2realinfo.terminal_id",
+        "sink_terminal": "$z2join.pins.x"
+      }
+    },
+    {
+      "id": "z2iwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z2imaginfo.terminal_id",
+        "sink_terminal": "$z2join.pins.y"
+      }
+    },
+    {
+      "id": "z2cwire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$z2join.pins.x + iy",
+        "sink_terminal": "$z2split.pins.x + iy"
+      }
+    },
+    {
+      "id": "z2complex",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z2join.pins.x + iy"
+      }
+    },
+    {
+      "id": "z2clabel",
+      "op": "label",
+      "args": {
+        "label": "CSGLValue",
+        "control_id": "$z2complex.control_id"
+      }
+    },
+    {
+      "id": "z2crep",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$z2complex.control_id"
+      }
+    },
+    {
+      "id": "z2rout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z2split.pins.x"
+      }
+    },
+    {
+      "id": "z2rlabel",
+      "op": "label",
+      "args": {
+        "label": "CSGLRealOut",
+        "control_id": "$z2rout.control_id"
+      }
+    },
+    {
+      "id": "z2iout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$z2split.pins.y"
+      }
+    },
+    {
+      "id": "z2ilabel",
+      "op": "label",
+      "args": {
+        "label": "CSGLImagOut",
+        "control_id": "$z2iout.control_id"
+      }
+    },
+    {
+      "id": "z0rdefault",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$z0real.object_id"
+      }
+    },
+    {
+      "id": "z0idefault",
+      "op": "control_default",
+      "args": {
+        "value": 1.25,
+        "control_id": "$z0imag.object_id"
+      }
+    },
+    {
+      "id": "z1rdefault",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$z1real.object_id"
+      }
+    },
+    {
+      "id": "z1idefault",
+      "op": "control_default",
+      "args": {
+        "value": 1.25,
+        "control_id": "$z1imag.object_id"
+      }
+    },
+    {
+      "id": "z2rdefault",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$z2real.object_id"
+      }
+    },
+    {
+      "id": "z2idefault",
+      "op": "control_default",
+      "args": {
+        "value": 1.25,
+        "control_id": "$z2imag.object_id"
+      }
+    }
+  ]
+}

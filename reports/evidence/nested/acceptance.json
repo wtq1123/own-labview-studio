@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "Native custom method and both dynamic terminals created",
+      "passed": true
+    },
+    {
+      "name": "Child custom body override compiled",
+      "passed": true
+    },
+    {
+      "name": "Custom class hierarchy including body copies migrated",
+      "passed": true
+    },
+    {
+      "name": "Bool String vector matrix static and dynamic methods compile and copy",
+      "passed": true
+    },
+    {
+      "name": "Mismatched override signature rejected",
+      "passed": true
+    },
+    {
+      "name": "Ancestor custom method can be overridden again",
+      "passed": true
+    },
+    {
+      "name": "NI process unchanged",
+      "passed": true
+    }
+  ],
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5",
+  "window_operations_used": false
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "name": "TypeFileglobal_read",
+  "steps": [
+    {
+      "id": "gN",
+      "op": "global_node",
+      "args": {
+        "control_name": "N",
+        "y": 100,
+        "x": 200,
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeGlobal_Type_8d43162493324385a727fc6947885f92\\TypeGlobal_Type_8d43162493324385a727fc6947885f92.vi",
+        "write": false,
+        "owner_diagram_id": "$root.diagram_id"
+      }
+    },
+    {
+      "id": "cN",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$gN.terminal_id"
+      }
+    },
+    {
+      "id": "lN",
+      "op": "label",
+      "args": {
+        "control_id": "$cN.control_id",
+        "label": "ReadN"
+      }
+    },
+    {
+      "id": "gS",
+      "op": "global_node",
+      "args": {
+        "control_name": "S",
+        "y": 240,
+        "x": 200,
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeGlobal_Type_8d43162493324385a727fc6947885f92\\TypeGlobal_Type_8d43162493324385a727fc6947885f92.vi",
+        "write": false,
+        "owner_diagram_id": "$root.diagram_id"
+      }
+    },
+    {
+      "id": "cS",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$gS.terminal_id"
+      }
+    },
+    {
+      "id": "lS",
+      "op": "label",
+      "args": {
+        "control_id": "$cS.control_id",
+        "label": "ReadS"
+      }
+    },
+    {
+      "id": "gB",
+      "op": "global_node",
+      "args": {
+        "control_name": "B",
+        "y": 380,
+        "x": 200,
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeGlobal_Type_8d43162493324385a727fc6947885f92\\TypeGlobal_Type_8d43162493324385a727fc6947885f92.vi",
+        "write": false,
+        "owner_diagram_id": "$root.diagram_id"
+      }
+    },
+    {
+      "id": "cB",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$gB.terminal_id"
+      }
+    },
+    {
+      "id": "lB",
+      "op": "label",
+      "args": {
+        "control_id": "$cB.control_id",
+        "label": "ReadB"
+      }
+    }
+  ]
+}

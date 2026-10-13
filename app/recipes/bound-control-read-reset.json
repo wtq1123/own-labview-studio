@@ -1,0 +1,306 @@
+{
+  "steps": [
+    {
+      "args": {
+        "y": 40,
+        "x": 40,
+        "style": "Numeric Control",
+        "label": "State"
+      },
+      "id": "state",
+      "op": "control"
+    },
+    {
+      "args": {
+        "control_id": "$state.object_id"
+      },
+      "id": "reference",
+      "op": "control_reference"
+    },
+    {
+      "args": {
+        "node_id": "$reference.reference_constant_id"
+      },
+      "id": "referenceTerms",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "y": 150,
+        "x": 250,
+        "style": "Property Node"
+      },
+      "id": "before",
+      "op": "node"
+    },
+    {
+      "args": {
+        "class_name": "VI Server:控件",
+        "property_id": "$before.object_id"
+      },
+      "id": "beforeClass",
+      "op": "property_class"
+    },
+    {
+      "args": {
+        "property_id": "$before.object_id",
+        "property_id_strings": [
+          "633200d"
+        ],
+        "allow_alternate_names": false
+      },
+      "id": "beforeSelect",
+      "op": "property_select"
+    },
+    {
+      "args": {
+        "is_write": false,
+        "property_item_id": "$beforeSelect.property_item_ids.0"
+      },
+      "id": "beforeRead",
+      "op": "property_item_write"
+    },
+    {
+      "args": {
+        "node_id": "$before.object_id"
+      },
+      "id": "beforeUnbound",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "sink_terminal": "$beforeUnbound.pins.reference",
+        "source_terminal": "$referenceTerms.pins.0"
+      },
+      "id": "beforeBind",
+      "op": "wire"
+    },
+    {
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "y": 150,
+        "x": 500,
+        "style": "Invoke Node"
+      },
+      "id": "reset",
+      "op": "node"
+    },
+    {
+      "args": {
+        "invoke_id": "$reset.object_id",
+        "class_name": "VI Server:控件"
+      },
+      "id": "resetClass",
+      "op": "invoke_class"
+    },
+    {
+      "args": {
+        "invoke_id": "$reset.object_id",
+        "method": "6331c00"
+      },
+      "id": "resetSelect",
+      "op": "invoke_select"
+    },
+    {
+      "args": {
+        "node_id": "$reset.object_id"
+      },
+      "id": "resetUnbound",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "sink_terminal": "$resetUnbound.pins.reference",
+        "source_terminal": "$referenceTerms.pins.0"
+      },
+      "id": "resetBind",
+      "op": "wire"
+    },
+    {
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "y": 150,
+        "x": 750,
+        "style": "Property Node"
+      },
+      "id": "after",
+      "op": "node"
+    },
+    {
+      "args": {
+        "class_name": "VI Server:控件",
+        "property_id": "$after.object_id"
+      },
+      "id": "afterClass",
+      "op": "property_class"
+    },
+    {
+      "args": {
+        "property_id": "$after.object_id",
+        "property_id_strings": [
+          "633200d"
+        ],
+        "allow_alternate_names": false
+      },
+      "id": "afterSelect",
+      "op": "property_select"
+    },
+    {
+      "args": {
+        "is_write": false,
+        "property_item_id": "$afterSelect.property_item_ids.0"
+      },
+      "id": "afterRead",
+      "op": "property_item_write"
+    },
+    {
+      "args": {
+        "node_id": "$after.object_id"
+      },
+      "id": "afterUnbound",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "sink_terminal": "$afterUnbound.pins.reference",
+        "source_terminal": "$referenceTerms.pins.0"
+      },
+      "id": "afterBind",
+      "op": "wire"
+    },
+    {
+      "args": {
+        "node_id": "$before.object_id"
+      },
+      "id": "beforeBound",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "node_id": "$reset.object_id"
+      },
+      "id": "resetBound",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "sink_terminal": "$resetBound.pins.error in (no error)",
+        "source_terminal": "$beforeBound.pins.error out"
+      },
+      "id": "sequenceFirst",
+      "op": "wire"
+    },
+    {
+      "args": {
+        "node_id": "$reset.object_id"
+      },
+      "id": "resetAfterWire",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "node_id": "$after.object_id"
+      },
+      "id": "afterBound",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "sink_terminal": "$afterBound.pins.error in (no error)",
+        "source_terminal": "$resetAfterWire.pins.error out"
+      },
+      "id": "sequenceSecond",
+      "op": "wire"
+    },
+    {
+      "args": {
+        "node_id": "$before.object_id"
+      },
+      "id": "beforeFinal",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "node_id": "$after.object_id"
+      },
+      "id": "afterFinal",
+      "op": "node_terminals"
+    },
+    {
+      "args": {
+        "terminal_id": "$beforeFinal.pins.Value"
+      },
+      "id": "beforeIndicator",
+      "op": "typed_indicator"
+    },
+    {
+      "args": {
+        "control_id": "$beforeIndicator.control_id",
+        "label": "Before"
+      },
+      "id": "beforeLabel",
+      "op": "label"
+    },
+    {
+      "args": {
+        "terminal_id": "$afterFinal.pins.Value"
+      },
+      "id": "afterIndicator",
+      "op": "typed_indicator"
+    },
+    {
+      "args": {
+        "control_id": "$afterIndicator.control_id",
+        "label": "After"
+      },
+      "id": "afterLabel",
+      "op": "label"
+    },
+    {
+      "args": {
+        "terminal_id": "$afterFinal.pins.error out"
+      },
+      "id": "errorIndicator",
+      "op": "typed_indicator"
+    },
+    {
+      "args": {
+        "control_id": "$errorIndicator.control_id",
+        "label": "error out"
+      },
+      "id": "errorLabel",
+      "op": "label"
+    },
+    {
+      "args": {
+        "property_id": "$before.object_id"
+      },
+      "id": "beforeMetadata",
+      "op": "property_info"
+    },
+    {
+      "args": {
+        "property_id": "$after.object_id"
+      },
+      "id": "afterMetadata",
+      "op": "property_info"
+    },
+    {
+      "args": {
+        "invoke_id": "$reset.object_id"
+      },
+      "id": "methodMetadata",
+      "op": "invoke_info"
+    },
+    {
+      "args": {
+        "invoke_id": "$reset.object_id"
+      },
+      "id": "methodDirections",
+      "op": "invoke_terminals"
+    }
+  ],
+  "schema_version": 1,
+  "name": "BoundControlReadResetRead"
+}

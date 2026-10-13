@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "name": "WhileStopIfTrue",
+  "steps": [
+    {
+      "id": "loop",
+      "op": "while",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "While Loop",
+        "x": 150,
+        "y": 100,
+        "bounds": [
+          500,
+          350
+        ]
+      }
+    },
+    {
+      "id": "ports",
+      "op": "while_info",
+      "args": {
+        "loop_id": "$loop.loop_id"
+      }
+    },
+    {
+      "id": "polarity",
+      "op": "while_stop_if_true",
+      "args": {
+        "while_id": "$loop.loop_id",
+        "stop_if_true": true
+      }
+    },
+    {
+      "id": "polarityRead",
+      "op": "while_stop_if_true_info",
+      "args": {
+        "while_id": "$loop.loop_id"
+      }
+    },
+    {
+      "id": "compare",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$ports.diagram_id",
+        "style": "Greater Or Equal?",
+        "x": 300,
+        "y": 200
+      }
+    },
+    {
+      "id": "counterWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$ports.counter_id",
+        "sink_terminal": "$compare.pins.x"
+      }
+    },
+    {
+      "id": "limit",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$compare.pins.y"
+      }
+    },
+    {
+      "id": "setLimit",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$limit.constant_id",
+        "value": 3
+      }
+    },
+    {
+      "id": "stopWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$compare.terminal_ids.0",
+        "sink_terminal": "$ports.stop_id"
+      }
+    },
+    {
+      "id": "last",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$ports.counter_id"
+      }
+    },
+    {
+      "id": "lastLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$last.control_id",
+        "label": "Last iteration"
+      }
+    }
+  ]
+}

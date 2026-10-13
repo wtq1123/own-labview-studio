@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "Nested cluster default persists in native private data",
+      "passed": true
+    },
+    {
+      "name": "Complex dynamic read/write accessors compile",
+      "passed": true
+    },
+    {
+      "name": "Typed and empty array defaults persist",
+      "passed": true
+    },
+    {
+      "name": "Child complex accessor overrides compile",
+      "passed": true
+    },
+    {
+      "name": "Complex hierarchy copied with native parent checked",
+      "passed": true
+    },
+    {
+      "name": "Cluster arity rejected",
+      "passed": true
+    },
+    {
+      "name": "Nested scalar type mismatch rejected",
+      "passed": true
+    },
+    {
+      "name": "Array element mismatch rejected",
+      "passed": true
+    },
+    {
+      "name": "Multidimensional array rejected",
+      "passed": true
+    },
+    {
+      "name": "Array of cluster rejected",
+      "passed": true
+    },
+    {
+      "name": "Complex replacement rejected",
+      "passed": true
+    },
+    {
+      "name": "Original class/member bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "Omitted nested defaults yield zero and empty array",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true
+    }
+  ],
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\complex-class_b2d3e24e47894780be4542c98b29f4a8",
+  "window_operations_used": false
+}

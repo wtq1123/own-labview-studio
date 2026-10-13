@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "New project includes class VI CTL and global",
+      "passed": true
+    },
+    {
+      "name": "Copy edit replaces global by second class",
+      "passed": true
+    },
+    {
+      "name": "All member bytes and source project unchanged",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true
+    }
+  ],
+  "failure": null,
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mixed-project_81217f52a9b44fe4a64ed2508204f91c",
+  "window_operations_used": false
+}

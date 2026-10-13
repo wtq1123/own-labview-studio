@@ -1,0 +1,32 @@
+{
+  "status": "two_python_consumers_migrated_with_finite_native_acceptance",
+  "python_runtime_dependencies": [
+    "Python standard library",
+    "pywin32",
+    "NI LabVIEW 2024 x86"
+  ],
+  "vendor_runtime_required": false,
+  "csharp_application_dependency": false,
+  "source_backup_report": "migration/python_consumers_dcff45b6379a41e8bb89c990a1736154/migration.json",
+  "helper_manifest": "compat/manifest.json",
+  "legacy_helper_aliases": 23,
+  "legacy_styles_identical": 985,
+  "offline_checks_passed": 34,
+  "native_fixture_helper_aliases_exercised": 14,
+  "finite_native_arithmetic_output": 5,
+  "fresh_worker_readonly_metadata_passed": true,
+  "native_report": "compat/tests/native_7e75016495a647309306fd9a1f341689/acceptance.json",
+  "native_report_sha256": "a8c994fa04d80403607e4aad9a51b8eacf21d75bba786be13f9febfbf7ec167b",
+  "node_guard_authoring_report": "compat/tests/guarded_node_e212da2a7a9740d89bebcfa83d838d9e/authoring.json",
+  "production_node_guard_handoff": "compat/node-guard-integration-proposal.json",
+  "failed_first_attempt_preserved": "compat/tests/native_1269f3bd5195461f9f41f1c67431c0ba/failure-summary.json",
+  "original_measurement_main_loaded_or_executed": false,
+  "historical_consumers_executed": false,
+  "historical_fft_phasor_outputs_revalidated": false,
+  "historical_evidence_or_development_source_copies_modified": false,
+  "remaining_owner_migration": [
+    "Historical output dependencies and unverified runtime scopes remain preserved; full replacement is false.",
+    "Preferred skill backend migrated with exact backups; old3 MCP entries disabled and own-labview enabled; current-chat reload not claimed."
+  ],
+  "complete_replacement": false
+}

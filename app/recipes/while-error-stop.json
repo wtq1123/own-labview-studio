@@ -1,0 +1,20 @@
+{
+  "schema_version":1,
+  "name":"WhileErrorStop",
+  "steps":[
+    {"id":"error","op":"control","args":{"style":"Cluster","label":"Error","x":40,"y":40}},
+    {"id":"status","op":"cluster_child","args":{"owner_id":"$error.object_id","style":"Horizontal Toggle Switch","label":"status","x":30,"y":30}},
+    {"id":"code","op":"cluster_child","args":{"owner_id":"$error.object_id","style":"Numeric Control","label":"code","x":30,"y":95}},
+    {"id":"codeType","op":"representation","args":{"numeric_id":"$code.object_id","representation":3}},
+    {"id":"source","op":"cluster_child","args":{"owner_id":"$error.object_id","style":"String Control","label":"source","x":30,"y":160}},
+    {"id":"loop","op":"while","args":{"owner_diagram_id":"$root.diagram_id","style":"While Loop","x":200,"y":100,"bounds":[500,350]}},
+    {"id":"info","op":"while_info","args":{"loop_id":"$loop.loop_id"}},
+    {"id":"errorTerm","op":"control_terminal","args":{"control_id":"$error.object_id"}},
+    {"id":"stopWire","op":"wire","args":{"source_terminal":"$errorTerm.terminal_id","sink_terminal":"$info.stop_id"}},
+    {"id":"fresh","op":"while_info","args":{"loop_id":"$loop.loop_id"}},
+    {"id":"last","op":"control","args":{"style":"Numeric Indicator","label":"Last iteration","x":480,"y":40}},
+    {"id":"lastMove","op":"move_terminal","args":{"terminal_id":"$last.terminal_id","owner_diagram_id":"$fresh.diagram_id","x":200,"y":180}},
+    {"id":"counterWire","op":"wire","args":{"source_terminal":"$fresh.counter_id","sink_terminal":"$last.terminal_id"}},
+    {"id":"default","op":"control_default","args":{"control_id":"$error.object_id","value":[true,0,"bounded stop"]}}
+  ]
+}

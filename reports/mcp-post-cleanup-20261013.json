@@ -1,0 +1,307 @@
+{
+  "recipe_report": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpMultiply_20261013_131250_4753ae_20261013_211252_c41f65bc\\recipe-report.json",
+  "project_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpProject_20261013_131250_4753ae_Project_20261013_131301_aebf4fb782864b0f81d8acdf60be427b\\McpProject_20261013_131250_4753ae.lvproj",
+  "build_report": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArithmetic_20261013_131250_4753ae_20261013_131251_58dbe783\\build-report.json",
+  "tests": [
+    {
+      "passed": true,
+      "name": "MCP initialized"
+    },
+    {
+      "passed": true,
+      "name": "All expected MCP tools advertised exactly once"
+    },
+    {
+      "passed": true,
+      "name": "MCP style discovery returns exact Add candidate with explicit metadata boundary"
+    },
+    {
+      "passed": true,
+      "name": "MCP finds installed NI scripting examples without opening them"
+    },
+    {
+      "passed": true,
+      "name": "MCP browses direct example entries without a query"
+    },
+    {
+      "passed": true,
+      "name": "MCP directory pagination preserves snapshot without duplicate entries"
+    },
+    {
+      "passed": true,
+      "name": "Real MCP graph validation"
+    },
+    {
+      "passed": true,
+      "name": "Offline outputs distinguished from NI runtime"
+    },
+    {
+      "passed": true,
+      "name": "Unknown mutation parameter refused"
+    },
+    {
+      "passed": true,
+      "name": "Complete-replacement claim agrees with current production receipt"
+    },
+    {
+      "passed": true,
+      "name": "MCP built and ran new real VI"
+    },
+    {
+      "passed": true,
+      "name": "Arithmetic helpers actually loaded from this app"
+    },
+    {
+      "passed": true,
+      "name": "Arithmetic artifact and report exist"
+    },
+    {
+      "passed": true,
+      "name": "Arithmetic disk report matches real verification"
+    },
+    {
+      "passed": true,
+      "name": "VI metadata inspection left bytes unchanged"
+    },
+    {
+      "passed": true,
+      "name": "Recipe catalog contains multiply operation contracts"
+    },
+    {
+      "passed": true,
+      "name": "Recipe contract includes helper and outputs: constant"
+    },
+    {
+      "passed": true,
+      "name": "Recipe contract includes helper and outputs: label"
+    },
+    {
+      "passed": true,
+      "name": "Recipe contract includes helper and outputs: node"
+    },
+    {
+      "passed": true,
+      "name": "Recipe contract includes helper and outputs: set_number"
+    },
+    {
+      "passed": true,
+      "name": "Recipe contract includes helper and outputs: typed_indicator"
+    },
+    {
+      "passed": true,
+      "name": "MCP validates recipe without NI execution"
+    },
+    {
+      "passed": true,
+      "name": "MCP builds multiply recipe with static acceptance only"
+    },
+    {
+      "passed": true,
+      "name": "Recipe helpers actually loaded from this app"
+    },
+    {
+      "passed": true,
+      "name": "Recipe artifact and report exist"
+    },
+    {
+      "passed": true,
+      "name": "Recipe disk evidence retains static-only boundary"
+    },
+    {
+      "passed": true,
+      "name": "MCP imports a compiled VI into a unique saved copy"
+    },
+    {
+      "passed": true,
+      "name": "Import preserves source bytes and never explicitly opens saves or runs source"
+    },
+    {
+      "passed": true,
+      "name": "Import audits static callees without claiming runtime or dynamic validation"
+    },
+    {
+      "passed": true,
+      "name": "Imported VI can be edited through the same recipe interface"
+    },
+    {
+      "passed": true,
+      "name": "Editing an import preserves the imported file and the original file"
+    },
+    {
+      "passed": true,
+      "name": "MCP builds bound Property-Invoke graph without running it"
+    },
+    {
+      "passed": true,
+      "name": "Generic helpers actually loaded from this app"
+    },
+    {
+      "passed": true,
+      "name": "Modern method metadata preserves exact NI method UID"
+    },
+    {
+      "passed": true,
+      "name": "Duplicate Invoke terminal labels retained as raw sequence only"
+    },
+    {
+      "passed": true,
+      "name": "MCP copies and edits generated VI without execution"
+    },
+    {
+      "passed": true,
+      "name": "MCP copy retains exact source bytes without source Save or Run"
+    },
+    {
+      "passed": true,
+      "name": "MCP Formula parameter editing and creation compile without execution"
+    },
+    {
+      "passed": true,
+      "name": "Formula helper paths belong to this app"
+    },
+    {
+      "passed": true,
+      "name": "Formula parameter readback preserves name and direction"
+    },
+    {
+      "passed": true,
+      "name": "Invalid Formula syntax is saved but not claimed executable or run"
+    },
+    {
+      "passed": true,
+      "name": "MCP builds nested Cluster and checked named Bundle/Unbundle selections"
+    },
+    {
+      "passed": true,
+      "name": "Named selectors load from this application"
+    },
+    {
+      "passed": true,
+      "name": "MCP creates DBL constants and checked saved control defaults"
+    },
+    {
+      "passed": true,
+      "name": "Constant and default helper paths belong to this app"
+    },
+    {
+      "passed": true,
+      "name": "MCP builds typed 1D and 2D Array defaults without running the graph"
+    },
+    {
+      "passed": true,
+      "name": "Array defaults use migrated helpers from this application"
+    },
+    {
+      "passed": true,
+      "name": "MCP creates a self-contained CTL with exact VI and control types"
+    },
+    {
+      "passed": true,
+      "name": "CTL helper paths belong to this app and saved defaults match"
+    },
+    {
+      "passed": true,
+      "name": "MCP creates a global file without running it"
+    },
+    {
+      "passed": true,
+      "name": "Global defaults, file hash and helper paths match"
+    },
+    {
+      "passed": true,
+      "name": "MCP creates project with both new VIs without running them"
+    },
+    {
+      "passed": true,
+      "name": "Project and disk report exist"
+    },
+    {
+      "passed": true,
+      "name": "Project XML readback confirms exact requested members"
+    },
+    {
+      "passed": true,
+      "name": "Project source checks prove both disk hashes unchanged"
+    },
+    {
+      "passed": true,
+      "name": "Actual VI files still match their original build hashes"
+    },
+    {
+      "passed": true,
+      "name": "Project disk report agrees with returned acceptance evidence"
+    },
+    {
+      "passed": true,
+      "name": "MCP edits project members in a new saved copy"
+    },
+    {
+      "passed": true,
+      "name": "Edited project removes old member and adds Formula member"
+    },
+    {
+      "passed": true,
+      "name": "Source project and report remain unchanged and are never opened for NI editing"
+    },
+    {
+      "passed": true,
+      "name": "Project copy edit does not run or save source VIs"
+    },
+    {
+      "passed": true,
+      "name": "Read-only attaches without startup or execution"
+    },
+    {
+      "passed": true,
+      "name": "Clean EOF shutdown"
+    }
+  ],
+  "recipe_runtime_verified": false,
+  "edited_project_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpEdited_20261013_131250_4753ae_Project_20261013_131302_5f204b5004b84b63944f9b1d53185373\\McpEdited_20261013_131250_4753ae.lvproj",
+  "generic_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpBound_20261013_131250_4753ae_20261013_211254_2bcf17bb\\McpBound_20261013_131250_4753ae_20261013_211254_2bcf17bb.vi",
+  "imported_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpImport_20261013_131250_4753ae_Import_0e0e061fa2864aa8bf31193b946d7a3f\\McpImport_20261013_131250_4753ae_Import_0e0e061fa2864aa8bf31193b946d7a3f.vi",
+  "project_reopen_verified": false,
+  "control_artifact": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpType_20261013_131250_4753ae_Type_14d0aadc4c6d4e1b8c081d2889aaa7c3\\McpType_20261013_131250_4753ae_Type_14d0aadc4c6d4e1b8c081d2889aaa7c3.ctl",
+  "global_artifact": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpGlobal_20261013_131250_4753ae_Type_d5b8d68551b24438ac906606bd4acb5e\\McpGlobal_20261013_131250_4753ae_Type_d5b8d68551b24438ac906606bd4acb5e.vi",
+  "complete_replacement": true,
+  "named_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpNamed_20261013_131250_4753ae_20261013_211257_c00d34f5\\McpNamed_20261013_131250_4753ae_20261013_211257_c00d34f5.vi",
+  "run_token": "20261013_131250_4753ae",
+  "imported_edited_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpImportEdit_20261013_131250_4753ae_20261013_211253_0451363d\\McpImportEdit_20261013_131250_4753ae_20261013_211253_0451363d.vi",
+  "copy_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpCopy_20261013_131250_4753ae_20261013_211255_bc81cb41\\McpCopy_20261013_131250_4753ae_20261013_211255_bc81cb41.vi",
+  "connection": {
+    "registered": true,
+    "connected": true,
+    "version": "24.1f0",
+    "started_labview": false,
+    "ran_vi": false
+  },
+  "recipe_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpMultiply_20261013_131250_4753ae_20261013_211252_c41f65bc\\McpMultiply_20261013_131250_4753ae_20261013_211252_c41f65bc.vi",
+  "project_report": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpProject_20261013_131250_4753ae_Project_20261013_131301_aebf4fb782864b0f81d8acdf60be427b\\project-report.json",
+  "array_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArrays_20261013_131250_4753ae_20261013_211259_979be23e\\McpArrays_20261013_131250_4753ae_20261013_211259_979be23e.vi",
+  "formula_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpFormula_20261013_131250_4753ae_20261013_211255_e774c60a\\McpFormula_20261013_131250_4753ae_20261013_211255_e774c60a.vi",
+  "generated_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArithmetic_20261013_131250_4753ae_20261013_131251_58dbe783\\McpArithmetic_20261013_131250_4753ae_20261013_131251_58dbe783.vi",
+  "stderr": "",
+  "values_vi": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpValues_20261013_131250_4753ae_20261013_211258_c9cab9b5\\McpValues_20261013_131250_4753ae_20261013_211258_c9cab9b5.vi",
+  "tool_names": [
+    "studio_capabilities",
+    "place_ni_file",
+    "prepare_file",
+    "create_type_artifact",
+    "import_vi",
+    "merge_vi",
+    "create_library",
+    "create_project",
+    "search_styles",
+    "find_ni_examples",
+    "validate_graph",
+    "evaluate_graph",
+    "save_graph",
+    "labview_status",
+    "inspect_vi",
+    "build_vi",
+    "recipe_catalog",
+    "validate_recipe",
+    "build_recipe"
+  ],
+  "passed": true
+}

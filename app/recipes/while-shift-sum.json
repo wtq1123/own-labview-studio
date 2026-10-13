@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "name": "WhileShiftSum",
+  "steps": [
+    {
+      "id": "loop",
+      "op": "while",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "While Loop",
+        "x": 180,
+        "y": 100,
+        "bounds": [
+          540,
+          340
+        ]
+      }
+    },
+    {
+      "id": "body",
+      "op": "while_info",
+      "args": {
+        "loop_id": "$loop.loop_id"
+      }
+    },
+    {
+      "id": "sum",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$body.diagram_id",
+        "style": "Add",
+        "x": 350,
+        "y": 210
+      }
+    },
+    {
+      "id": "shift",
+      "op": "while_shift",
+      "args": {
+        "loop_id": "$loop.loop_id",
+        "y": 205
+      }
+    },
+    {
+      "id": "left",
+      "op": "left_shift",
+      "args": {
+        "right_id": "$shift.right_id"
+      }
+    },
+    {
+      "id": "left_pins",
+      "op": "tunnel_terms",
+      "args": {
+        "tunnel_id": "$left.left_ids.0"
+      }
+    },
+    {
+      "id": "right_pins",
+      "op": "tunnel_terms",
+      "args": {
+        "tunnel_id": "$shift.right_id"
+      }
+    },
+    {
+      "id": "iteration",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$body.counter_id",
+        "sink_terminal": "$sum.pins.y"
+      }
+    },
+    {
+      "id": "next",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$sum.pins.x+y",
+        "sink_terminal": "$right_pins.inside_ids.0"
+      }
+    },
+    {
+      "id": "previous",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$left_pins.inside_ids.0",
+        "sink_terminal": "$sum.pins.x"
+      }
+    },
+    {
+      "id": "seed",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$left_pins.outside_id"
+      }
+    },
+    {
+      "id": "ten",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$seed.constant_id",
+        "value": 10
+      }
+    },
+    {
+      "id": "compare",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$body.diagram_id",
+        "style": "Equal?",
+        "x": 350,
+        "y": 285
+      }
+    },
+    {
+      "id": "check_iteration",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$body.counter_id",
+        "sink_terminal": "$compare.pins.x"
+      }
+    },
+    {
+      "id": "limit",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$compare.pins.y"
+      }
+    },
+    {
+      "id": "four",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$limit.constant_id",
+        "value": 4
+      }
+    },
+    {
+      "id": "stop",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$compare.terminal_ids.0",
+        "sink_terminal": "$body.stop_id"
+      }
+    },
+    {
+      "id": "out",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$right_pins.outside_id"
+      }
+    },
+    {
+      "id": "out_label",
+      "op": "label",
+      "args": {
+        "control_id": "$out.control_id",
+        "label": "Sum"
+      }
+    },
+    {
+      "id": "last",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$body.counter_id"
+      }
+    },
+    {
+      "id": "last_label",
+      "op": "label",
+      "args": {
+        "control_id": "$last.control_id",
+        "label": "Last iteration"
+      }
+    }
+  ]
+}

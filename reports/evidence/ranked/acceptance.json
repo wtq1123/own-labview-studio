@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "Ranked and cluster-array fields compiled with native defaults",
+      "passed": true
+    },
+    {
+      "name": "Ranked class copied with source bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "ragged rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "rank rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "bad cluster arity rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "partial empty shape rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true,
+      "before": [
+        {
+          "id": 1032,
+          "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+          "start_ticks": 639274917799530053
+        }
+      ],
+      "after": [
+        {
+          "id": 1032,
+          "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+          "start_ticks": 639274917799530053
+        }
+      ]
+    }
+  ],
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\ranked-class_b6cc56576a7e4c34bd82fe5d64789e84"
+}

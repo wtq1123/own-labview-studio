@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "name": "ConnectorAutoSum",
+  "steps": [
+    {"id":"a","op":"control","args":{"style":"Numeric Control","label":"A","x":40,"y":40}},
+    {"id":"sum","op":"control","args":{"style":"Numeric Indicator","label":"Sum","x":220,"y":40}},
+    {"id":"b","op":"control","args":{"style":"Numeric Control","label":"B","x":400,"y":40}},
+    {"id":"add","op":"node","args":{"owner_diagram_id":"$root.diagram_id","style":"Add","x":280,"y":180}},
+    {"id":"wa","op":"wire","args":{"source_terminal":"$a.terminal_id","sink_terminal":"$add.pins.x"}},
+    {"id":"wb","op":"wire","args":{"source_terminal":"$b.terminal_id","sink_terminal":"$add.pins.y"}},
+    {"id":"wo","op":"wire","args":{"source_terminal":"$add.pins.x+y","sink_terminal":"$sum.terminal_id"}},
+    {"id":"connect","op":"connector_auto","args":{"control_labels":["A","Sum","B"]}},
+    {"id":"info","op":"connector_info","args":{}},
+    {"id":"defaulta","op":"control_default","args":{"control_id":"$a.object_id","value":2}},
+    {"id":"defaultb","op":"control_default","args":{"control_id":"$b.object_id","value":3}}
+  ]
+}

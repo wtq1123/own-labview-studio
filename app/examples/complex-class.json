@@ -1,0 +1,22 @@
+{
+  "name": "MeasurementSettings",
+  "kind": "class",
+  "controls": [
+    {
+      "kind": "cluster",
+      "label": "Settings",
+      "children": [
+        {"kind": "numeric", "label": "Gain"},
+        {"kind": "boolean", "label": "Enabled"},
+        {"kind": "string", "label": "Description"},
+        {"kind": "array", "label": "Frequencies", "element": {"kind": "numeric", "label": "Frequency"}}
+      ],
+      "value": [1.5, true, "示例参数，不连接采集硬件", [10, 20, 40, 100]]
+    },
+    {"kind": "array", "label": "ChannelNames", "element": {"kind": "string", "label": "Name"}, "value": ["Mic1", "Mic2"]}
+  ],
+  "accessors": [
+    {"field": "Settings", "dispatch": "dynamic", "include_error_terminals": true},
+    {"field": "ChannelNames", "dispatch": "static"}
+  ]
+}

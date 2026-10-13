@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "finite_arithmetic_output": 5,
+  "build": {
+    "passed": true,
+    "phase": "build",
+    "snapshot": {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi",
+      "sha256": "ab105740049cdba8d31369f92c1f62cc2cb5c9ba477d0b81c86cb437c15c9aab",
+      "execution_state": 1,
+      "native_callees": [],
+      "objects": [
+        {
+          "class": "DigitalNumericConstant",
+          "uid": 127,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "DigitalNumericConstant",
+          "uid": 120,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "Function",
+          "uid": 44,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "ControlTerminal",
+          "uid": 104,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "ControlTerminal",
+          "uid": 88,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "ControlTerminal",
+          "uid": 72,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "Function",
+          "uid": 43,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        }
+      ],
+      "helpers": {
+        "helper_paths": {
+          "Native_Create": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_Create.vi",
+          "Native_GetRootDiagram": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetRootDiagram.vi",
+          "Native_AddNodeInDiagram": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompatGuard20261012_Native_AddNodeInDiagram.vi",
+          "Native_GetTerminalName": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetTerminalName.vi",
+          "Native_CreateControlFromTerminal_v2": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_CreateControlFromTerminal.vi",
+          "Native_SetControlLabel": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_SetControlLabel.vi",
+          "Native_SetControlPosition": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_SetControlPosition.vi",
+          "Native_MoveTerminal": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_MoveTerminal.vi",
+          "Native_CreateIndicatorFromTerminal": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_CreateIndicatorFromTerminal.vi",
+          "Native_CreateConstantFromTerminal_v2": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_CreateConstantFromTerminal.vi",
+          "Native_SetDigitalNumericConstantValue": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_SetDigitalNumericConstantValue.vi",
+          "Native_GetDiagramObjects": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetDiagramObjects.vi",
+          "Native_GetObjectInfo": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetObjectInfo.vi",
+          "Own20261012_GetObjectIdentity": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_GetObjectIdentity.vi"
+        },
+        "helper_native_callees": {
+          "Native_Create": [],
+          "Native_GetRootDiagram": [],
+          "Native_AddNodeInDiagram": [],
+          "Native_GetTerminalName": [],
+          "Native_CreateControlFromTerminal_v2": [],
+          "Native_SetControlLabel": [],
+          "Native_SetControlPosition": [],
+          "Native_MoveTerminal": [],
+          "Native_CreateIndicatorFromTerminal": [],
+          "Native_CreateConstantFromTerminal_v2": [],
+          "Native_SetDigitalNumericConstantValue": [],
+          "Native_GetDiagramObjects": [],
+          "Native_GetObjectInfo": [
+            {
+              "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVBoundsTypeDef.ctl",
+              "carrier": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVBoundsTypeDef.ctl",
+              "sha256": "c16a7510a0fbac7a790f014cfd73a59cd8abe5df4599a5b00ad8fa2b81cfe97e",
+              "native_callees": []
+            }
+          ],
+          "Own20261012_GetObjectIdentity": []
+        },
+        "owned_targets": [
+          {
+            "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi",
+            "initial_sha256": "5e1b489f291bbe60288bec350a402fce425b72942d0b40ad9e17064aa701ca8c"
+          },
+          {
+            "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\ExclusiveBlankCopy.vi",
+            "initial_sha256": "5e1b489f291bbe60288bec350a402fce425b72942d0b40ad9e17064aa701ca8c"
+          }
+        ],
+        "source_or_target_run_by_compat": false
+      }
+    },
+    "finite_result": 5,
+    "only_new_finite_arithmetic_executed": true,
+    "original_consumers_executed": false,
+    "source_measurement_run": false,
+    "ni_process_before": [
+      {
+        "id": 36800,
+        "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+        "start_ticks": 639274071498694560
+      }
+    ],
+    "ni_process_after": [
+      {
+        "id": 36800,
+        "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+        "start_ticks": 639274071498694560
+      }
+    ]
+  },
+  "fresh_worker": {
+    "passed": true,
+    "phase": "reopen",
+    "snapshot": {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi",
+      "sha256": "ab105740049cdba8d31369f92c1f62cc2cb5c9ba477d0b81c86cb437c15c9aab",
+      "execution_state": 1,
+      "native_callees": [],
+      "objects": [
+        {
+          "class": "DigitalNumericConstant",
+          "uid": 127,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "DigitalNumericConstant",
+          "uid": 120,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "Function",
+          "uid": 44,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "ControlTerminal",
+          "uid": 104,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "ControlTerminal",
+          "uid": 88,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "ControlTerminal",
+          "uid": 72,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        },
+        {
+          "class": "Function",
+          "uid": 43,
+          "module": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\tests\\native_7e75016495a647309306fd9a1f341689\\FiniteAdd.vi"
+        }
+      ],
+      "helpers": {
+        "helper_paths": {
+          "Native_GetRootDiagram": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetRootDiagram.vi",
+          "Native_GetDiagramObjects": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetDiagramObjects.vi",
+          "Native_GetObjectInfo": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetObjectInfo.vi",
+          "Own20261012_GetObjectIdentity": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_GetObjectIdentity.vi"
+        },
+        "helper_native_callees": {
+          "Native_GetRootDiagram": [],
+          "Native_GetDiagramObjects": [],
+          "Native_GetObjectInfo": [
+            {
+              "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVBoundsTypeDef.ctl",
+              "carrier": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVBoundsTypeDef.ctl",
+              "sha256": "c16a7510a0fbac7a790f014cfd73a59cd8abe5df4599a5b00ad8fa2b81cfe97e",
+              "native_callees": []
+            }
+          ],
+          "Own20261012_GetObjectIdentity": []
+        },
+        "owned_targets": [],
+        "source_or_target_run_by_compat": false
+      }
+    },
+    "source_measurement_run": false,
+    "target_run": false,
+    "target_saved": false,
+    "fresh_worker": true,
+    "ni_process_before": [
+      {
+        "id": 36800,
+        "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+        "start_ticks": 639274071498694560
+      }
+    ],
+    "ni_process_after": [
+      {
+        "id": 36800,
+        "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\LabVIEW.exe",
+        "start_ticks": 639274071498694560
+      }
+    ]
+  },
+  "original_consumers_executed": false,
+  "measurement_main_loaded_or_executed": false,
+  "complete_historical_fft_or_inspection_validated": false,
+  "scope": "The migrated Python compatibility helper surface on a new finite Add VI and fresh metadata reader only."
+}

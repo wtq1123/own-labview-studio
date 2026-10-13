@@ -1,0 +1,1086 @@
+{
+  "schema_version": 1,
+  "name": "ControlStyleContracts",
+  "steps": [
+    {
+      "id": "c0",
+      "op": "control",
+      "args": {
+        "label": "numeric_control_0",
+        "y": 40.0,
+        "style": "Numeric Control 1",
+        "x": 30
+      }
+    },
+    {
+      "id": "dir0",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c0.object_id"
+      }
+    },
+    {
+      "id": "rep0",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c0.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo0",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c0.object_id"
+      }
+    },
+    {
+      "id": "c1",
+      "op": "control",
+      "args": {
+        "label": "numeric_control_1",
+        "y": 40.0,
+        "style": "Numeric Control",
+        "x": 280
+      }
+    },
+    {
+      "id": "dir1",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c1.object_id"
+      }
+    },
+    {
+      "id": "rep1",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c1.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo1",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c1.object_id"
+      }
+    },
+    {
+      "id": "c2",
+      "op": "control",
+      "args": {
+        "label": "numeric_control_2",
+        "y": 40.0,
+        "style": "System Numeric",
+        "x": 530
+      }
+    },
+    {
+      "id": "dir2",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c2.object_id"
+      }
+    },
+    {
+      "id": "rep2",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c2.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo2",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c2.object_id"
+      }
+    },
+    {
+      "id": "c3",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_0",
+        "y": 40.0,
+        "style": "Numeric Indicator 1",
+        "x": 780
+      }
+    },
+    {
+      "id": "dir3",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c3.object_id"
+      }
+    },
+    {
+      "id": "rep3",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c3.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo3",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c3.object_id"
+      }
+    },
+    {
+      "id": "c4",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_1",
+        "y": 180.0,
+        "style": "Numeric Indicator",
+        "x": 30
+      }
+    },
+    {
+      "id": "dir4",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c4.object_id"
+      }
+    },
+    {
+      "id": "rep4",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c4.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo4",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c4.object_id"
+      }
+    },
+    {
+      "id": "c5",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_2",
+        "y": 180.0,
+        "style": "System Numeric",
+        "x": 280
+      }
+    },
+    {
+      "id": "dir5",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c5.object_id"
+      }
+    },
+    {
+      "id": "rep5",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c5.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo5",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c5.object_id"
+      }
+    },
+    {
+      "id": "c6",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_3",
+        "y": 180.0,
+        "style": "Vertical Progress Bar",
+        "x": 530
+      }
+    },
+    {
+      "id": "dir6",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c6.object_id"
+      }
+    },
+    {
+      "id": "rep6",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c6.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo6",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c6.object_id"
+      }
+    },
+    {
+      "id": "c7",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_4",
+        "y": 180.0,
+        "style": "System Vertical Progress Bar",
+        "x": 780
+      }
+    },
+    {
+      "id": "dir7",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c7.object_id"
+      }
+    },
+    {
+      "id": "rep7",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c7.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo7",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c7.object_id"
+      }
+    },
+    {
+      "id": "c8",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_5",
+        "y": 320.0,
+        "style": "Horizontal Progress Bar",
+        "x": 30
+      }
+    },
+    {
+      "id": "dir8",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c8.object_id"
+      }
+    },
+    {
+      "id": "rep8",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c8.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo8",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c8.object_id"
+      }
+    },
+    {
+      "id": "c9",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_6",
+        "y": 320.0,
+        "style": "System Horizontal Progress Bar",
+        "x": 280
+      }
+    },
+    {
+      "id": "dir9",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c9.object_id"
+      }
+    },
+    {
+      "id": "rep9",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c9.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo9",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c9.object_id"
+      }
+    },
+    {
+      "id": "c10",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_7",
+        "y": 320.0,
+        "style": "Vertical Graduated Bar",
+        "x": 530
+      }
+    },
+    {
+      "id": "dir10",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c10.object_id"
+      }
+    },
+    {
+      "id": "rep10",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c10.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo10",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c10.object_id"
+      }
+    },
+    {
+      "id": "c11",
+      "op": "control",
+      "args": {
+        "label": "numeric_indicator_8",
+        "y": 320.0,
+        "style": "Horizontal Graduated Bar",
+        "x": 780
+      }
+    },
+    {
+      "id": "dir11",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c11.object_id"
+      }
+    },
+    {
+      "id": "rep11",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$c11.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "repInfo11",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$c11.object_id"
+      }
+    },
+    {
+      "id": "c12",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_0",
+        "y": 460.0,
+        "style": "Push Button",
+        "x": 30
+      }
+    },
+    {
+      "id": "dir12",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c12.object_id"
+      }
+    },
+    {
+      "id": "original12",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c12.object_id"
+      }
+    },
+    {
+      "id": "skip12",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c12.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text12",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c12.object_id",
+        "text": "自定义 0"
+      }
+    },
+    {
+      "id": "c13",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_1",
+        "y": 460.0,
+        "style": "OK Button",
+        "x": 280
+      }
+    },
+    {
+      "id": "dir13",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c13.object_id"
+      }
+    },
+    {
+      "id": "original13",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c13.object_id"
+      }
+    },
+    {
+      "id": "skip13",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c13.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text13",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c13.object_id",
+        "text": "自定义 1"
+      }
+    },
+    {
+      "id": "c14",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_2",
+        "y": 460.0,
+        "style": "Cancel Button",
+        "x": 530
+      }
+    },
+    {
+      "id": "dir14",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c14.object_id"
+      }
+    },
+    {
+      "id": "original14",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c14.object_id"
+      }
+    },
+    {
+      "id": "skip14",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c14.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text14",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c14.object_id",
+        "text": "自定义 2"
+      }
+    },
+    {
+      "id": "c15",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_3",
+        "y": 460.0,
+        "style": "Stop Button",
+        "x": 780
+      }
+    },
+    {
+      "id": "dir15",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c15.object_id"
+      }
+    },
+    {
+      "id": "original15",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c15.object_id"
+      }
+    },
+    {
+      "id": "skip15",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c15.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text15",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c15.object_id",
+        "text": "自定义 3"
+      }
+    },
+    {
+      "id": "c16",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_4",
+        "y": 600.0,
+        "style": "System Checkbox",
+        "x": 30
+      }
+    },
+    {
+      "id": "dir16",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c16.object_id"
+      }
+    },
+    {
+      "id": "original16",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c16.object_id"
+      }
+    },
+    {
+      "id": "skip16",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c16.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text16",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c16.object_id",
+        "text": "自定义 4"
+      }
+    },
+    {
+      "id": "c17",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_5",
+        "y": 600.0,
+        "style": "System Button",
+        "x": 280
+      }
+    },
+    {
+      "id": "dir17",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c17.object_id"
+      }
+    },
+    {
+      "id": "original17",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c17.object_id"
+      }
+    },
+    {
+      "id": "skip17",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c17.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text17",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c17.object_id",
+        "text": "自定义 5"
+      }
+    },
+    {
+      "id": "c18",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_6",
+        "y": 600.0,
+        "style": "System Cancel Button",
+        "x": 530
+      }
+    },
+    {
+      "id": "dir18",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c18.object_id"
+      }
+    },
+    {
+      "id": "original18",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c18.object_id"
+      }
+    },
+    {
+      "id": "skip18",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c18.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text18",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c18.object_id",
+        "text": "自定义 6"
+      }
+    },
+    {
+      "id": "c19",
+      "op": "control",
+      "args": {
+        "label": "boolean_control_7",
+        "y": 600.0,
+        "style": "System Button",
+        "x": 780
+      }
+    },
+    {
+      "id": "dir19",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": false,
+        "control_id": "$c19.object_id"
+      }
+    },
+    {
+      "id": "original19",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c19.object_id"
+      }
+    },
+    {
+      "id": "skip19",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c19.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text19",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c19.object_id",
+        "text": "停止 Stop"
+      }
+    },
+    {
+      "id": "c20",
+      "op": "control",
+      "args": {
+        "label": "boolean_indicator_0",
+        "y": 740.0,
+        "style": "Round LED 1",
+        "x": 30
+      }
+    },
+    {
+      "id": "dir20",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c20.object_id"
+      }
+    },
+    {
+      "id": "original20",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c20.object_id"
+      }
+    },
+    {
+      "id": "skip20",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c20.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text20",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c20.object_id",
+        "text": "自定义 0"
+      }
+    },
+    {
+      "id": "c21",
+      "op": "control",
+      "args": {
+        "label": "boolean_indicator_1",
+        "y": 740.0,
+        "style": "Square LED",
+        "x": 280
+      }
+    },
+    {
+      "id": "dir21",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c21.object_id"
+      }
+    },
+    {
+      "id": "original21",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c21.object_id"
+      }
+    },
+    {
+      "id": "skip21",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c21.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text21",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c21.object_id",
+        "text": "自定义 1"
+      }
+    },
+    {
+      "id": "c22",
+      "op": "control",
+      "args": {
+        "label": "boolean_indicator_2",
+        "y": 740.0,
+        "style": "Round LED",
+        "x": 530
+      }
+    },
+    {
+      "id": "dir22",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c22.object_id"
+      }
+    },
+    {
+      "id": "original22",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c22.object_id"
+      }
+    },
+    {
+      "id": "skip22",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c22.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text22",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c22.object_id",
+        "text": "自定义 2"
+      }
+    },
+    {
+      "id": "c23",
+      "op": "control",
+      "args": {
+        "label": "boolean_indicator_3",
+        "y": 740.0,
+        "style": "Square LED 1",
+        "x": 780
+      }
+    },
+    {
+      "id": "dir23",
+      "op": "set_indicator",
+      "args": {
+        "is_indicator": true,
+        "control_id": "$c23.object_id"
+      }
+    },
+    {
+      "id": "original23",
+      "op": "boolean_text_info",
+      "args": {
+        "boolean_id": "$c23.object_id"
+      }
+    },
+    {
+      "id": "skip23",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c23.object_id",
+        "text": ""
+      }
+    },
+    {
+      "id": "text23",
+      "op": "boolean_text",
+      "args": {
+        "boolean_id": "$c23.object_id",
+        "text": "自定义 3"
+      }
+    },
+    {
+      "id": "value0",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c0.object_id"
+      }
+    },
+    {
+      "id": "value1",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c1.object_id"
+      }
+    },
+    {
+      "id": "value2",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c2.object_id"
+      }
+    },
+    {
+      "id": "value3",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c3.object_id"
+      }
+    },
+    {
+      "id": "value4",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c4.object_id"
+      }
+    },
+    {
+      "id": "value5",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c5.object_id"
+      }
+    },
+    {
+      "id": "value6",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c6.object_id"
+      }
+    },
+    {
+      "id": "value7",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c7.object_id"
+      }
+    },
+    {
+      "id": "value8",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c8.object_id"
+      }
+    },
+    {
+      "id": "value9",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c9.object_id"
+      }
+    },
+    {
+      "id": "value10",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c10.object_id"
+      }
+    },
+    {
+      "id": "value11",
+      "op": "control_default",
+      "args": {
+        "value": -2.5,
+        "control_id": "$c11.object_id"
+      }
+    },
+    {
+      "id": "value12",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c12.object_id"
+      }
+    },
+    {
+      "id": "value13",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c13.object_id"
+      }
+    },
+    {
+      "id": "value14",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c14.object_id"
+      }
+    },
+    {
+      "id": "value15",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c15.object_id"
+      }
+    },
+    {
+      "id": "value16",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c16.object_id"
+      }
+    },
+    {
+      "id": "value17",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c17.object_id"
+      }
+    },
+    {
+      "id": "value18",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c18.object_id"
+      }
+    },
+    {
+      "id": "value19",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c19.object_id"
+      }
+    },
+    {
+      "id": "value20",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c20.object_id"
+      }
+    },
+    {
+      "id": "value21",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c21.object_id"
+      }
+    },
+    {
+      "id": "value22",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c22.object_id"
+      }
+    },
+    {
+      "id": "value23",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$c23.object_id"
+      }
+    }
+  ]
+}

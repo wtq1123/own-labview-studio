@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "name": "ForLoopDemo",
+  "steps": [
+    {
+      "id": "loop",
+      "op": "for",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "For Loop",
+        "x": 150,
+        "y": 100,
+        "bounds": [
+          450,
+          300
+        ]
+      }
+    },
+    {
+      "id": "body",
+      "op": "for_info",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "ports",
+      "op": "for_terminals",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "count",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$ports.count_id"
+      }
+    },
+    {
+      "id": "ten",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$count.constant_id",
+        "value": 10
+      }
+    },
+    {
+      "id": "out",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$ports.counter_id"
+      }
+    },
+    {
+      "id": "label",
+      "op": "label",
+      "args": {
+        "control_id": "$out.control_id",
+        "label": "Last iteration"
+      }
+    }
+  ]
+}

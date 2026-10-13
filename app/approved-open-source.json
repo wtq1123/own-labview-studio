@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/erdosmiller/lv-scripting",
+  "commit": "f7a14bd02f2c7c1fb062201657568a2ea6e0b7f6",
+  "license": "MIT",
+  "license_file": "licenses/lv-scripting-MIT.txt",
+  "files": {
+    "development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Create Add.vi": "ead5e83a5431ee8406d16c2cd97e08dab1db19b110e619fca5e05b793dc3e85f",
+    "development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Wire Inputs.vi": "158fd4f94f6b4750f369d270206b2e5f0f3257bf34c34df38988c860c2da116b",
+    "development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Get Outputs.vi": "4eaef31a121a88f6ec3ad2f32162f8e609bd822abb86d62580e6a9136fcceb44",
+    "development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Conditionally Connect Wire.vi": "bb22916ab67cc18b37f2fd84ffbb7ba9909493e40cb22017ad7ee3b0ea2f6ac2",
+    "development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Scripting.lvlib": "e5c18684ce00e28766fcd412a71db83981ed037b771575d5edd8a2257ca7c6aa"
+  },
+  "deployment_note": "Exact application-owned isolated copy, pinned in place to retain native library/member identity. These paths are required runtime assets and must not be treated as disposable experiments."
+}

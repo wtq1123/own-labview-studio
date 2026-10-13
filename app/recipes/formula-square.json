@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "name": "FormulaSquarePlusOne",
+  "steps": [
+    {"id":"formula","op":"node","args":{"owner_diagram_id":"$root.diagram_id","style":"Formula Node","x":220,"y":100}},
+    {"id":"temporaryInput","op":"formula_input","args":{"formula_id":"$formula.object_id","Position":24,"Name":"temporary_in"}},
+    {"id":"removeInput","op":"formula_parameter_delete","args":{"parameter_id":"$temporaryInput.parameter_id"}},
+    {"id":"temporaryOutput","op":"formula_output","args":{"formula_id":"$formula.object_id","Position":24,"Name":"temporary_out"}},
+    {"id":"removeOutput","op":"formula_parameter_delete","args":{"parameter_id":"$temporaryOutput.parameter_id"}},
+    {"id":"x","op":"formula_input","args":{"formula_id":"$formula.object_id","Position":0,"Name":"renamed"}},
+    {"id":"renameX","op":"formula_parameter_name","args":{"parameter_id":"$x.parameter_id","name":"x"}},
+    {"id":"y","op":"formula_output","args":{"formula_id":"$formula.object_id","Position":0,"Name":"y"}},
+    {"id":"expression","op":"formula_expression","args":{"formula_id":"$formula.object_id","expression":"y = x*x + 1;"}},
+    {"id":"parameters","op":"formula_info","args":{"formula_id":"$formula.object_id"}},
+    {"id":"xInfo","op":"formula_parameter_info","args":{"parameter_id":"$parameters.parameter_ids.0"}},
+    {"id":"yInfo","op":"formula_parameter_info","args":{"parameter_id":"$parameters.parameter_ids.1"}},
+    {"id":"input","op":"typed_control","args":{"terminal_id":"$xInfo.terminal_id"}},
+    {"id":"inputLabel","op":"label","args":{"control_id":"$input.control_id","label":"X"}},
+    {"id":"output","op":"typed_indicator","args":{"terminal_id":"$yInfo.terminal_id"}},
+    {"id":"outputLabel","op":"label","args":{"control_id":"$output.control_id","label":"Y"}}
+  ]
+}

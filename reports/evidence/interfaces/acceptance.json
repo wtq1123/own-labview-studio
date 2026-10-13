@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "NI confirms genuine interface and executable method",
+      "passed": true
+    },
+    {
+      "name": "Native interface inheritance",
+      "passed": true
+    },
+    {
+      "name": "Class implements two interfaces",
+      "passed": true
+    },
+    {
+      "name": "Class child overrides inherited interface method",
+      "passed": true
+    },
+    {
+      "name": "Interface hierarchy relocates with unchanged sources",
+      "passed": true
+    },
+    {
+      "name": "Private data on interface rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "Interface as class parent rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "Class as interface rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true
+    }
+  ],
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\interfaces_b14219e7f355479cba99fe21b0982127"
+}

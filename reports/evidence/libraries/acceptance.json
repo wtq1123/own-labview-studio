@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "Native mixed library has compiled qualified members",
+      "passed": true
+    },
+    {
+      "name": "Nested library copied and source retained",
+      "passed": true
+    },
+    {
+      "name": "Copy edit removes selected member and adds new copy",
+      "passed": true
+    },
+    {
+      "name": "Library projects create and copy preserving layout",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true
+    }
+  ],
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\libraries_e5d5ebc434964362be115de4e7edb584"
+}

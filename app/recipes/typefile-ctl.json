@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "name": "TypeFilectl",
+  "steps": [
+    {
+      "id": "constant",
+      "op": "ctl_constant",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeRecord_Type_aabccba823714ca2af68e7adff71aef2\\TypeRecord_Type_aabccba823714ca2af68e7adff71aef2.ctl",
+        "y": 120,
+        "x": 200
+      }
+    },
+    {
+      "id": "output",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$constant.terminal_id"
+      }
+    },
+    {
+      "id": "label",
+      "op": "label",
+      "args": {
+        "control_id": "$output.control_id",
+        "label": "RecordEcho"
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "name": "ArrayDefaults",
+  "steps": [
+    {
+      "id": "vector",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 40,
+        "y": 80,
+        "label": "Vector"
+      }
+    },
+    {
+      "id": "vectorElement",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$vector.object_id",
+        "style": "Numeric Control",
+        "x": 15,
+        "y": 15,
+        "label": "Element"
+      }
+    },
+    {
+      "id": "vectorDims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$vector.object_id",
+        "dimensions": 1
+      }
+    },
+    {
+      "id": "vectorIndicator",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$vector.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "vectorControl",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$vector.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "vectorInfo",
+      "op": "array_info",
+      "args": {
+        "array_id": "$vector.object_id"
+      }
+    },
+    {
+      "id": "vectorEcho",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$vectorInfo.terminal_id"
+      }
+    },
+    {
+      "id": "vectorEchoLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$vectorEcho.control_id",
+        "label": "VectorEcho"
+      }
+    },
+    {
+      "id": "matrix",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 40,
+        "y": 160,
+        "label": "Matrix"
+      }
+    },
+    {
+      "id": "matrixElement",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$matrix.object_id",
+        "style": "Numeric Control",
+        "x": 15,
+        "y": 15,
+        "label": "Element"
+      }
+    },
+    {
+      "id": "matrixDims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$matrix.object_id",
+        "dimensions": 2
+      }
+    },
+    {
+      "id": "matrixIndicator",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$matrix.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "matrixControl",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$matrix.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "matrixInfo",
+      "op": "array_info",
+      "args": {
+        "array_id": "$matrix.object_id"
+      }
+    },
+    {
+      "id": "matrixEcho",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$matrixInfo.terminal_id"
+      }
+    },
+    {
+      "id": "matrixEchoLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$matrixEcho.control_id",
+        "label": "MatrixEcho"
+      }
+    },
+    {
+      "id": "vectorDefault",
+      "op": "array_default",
+      "args": {
+        "array_id": "$vector.object_id",
+        "value": [
+          1.25,
+          -2.5,
+          3.75
+        ]
+      }
+    },
+    {
+      "id": "matrixDefault",
+      "op": "array_default",
+      "args": {
+        "array_id": "$matrix.object_id",
+        "value": [
+          [
+            1.25,
+            -2.5
+          ],
+          [
+            3.75,
+            4.5
+          ]
+        ]
+      }
+    }
+  ]
+}

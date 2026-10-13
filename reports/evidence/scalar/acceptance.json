@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "DBL Boolean String and static accessor pairs compiled",
+      "passed": true
+    },
+    {
+      "name": "Three scalar dynamic override bodies compiled",
+      "passed": true
+    },
+    {
+      "name": "Ancestor dynamic accessors can be overridden by grandchild",
+      "passed": true
+    },
+    {
+      "name": "Native parent hierarchy certified in independent snapshot",
+      "passed": true
+    },
+    {
+      "name": "Static accessor cannot be overridden",
+      "passed": true
+    },
+    {
+      "name": "Output type mismatch rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "Wrong output label rejected before authoring",
+      "passed": true
+    },
+    {
+      "name": "Accessor references declared own field only",
+      "passed": true
+    },
+    {
+      "name": "All original base class/member bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true
+    }
+  ],
+  "window_operations_used": false,
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\oop-suite_fc03d8b6ccb94e4eba3cb3b32a3f4712"
+}

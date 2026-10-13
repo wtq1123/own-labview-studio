@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "name": "SourceStructurefor",
+  "steps": [
+    {
+      "id": "input",
+      "op": "control",
+      "args": {
+        "style": "Numeric Control",
+        "x": 40,
+        "y": 40,
+        "label": "Input"
+      }
+    },
+    {
+      "id": "structure",
+      "op": "for",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "bounds": [
+          550,
+          350
+        ],
+        "x": 240,
+        "y": 140,
+        "style": "For Loop"
+      }
+    },
+    {
+      "id": "ports",
+      "op": "for_terminals",
+      "args": {
+        "for_id": "$structure.for_id"
+      }
+    },
+    {
+      "id": "count",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$ports.count_id"
+      }
+    },
+    {
+      "id": "countValue",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$count.constant_id",
+        "value": 3
+      }
+    },
+    {
+      "id": "connect",
+      "op": "connect_source_to_structure",
+      "args": {
+        "source_terminal": "$input.terminal_id",
+        "structure_id": "$structure.for_id"
+      }
+    },
+    {
+      "id": "out0",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$connect.inside_ids.0"
+      }
+    },
+    {
+      "id": "label0",
+      "op": "label",
+      "args": {
+        "control_id": "$out0.control_id",
+        "label": "Echo0"
+      }
+    },
+    {
+      "id": "inputDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$input.object_id",
+        "value": -3.25
+      }
+    }
+  ]
+}

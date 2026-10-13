@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "name": "TripleFunction",
+  "steps": [
+    {"id":"multiply","op":"node","args":{"owner_diagram_id":"$root.diagram_id","style":"Multiply","x":300,"y":200}},
+    {"id":"input","op":"typed_control","args":{"terminal_id":"$multiply.pins.x"}},
+    {"id":"input_label","op":"label","args":{"control_id":"$input.control_id","label":"X"}},
+    {"id":"factor","op":"constant","args":{"terminal_id":"$multiply.pins.y"}},
+    {"id":"factor_value","op":"set_number","args":{"constant_id":"$factor.constant_id","value":3}},
+    {"id":"output","op":"typed_indicator","args":{"terminal_id":"$multiply.pins.x*y"}},
+    {"id":"output_label","op":"label","args":{"control_id":"$output.control_id","label":"Result"}},
+    {"id":"input_connector","op":"connector_assign","args":{"control_id":"$input.control_id","terminal_index":0}},
+    {"id":"output_connector","op":"connector_assign","args":{"control_id":"$output.control_id","terminal_index":1}}
+  ]
+}

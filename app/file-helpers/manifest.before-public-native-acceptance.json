@@ -1,0 +1,278 @@
+{
+  "scope": "Only two exactly hashed installed NI candidates; public native worker acceptance pending.",
+  "native_development_placement_and_reopen_passed": true,
+  "public_worker_native_accepted": false,
+  "evidence": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\ni_file_categories_b4f9dc7c5ebf4294b17d42e5d5572aca\\acceptance-summary.json",
+  "helpers": {
+    "Native_Create": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_Create.vi",
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_Create.vi",
+      "accepted_source_sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_Create.vi",
+      "historical_source_sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetRootDiagram": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetRootDiagram.vi",
+      "sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetRootDiagram.vi",
+      "accepted_source_sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetRootDiagram.vi",
+      "historical_source_sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_AddSubVIInDiagram": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_AddSubVIInDiagram.vi",
+      "sha256": "147ec5927a434c3de22f7c06129a4739e74f52df527039facc806b9f86c545ec",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\ni_file_categories_b4f9dc7c5ebf4294b17d42e5d5572aca\\guarded_helpers\\OwnFileGuard_Native_AddSubVIInDiagram.vi",
+      "accepted_source_sha256": "147ec5927a434c3de22f7c06129a4739e74f52df527039facc806b9f86c545ec",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddSubVIInDiagram.vi",
+      "historical_source_sha256": "60faea999548029fb9f379fec042bf5ae09f917e420a7497b515a1eea63d4e60",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "NewVIObject.error out -> Terminal/Terms[].error in; original creation error remains final output."
+    },
+    "Native_GetObjectInfo": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetObjectInfo.vi",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetObjectInfo.vi",
+      "accepted_source_sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetObjectInfo.vi",
+      "historical_source_sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetNodeTerminals": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetNodeTerminals.vi",
+      "sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetNodeTerminals.vi",
+      "accepted_source_sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetNodeTerminals.vi",
+      "historical_source_sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetConstantTerminal": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetConstantTerminal.vi",
+      "sha256": "ca3f058ff24f6596dd2f37dcac3b5d25fbbfd771d339d8a4075df5dfe7b22648",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetConstantTerminal.vi",
+      "accepted_source_sha256": "ca3f058ff24f6596dd2f37dcac3b5d25fbbfd771d339d8a4075df5dfe7b22648",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetConstantTerminal.vi",
+      "historical_source_sha256": "ca3f058ff24f6596dd2f37dcac3b5d25fbbfd771d339d8a4075df5dfe7b22648",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_Wire": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_Wire.vi",
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_Wire.vi",
+      "accepted_source_sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_Wire.vi",
+      "historical_source_sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetTerminalTypeDescriptor": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetTerminalTypeDescriptor.vi",
+      "sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetTerminalTypeDescriptor.vi",
+      "accepted_source_sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetTerminalTypeDescriptor.vi",
+      "historical_source_sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetTerminalName": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetTerminalName.vi",
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetTerminalName.vi",
+      "accepted_source_sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetTerminalName.vi",
+      "historical_source_sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetDiagramObjects": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetDiagramObjects.vi",
+      "sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetDiagramObjects.vi",
+      "accepted_source_sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetDiagramObjects.vi",
+      "historical_source_sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetDiagramWires": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetDiagramWires.vi",
+      "sha256": "9245e706b6e886d66d6cba91eb0ad33559090798382fb89a649b58c6ac4ad09e",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetDiagramWires.vi",
+      "accepted_source_sha256": "9245e706b6e886d66d6cba91eb0ad33559090798382fb89a649b58c6ac4ad09e",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetDiagramWires.vi",
+      "historical_source_sha256": "9245e706b6e886d66d6cba91eb0ad33559090798382fb89a649b58c6ac4ad09e",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_GetWireBroken": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetWireBroken.vi",
+      "sha256": "6a36b23b98cae509ad4a002915de595a92587bc1f68ed22347aafdb789b86d31",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetWireBroken.vi",
+      "accepted_source_sha256": "6a36b23b98cae509ad4a002915de595a92587bc1f68ed22347aafdb789b86d31",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetWireBroken.vi",
+      "historical_source_sha256": "6a36b23b98cae509ad4a002915de595a92587bc1f68ed22347aafdb789b86d31",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Own20261012_GetObjectIdentity": {
+      "relative_path": "file-helpers/OwnFile20261012_Own20261012_GetObjectIdentity.vi",
+      "sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Own20261012_GetObjectIdentity.vi",
+      "accepted_source_sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetObjectIdentity.vi",
+      "historical_source_sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Own20261012_GetTerminalContext": {
+      "relative_path": "file-helpers/OwnFile20261012_Own20261012_GetTerminalContext.vi",
+      "sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Own20261012_GetTerminalContext.vi",
+      "accepted_source_sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetTerminalContext.vi",
+      "historical_source_sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Own20261012_CreateConstantFromTerminal": {
+      "relative_path": "file-helpers/OwnFile20261012_Own20261012_CreateConstantFromTerminal.vi",
+      "sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Own20261012_CreateConstantFromTerminal.vi",
+      "accepted_source_sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateConstantFromTerminal.vi",
+      "historical_source_sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    },
+    "Native_AddConstantFromTypedef": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_AddConstantFromTypedef.vi",
+      "sha256": "044bad5743f35592c0f03b41c1300294d98199558082a99d1b67e07ea7c44622",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\ni_file_categories_b4f9dc7c5ebf4294b17d42e5d5572aca\\guarded_helpers\\OwnFileGuard_Native_AddConstantFromTypedef.vi",
+      "accepted_source_sha256": "044bad5743f35592c0f03b41c1300294d98199558082a99d1b67e07ea7c44622",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_AddConstantFromTypedef.vi",
+      "historical_source_sha256": "3561a2e6ecc8ff3848787c3da7dfeb64bb42f0de5923c1d761f3b7fa0557bcaf",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "NewVIObject.error out -> Terminal/Terms[].error in; original creation error remains final output."
+    },
+    "Native_GetSubVIPath": {
+      "relative_path": "file-helpers/OwnFile20261012_Native_GetSubVIPath.vi",
+      "sha256": "baed43af7a175156c6691cb73813cd23cb52666b53df9477347a18ffb468dc90",
+      "accepted_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\filehelpers\\Native_GetSubVIPath.vi",
+      "accepted_source_sha256": "baed43af7a175156c6691cb73813cd23cb52666b53df9477347a18ffb468dc90",
+      "historical_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetSubVIPath.vi",
+      "historical_source_sha256": "baed43af7a175156c6691cb73813cd23cb52666b53df9477347a18ffb468dc90",
+      "authoring": "Existing self-authored helper; no vendor runtime import.",
+      "error_gate": "Existing audited helper error output checked before any reference read."
+    }
+  },
+  "reviewed_ni_roots": [
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison"
+  ],
+  "reviewed_ni_files": [
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVBoundsTypeDef.ctl"
+  ],
+  "reviewed_carriers": {
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words U64.vi": "7ed2c8ce0f5bf3202279eeb4327b0067d0248c4c9616e9e937511e0928c61a80",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\Little-Endian Bytes To Words Poly.vi": "f2277805f4dbd64d06f21a91e1e641a17f31606729093578e1d4db16f09a1d68",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words U32.vi": "af944d60b0bdaeb5c878a905c348bcf4c750e086b3ef512340e76182e97cf3c6",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words U16.vi": "228c26cbab6fe2c7cece4d30395a048f9b2e96e108df815884c293ef122ee8b3",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words U8.vi": "47690b419b9a66b8c239eaee878d7ec7446d1b0d3dfd64bf9ef33da1d94b5c76",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words I64.vi": "4c1b3ad6b2284d1a528c49958f8e7938f9374c5b0bf96a2260ffc0a96ad930e6",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words I32.vi": "56d76bbd31d1807ae49e96458b51270a072db04b433046c334e8d6651b501816",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words I16.vi": "6b2b333a5bc77c6a9d89dfabd276cd5d3e3e848043c8bc9b6a81abe629cb4aa3",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\wrappers\\Little-Endian Bytes To Words\\Little-Endian Bytes To Words I8.vi": "884a5a7f3a1d66dc661bb57f6288685d2db686b668459bdde89fa0bf643bff27",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\type assertion\\Assert 64-bit.vim": "1a4f2b03c634689e154ad4e6330e0e8e5742e8fbdf412925ebcea83c43c678df",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\Little-Endian Bytes To Words.vim": "aa84252d685022311c06317792b251edaf21bd6c9ae32e15af2bb1c535655428",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\type assertion\\Assert 32-bit.vim": "519d33792922d68cec97a8f1e664aba2bdd3548a134d15f22f600b04e3933cf2",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\type assertion\\Assert 16-bit.vim": "fbbcfd2cafefeb607d03d0f1273ae64e732f636ec76f101d66b9ef0c7c3f1e6f",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\type assertion\\Assert 8-bit.vim": "0c49af014d8023e8bce2f5cde529f4646f9efed00d96b68d03736b5eecee76f5",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Comparable.lvclass": "ea29c53c0d887ff9acfe83e341b657f40eedac1b0b6fea8135409e9d84baa1da",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Than.vi": "03f28f763adff74af911eb42b4c73d0bfc3862c26cb884a68be94c0a9ef64393",
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVBoundsTypeDef.ctl": "c16a7510a0fbac7a790f014cfd73a59cd8abe5df4599a5b00ad8fa2b81cfe97e"
+  },
+  "candidates": {
+    "polymorphic": {
+      "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Bit Manipulation\\Little-Endian Bytes To Words Poly.vi",
+      "sha256": "f2277805f4dbd64d06f21a91e1e641a17f31606729093578e1d4db16f09a1d68",
+      "native_vi_type": 4,
+      "actual_object_class": "PolymorphicSubVI"
+    },
+    "class": {
+      "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Comparable.lvclass",
+      "sha256": "ea29c53c0d887ff9acfe83e341b657f40eedac1b0b6fea8135409e9d84baa1da",
+      "actual_object_class": "LabVIEWClassConstant",
+      "type_descriptor": [
+        62,
+        16496,
+        30,
+        0,
+        16384,
+        -6901,
+        6423,
+        19557,
+        29555,
+        8259,
+        28525,
+        28769,
+        29281,
+        25196,
+        25902,
+        27766,
+        25452,
+        24947,
+        29440,
+        5964,
+        25971,
+        29472,
+        17263,
+        28016,
+        24946,
+        24930,
+        27749,
+        11884,
+        30307,
+        27745,
+        29555
+      ],
+      "native_library_type": "LVClass",
+      "native_members": [
+        {
+          "item_id": "{146080D5-8867-4AF3-A37F-49527625F89E}",
+          "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Comparable.lvclass\\Less Comparable.ctl",
+          "name": "Less Comparable.ctl",
+          "type_string": "Class Private Data",
+          "library_item_type_string": "Class Private Data",
+          "embedded_private_data": true,
+          "carrier": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Comparable.lvclass",
+          "actual_vi_path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Comparable.lvclass\\Less Comparable.ctl",
+          "vi_type": 2,
+          "native_callees": []
+        },
+        {
+          "item_id": "{5AA94B40-1D01-4326-8F40-77AFE830F7D3}",
+          "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Comparison\\Less\\Less Comparable\\Less Than.vi",
+          "name": "Less Than.vi",
+          "type_string": "VI",
+          "library_item_type_string": "VI"
+        }
+      ],
+      "parent_metadata_unexposed": true
+    }
+  },
+  "limitations": [
+    "Finite pinned NI paths only; arbitrary classes and inherited class families are excluded.",
+    "Class members and descriptor are observed; parent-class metadata is not exposed by this COM interface.",
+    "No source or generated VI is executed; dynamic calls and external binary behavior are not certified."
+  ]
+}

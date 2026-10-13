@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "check_count": 34,
+  "checks": [
+    {
+      "name": "Import creates no COM module or session",
+      "passed": true
+    },
+    {
+      "name": "23 helper aliases offline preflight",
+      "passed": true
+    },
+    {
+      "name": "985 identical migrated styles",
+      "passed": true
+    },
+    {
+      "name": "Native_CreateControlFromTerminal_v2 repaired helper",
+      "passed": true
+    },
+    {
+      "name": "Native_CreateIndicatorFromTerminal repaired helper",
+      "passed": true
+    },
+    {
+      "name": "Native_CreateConstantFromTerminal_v2 repaired helper",
+      "passed": true
+    },
+    {
+      "name": "Only Native_Create registers a new target",
+      "passed": true
+    },
+    {
+      "name": "Existing output rejected before helper execution",
+      "passed": true
+    },
+    {
+      "name": "Measurement output path rejected",
+      "passed": true
+    },
+    {
+      "name": "Unrequested output refs are still tracked",
+      "passed": true
+    },
+    {
+      "name": "Repaired control output remains old ABI",
+      "passed": true
+    },
+    {
+      "name": "Null reference rejected before helper",
+      "passed": true
+    },
+    {
+      "name": "Caller arbitrary helper rejected",
+      "passed": true
+    },
+    {
+      "name": "Extra ABI field rejected",
+      "passed": true
+    },
+    {
+      "name": "Style outside migrated table rejected",
+      "passed": true
+    },
+    {
+      "name": "Int16 overflow rejected",
+      "passed": true
+    },
+    {
+      "name": "Existing readonly target cannot be edited",
+      "passed": true
+    },
+    {
+      "name": "Cross-module references rejected",
+      "passed": true
+    },
+    {
+      "name": "Existing readonly file unchanged",
+      "passed": true
+    },
+    {
+      "name": "Exclusive copy registered with same source bytes",
+      "passed": true
+    },
+    {
+      "name": "Copy refuses existing output",
+      "passed": true
+    },
+    {
+      "name": "Copy rejects preexisting source",
+      "passed": true
+    },
+    {
+      "name": "Vendor recursive dependency refused",
+      "passed": true
+    },
+    {
+      "name": "Original NI creation error preserved",
+      "passed": true
+    },
+    {
+      "name": "No reference output read after NI error",
+      "passed": true
+    },
+    {
+      "name": "Broken helper rejected before Run",
+      "passed": true
+    },
+    {
+      "name": "Loaded helper path collision rejected",
+      "passed": true
+    },
+    {
+      "name": "inspect_main_vi_20260930.py exact backup",
+      "passed": true
+    },
+    {
+      "name": "inspect_main_vi_20260930.py offline compile",
+      "passed": true
+    },
+    {
+      "name": "inspect_main_vi_20260930.py migrated import",
+      "passed": true
+    },
+    {
+      "name": "build_native.py exact backup",
+      "passed": true
+    },
+    {
+      "name": "build_native.py offline compile",
+      "passed": true
+    },
+    {
+      "name": "build_native.py migrated import",
+      "passed": true
+    },
+    {
+      "name": "Inspection consumer import does not attach NI",
+      "passed": true
+    }
+  ],
+  "labview_called": false,
+  "actual_consumers_executed": false,
+  "signal_output_validated": false,
+  "native_acceptance_pending": false
+}

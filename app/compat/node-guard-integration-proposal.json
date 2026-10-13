@@ -1,0 +1,37 @@
+{
+  "status": "accepted_compat_helper_available_for_production_owner_review",
+  "logical_operation": "node",
+  "logical_original_helper": "Native_AddNodeInDiagram",
+  "source": "app/recipes/helpers/Native_AddNodeInDiagram.vi",
+  "source_sha256": "e93db76f92dcce3467726671cdac20db2d8ba28a95784494e348d53111ea9e5d",
+  "source_intact": true,
+  "accepted_guarded_helper": "app/compat/helpers/OwnCompatGuard20261012_Native_AddNodeInDiagram.vi",
+  "guarded_sha256": "dea278358f127ccdf0b601114f9fd2cb64814e6882c8d666e4ce918c2d0ffab5",
+  "accepted_execution_state": 1,
+  "native_static_callees": [],
+  "input_contract": { "target_path": "String", "owner_diagram_id": "UInt32 reference", "style": "UInt32 NI style", "x": "Int16", "y": "Int16" },
+  "output_contract": { "object_id": "UInt32 reference", "terminal_ids": "UInt32 reference array" },
+  "interface_change": false,
+  "gate": {
+    "source_primitive": "NewVIObject Function",
+    "source_terminal_name": "error out",
+    "observed_source_terminal_id": 2928672956,
+    "sink_property": "Terms[] Property",
+    "sink_terminal_name": "error in (no error)",
+    "observed_sink_terminal_id": 2918187186,
+    "reference_output_read_is_skipped_on_creation_error": true,
+    "final_error_remains_original_creation_error": true,
+    "observed_ids_scope": "These IDs describe the isolated authoring session only and must never be reused as production runtime references."
+  },
+  "authoring_evidence": "app/compat/tests/guarded_node_e212da2a7a9740d89bebcfa83d838d9e/authoring.json",
+  "native_surface_evidence": "app/compat/tests/native_7e75016495a647309306fd9a1f341689/acceptance.json",
+  "native_surface_evidence_sha256": "a8c994fa04d80403607e4aad9a51b8eacf21d75bba786be13f9febfbf7ec167b",
+  "production_integration": [
+    "Copy accepted guarded bytes to a distinct production basename, such as Own20261012_GuardedAddNodeInDiagram.vi, avoiding the already loaded compat basename and old unsafe name.",
+    "Keep public node argument/output contracts intact; update the production operation helper mapping and provenance source/new SHA under owner control.",
+    "Require actual loaded full production path and this guarded SHA before execution; retain target VI references for the entire operation.",
+    "Run the production positive finite node fixture and controlled invalid-style primary-error fixture under a new exclusive NI slot; no unsupported-terminal/property read should follow an error.",
+    "This proposal does not modify Recipe/catalog/provenance or shared binaries."
+  ],
+  "causal_limit": "The old compat helper remained running and never returned its original NI error. Target keepalive, exact VT_UI4/VT_I2 variants and error gate were corrected together; individual root cause is not experimentally isolated."
+}

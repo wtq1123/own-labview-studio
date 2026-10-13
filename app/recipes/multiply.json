@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "name": "RecipeMultiply",
+  "steps": [
+    {
+      "id": "mul",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Multiply",
+        "x": 300,
+        "y": 200
+      }
+    },
+    {
+      "id": "a",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$mul.pins.x"
+      }
+    },
+    {
+      "id": "a_value",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$a.constant_id",
+        "value": 6
+      }
+    },
+    {
+      "id": "b",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$mul.pins.y"
+      }
+    },
+    {
+      "id": "b_value",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$b.constant_id",
+        "value": 7
+      }
+    },
+    {
+      "id": "out",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$mul.pins.x*y"
+      }
+    },
+    {
+      "id": "label",
+      "op": "label",
+      "args": {
+        "control_id": "$out.control_id",
+        "label": "Result"
+      }
+    }
+  ]
+}

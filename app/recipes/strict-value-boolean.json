@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "name": "StrictValueboolean",
+  "steps": [
+    {
+      "id": "state",
+      "op": "control",
+      "args": {
+        "y": 40,
+        "style": "Horizontal Toggle Switch",
+        "label": "State",
+        "x": 40
+      }
+    },
+    {
+      "id": "reference",
+      "op": "control_reference",
+      "args": {
+        "control_id": "$state.object_id"
+      }
+    },
+    {
+      "id": "referenceTerms",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$reference.reference_constant_id"
+      }
+    },
+    {
+      "id": "writer",
+      "op": "node",
+      "args": {
+        "y": 180,
+        "style": "Property Node",
+        "owner_diagram_id": "$root.diagram_id",
+        "x": 350
+      }
+    },
+    {
+      "id": "writerUnbound",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$writer.object_id"
+      }
+    },
+    {
+      "id": "writerBind",
+      "op": "wire",
+      "args": {
+        "sink_terminal": "$writerUnbound.pins.reference",
+        "source_terminal": "$referenceTerms.pins.0"
+      }
+    },
+    {
+      "id": "writerInfo",
+      "op": "property_info",
+      "args": {
+        "property_id": "$writer.object_id"
+      }
+    },
+    {
+      "id": "writerSelect",
+      "op": "property_select",
+      "args": {
+        "property_id": "$writer.object_id",
+        "property_id_strings": [
+          "6332012"
+        ],
+        "allow_alternate_names": false
+      }
+    },
+    {
+      "id": "writerMode",
+      "op": "property_item_write",
+      "args": {
+        "property_item_id": "$writerSelect.property_item_ids.0",
+        "is_write": true
+      }
+    },
+    {
+      "id": "reader",
+      "op": "node",
+      "args": {
+        "y": 180,
+        "style": "Property Node",
+        "owner_diagram_id": "$root.diagram_id",
+        "x": 650
+      }
+    },
+    {
+      "id": "readerUnbound",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$reader.object_id"
+      }
+    },
+    {
+      "id": "readerBind",
+      "op": "wire",
+      "args": {
+        "sink_terminal": "$readerUnbound.pins.reference",
+        "source_terminal": "$referenceTerms.pins.0"
+      }
+    },
+    {
+      "id": "readerInfo",
+      "op": "property_info",
+      "args": {
+        "property_id": "$reader.object_id"
+      }
+    },
+    {
+      "id": "readerSelect",
+      "op": "property_select",
+      "args": {
+        "property_id": "$reader.object_id",
+        "property_id_strings": [
+          "6332012"
+        ],
+        "allow_alternate_names": false
+      }
+    },
+    {
+      "id": "readerMode",
+      "op": "property_item_write",
+      "args": {
+        "property_item_id": "$readerSelect.property_item_ids.0",
+        "is_write": false
+      }
+    },
+    {
+      "id": "writerOrdered",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$writer.object_id"
+      }
+    },
+    {
+      "id": "readerOrdered",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$reader.object_id"
+      }
+    },
+    {
+      "id": "sequence",
+      "op": "wire",
+      "args": {
+        "sink_terminal": "$readerOrdered.pins.error in (no error)",
+        "source_terminal": "$writerOrdered.pins.error out"
+      }
+    },
+    {
+      "id": "writerFinal",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$writer.object_id"
+      }
+    },
+    {
+      "id": "readerFinal",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$reader.object_id"
+      }
+    },
+    {
+      "id": "newValue",
+      "op": "typed_control",
+      "args": {
+        "terminal_id": "$writerFinal.pins.Value"
+      }
+    },
+    {
+      "id": "newLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$newValue.control_id",
+        "label": "NewValue"
+      }
+    },
+    {
+      "id": "echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$readerFinal.pins.Value"
+      }
+    },
+    {
+      "id": "echoLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$echo.control_id",
+        "label": "Echo"
+      }
+    },
+    {
+      "id": "error",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$readerFinal.pins.error out"
+      }
+    },
+    {
+      "id": "errorLabel",
+      "op": "label",
+      "args": {
+        "control_id": "$error.control_id",
+        "label": "Property error"
+      }
+    },
+    {
+      "id": "stateDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$state.object_id",
+        "value": false
+      }
+    },
+    {
+      "id": "newDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$newValue.control_id",
+        "value": true
+      }
+    }
+  ]
+}

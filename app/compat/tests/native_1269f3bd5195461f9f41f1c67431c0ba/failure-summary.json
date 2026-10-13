@@ -1,0 +1,18 @@
+{
+  "status": "first_attempt_timeout_preserved",
+  "timeout_seconds": 180,
+  "ni_pid": 44972,
+  "all_python_clients_exited": true,
+  "helper_remained_running": "OwnCompat20261012_Native_AddNodeInDiagram.vi",
+  "helper_observed_execution_state": 2,
+  "readonly_state_evidence": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\native-idle-inspection.stdout.txt",
+  "measurement_main_loaded_or_run": false,
+  "generated_target_run": false,
+  "observed_code_issues": [
+    "Initial runner did not retain an owning target VI reference unlike the historical builder.",
+    "Original node creation helper did not gate Terms[] with NewVIObject error output.",
+    "Implicit Python integer marshaling was replaced by explicit UI4/I2 ABI values."
+  ],
+  "causal_limit": "The first synchronous helper call never returned its original NI error; the three corrections were accepted together and were not causally isolated.",
+  "recovery": "Parent performed the authorized hidden NI restart; subsequent accepted fixture used fresh PID36800 and fresh references."
+}

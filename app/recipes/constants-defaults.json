@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "name": "ConstantsDefaultsDemo",
+  "steps": [
+    {
+      "id": "negativeout",
+      "op": "control",
+      "args": {
+        "style": "Numeric Indicator",
+        "label": "negativeValue",
+        "x": 40,
+        "y": 40
+      }
+    },
+    {
+      "id": "negative",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$negativeout.terminal_id"
+      }
+    },
+    {
+      "id": "negativeset",
+      "op": "set_double",
+      "args": {
+        "constant_id": "$negative.constant_id",
+        "value": -2.5
+      }
+    },
+    {
+      "id": "negativeread",
+      "op": "get_number",
+      "args": {
+        "constant_id": "$negative.constant_id"
+      }
+    },
+    {
+      "id": "fractionout",
+      "op": "control",
+      "args": {
+        "style": "Numeric Indicator",
+        "label": "fractionValue",
+        "x": 40,
+        "y": 100
+      }
+    },
+    {
+      "id": "fraction",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$fractionout.terminal_id"
+      }
+    },
+    {
+      "id": "fractionset",
+      "op": "set_double",
+      "args": {
+        "constant_id": "$fraction.constant_id",
+        "value": 0.125
+      }
+    },
+    {
+      "id": "fractionread",
+      "op": "get_number",
+      "args": {
+        "constant_id": "$fraction.constant_id"
+      }
+    },
+    {
+      "id": "tinyout",
+      "op": "control",
+      "args": {
+        "style": "Numeric Indicator",
+        "label": "tinyValue",
+        "x": 40,
+        "y": 160
+      }
+    },
+    {
+      "id": "tiny",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$tinyout.terminal_id"
+      }
+    },
+    {
+      "id": "tinyset",
+      "op": "set_double",
+      "args": {
+        "constant_id": "$tiny.constant_id",
+        "value": 1e-12
+      }
+    },
+    {
+      "id": "tinyread",
+      "op": "get_number",
+      "args": {
+        "constant_id": "$tiny.constant_id"
+      }
+    },
+    {
+      "id": "largeout",
+      "op": "control",
+      "args": {
+        "style": "Numeric Indicator",
+        "label": "largeValue",
+        "x": 40,
+        "y": 220
+      }
+    },
+    {
+      "id": "large",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$largeout.terminal_id"
+      }
+    },
+    {
+      "id": "largeset",
+      "op": "set_double",
+      "args": {
+        "constant_id": "$large.constant_id",
+        "value": 1000000000000
+      }
+    },
+    {
+      "id": "largeread",
+      "op": "get_number",
+      "args": {
+        "constant_id": "$large.constant_id"
+      }
+    },
+    {
+      "id": "stringout",
+      "op": "control",
+      "args": {
+        "style": "String Indicator",
+        "label": "ConstantText",
+        "x": 400,
+        "y": 40
+      }
+    },
+    {
+      "id": "stringconstant",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$stringout.terminal_id"
+      }
+    },
+    {
+      "id": "stringvalue",
+      "op": "set_string",
+      "args": {
+        "constant_id": "$stringconstant.constant_id",
+        "value": "abcd"
+      }
+    },
+    {
+      "id": "stringread",
+      "op": "get_string",
+      "args": {
+        "constant_id": "$stringconstant.constant_id"
+      }
+    },
+    {
+      "id": "number",
+      "op": "control",
+      "args": {
+        "style": "Numeric Control",
+        "label": "Number",
+        "x": 40,
+        "y": 380
+      }
+    },
+    {
+      "id": "flag",
+      "op": "control",
+      "args": {
+        "style": "Horizontal Toggle Switch",
+        "label": "Flag",
+        "x": 40,
+        "y": 460
+      }
+    },
+    {
+      "id": "text",
+      "op": "control",
+      "args": {
+        "style": "String Control",
+        "label": "Text",
+        "x": 40,
+        "y": 540
+      }
+    },
+    {
+      "id": "record",
+      "op": "control",
+      "args": {
+        "style": "Cluster",
+        "label": "Record",
+        "x": 40,
+        "y": 620
+      }
+    },
+    {
+      "id": "membera",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$record.object_id",
+        "style": "Numeric Control",
+        "label": "A",
+        "x": 15,
+        "y": 20
+      }
+    },
+    {
+      "id": "memberb",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$record.object_id",
+        "style": "String Control",
+        "label": "B",
+        "x": 15,
+        "y": 55
+      }
+    },
+    {
+      "id": "memberc",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$record.object_id",
+        "style": "Horizontal Toggle Switch",
+        "label": "C",
+        "x": 15,
+        "y": 90
+      }
+    },
+    {
+      "id": "numberinput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$number.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "numberoutput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$number.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "numberrestore",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$number.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "numberdirection",
+      "op": "is_indicator",
+      "args": {
+        "control_id": "$number.object_id"
+      }
+    },
+    {
+      "id": "numberterminal",
+      "op": "control_terminal",
+      "args": {
+        "control_id": "$number.object_id"
+      }
+    },
+    {
+      "id": "numberpassthrough",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$numberterminal.terminal_id"
+      }
+    },
+    {
+      "id": "numberlabel",
+      "op": "label",
+      "args": {
+        "control_id": "$numberpassthrough.control_id",
+        "label": "Number_Out"
+      }
+    },
+    {
+      "id": "flaginput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$flag.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "flagoutput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$flag.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "flagrestore",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$flag.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "flagdirection",
+      "op": "is_indicator",
+      "args": {
+        "control_id": "$flag.object_id"
+      }
+    },
+    {
+      "id": "flagterminal",
+      "op": "control_terminal",
+      "args": {
+        "control_id": "$flag.object_id"
+      }
+    },
+    {
+      "id": "flagpassthrough",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$flagterminal.terminal_id"
+      }
+    },
+    {
+      "id": "flaglabel",
+      "op": "label",
+      "args": {
+        "control_id": "$flagpassthrough.control_id",
+        "label": "Flag_Out"
+      }
+    },
+    {
+      "id": "textinput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$text.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "textoutput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$text.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "textrestore",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$text.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "textdirection",
+      "op": "is_indicator",
+      "args": {
+        "control_id": "$text.object_id"
+      }
+    },
+    {
+      "id": "textterminal",
+      "op": "control_terminal",
+      "args": {
+        "control_id": "$text.object_id"
+      }
+    },
+    {
+      "id": "textpassthrough",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$textterminal.terminal_id"
+      }
+    },
+    {
+      "id": "textlabel",
+      "op": "label",
+      "args": {
+        "control_id": "$textpassthrough.control_id",
+        "label": "Text_Out"
+      }
+    },
+    {
+      "id": "recordinput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$record.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "recordoutput",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$record.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "recordrestore",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$record.object_id",
+        "is_indicator": false
+      }
+    },
+    {
+      "id": "recorddirection",
+      "op": "is_indicator",
+      "args": {
+        "control_id": "$record.object_id"
+      }
+    },
+    {
+      "id": "recordterminal",
+      "op": "control_terminal",
+      "args": {
+        "control_id": "$record.object_id"
+      }
+    },
+    {
+      "id": "recordpassthrough",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$recordterminal.terminal_id"
+      }
+    },
+    {
+      "id": "recordlabel",
+      "op": "label",
+      "args": {
+        "control_id": "$recordpassthrough.control_id",
+        "label": "Record_Out"
+      }
+    },
+    {
+      "id": "numberdefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$number.object_id",
+        "value": -1.5
+      }
+    },
+    {
+      "id": "flagdefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$flag.object_id",
+        "value": true
+      }
+    },
+    {
+      "id": "textdefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$text.object_id",
+        "value": "自定义\n字符串 α"
+      }
+    },
+    {
+      "id": "recorddefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$record.object_id",
+        "value": [
+          -3.25,
+          "簇值",
+          false
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "failure": null,
+  "checks": [
+    {
+      "name": "EXE DLL and source distribution actually built",
+      "passed": true
+    },
+    {
+      "name": "Virtual folders preserved in copy",
+      "passed": true
+    },
+    {
+      "name": "Copied specifications rebuild to new destinations",
+      "passed": true
+    },
+    {
+      "name": "Modified EXE and DLL names built",
+      "passed": true
+    },
+    {
+      "name": "Original project and outputs unchanged",
+      "passed": true
+    },
+    {
+      "name": "Source VI unchanged",
+      "passed": true
+    },
+    {
+      "name": "NI session unchanged",
+      "passed": true
+    }
+  ],
+  "folder": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\build-specs_f85b98c21e9a4cfbac569c67806adcfe"
+}

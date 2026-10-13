@@ -1,0 +1,3002 @@
+{
+  "updated": "2026-10-13T21:09:17.483248+08:00",
+  "agreed_scope_acceptance_passed": true,
+  "complete_replacement": true,
+  "acceptance_scope": "29 extracted VI generation/editing contracts plus agreed classes/interfaces and local My Computer libraries/projects and EXE/DLL/SDIST creation, copying, modification and real builds",
+  "user_scope_confirmations": [
+    "extracted feature list with typical and boundary fixtures",
+    "own runtime without VI Generator/VIRobotics",
+    "My Computer only; RT/FPGA excluded",
+    "EXE, DLL and source distribution must actually build",
+    "no window operations",
+    "delete legacy directories only after complete acceptance"
+  ],
+  "all_original_vendor_api_domains_claimed": false,
+  "window_operations_used": false,
+  "hardware_or_measurement_vi_executed": false,
+  "old_directories_deleted": false,
+  "legacy_backup_files": 3922,
+  "legacy_backup": {
+    "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\legacy-backup-at-completion-20261013.json",
+    "sha256": "20e6393402ee34f005e7be0388c7a0f99f84b4006051978edeb1471219210655"
+  },
+  "executable_sha256": "4dd591c775973a05255de2b9cad52b97c132fe704ae08a2c85bb5e6c3d0e3a63",
+  "production_snapshot": [
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\approved-open-source.json",
+      "sha256": "070812f323436b027ec64ea7105dcf36292f0a66025b5b3851482ffbae3c8ffb"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\NiLeaseAcceptance.exe",
+      "sha256": "0e4dfcdd22b0b4615a73b3d54e6f9ea28e3f7fa8533df13cb066b7d8193efde8"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\OutputDependencyPolicyAcceptance.exe",
+      "sha256": "11f29f8b9a30aae52f3c54367cace0bd61beebc7244a56419a38dd69508d46ff"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\OwnLabViewMcp.exe",
+      "sha256": "4dd591c775973a05255de2b9cad52b97c132fe704ae08a2c85bb5e6c3d0e3a63"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\OwnLabViewStudio.exe",
+      "sha256": "ed4d9fb3de717e2f7a05cd12c2eac753a6104a9de60e82a9b345ab5a494a3da1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\ProjectReopenAcceptance.exe",
+      "sha256": "b778c0a532420c4e2a9b70815ccaa06a55cf880c6f6c96f89424eceb45043609"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RecipeAcceptance.exe",
+      "sha256": "98d37d27af73bdd8c1ce7bd854f6d30523afa8913fc14d0d6b178839e8def179"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RecipeSafetyAcceptance.exe",
+      "sha256": "eac155d54a0741771cf220843963c505080653ae980ee704063c4c2fcbee6b98"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunArrayMoveStylesAcceptance.exe",
+      "sha256": "9b460c42afafc3ed6f0b4677ce051598eebf03735ae9c4be6920c345f70a49db"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunCopyGenericAcceptance.exe",
+      "sha256": "1a60387670126e521ab0786d962c73a94ecb34f8ab71e40720ed015f0a262741"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunExtendedAcceptance.exe",
+      "sha256": "dc5cdf29910a94d3855dbb01d5b0aa0ed8b0eb0e9b78a9c76a440d7d74eb82b3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunFilenameAcceptance.exe",
+      "sha256": "62efae89324f63c94b15d99045eb2b72eeedfdcb805146bd812124065639a897"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunFormulaAcceptance.exe",
+      "sha256": "1261009c8652711a10f8f90c2ef23afcc95fc7cf7c3702a5b6a5848e4b24eb6d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunImportedMathAcceptance.exe",
+      "sha256": "28952ad9066ac641907b82220c061c099f19ac4082e0e8ea997777c1a11991e6"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunLoopAcceptance.exe",
+      "sha256": "9b2386f720713c4332b089e18cf602171ae4e7cb010f70166623af562b0d2dc6"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunPublicCaseAcceptance.exe",
+      "sha256": "9eaf37346ff70cd2fde8271d92ddb662c14881b1d00fd887814a0b50861eeb1b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunPublicNodeLabelAcceptance.exe",
+      "sha256": "e1e2c3bfc02997a9f846554ef6d09eb6276b1fd9d3350272f8c2e4db7a0beb3f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunTypeArtifactsAcceptance.exe",
+      "sha256": "d6827504d8d0aecb86867559244d2bfb60bca889a17c66b5cbe934f196175a10"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\RunTypeFileAcceptance.exe",
+      "sha256": "827e0aa0363f7272fa09408d00af0121419ee4651782cd84e5d1e593dd741526"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\TypeArtifactsAcceptance.exe",
+      "sha256": "77f985c076a562e84ef2ddd9c11b955dad9474519333b1a6b90bff09ce4c3b8f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\bin\\WriterDefaultDiagnostic.exe",
+      "sha256": "b695eaa48c4cce212aa6c1217e67e2fb667e2f71b0212069c88181838272cdcf"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\field-provenance.json",
+      "sha256": "dffe80990b4c35644d4f205c1780a3c9a9b03080a17cb96aebeac8e3a099ce10"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\Own20261013_AddClassFields_RefsV3.vi",
+      "sha256": "4df6636a448f2c4cf86140be0f5237fa4bcf99b8626c3830a7a646ec8c8befec"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\Own20261013_CreateClass.vi",
+      "sha256": "4d9522f676c03dc13fe07c98e25f486c0d3c405124f78702e1e321a198196e27"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\Own20261013_ReadClassFields.vi",
+      "sha256": "208c110180189844354bac9a9e66299405a24b0cc623898cbc25d75fd958db30"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnBuild20261013_CreateDLL.vi",
+      "sha256": "0fa7964675278b475c8b01f195d6a56eae901ec34b44aeaa043576717303d6f0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnBuild20261013_CreateEXE.vi",
+      "sha256": "fd921b6f9c6c140ca5ae9a973aa5cf05c1b4f8247d922ad99e4a619360d67528"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnBuild20261013_CreateSDIST.vi",
+      "sha256": "08e453857b6652b8cfabcfd1f3bb707363850ff76076c62b06261454290a6e9f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnClass20261013_PanelControls.vi",
+      "sha256": "3145a45346a1e36241b68415f3fd65ff11fcfdcba89dcd6c913823a2e45bc7b8"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnInterface20261013_AddParent.vi",
+      "sha256": "cc1889f82b932721cc49702bcef98a453dddacfe26b15915c56e8f1a694c5086"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnInterface20261013_Create.vi",
+      "sha256": "60c865dfa2826d6d007b752560a091d4c2b3855908c4a4fdd3af46e7bbc260c4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnInterface20261013_Info.vi",
+      "sha256": "48819903f951dd5cd4675d75e40d81dafd0901d17cdd708d581d8b387d609e3d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnInterface20261013_MustOverride.vi",
+      "sha256": "7e6d5f5f136fab787a63b47501a32e133a96ab13b106fe90e668a26a64407d0e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnInterface20261013_ParentPath.vi",
+      "sha256": "ee7cc41f07f82ef698faad6e02ae525aebf0721f13a0b15dacac67823ac111c2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnLibrary20261013_Create.vi",
+      "sha256": "d4919395c1c53ebe6ad31f762e4a5fcf257a703a0236bdaa188e5949e6d484da"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnMethod20261013_GetWiringRule.vi",
+      "sha256": "c64de8de9d22c40d04c825be6d71eba6694fa5bc0b6e3563be9cd3d8c1218fea"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnMethod20261013_RelinkSubVI.vi",
+      "sha256": "9493bcc63de6e3388e418d6d3e4f88debf1525e970afe22693ae8cae348cd9e0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnMethod20261013_SetWireRule.vi",
+      "sha256": "aab3f772d049f02c597ba1982c43ff26322268d4d9b74ea4a19eb314c2b34d35"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateAccessors.vi",
+      "sha256": "e621bc051a4f6a48ff1e7bd0e955b78b8881006e9ada109d77ecb791aba1027d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateAccessorsDetached.vi",
+      "sha256": "1b96417f58dd6579d7dae6b61bca429f022d4725ace2a56eaec6fafa2f537567"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateAccessorsV2.vi",
+      "sha256": "c92fe04a408edebb17a755588176b70e2f31aba14da7fdeb1180c52c314448ab"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateAccessorsV3.vi",
+      "sha256": "bf276303cddc3a5b09c5e9429569e04b80257a1f9a7d50f77f5e840097d1f12d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateAccessorsV4.vi",
+      "sha256": "0d99f82c66dfa2d1c5c20b2bc60c83a8d5e62fa22dfa403602139f9e7dc5b753"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateChild.vi",
+      "sha256": "bd5f485a30b8bdeff335be4f12661e8c5288d9ce03d2381728875b57089cea61"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateChildV2.vi",
+      "sha256": "1af2289480e21b7023d9b3b9791b7e8197d4767d4ff03e5258faec4aa16d5fe3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateChildV3.vi",
+      "sha256": "826888235af944097cf23d0c9326101b665fda1306d57ddcd74ae26f879ca98b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateChildV4.vi",
+      "sha256": "cea518db61ee43ef965488c0bcfa1b5e07bf861bf09c30c7b03d2c98766b41de"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateChildV5.vi",
+      "sha256": "185b7ca5b13ed1f690c1cd8bd326d3577cc67dd545e8dccf6e7d5733a0288442"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_CreateOverride.vi",
+      "sha256": "0f05f650d868527aca2e03efc01a37e8b517610c35558f160523c2885f2b9b16"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_ParentInfoV2.vi",
+      "sha256": "4247c778e160b74555a0217c1a82c8487d66da1b5e1b6805242703d87053be9b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_ParentInfoV3.vi",
+      "sha256": "970dbaf78d702d09dcb9527e2b5fa9e9f438b2408c49d95bc39c6055ee3c9ec3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_ParentIsNone.vi",
+      "sha256": "603318b6848060d6241dd4199f96898bcfb5c3d765ecaef7d7388af7cdcc2f7d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_ParentIsNoneV2.vi",
+      "sha256": "097dc0b4a3ca7d608076ac8f6571eac7e3a1380c4cea8e8b3dba5b8c8fb7b4b4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_ParentIsNoneV3.vi",
+      "sha256": "1a76337979a64d1c573ab93ba3fdac728823e563a07a1259011cc6f8f7437c15"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\OwnOop20261013_SetBooleanConstant.vi",
+      "sha256": "926e15fdcdc32c92985ac3b606cab52510ff283e47900dcfa006e41ae4a87dff"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\class-helpers\\provenance.json",
+      "sha256": "9ec13eec4eb22a50634cf3f6bf5a5780971a1f946cb5f8a33e1f5e56db7cd9ea"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Conditionally Connect Wire.vi",
+      "sha256": "bb22916ab67cc18b37f2fd84ffbb7ba9909493e40cb22017ad7ee3b0ea2f6ac2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Create Add.vi",
+      "sha256": "ead5e83a5431ee8406d16c2cd97e08dab1db19b110e619fca5e05b793dc3e85f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Get Outputs.vi",
+      "sha256": "4eaef31a121a88f6ec3ad2f32162f8e609bd822abb86d62580e6a9136fcceb44"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Scripting.lvlib",
+      "sha256": "e5c18684ce00e28766fcd412a71db83981ed037b771575d5edd8a2257ca7c6aa"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\opensource-native_f4d362723206446591f3edf72d9fd4e8\\source\\library\\Wire Inputs.vi",
+      "sha256": "158fd4f94f6b4750f369d270206b2e5f0f3257bf34c34df38988c860c2da116b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\manifest.before-public-native-acceptance.json",
+      "sha256": "d66c148bcfeef241440432da3f7fa24975314482f83c6766a53280fc76d540c4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\manifest.json",
+      "sha256": "7170fcec6dc23b3d71d137df56d62756f2cd0467b0cc1159f03a46f61a2b7f8b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\manifest.offline-before-carrier-pins.json",
+      "sha256": "6e9fc7586a616d03accf5ab5f548f8383297ed094736478716f9dcc69004a416"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_AddConstantFromTypedef.vi",
+      "sha256": "044bad5743f35592c0f03b41c1300294d98199558082a99d1b67e07ea7c44622"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_AddSubVIInDiagram.vi",
+      "sha256": "147ec5927a434c3de22f7c06129a4739e74f52df527039facc806b9f86c545ec"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_Create.vi",
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetConstantTerminal.vi",
+      "sha256": "ca3f058ff24f6596dd2f37dcac3b5d25fbbfd771d339d8a4075df5dfe7b22648"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetDiagramObjects.vi",
+      "sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetDiagramWires.vi",
+      "sha256": "9245e706b6e886d66d6cba91eb0ad33559090798382fb89a649b58c6ac4ad09e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetNodeTerminals.vi",
+      "sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetObjectInfo.vi",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetRootDiagram.vi",
+      "sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetSubVIPath.vi",
+      "sha256": "baed43af7a175156c6691cb73813cd23cb52666b53df9477347a18ffb468dc90"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetTerminalName.vi",
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetTerminalTypeDescriptor.vi",
+      "sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_GetWireBroken.vi",
+      "sha256": "6a36b23b98cae509ad4a002915de595a92587bc1f68ed22347aafdb789b86d31"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Native_Wire.vi",
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Own20261012_CreateConstantFromTerminal.vi",
+      "sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Own20261012_GetObjectIdentity.vi",
+      "sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\file-helpers\\OwnFile20261012_Own20261012_GetTerminalContext.vi",
+      "sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\helpers\\Native_AddControl_v2.vi",
+      "sha256": "3ff175fd05d93e5dd18c862465559b4ba718aeac03b78472048ca376e72c8329"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\helpers\\Native_AddNode_v2.vi",
+      "sha256": "fd7882f16d22220470d59e9acccdfa0b89e7475262fa3949a5eaf30adcc2c709"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\helpers\\Native_Create.vi",
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\helpers\\Native_GetTerminalName.vi",
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\helpers\\Native_Wire.vi",
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\helpers\\provenance.json",
+      "sha256": "bf572eaa4750097d839062db3a89fbf0a73d5c54e69ea1754b0751d14b3855e7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\inspection-provenance.json",
+      "sha256": "0c17ab3f99d2825df9385df74accecc0fd3ceb542eb7abd19ddabfaf08cc0ca8"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeDiagram_75a8ff880a4e45db8adbb9b45fd37ec5.vi",
+      "sha256": "7052eee4ecbd20d87eeeab2563c86162d92d0596ab2489efba8b8e2891e81316"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner.json",
+      "sha256": "3fd7450d57a7c00a8e1326adfb4ce863e2372de4f1c82a4cd4347bf937bff265"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner.vi",
+      "sha256": "688d431c067bb1806d98b0b572a077309204e1660411058acd508e1aa00e1c8c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner_partial_20261012_220823.vi",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner_partial_20261012_220859.vi",
+      "sha256": "4c7cc8d1b6fd16f3deecffc1774e1c86915eb77a2658b70243be6354aeef05d9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner_partial_20261012_220913.vi",
+      "sha256": "62da20648966ea0f114f6f52f7ab64ad7633b6adb2b129c590f6b260edf31141"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner_partial_20261012_220936.vi",
+      "sha256": "49bb526c2084bf0f2231a3ab0c12b1672a98941cc8efd22cec9eccf7d5910c97"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory.json",
+      "sha256": "fd9802283afd3782bb1fe7903a755ab73482ff07dee3f954daac79e1233aa8fe"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory.vi",
+      "sha256": "6ce883319557ec672ebc70284ae245d4ada4f5ab3da0e2a9ae40f64f7fa56d85"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220735.vi",
+      "sha256": "f1accf25a146696a75c82c20451b0faa687ce170f1946059bb2fc02dd98bd213"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220758.vi",
+      "sha256": "4f69ace5f328e2f41d8f29138c2de3dfb08dcc8305df74b1e8992353ebe8f534"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220823.vi",
+      "sha256": "a98bac9c3902934256c7a3f5126564ba5fb75a07433a1d67a33e190e5731f37e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220858.vi",
+      "sha256": "ecf2b184b0e639bec060688f22da1a2cb23f6b0d16b2179d0c7c184e8ccaf8d7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220912.vi",
+      "sha256": "bf351e68b8a7e423dbef2d362ce092ee1231aed69e9b886fcf2726734b55e288"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220936.vi",
+      "sha256": "4fa07525a1c651e587d8e48f4bd1689df7bb39fcff86ace917f9a1d8c7ffaeb4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms.json",
+      "sha256": "15fe95dc1d5b4259b97aa5d0f63ef32c6ffaea99616f4c89f26652ef522980fd"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms.vi",
+      "sha256": "8e96936cb4b285580da14f6f3357f67055abe1f8d71f13045e9e2db637b9eed3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms_partial_20261012_220913.vi",
+      "sha256": "8e96936cb4b285580da14f6f3357f67055abe1f8d71f13045e9e2db637b9eed3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms_partial_20261012_220936.vi",
+      "sha256": "8e96936cb4b285580da14f6f3357f67055abe1f8d71f13045e9e2db637b9eed3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\provenance.json",
+      "sha256": "81121b6dffb7844d436225683de19fa84ae1320a51a2f59b1cc89908609bfc6e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-defaults.json",
+      "sha256": "97d8fdbc12c994dac4cf8e4a9ac82251e60407d0bb2503593aa1e16428353c2a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-boolean1.json",
+      "sha256": "c83724dc13ab4e2d680de2b879ef31b9a7bee977033226bcb161990441a726b9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-boolean2.json",
+      "sha256": "443ef5e23857d2e21e8405b419240df56ba1be7298de90ac0ab18b2de203caa1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-cluster1.json",
+      "sha256": "83dc72a075ef7bf47b0260ba566fb96674d78bbd19251161a546d9c046e5787d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-digital1.json",
+      "sha256": "0b8355bdff7fd79309e05779348db29004b8711a863aaa50b01b5f3c28951948"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-digital2.json",
+      "sha256": "edd03ad10e18e395dc73b517ff345b6964bf7a55d301622ed4b29634f9cd448c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-i32-input.json",
+      "sha256": "d6775957ea519162a5cac6b74d27e46fa1eb9cae627ed2503c27075673ca3707"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-i32-matrix.json",
+      "sha256": "720f63d25d483d6743e706e2987f5022c6588b641583f6f788aae32a05ad5091"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-i32-output.json",
+      "sha256": "84c63c07b042f1896bf6ee901819f7150cc3328e7a0eeaa3bcfe93e70d136dcb"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-string1.json",
+      "sha256": "c4218ab174d04f4dd951cc993fdd28e233fcb881423d68d291e4d0bf1746fef9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\array-move-string2.json",
+      "sha256": "6be6e35715a2e04254adbb638ada2fdb23ef5a2a79492b1766f9bdb139cb370d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\bound-control-read-reset.json",
+      "sha256": "1950c4aca7f774d84216cf736d14ec296846b0b3c6250b5306bcb65eccdcfdd7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\case.json",
+      "sha256": "0448648f978ca99b7659160dcb1a6b3f6e8b2db7e25702a3165b37b87fdd2c75"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\conditional-filter-0.json",
+      "sha256": "dc5dbb988fd032dafe270087a6f9a5199536d0fe184defd8e78fb58dccfb13c0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\conditional-filter-3.json",
+      "sha256": "c9449fe60aaf774be1e92e3e4049d4fe20c3805003ee9ad1e6a7cd6bac429348"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\conditional-filter-6.json",
+      "sha256": "510d1b18b988bf3fbb19ab2fff5a90023e99a5b652c2bc75e5a181778483a94d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\connector-auto-sum.json",
+      "sha256": "d04cbcd3a7653452a49f25789daf585267c0d4e1ec073df43ab177d16974b1dd"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\connector-patterns.json",
+      "sha256": "4bd31b12b54e7d94df38c4d19a08db4e0a021324b179167fbc1723713342380a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\constants-defaults.json",
+      "sha256": "9045756891c7f485dd9475ef8b2bfbe903c4b4b5a81c22ddc5fbe9f2902514a5"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\control-properties-readonly.json",
+      "sha256": "a3e3bf0883204f35da708129e00be3bd744e5fb9577f25a4f3094e23d0ccccb6"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\control-style-contracts.json",
+      "sha256": "8775cc8bd7c7ac54a45636225008c4ca6eebdef5b437b05a0a7a97ba2aaa75f1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\for-conditional.json",
+      "sha256": "7bea9571db0af517c2f52701bbfbceb759043d8b7406c813b271c5f8fc6bbb44"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\for-continue-if-true.json",
+      "sha256": "1dea426f990b1c4cd6abf9a5bbac6595ea3b5415ede0018363d678aabb3a2734"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\for-loop.json",
+      "sha256": "3914aafa5949c6082fc1d136577acde38d2663c7bd647dae240c8631baf837be"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\for-shift-sum.json",
+      "sha256": "4db5f1fa2ed93836d5068ce57de7075a9681e272993622a7112ff9a9770ad8cb"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\for-stop-if-true.json",
+      "sha256": "517e90b64aa80b95b034c92632f3815079be410fc8c1fa0a8157171af6d3299a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\formula-square.json",
+      "sha256": "f27fae4d86885f2593fa0eb58dda7fd11772206052b82da8be166ec839cfcfa0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helper-provenance.json",
+      "sha256": "6862e4b29003c3103199cd0b4713e13c95a7fd709199a4034ef1aa986ea1c055"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddCase.vi",
+      "sha256": "2fda76ce81f08815702c20b55ef0d7826c4f82fb1dc2f41d11cf141d12571da3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddCaseFrame_v2.vi",
+      "sha256": "a74f1ae2529f395218ddaf59f86abbc72346e5afeb4c44e6b70d2bf26bc38073"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddControl_v2.vi",
+      "sha256": "3ff175fd05d93e5dd18c862465559b4ba718aeac03b78472048ca376e72c8329"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddEvent.vi",
+      "sha256": "54e06d0cf927ecf704c2c1fa938bf31cea9b9cb32bfe4bd9705c555aef8cb08f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddEventFrame_v2.vi",
+      "sha256": "53f767f886d8fcd2d2606e7c1fd2c19f1732daba4accda80c73b60f8eba3628f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddFor.vi",
+      "sha256": "bb77ec5d8a0bf129b59f84d8de92894cd3e81dc535e269cc816ea974608d6778"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddForShiftRegister.vi",
+      "sha256": "0218ecc7f444f400240caaa67b3d16cc577c8976ab84325575db0b148fc020ed"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddGrowableInDiagram.vi",
+      "sha256": "0fb1fd0910c0b2d346974b551ae403f6b18a5d3fa471fa20f8aa882595ffdbf8"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddInputChunk.vi",
+      "sha256": "007cda562893d3bbe1ee16a2c677262bffeb3c939ecc25d5104f57ad7dbc19ff"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddNodeInDiagram.vi",
+      "sha256": "e93db76f92dcce3467726671cdac20db2d8ba28a95784494e348d53111ea9e5d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddSubVIInDiagram.vi",
+      "sha256": "60faea999548029fb9f379fec042bf5ae09f917e420a7497b515a1eea63d4e60"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddWhile_v3.vi",
+      "sha256": "9b0ee3c789ef5a2aa0ac9532ab6f25f0cd84f9a9688e8562048337435232dd20"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddWhileShiftRegister.vi",
+      "sha256": "5ee394a3fde2dd923514e86486139af837249eb577d4f2d13c0448ff97752ee2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AssignConnectorTerminal.vi",
+      "sha256": "ff3226aecf563e70974078b593fdac24676fd90418a9a45a75f64d716c0637a0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_Create.vi",
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_CreateConstantFromTerminal_v2.vi",
+      "sha256": "d19bacb3edaac481f2efbd7660e19ca5f6287441ab23fd3077902bb7c865bcbc"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_CreateControlFromTerminal_v2.vi",
+      "sha256": "ef06557eb808ff31026ef43ca21d51f30b005e5a11ffdaaf52b735e337030e1b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_CreateIndicatorFromTerminal.vi",
+      "sha256": "453ed78304f2faad9c98d11ddff294d917f1301d359fbb3609fe8274ebed7a48"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_CreateLocalVariable_v5.vi",
+      "sha256": "75a2699264e0abb133fdc38fd11887023690fee78e932305bd837d7122241bb1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_DeleteGObject.vi",
+      "sha256": "c210822959cc80f5bc1528fc83a40db5508b14b5f7619d2e682ac812a871dfb5"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetCaseFrameNames.vi",
+      "sha256": "d39b2468bbd7db52b3b8dbb2e70544fc118b85516e766c9c9f686f00b237cd49"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetCaseInfo_v2.vi",
+      "sha256": "b6fd22930bf012dfb48ae273ce2e843582e21d767d40bc6be3f3e83dc656c04b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetConnectorControls.vi",
+      "sha256": "212a36ce61828b651958f33c7e1576e5c1092293e60ef7bc4fb76cc276acd92a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetConstantTerminal.vi",
+      "sha256": "ca3f058ff24f6596dd2f37dcac3b5d25fbbfd771d339d8a4075df5dfe7b22648"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetControlLabel.vi",
+      "sha256": "84c7289d43bd66028eead6383485e80b89885f643cd2464d78324ebf77d5a179"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetControlTerminal.vi",
+      "sha256": "0a617078f305776e134ce7514499c50f89a8ba616669eb014203f265303bc405"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetDiagramObjects.vi",
+      "sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetDiagramWires.vi",
+      "sha256": "9245e706b6e886d66d6cba91eb0ad33559090798382fb89a649b58c6ac4ad09e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetEventInfo_v2.vi",
+      "sha256": "d51c3d0ab5e762f69aa5af57a9799992fea39bf86ef0cb7f4b49403817f2a737"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetForInfo.vi",
+      "sha256": "48fe6437c15f823182ad94bd26dd86d64ccf263181f5bb343ad6614e52ae9e07"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetForTerminals.vi",
+      "sha256": "cbf622bfe456c98e0ded128f64db69baf987bf010def187eac424e3cff99749c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetForTunnels.vi",
+      "sha256": "50d57e1cea0979f4b802cd99d5e00282e4c44941c17b53b0916ebcb04d67d400"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetLeftShiftRefs.vi",
+      "sha256": "4605bf2e30d016fe7054c686220a5c404fcd93ed690771f2a057df2e409e3695"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetNodeTerminals.vi",
+      "sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetObjectInfo.vi",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetPanelControls.vi",
+      "sha256": "6d64fe95f2d24d016b0d75777cf08854c8adbe4c796ffd20d91be07b6045cbb0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetRootDiagram.vi",
+      "sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetStringConstantValue.vi",
+      "sha256": "2b112d0b4ad3d99dae8dc07a56cb0ee6d19f3f08dca499e6a60832b3cf6b2c47"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetTerminalName.vi",
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetTerminalTypeDescriptor.vi",
+      "sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetTunnelTerminals_v2.vi",
+      "sha256": "5c6b0646e80e10f0417d6b3b2746909d9c682affdeb95f97228009a047cf3f97"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetWhileInfo_v3.vi",
+      "sha256": "f3b9ebab7f60671833f82b9de0333c0ef5ed22474e590043c5024053e45f0ad7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetWireBroken.vi",
+      "sha256": "6a36b23b98cae509ad4a002915de595a92587bc1f68ed22347aafdb789b86d31"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_MoveNode.vi",
+      "sha256": "814b7bd15cdd11a6d789b6dcf3924bc40b5c87a9a75d9271090cf3b474eddf4c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_MoveTerminal.vi",
+      "sha256": "b13cb1004ed05d6b133756a7a57031bf1f5e81a87026953a3fd46145985f57e8"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetCaseFrameNames.vi",
+      "sha256": "035694761203101e7e90320f95663792ea7666a239e0bc8bebd4b31e0dce9cb7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetControlLabel.vi",
+      "sha256": "2a41e72b01ab34279d49bcd9168b2495441c66cf13af3d83aef7e564aa000919"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetControlPosition.vi",
+      "sha256": "7a3f6316dbcaaf88b1163bdd052d1cf31b43af4240bb7c0fff9ce52308eb4609"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetDigitalNumericConstantValue.vi",
+      "sha256": "839b05ad69ab063351279d8f96803170aac8424083f07efe9976a4cef5273b08"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetLoopTunnelIndexMode.vi",
+      "sha256": "c12b02c1f6909f0c1dcee635de8cd1864680b02f77813c2db0f12b92e0701843"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetNumericRepresentation.vi",
+      "sha256": "b3b60a6ccdc5e038adc22245af0f891eddd5ca4b4e0e4459b2a6e0998f228c0a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetStringConstantValue.vi",
+      "sha256": "32468ee8e2735bb82813cb03dbd8abcfc95d10f7a3b608bd7b0cae5ea02f424d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_Wire.vi",
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_AddControlToOwner.vi",
+      "sha256": "cb0500ce97595a0e73a7c4d7278ac4d9ed5aa5f88cf436e2d68c542bcae0343f"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CleanDiagram.vi",
+      "sha256": "5f6e67407b0b93eed0a337d4a94f8e8a181c7fdc94845aab20e23715f7c6d378"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_ConnectSourceToStructure.vi",
+      "sha256": "70d9834cb89605bc66817989932e0af374735c2482427516f72dbfde20edea72"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateConstantFromTerminal.vi",
+      "sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateControlFromTerminal.vi",
+      "sha256": "25310668d586b66091e50f871db2fe2f07d3e10a438ab6a02cf621202e361215"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateControlReference.vi",
+      "sha256": "d9f97bf37b6a15c99fdd171928cccdfc179d11ecd1874197507f71e6ff4510ee"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateIndicatorFromTerminal.vi",
+      "sha256": "9f2c13b083a928e34dc20b147b9d5a252274de28594129c13dcc13ebdb47bb11"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_DeleteFormulaParameter.vi",
+      "sha256": "ccd8f67ba61cc48064b17073babedb915e19c2726eec9ea7651cd470b017c7b2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_FormulaAddInput.vi",
+      "sha256": "70b69a170aeb9c5ccb19d90bd246c55d9db597bad4916fe621261682d93c3eed"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_FormulaAddOutput.vi",
+      "sha256": "dcc5ff06fe71d59cf821bf32659edd630e23a9304f5f51c0f4f0badeb2defe42"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetArrayInfo.vi",
+      "sha256": "2a1235fd5e5b40289d0f83b1e6b59dd82eebb08894b844dbd05e22bc5aa8fbef"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetBooleanStyleInfo.vi",
+      "sha256": "0b5ef4fbd0331b194c93d913e98e9a119c57c2d9348db99f165a232c75814824"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetBooleanText.vi",
+      "sha256": "f62a356eacf4fae4f4ea7a26319558995d5fe07a90bc178ed1b8ba84fee308c9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetConnectorInfo.vi",
+      "sha256": "851e187934ebcaf08557e8aa9a3700abd7863a54bd42e897b739825a7e6ce84e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetControlIndicator.vi",
+      "sha256": "1c7c3eb4a7de4b75934b9f6f37f78d1e7ee62667cc1d4034f50d90ddeb8425b9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetDigitalConstantValue.vi",
+      "sha256": "2353c7645c1ae5c075fcd88f11c75045b354117fe9aa84e94a802369d6541f5c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetFormulaInfo.vi",
+      "sha256": "543a5574f55774b924735541c5592d9e6f452d5b761204af21ca234cca42e703"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetFormulaParameterInfo.vi",
+      "sha256": "1a68ee46e9ea4c5d081cec1e3132c309a4834770ca8703b7af7cbffcfe9091d7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetForStop.vi",
+      "sha256": "fb5a07fa7fd15e6c9af9b6e62fba114f7aea0c8f4c0d8a365c9ac93454b25b7d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetForStopIfTrue.vi",
+      "sha256": "6852938519f69033be0782fac7581367eced62325f9b8cd053faeb2bb240ffcc"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetInvokeInfo.vi",
+      "sha256": "62eb48b1fcff6a1ce9b7e882200c44c78b6a445fabab1872018d0e1ee659421a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetInvokeTerminals.vi",
+      "sha256": "f5a669a7321d292e921958b4f0f6c41f54d0cdbec31d476769f400875506e80c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetLoopTunnelConditional.vi",
+      "sha256": "9660c8c37d3c1efc6cedf2fad53ad4a3f80449383e4b444cc7efdd8d417c3ada"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetLoopTunnelConditionTerminal.vi",
+      "sha256": "0cbb5a697b587251fbdd451b1236b9aefd3b89b4d480ed28586f7271e27e1df2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetNamedBundlerElements.vi",
+      "sha256": "c19cce5d0397f026e8efda016a0ad1a868105462e05f3a18f645ef7ff156f083"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetNamedUnbundlerElements.vi",
+      "sha256": "c146b82d25aeec5942a4e66c867b41565d44cd067f17be4d5f77516046ae85c7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetNumericRepresentation.vi",
+      "sha256": "483a5a00aec0acaa8e75a74ce285ed45fe280839d0abd14ba5c197a949e6e8f0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetObjectIdentity.vi",
+      "sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetPropertyInfo.vi",
+      "sha256": "3edab7ada7e52bfa7e9dd1a1b420b0e3b0ef94090d08480594a32461d5ae978d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetPropertyItemInfo.vi",
+      "sha256": "14ec413954b59169a4498436dbf676b6e76f8e4e56bed650297abb3d067a55bf"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetStructureInfo.vi",
+      "sha256": "02e8ecb95ceeda8221202461a568331856f5888db460c8b376ee7b363ed034f9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetTerminalContext.vi",
+      "sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetWhileStopIfTrue.vi",
+      "sha256": "fc30baa101f67b3f393066cc0208d48a8f3729272532e73912d35ef0531ad3a5"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GuardedAddNodeInDiagram.vi",
+      "sha256": "dea278358f127ccdf0b601114f9fd2cb64814e6882c8d666e4ce918c2d0ffab5"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_MoveControlToOwner.vi",
+      "sha256": "2d248de92039718e0ad3c8e49638deb78ac38a494827a51cd213c269c6a641ba"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicAddRootDecoration_v2.vi",
+      "sha256": "d3da1c7d3e37e41474b91264aae5ada41b726efb360e57fe3a7f3e1c849528df"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicDisconnectConnectorAll_v1.vi",
+      "sha256": "b3260666a0757feb8fdcdd3ceffddd5d54328e6325454ff32e864d0b0cf0819d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetCaseSelectorSides_v2.vi",
+      "sha256": "82c24877fa9b41e0fccfc65741f3d7069f0dec204905e172ffb5a06165ccc27c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetControlOwner_v1.vi",
+      "sha256": "c90b07b8d1d7a688107dc4e36b847b3503b4d36dda206940e9cab35685874c1c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetForCountSides_v2.vi",
+      "sha256": "4b1a37a7ae0dcf45b2aea45e5183baa72f9d4cc1c0a1d0df533276e3e83f67d0"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetNodeLabel_v1.vi",
+      "sha256": "b12a05142a26379057d75cfef88a45e46c0cb59c759cd8aaee3116a30f6eef37"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetNodeLabelVisible_v1.vi",
+      "sha256": "12db6869d67060c2e67ef8a1e7fe5be72d6e3d934356235bd8b860034e797e3c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetObjectPosition.vi",
+      "sha256": "d58b58006d96dd9ef30fd3a23d64857949e7b432df4d22f1a668d01d7a9c2847"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicSetNodeLabel_v1.vi",
+      "sha256": "5308af0a71088a7d0107418dfcba46839152b928d90ca03b64994382db153d67"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicSetNodeLabelVisible_v1.vi",
+      "sha256": "9592a982df2d92821eaf5b856d6e379acf365c874613616c7a2e7fd06a1a3ad4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SelectMethod.vi",
+      "sha256": "3b39e4062cdd92dce421b81897445c5d0b13fc8465397ea2a0be4c182a0f54af"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SelectProperties.vi",
+      "sha256": "9c481e423d5b331028474c19b19feffc1d6e4221d030655d78177ce410822e34"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetArrayDimensions.vi",
+      "sha256": "a1362cddca9d35a363b18d7bef14d3be7940eafbaf4bc94027d2ef439b46a216"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetBooleanStateStrings.vi",
+      "sha256": "ea5c3a87c0c45547b024e05a5476356a999c415ea79d671490330b7e0d372aaa"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetConnectorPattern.vi",
+      "sha256": "bc910f3b691f515c9c61ad83451e158aab1a44df9f400b9cb980f20585daab7d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetControlIndicator.vi",
+      "sha256": "ce01e30e9046fe47d475b06bd999d759a23bb1a42a00e9ea66a980b3d5744421"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetDoubleConstantValue.vi",
+      "sha256": "dd49c5952f6f06bc39f485fb00c76f83f3245098e3d3b4e4aac3b23f80153859"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetForConditional.vi",
+      "sha256": "cb1244819fae8603ddc2b4b6739b7351cdd164edc83450ed94276c5299742d19"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetFormulaExpression.vi",
+      "sha256": "50dc8e58f647c80b50e882162eb049ee8a1f3aea03a2a92ff39df30410526faa"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetFormulaParameterName.vi",
+      "sha256": "390e5bbaa2a34b6bead176e3063f2db36fcdc1a029e94ba62ba10611a90862a1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetForStopIfTrue.vi",
+      "sha256": "d87f45f1001d3e0fe0e87d5ed763f11b13d9d149880c2d4ca0ed5db92714d429"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetInvokeClass.vi",
+      "sha256": "9ebe311b246a3118bd5410555a6644c4f45f0d15f5d50f712046e9a5fd86ee51"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetLoopTunnelConditional.vi",
+      "sha256": "d9c24e2ded21160feeecbc6bc2201630296ab88d0afc3925ad5ba0f7a839f2ff"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetNamedBundlerElements.vi",
+      "sha256": "aa9ce65c1c103a879a64ad963d4dc8bccdac4ebb11cc1249ad3a714025d41db3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetNamedUnbundlerElements.vi",
+      "sha256": "d81e4c3bb0e7fd7f84e3cb7a657b8d0d6067475275bd3bf4cc90ea788ecbff78"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetPropertyClass.vi",
+      "sha256": "a8045417e4a51368bccb2a34ae14d07b11f0a845ddccd5e56ab1fca97830e888"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetPropertyItem.vi",
+      "sha256": "8086deab16522b0925cc0889c148d1a75c1c6471a7444ff15846ca80fdf102f3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetPropertyItemWrite.vi",
+      "sha256": "3cad8685cde26caa29e146bbc1b9627f71ead7b1414016b95b3f5bfae43bab01"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_SetWhileStopIfTrue.vi",
+      "sha256": "3094291e95093f3b0c19556dc169673b8ab07ecea1153240216809b2191392d4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261013_ScriptingAdd_V2.vi",
+      "sha256": "0c1a35cfcdeddc798e06cb057d50570b8e90e74cba47ce4d8c3347e11ab2ea9d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\indicator-defaults.json",
+      "sha256": "7b6f9078b0d9ef94957eb38050234e1e03d1d73f7a496ed30af875ed4e2e9d37"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\indicator-direction.json",
+      "sha256": "f5a581ce1aab727268c2190cc924db42bf422af9a4be573ea899bc7faac4a02e"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\mit-scripting-add.json",
+      "sha256": "69d5a51ad62d7da5b25d2c5486732c0ec72687e7a46370a4a585299d08dbb4f9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\multiply.json",
+      "sha256": "b2c540c5722da5c347c99c7543d4154d6e1bec1f3641db60c4caf60a5e95b022"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\named-nested-cluster.json",
+      "sha256": "196e43f0f8f9d29314fbbc8cc7d58d34e24e91381aa2472f62328afa125a6a9c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\ni-styles.json",
+      "sha256": "a91fa58cad81a267b07dbbde69b81548c60322148b333898953ae9cf92076dd4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\numeric-complex.json",
+      "sha256": "037723d3114b1dc333380b60e35267ec4a6fa79fb473e1663ec464acda3a5a8c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\numeric-representations.json",
+      "sha256": "9d86fd6f2a4b01e11251bb2748fdf67c82df75fe9d59b7bc7084b77e128b5793"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\numeric-values.json",
+      "sha256": "19abc49af61e9c98a58f1b42ec1098cbdf6b2de6a1ca89102b9c087dc08cb6b7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+      "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\source-structure-case-true.json",
+      "sha256": "4e230e9987a041c730c6cc6372eb91dd76dee959684656bad0441e0b85fa0e44"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\source-structure-case.json",
+      "sha256": "d4822645541542574dabdbfc25920b3e8d155eff3d26f878c8a8593fcce2b0a4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\source-structure-event.json",
+      "sha256": "b740e8b3e4c6e551f44edee807e40039ae02e7a965883905abd1e39a9160482c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\source-structure-for.json",
+      "sha256": "c4d0a6e3e8cac040ef702fa30c3dbf50d5a363586bc393ddaca61015476b9297"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\source-structure-while.json",
+      "sha256": "c9b21dddb8d4631ee670d39224d8beddbfa8dadc0d4a72edec8bcd2c5e9141e9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\strict-value-array1.json",
+      "sha256": "11ba3b3fe65c24a8cc6f09ffd3cb6364932a6e2c15d2c557da1014cb37fa3655"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\strict-value-array2.json",
+      "sha256": "ed6525f7d4b87f5e36315ebe915eb031a1137ab029d848339e42b7b02d871856"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\strict-value-boolean.json",
+      "sha256": "8d1ed5e8497b9f87e39c497c48725f37e89fd5a6c6543b4a37ecc69f2164d54b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\subvi-function.json",
+      "sha256": "d7eea52f8142c8c9e36c531749cb59205b46b02e5be286a3c66fbfd725272228"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\typed-array-defaults.json",
+      "sha256": "beea10c4495772fe5652266ef69822b6c8846357f19482a947814f2a5621fa62"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\typefile-ctl.json",
+      "sha256": "c404f20c107ce7270f147cdde168285cab6e682e4cbe391c8b743e5ad728b10b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\typefile-global-read.json",
+      "sha256": "6a916ba3949367d5499d41718aeec8ef232c94179a4e3a619ce82c38af7fd2b7"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\typefile-global-write.json",
+      "sha256": "144982be561c46740639ed81ea85ac990cbd93197d9e90068d1fee22e9fc2299"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\while-continue-if-true.json",
+      "sha256": "d890426079eb350e2504ceb18c4c1e30d8901a920c674d6d8120c1dbc4fee73b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\while-error-stop.json",
+      "sha256": "f4088ce7f3acc93fea7101b780ece544cec3cbd78d81ed91301aa79b5446b8b5"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\while-shift-sum.json",
+      "sha256": "1feec851fcd5c50749a8147e44ff0a6f3bf0716cef0dd57c9d155203fc9de1d9"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\while-stop-if-true.json",
+      "sha256": "829a443cbf7073e01212707ac2bfa601b9aeac6aa9505cc003fc97f037f1c7a3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ApprovedOpenSource.cs",
+      "sha256": "57be6a5ce888f5450dc5cad05ed6b9ae326bd9022677126d9cdd325b50fdfe8d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\BuildSpecs.cs",
+      "sha256": "002e5aba6f75152b6d46619d36769e348c9f0bcd6eb93f30b9dde4b5af3b4555"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ClassArtifacts.cs",
+      "sha256": "4cde14d5bfd9741eef52da0ee2ed09ecf403b5e6a9cfd9459a139d27feb7b583"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ClassInterfaces.cs",
+      "sha256": "ad9e4cda2d2047f1d264b2f84ab813d24698ed4d93b487baa53bc3afd35287e5"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ClassMethods.cs",
+      "sha256": "19aaeb05e77c74d4798fcedd5abd2d41dda2506f9833b7401bbf84dae5e6f270"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ClassOop.cs",
+      "sha256": "0663e13dab96233abedd650d623031ba70e843899e458bb59ef8c991e93a300d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ClassSnapshot.cs",
+      "sha256": "8c5588cba2bbea9e65b2002d2e09d8f188642b8aaec47eff1b8275f859303049"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\CompletionStatus.cs",
+      "sha256": "332047f943d7585a6f8ff0e9e7690c5c95014551f3a80ca87744319e85ef38d1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Core.cs",
+      "sha256": "87ab42a924f2c18f0fb53d41e5bbccb1c1338288857b48e6beb3444522ee591c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Desktop.cs",
+      "sha256": "d97d7eb67522d9c75537a67cccd8c960e86a0fa104ff13a9905901b497ab2531"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Discovery.cs",
+      "sha256": "3135a0c7ce5d5f70489a26765e15564c2b65eb9608008724844defef0cb16732"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\GeneratedTypeDependency.cs",
+      "sha256": "4118cb2f86e23dc6ed03fece60004e2dc5e363a8632fbf5881930aa3c018ac45"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\GeneratedViDependency.cs",
+      "sha256": "ac7073a4394d0af19baee0bd4c4f28487ce729ab471248624b7595433da50a75"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Libraries.cs",
+      "sha256": "c178c6ef6ab2adad0ebdd1a897bb78f0b84684aefd9b63956c9e8447d48bb029"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\MethodBody.cs",
+      "sha256": "78442cc237f7ed42c316f27bce2e2b3ec6cd651aad75946de727d294755b66c3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Native.cs",
+      "sha256": "17e681c1d218b4315caada554a32f6fc9705354571186518510c08edb68f051b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\NiApplicationLifetime.cs",
+      "sha256": "fde5a4039aa7feaad0038ccb5f5fce3aec5802052c052b812e37fa54e5a334b1"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\NiDistribution.cs",
+      "sha256": "465b2e485586d7ddba87eaee49ca39c63a60a2c3705ecb82df00812c82abf07c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\NiFileObjects.cs",
+      "sha256": "be233ee556d07566aec6d566d313e7d90ede8755f9f39e5c1b062a420f678e8a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\NiRecipeFiles.cs",
+      "sha256": "f26828a89a739e54503998c0721545d7c5d247eca39c1ac67b9ddb363c812417"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\NiSessionLease.cs",
+      "sha256": "b616bed50d8c5a9389301fcf4cd1f05a8e6bed894abc83d887bb0feeef600fb2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Program.cs",
+      "sha256": "2c2aa16e3cd30a74c2e408b2234e435bece29fedf66e8aeb41f95582411e9678"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ProjectLayout.cs",
+      "sha256": "4e2a3cb32113223a8bbb0c371c608e6491ebb76fcba867c7cd5160f5502d5363"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Projects.cs",
+      "sha256": "275cbad09bd37d040b6046631405031544fedf98179fa0f7cecf0f1580fc4b9a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ProjectSource.cs",
+      "sha256": "61f2475433cecfa8739c92f2f94e806c09b65321a154caecd4807da2f1560d11"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Protocol.cs",
+      "sha256": "0627ee9cb0c1b064902e46633cf417327586ed10462fa12327ae099516b64387"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Recipe.cs",
+      "sha256": "13891f1baedd7e79d753116a8809ff2e6df4a7f9d6bbe4a9d684e6fb401d4960"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\RecipeReferenceGuard.cs",
+      "sha256": "d8ab8829f7045111cd2e036aa5fa82b7915bfb54b97b0d55b03223c57eab9439"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Tests.cs",
+      "sha256": "df28ec311d894a9bee41a305f36f62afa55df740d0cea8030062d6e111aa6884"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\TypeArtifacts.cs",
+      "sha256": "d80c52945f43916da3338f9d1ac8d549b5e3b65a0d83732ad919c74f18f7eb7c"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\TypedFilePlacement.cs",
+      "sha256": "9a71ff105755b75b01c57ac298785ffc78562edf24cf94dc238a144e4f3b3b82"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\TypeImport.cs",
+      "sha256": "b075226fedc876bbaa7c0d318202be7f0cbc60beca6ccd1bdc44dfd83ba450ba"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ViImport.cs",
+      "sha256": "4e8a1e8dc03380446f19a57e7d16705acaeaa9a89c3c038ef3fe38ea76ba91c4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\ViMerge.cs",
+      "sha256": "38d212a859e365bb6faf4440d0779f2ae4ba5b1fb1d2e5c4a802fc646cd6894d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_AddConstantFromTypedef.vi",
+      "sha256": "3561a2e6ecc8ff3848787c3da7dfeb64bb42f0de5923c1d761f3b7fa0557bcaf"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_AddControlInControlVI.vi",
+      "sha256": "9f15ed753e5dbcd8a8bf55ec6071d801e57de1b74ae2a045d9d15d3c0f5fe734"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_AddGlobalInDiagram.vi",
+      "sha256": "150b4674de5aab211cb152270b35b4225cac7668cd20acc265a9cd55eb8cc37b"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_CreateControlVI.vi",
+      "sha256": "cdf93f1e29dc23d9029abb9e0866d850fecaf905438613d0ca67640ec6a7afbf"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_GetControlVIType.vi",
+      "sha256": "31bdb1107fcbdcf8847a84388ddce0b6015c220841970eb84cee2a4a2d06a30d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_GetGlobalControlName.vi",
+      "sha256": "95d797a939a4a4c95dce1485c2fe79783d3d6d6a5fda975a29a57ca984baa964"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_SetControlVIType.vi",
+      "sha256": "038eadd968f01739e928b02cc8c5092c052614a7df8daf9f84ec3e614c6a806d"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_SetGlobalControlName.vi",
+      "sha256": "cf10a0a0d1e6b574823bff30a2ca0b48bcc12c74d83e6d7cff8ef709951eafb3"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\Native_SetGlobalWrite.vi",
+      "sha256": "826b695b966873d1ea79f3cee030ff031c25a3c5dbc52448c3f28911a379ecc8"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\type-helpers\\provenance.json",
+      "sha256": "f39ec01d3fa2b4e5be7c7692586809f1f1166aee7237fc0335533473bed5c490"
+    }
+  ],
+  "batches": [
+    {
+      "passed": true,
+      "completed": "2026-10-13T21:00:15.9449366+08:00",
+      "suites": {
+        "methods": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\custom-methods_33855001072c4a418c4672561c7e04b8",
+        "scalar": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\oop-suite_fc03d8b6ccb94e4eba3cb3b32a3f4712",
+        "complex": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\complex-class_b2d3e24e47894780be4542c98b29f4a8",
+        "project": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mixed-project_81217f52a9b44fe4a64ed2508204f91c"
+      },
+      "executable_sha256": "4dd591c775973a05255de2b9cad52b97c132fe704ae08a2c85bb5e6c3d0e3a63",
+      "window_operations_used": false
+    },
+    {
+      "passed": true,
+      "completed": "2026-10-13T20:55:42.1280862+08:00",
+      "suites": {
+        "ranked": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\ranked-class_b6cc56576a7e4c34bd82fe5d64789e84",
+        "nested": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5",
+        "interfaces": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\interfaces_b14219e7f355479cba99fe21b0982127",
+        "libraries": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\libraries_e5d5ebc434964362be115de4e7edb584",
+        "build_specs": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\build-specs_f85b98c21e9a4cfbac569c67806adcfe"
+      },
+      "executable_sha256": "4dd591c775973a05255de2b9cad52b97c132fe704ae08a2c85bb5e6c3d0e3a63",
+      "window_operations_used": false
+    }
+  ],
+  "receipts": [
+    {
+      "suite": "methods",
+      "checks": 7,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\custom-methods_33855001072c4a418c4672561c7e04b8\\acceptance.json",
+      "sha256": "f07ba2396562a76f67585067b883a8be1ee1b4e1102f0a2523caed1d6b70d542"
+    },
+    {
+      "suite": "methods",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\custom-methods_33855001072c4a418c4672561c7e04b8\\custom-runtime-create.json",
+      "sha256": "c5c3548270d78185bc4b9f9f1da548f084d8c1f252fa44400849291204356b34"
+    },
+    {
+      "suite": "methods",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\custom-methods_33855001072c4a418c4672561c7e04b8\\custom-runtime-reopen.json",
+      "sha256": "c5c3548270d78185bc4b9f9f1da548f084d8c1f252fa44400849291204356b34"
+    },
+    {
+      "suite": "methods",
+      "checks": 16,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\custom-methods_33855001072c4a418c4672561c7e04b8\\typed-runtime-create.json",
+      "sha256": "a50f3a8b81088ed025420c25ec63961493288cda7e505570bd28ba6a82cb922d"
+    },
+    {
+      "suite": "methods",
+      "checks": 16,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\custom-methods_33855001072c4a418c4672561c7e04b8\\typed-runtime-reopen.json",
+      "sha256": "a50f3a8b81088ed025420c25ec63961493288cda7e505570bd28ba6a82cb922d"
+    },
+    {
+      "suite": "scalar",
+      "checks": 10,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\oop-suite_fc03d8b6ccb94e4eba3cb3b32a3f4712\\acceptance.json",
+      "sha256": "590920b62ad191abe5ca9d431eba08a814a3e4d8e2b404fed309596e23ddf0fd"
+    },
+    {
+      "suite": "scalar",
+      "checks": 23,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\oop-suite_fc03d8b6ccb94e4eba3cb3b32a3f4712\\runtime-create.json",
+      "sha256": "55ae9276e1c0c4f473361d27e090c77a61d5b847b85de69c92b98bcdb4239182"
+    },
+    {
+      "suite": "scalar",
+      "checks": 23,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\oop-suite_fc03d8b6ccb94e4eba3cb3b32a3f4712\\runtime-reopen.json",
+      "sha256": "5a003278fcfcd5e8a0b7f0e651c8eb431ec873f83cce9e97a7744a5bb2e39d7d"
+    },
+    {
+      "suite": "complex",
+      "checks": 14,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\complex-class_b2d3e24e47894780be4542c98b29f4a8\\acceptance.json",
+      "sha256": "0742a98d71fa7a0f53f55c3052b7790ec58eb3d1ffb645b173b6e3f26afe379d"
+    },
+    {
+      "suite": "complex",
+      "checks": 20,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\complex-class_b2d3e24e47894780be4542c98b29f4a8\\complex-runtime-create.json",
+      "sha256": "6786f10ffb1e9c292f3f5f57ab02b9403c32f5fd6693b4c38d978107b409b123"
+    },
+    {
+      "suite": "complex",
+      "checks": 20,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\complex-class_b2d3e24e47894780be4542c98b29f4a8\\complex-runtime-reopen.json",
+      "sha256": "6786f10ffb1e9c292f3f5f57ab02b9403c32f5fd6693b4c38d978107b409b123"
+    },
+    {
+      "suite": "project",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mixed-project_81217f52a9b44fe4a64ed2508204f91c\\acceptance.json",
+      "sha256": "36b388558572013ea0ee1508cf1d6613e5bd5b1dc5f519e0f0ee5dce40b95e45"
+    },
+    {
+      "suite": "project",
+      "checks": 0,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mixed-project_81217f52a9b44fe4a64ed2508204f91c\\copy-reopen.json",
+      "sha256": "6bf842baf573c6c6b2a5b91120e6a7384a1bc692c64ba7c9f66e3ec82242a916"
+    },
+    {
+      "suite": "project",
+      "checks": 0,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mixed-project_81217f52a9b44fe4a64ed2508204f91c\\project-reopen.json",
+      "sha256": "8e19c3b27e1976066627e8868bbb7e46f7dd20ff79b29edc5e57fc755675c77b"
+    },
+    {
+      "suite": "ranked",
+      "checks": 7,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\ranked-class_b6cc56576a7e4c34bd82fe5d64789e84\\acceptance.json",
+      "sha256": "59e9775b4676d91a94aa17a1f1a85768fc23c63d2006477d026d1b941ecbfd25"
+    },
+    {
+      "suite": "ranked",
+      "checks": 20,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\ranked-class_b6cc56576a7e4c34bd82fe5d64789e84\\complex-runtime-create.json",
+      "sha256": "75f0714bb880565b433d2a5eea284b51602662d76c24f3349648d84c0ea2a7cd"
+    },
+    {
+      "suite": "ranked",
+      "checks": 20,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\ranked-class_b6cc56576a7e4c34bd82fe5d64789e84\\complex-runtime-reopen.json",
+      "sha256": "75f0714bb880565b433d2a5eea284b51602662d76c24f3349648d84c0ea2a7cd"
+    },
+    {
+      "suite": "nested",
+      "checks": 7,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5\\acceptance.json",
+      "sha256": "e3e22fb9e8d2d420bcf867980ba6ae962b435463a1f8415b3a280541fca0572d"
+    },
+    {
+      "suite": "nested",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5\\custom-runtime-create.json",
+      "sha256": "0008a21c2b1e5a57c75ba1228ac8d9c605099f295685ee5fd4bc5eb94dbc583e"
+    },
+    {
+      "suite": "nested",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5\\custom-runtime-reopen.json",
+      "sha256": "0008a21c2b1e5a57c75ba1228ac8d9c605099f295685ee5fd4bc5eb94dbc583e"
+    },
+    {
+      "suite": "nested",
+      "checks": 16,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5\\typed-runtime-create.json",
+      "sha256": "a50f3a8b81088ed025420c25ec63961493288cda7e505570bd28ba6a82cb922d"
+    },
+    {
+      "suite": "nested",
+      "checks": 16,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\nested-methods_ca0efac9b10649f1abbd3918ccb378c5\\typed-runtime-reopen.json",
+      "sha256": "a50f3a8b81088ed025420c25ec63961493288cda7e505570bd28ba6a82cb922d"
+    },
+    {
+      "suite": "interfaces",
+      "checks": 9,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\interfaces_b14219e7f355479cba99fe21b0982127\\acceptance.json",
+      "sha256": "be2efc2e7c08ad61d6ec3fe2c4ad8af2a00ed910c94b9cc659d5d425d41b3943"
+    },
+    {
+      "suite": "interfaces",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\interfaces_b14219e7f355479cba99fe21b0982127\\interface-runtime-create.json",
+      "sha256": "fc7d797bf319a89cec0f70b3a8238764aa82b9b1eb622bbb503098de6ba9dd98"
+    },
+    {
+      "suite": "interfaces",
+      "checks": 4,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\interfaces_b14219e7f355479cba99fe21b0982127\\interface-runtime-reopen.json",
+      "sha256": "fc7d797bf319a89cec0f70b3a8238764aa82b9b1eb622bbb503098de6ba9dd98"
+    },
+    {
+      "suite": "libraries",
+      "checks": 5,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\libraries_e5d5ebc434964362be115de4e7edb584\\acceptance.json",
+      "sha256": "72c47d380524d24f234e8ac767850f739a25403393c93a6cb1b2c0e62ed63342"
+    },
+    {
+      "suite": "libraries",
+      "checks": 10,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\libraries_e5d5ebc434964362be115de4e7edb584\\library-runtime-create.json",
+      "sha256": "8e54d1d1dab47d4fe69c45fe4b240dd36d8abfc2a72784b3e7e794cb521cd231"
+    },
+    {
+      "suite": "libraries",
+      "checks": 10,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\libraries_e5d5ebc434964362be115de4e7edb584\\library-runtime-reopen.json",
+      "sha256": "8e54d1d1dab47d4fe69c45fe4b240dd36d8abfc2a72784b3e7e794cb521cd231"
+    },
+    {
+      "suite": "libraries",
+      "checks": 10,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\libraries_e5d5ebc434964362be115de4e7edb584\\reopen-runtime.json",
+      "sha256": "8e54d1d1dab47d4fe69c45fe4b240dd36d8abfc2a72784b3e7e794cb521cd231"
+    },
+    {
+      "suite": "build_specs",
+      "checks": 7,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\build-specs_f85b98c21e9a4cfbac569c67806adcfe\\acceptance.json",
+      "sha256": "89e45356fb8db3acb46bca8071094b17b66b6cade421d77749d11d3e07fb3d0e"
+    },
+    {
+      "suite": "build_specs",
+      "checks": 0,
+      "passed": true,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\build-specs_f85b98c21e9a4cfbac569c67806adcfe\\dll-runtime.json",
+      "sha256": "cf314a0023c9e890682b80afd62e7dd56c4c98baca0a4fa1c237cd411a72d79a"
+    }
+  ],
+  "core_contracts": [
+    {
+      "operation": "LoopTunnel_Add_Condition_Terminal",
+      "accepted": true,
+      "basis": "公开配方启用输出索引隧道条件端子；过滤0..5的三个有限图分别得到[]、[0,1,2]、[0,1,2,3,4,5]，运行及另一个客户端重开均通过。未启用条件时取端子及给输入隧道设置条件均明确失败，不运行VI。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator-parity-matrix.json",
+          "sha256": "8b77d52b9ad7bb0ca0b75187b8a3b0a43c27e90437962344987efdb3bd4bf69d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-errors-acceptance.json",
+          "sha256": "6dba86ad02dcadf0ea065164b9493019d06f8696ec61167441d2ac5830edb350"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\conditional-filter-0-runtime-acceptance.json",
+          "sha256": "68841eae25085b7f90baf74a830b9c5bedcb99f4cff6f2461a688a9553032aad"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\conditional-filter-3-runtime-acceptance.json",
+          "sha256": "06af63309fcdf243bf2a4454a632c4a1238fc6f3cceebe2b5eec5bb6add54ced"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\conditional-filter-6-runtime-acceptance.json",
+          "sha256": "6ae55f0d5afec58938a3097245cbd42ae69f88594fd95cb39c0b555a228015e6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\conditional-filter-0-reopen-acceptance.json",
+          "sha256": "8f1dd0db7ce74d12f8dbbb6d50d27996d17353ff351e2081b2acc7d1d715efba"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\conditional-filter-3-reopen-acceptance.json",
+          "sha256": "054f206a7e5e482d8bad0e641c681f6b61c64a5ec588558b6e579c79b189842f"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\conditional-filter-6-reopen-acceptance.json",
+          "sha256": "55562657142ad43b6ff0df39b096d7f11b74feca798b3c304b9bd592f31cc969"
+        }
+      ]
+    },
+    {
+      "operation": "Loop_Add_Shift_register",
+      "accepted": true,
+      "basis": "真实应用配方把左右内外端子连通：初始化10，For N=5累加i得20/末次i=4；While布尔停止i=4得20；For N=0保留初始化10。三产物运行后磁盘未变。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\loop-shift-runtime-acceptance.json",
+          "sha256": "1944dba9ce031703c1e8f001944b4beecb1725f2afa3d50331c0cd4fb0379e6e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-shift-app-build.json",
+          "sha256": "3bd89450b998df86ff57d7e1a67912f4c454a494f3d4ee8e5b544fda8b784b9c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-shift-app-build.json",
+          "sha256": "290703c06f8af24ed370c2e1fc7529474bb797d1566ef0431ec7ecd4dc80ee5d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-zero-shift-app-build.json",
+          "sha256": "f155488df31c174996a15bac16758fa3262e616d4d53f4e6cf24775ff88a0845"
+        }
+      ]
+    },
+    {
+      "operation": "Loop_Conditional_Terminal",
+      "accepted": true,
+      "basis": "For/While 均使用公开停止极性setter/getter。Stop-if-True 与 Continue-if-True 四个有限图末次i均为3，保存后运行及另一个客户端重开均通过。For条件端子创建与旧i=2图亦保留。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\ni_seed_20261012_155454\\acceptance.json",
+          "sha256": "3c909e7326ccc9c0cdcf026011f1a8a1b88464db8ddc7ab9b1a059eee381e188"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForConditionalDemo_20261012_160813_f793622f\\recipe-report.json",
+          "sha256": "e924a607d6602e5bac0efe82f279c0edb3b0d185d60fd64c964bca2f7dfcf5f9"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\loop-shift-runtime-acceptance.json",
+          "sha256": "1944dba9ce031703c1e8f001944b4beecb1725f2afa3d50331c0cd4fb0379e6e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-shift-app-build.json",
+          "sha256": "290703c06f8af24ed370c2e1fc7529474bb797d1566ef0431ec7ecd4dc80ee5d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-stop-if-true-runtime-acceptance.json",
+          "sha256": "fc3ed5ffab4de6e3ab508bec0b30907aeed36224d3cd357c848e6a6f34c187fc"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-continue-if-true-runtime-acceptance.json",
+          "sha256": "c2a6de81bf90c71e2affd330d79ebbb31e0b58e15ce51cb2f2170e33fa237c8c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-stop-if-true-runtime-acceptance.json",
+          "sha256": "18927121bed033f21f24c454a1bb63af4f80a36679fa3152810e9fcd3ba499c6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-continue-if-true-runtime-acceptance.json",
+          "sha256": "422fc16127c5c0d69a7d248085505eafe79b0ee2c1550ef1b3b8ce4fea9e2ad7"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-stop-if-true-reopen-acceptance.json",
+          "sha256": "91dc338e472b182a88a62a38cf26357522b6f4edc69853c09d4ba0ced98c03e1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-continue-if-true-reopen-acceptance.json",
+          "sha256": "c1680e1b56efd011e6698dd170f14dc07e7a1be2673667707d34623db9e0cacc"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-stop-if-true-reopen-acceptance.json",
+          "sha256": "657153e7710f997e0a0aad5531e2ab232d178acbbd1f762c984a364c33204d51"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-continue-if-true-reopen-acceptance.json",
+          "sha256": "ec01cfe1ef5e1305a8183785a7a10195bce65a47ce9aaec625fc08c51cba97fa"
+        }
+      ]
+    },
+    {
+      "operation": "Numeric_Set_Precision",
+      "accepted": true,
+      "basis": "15个代码的实际表示/descriptor读回；有限实数与复数图通过运行及新客户端重开。FXP仅表示选择，未增加完整FXP配置合同。 通用nested Numeric通过parent真实TD验证I32→DBL→I32，成员无独立BD端子时仅返回实际控件metadata；两个只读fresh clients核验保存默认值。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-safety-acceptance.json",
+          "sha256": "50328997e59d389bc9fb9bdf4cc0524416ff2e8a6f163cb7ee0d20c00481716e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-representations-runtime-acceptance.json",
+          "sha256": "45956cd1cc73abff316b2429e218273cc9635adaf1172b918f29a97947dc4afd"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-representations-reopen-acceptance.json",
+          "sha256": "4f4f06822691ae57c65f0aeea5be2d6ee52837cd1cff19c2baaf2074d3f3b039"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-values-runtime-acceptance.json",
+          "sha256": "b85643000e75a31ba0598cd57397f967a2c61014a53619d15c2ebc837180a386"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-values-reopen-acceptance.json",
+          "sha256": "b077795e0482ce5eda6258318874f98cd1cac669f3dbe36b3e753f1b3ef77522"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-complex-runtime-acceptance.json",
+          "sha256": "20612d6eab1e015e16f21616f46217c607bfa8b308fff520dc55ec03d12db7fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-complex-reopen-acceptance.json",
+          "sha256": "e3b344ca44c130a0ac8880ad03f896e1ab43495687aa69644c7bb8a9b549646c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\nested_numeric_20261012_225258\\acceptance.json",
+          "sha256": "393186b69b0b32bf87c2dd65d3501e313fd0ef16e2ebf83ecf5be02a1bad804c"
+        }
+      ]
+    },
+    {
+      "operation": "clean_up_Diagram",
+      "accepted": true,
+      "basis": "NI seed helper 对有限算术图移动6个对象，线数6→6，运行8.5保持；已接入 ForConditional 配方。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\ni_seed_20261012_155454\\acceptance.json",
+          "sha256": "3c909e7326ccc9c0cdcf026011f1a8a1b88464db8ddc7ab9b1a059eee381e188"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForConditionalDemo_20261012_160813_f793622f\\recipe-report.json",
+          "sha256": "e924a607d6602e5bac0efe82f279c0edb3b0d185d60fd64c964bca2f7dfcf5f9"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        }
+      ]
+    },
+    {
+      "operation": "connect_Terminal_to_Structure",
+      "accepted": true,
+      "basis": "For、While、Case两分支及Event输入隧道通过有限数据流与重开；三个错误source/owner/重复alias连接真实拒绝。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Recipe.cs",
+          "sha256": "13891f1baedd7e79d753116a8809ff2e6df4a7f9d6bbe4a9d684e6fb401d4960"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-for-runtime-acceptance.json",
+          "sha256": "44772a65b457f24be4e7b69429c460d4648e560170acf95404103a9942a8ce1b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-for-reopen-acceptance.json",
+          "sha256": "4903f96fc2da94685b7d6a7ccf4a1429d1000e8641c561711c284411c84627b7"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-while-runtime-acceptance.json",
+          "sha256": "b8ca58c299c8f4608e43e685c9fa8651d460bb661b826548210e3014345927e3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-while-reopen-acceptance.json",
+          "sha256": "e045a570c0aca96f2015e911c95bae76eeefa71c1c66ddb5e57b43eadf7d6715"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-case-runtime-acceptance.json",
+          "sha256": "985e1c15a4aabd82322625bb5330b8735a20e2110c45d269b23baed29e5853df"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-case-reopen-acceptance.json",
+          "sha256": "e9ac74afd2cd61e8e9876ab65657d13e811551a78ad80c2a320a0de3ed13cb4a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-case-true-runtime-acceptance.json",
+          "sha256": "8b14ed756503ef730b55f908765129c4c24e8596779a35e652d5238e8033e76f"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-case-true-reopen-acceptance.json",
+          "sha256": "336bc74b9993d0957d5317d96df67388111dd404885acf89092eeae4bba0cdd2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-event-runtime-acceptance.json",
+          "sha256": "9c45b77aa1f1d3e30f317a346d36a9b349e82cfe847122929195a44f121184a3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\source-structure-event-reopen-acceptance.json",
+          "sha256": "09b527ed8730ad9ecbe313f440de50cec079bee480a9b02128b7a8e3ff2347bd"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\structure-negative-acceptance.json",
+          "sha256": "6188c3dfa98f2d8fe905e90f7da09e32669eaef58ca0762acb4191551a7085e1"
+        }
+      ]
+    },
+    {
+      "operation": "connect_two_Terminals",
+      "accepted": true,
+      "basis": "多个有限算术/分支/循环/类型指示器图连线并运行通过。类型不匹配与重复sink两个真实坏线图均记录ExecState=0、static_checks_passed=false和非空broken_wire_ids，不运行；created=true只表示已保存坏线产物。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArithmetic_20261012_084630_c6f97b_20261012_084631_8f3f1e35\\build-report.json",
+          "sha256": "7d9ef08af785d6edb9814c902d40e21e28d5cb20eac1f8ac9580df2aa1615605"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\CaseDemo_20261012_155605_91777dcb\\recipe-report.json",
+          "sha256": "ab71bebb3026c47dd74b648e4c8716938b285b80546bc4eeb03207001ef61a70"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForConditionalDemo_20261012_160813_f793622f\\recipe-report.json",
+          "sha256": "e924a607d6602e5bac0efe82f279c0edb3b0d185d60fd64c964bca2f7dfcf5f9"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\wire-boundary-acceptance.json",
+          "sha256": "9f9c8e0fa09aefc215fac0864b2a1a02af8594f247248931f5696ebcc20deb10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\unit-acceptance.json",
+          "sha256": "81e6c24a869195b010ee78529e839bdf816f02dd4943347e519e16876044bfa1"
+        }
+      ]
+    },
+    {
+      "operation": "control_get_all_properties",
+      "accepted": true,
+      "basis": "严格绑定Digital、Boolean、Array的原生属性元数据与Value配置读写已通过公开配方；不外推所有NI控件类。 新generic Control reference不设class白名单，以actual ownVI PathUID/FP membership/Owner祖先校验；String、混合Cluster、Slide actualStr88/Clust83/Slide120属性名/id public及两个fresh一致，target不Run，Value setter仍独立strict。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\BoundControlReadResetRead_20261012_171529_2ac2d3da\\recipe-report.json",
+          "sha256": "1b15d47d91b0492437077498a3b9f1e592fe0b290d0825e45fc2014ad390e324"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\copy-generic-runtime-acceptance.json",
+          "sha256": "5dbe65070fa33d4e01107bc34d7ec7d8741b9c7d1b8014e1d4d89a6aae982c10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-acceptance.json",
+          "sha256": "63daae0fb9862b4f355c562c68a43d0e1152a5ef254b160ece64b434e468543c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\generic-errors-acceptance.json",
+          "sha256": "f680d66a3eb6e5567c93e00ee8cea72c8f450b491840358fc622247884fce0ed"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\strict-value-boolean-runtime-acceptance.json",
+          "sha256": "ce08427475e64b2a35cc386acf9fc26d57e11a35b16b4035bb91bbde3325c758"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\strict-value-boolean-reopen-acceptance.json",
+          "sha256": "84d6f006f8a5c534f111e8c4a5289a6601d26d7dfb68591988f21fd7b4c2bf63"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\strict-value-array1-runtime-acceptance.json",
+          "sha256": "1321b42e9a6ac0fbd95c1b07919349c36cb32f2afad2912eac4fb5a5f4f14713"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\strict-value-array1-reopen-acceptance.json",
+          "sha256": "d1363fc548b3654d5d340609fcfa67a7a9dd47aba776d1e84db3561fbdcf0d31"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\strict-value-array2-runtime-acceptance.json",
+          "sha256": "c088e1d15fd95f62cc20ac3c8b0c1d9758ed09ffd76148d4af22450a997e0a81"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\strict-value-array2-reopen-acceptance.json",
+          "sha256": "49e1a4555444501a00cb4d3bb3881095e52f63c761a6ad06a050f88fd0f0f4b0"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\control_properties_20261012_235334_3ec5d6b1\\acceptance.json",
+          "sha256": "8b48dc12c4887c2093b76ea0c0336577e60374150d83a7b480c96b168d565ff1"
+        }
+      ]
+    },
+    {
+      "operation": "copy_paste_vi_diagram",
+      "accepted": true,
+      "basis": "公开merge_vi合并FP控件及根/嵌套BD对象和线，保留目标UID/位置/尺寸/type/value/wire拓扑，冲突提前拒绝，源/目标/报告/计划hash不变。标量/二维DBL数组/混合嵌套标量簇既有验收；新增两层source_vi祖先、importedCase、previousmerge再合并、read/label ops、Slide/progress、BDDecoration、EventTimeout0及输入tunnel public24/fresh20通过。新增CEXT/CDBL/CSGL及Cluster元素空数组schema/保存TD和值public15+fresh9通过；Graph/Chart/Ring已通过部分候选验收，Enum0x16真实UInt16复制重试public3及四display独立重读17通过；非空ClusterArray public7/fresh5已接受；用户确认的sourceprefix/UID命名策略允许duplicate/blanksource和duplicatetarget，public13/fresh5已接受，caption-inclusive bounds变化及NI自身FP复制placement如实记录，多Pane/FP-onlyDecoration/任意复杂refnum保持边界。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\EditedIndicatorCopy_20261012_170942_f1e0bf45\\recipe-report.json",
+          "sha256": "296f7ad529c37166b873908ae973f6b8eede545a1ad003236e5f924a0be100c4"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\EditedIndicatorCopy_20261012_170942_f1e0bf45\\source-copy-report.json",
+          "sha256": "f021b8addf2893f8895b32fe30fed688a75f01dd18f3c8e83910767110e86fca"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\copy-generic-runtime-acceptance.json",
+          "sha256": "5dbe65070fa33d4e01107bc34d7ec7d8741b9c7d1b8014e1d4d89a6aae982c10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpCopy_20261012_091859_601c34_20261012_171903_4301c26c\\recipe-report.json",
+          "sha256": "235f18556342245d69a41f4fb28b68c72ed55969d645dac20bd1adf4fb68c77c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-acceptance.json",
+          "sha256": "63daae0fb9862b4f355c562c68a43d0e1152a5ef254b160ece64b434e468543c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\unit-acceptance.json",
+          "sha256": "81e6c24a869195b010ee78529e839bdf816f02dd4943347e519e16876044bfa1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-app-build.json",
+          "sha256": "17cd141ed5d171774f76e9d9da136c08a3c6c00e0085cb3f11fbfb5e60119ec2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpImportEdit_20261012_104526_61cba1_20261012_184529_0b4560f8\\recipe-report.json",
+          "sha256": "e8cd85ae1ff1d011ae32a7195c829f717f1c6e1edb311f76d86d0e5f243239a2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\container-alias-app-build.json",
+          "sha256": "9c64c3a4b7e2bdb536128ad7604136543ee4f9af8e509bfa91318d2986d106a8"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\container-alias-runtime-acceptance.json",
+          "sha256": "a8be1b533fab7833c9288d5fc15095469678a9b206ac7f22d09fe4f32784934a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\container-alias-reopen-acceptance.json",
+          "sha256": "4b17bbf34c6fc03667424d2b3495028ad2b79cbbd06af9fde52b481502660a27"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-product-acceptance-4f622c1b3d2a434f9254e27ba34d2269\\acceptance.json",
+          "sha256": "0755f6db11929e0d4659c56ff2bd26d291370e2c88dd89e2366a9c15f2f8d1bb"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-product-acceptance-4f622c1b3d2a434f9254e27ba34d2269\\reopen-700264bf3785440c80f4da759697eccf.json",
+          "sha256": "6a89195ef64d08437eb336f3060a1cd7ff7c96e89b8e48a5b495788f53877c7f"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-container-acceptance-653db0f4f7534f72a54c93b2898f667f\\acceptance.json",
+          "sha256": "81f7c0d99864680cd1ae30d25f44d60c3d8f37b1cec2011266afa81e262a10de"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-container-acceptance-653db0f4f7534f72a54c93b2898f667f\\reopen-086f6ec87ccb47ae92a4a3ca7f5059a8.json",
+          "sha256": "e655fcc4ec15f52dc847b73e47fb3d62707bb65396458d1431bb96ffda87c4fe"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-generalization-acceptance-8538548a3d3440f382aeb3d53cad595a\\acceptance.json",
+          "sha256": "4a2d46b4f9fe36a4af9177a049c8c72ca05a23c985d0749c6d0d4bd1ba329186"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-generalization-acceptance-8538548a3d3440f382aeb3d53cad595a\\fresh-827d36414206432487d4d76efa3d7bc3.json",
+          "sha256": "e869a26ce90552622d2d897a68d2496861f8b9d9bd67de8a3178c7bbe06d92ec"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-descriptor-acceptance-902d28c69e9a40b7a7fcd8ffbc07acf4\\acceptance.json",
+          "sha256": "6de9a1590c6314939f50d05c350f72ee74ec73f75979c3c1a17ec07ac6fb7908"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-descriptor-acceptance-902d28c69e9a40b7a7fcd8ffbc07acf4\\fresh-d900f6f9.json",
+          "sha256": "b354170d7dd8e4a4279264c449a65eafbb05fcd532ec5ea1bbcec06c9e5e7f50"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-enum-resume-9b8f22c39b7449bbbc6aed5d2711f991\\acceptance.json",
+          "sha256": "edfe8aa3d85c1b6ee4185cfc05014f8b715a58654aa33e06244f75e06466441e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-enum-resume-9b8f22c39b7449bbbc6aed5d2711f991\\fresh-7581a740.json",
+          "sha256": "13c49f8c8bf44274d68769cce53475cc4a1ef7ce525b99bf459f5ea58b40d680"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-nonempty-acceptance-c3af408ada924b1eb42b23faf4ae960b\\acceptance.json",
+          "sha256": "ae2d9e21d4f91f0bad348b0de0b2f1e45b83d74a4bbbd06b954b5cc8284d0b3d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-nonempty-acceptance-c3af408ada924b1eb42b23faf4ae960b\\fresh-c181162b.json",
+          "sha256": "80a4268cdf0d19ca9a60c1a78a72fb6ba8509792d92efb5bdab8426da9391342"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-label-acceptance-402605919ff5429a84a3b2b860001320\\acceptance.json",
+          "sha256": "894b8283bf622bc4b2b8fa421f7d521e80a69440da3035ec1d529ccb83df8766"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-label-acceptance-402605919ff5429a84a3b2b860001320\\fresh-3d00f198.json",
+          "sha256": "7d1d68268432874c1ac0f51b0773ab2d7e6ddfd2169b3086426c1aceecade5dd"
+        }
+      ]
+    },
+    {
+      "operation": "create_new_vi",
+      "accepted": true,
+      "basis": "新建隔离VI、实际Path匹配、同事务构建前面板/框图、保存与后续有限运行均通过；自己的事务API实现等价功能。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArithmetic_20261012_084630_c6f97b_20261012_084631_8f3f1e35\\build-report.json",
+          "sha256": "7d9ef08af785d6edb9814c902d40e21e28d5cb20eac1f8ac9580df2aa1615605"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpMultiply_20261012_084630_c6f97b_20261012_164631_d0a44223\\recipe-report.json",
+          "sha256": "ad68dac350b87f570c3353b06f302468bcdc94b439f6ed3d0dcfa861c4c78704"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Native.cs",
+          "sha256": "17e681c1d218b4315caada554a32f6fc9705354571186518510c08edb68f051b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Recipe.cs",
+          "sha256": "13891f1baedd7e79d753116a8809ff2e6df4a7f9d6bbe4a9d684e6fb401d4960"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\extended-runtime-acceptance.json",
+          "sha256": "2f60971b2e99c4ad2381bd61e91ab2ab132bd40792a87a5b9e56fb12ada4cf93"
+        }
+      ]
+    },
+    {
+      "operation": "create_object_from_terminal",
+      "accepted": true,
+      "basis": "三类端子创建helper的已有验收保留；产品配方从实际端子创建数值/字符串常量，设置DBL负数/小数及abcd，创建typed indicator并连线运行；Digital/Boolean/String/Cluster输入默认值和Array默认值有独立保存/运行/重开证据。Void端子失败链保留。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\safe_terminal_controls_20261012_164538\\acceptance.json",
+          "sha256": "d3c8ac37631b72a5b79c68b68c2a967a901d313365005e68260412b2552715cf"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\generic-errors-acceptance.json",
+          "sha256": "f680d66a3eb6e5567c93e00ee8cea72c8f450b491840358fc622247884fce0ed"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\BoundControlReadResetRead_20261012_171529_2ac2d3da\\recipe-report.json",
+          "sha256": "1b15d47d91b0492437077498a3b9f1e592fe0b290d0825e45fc2014ad390e324"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TripleFunction_20261012_164646_639cbd93\\recipe-report.json",
+          "sha256": "c04cd76ab4a7a19cccbc1a1b8993fcacb001d3a04097b17750f56b8dd61d957d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\copy-generic-runtime-acceptance.json",
+          "sha256": "5dbe65070fa33d4e01107bc34d7ec7d8741b9c7d1b8014e1d4d89a6aae982c10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-app-build.json",
+          "sha256": "d8d1a41b6e46c09e52bd9ad35a93ab45536897eddad59a8a57ca1639f25492f2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        }
+      ]
+    },
+    {
+      "operation": "delete_object",
+      "accepted": true,
+      "basis": "公开Control/Constant/Function/SubVI/Wire删除及失效alias拒绝已有保存和两只读客户端证据；FlatBox Decoration真实创建后删除、fresh2clients回读确认只余保留Terminal/zeroWire，保留控件UID/class/位置30,30/尺寸57,44/默认42.5不变，目标不Run。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-safety-acceptance.json",
+          "sha256": "50328997e59d389bc9fb9bdf4cc0524416ff2e8a6f163cb7ee0d20c00481716e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\DeletedSubviClosure_20261012_170958_cb252e7f\\subvi-dependency-report.json",
+          "sha256": "3f3f47fbdef92fe38e45043fd70598d30e7ebef9172cfee0a5107530021d8dbb"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\copy-generic-runtime-acceptance.json",
+          "sha256": "5dbe65070fa33d4e01107bc34d7ec7d8741b9c7d1b8014e1d4d89a6aae982c10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\unit-acceptance.json",
+          "sha256": "81e6c24a869195b010ee78529e839bdf816f02dd4943347e519e16876044bfa1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_contracts\\runs\\20261012_195608\\acceptance.json",
+          "sha256": "9a043600733a757a74ec97c8f03be0b50b1be00d7294af3ad1ad70f07639e919"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\decoration_20261012_213412\\acceptance.json",
+          "sha256": "a8a440819a7d1d1014b7afe2f1ef0b78c98a16a5052c1a443348cad68ffabd05"
+        }
+      ]
+    },
+    {
+      "operation": "find_example_vi_and_folder",
+      "accepted": true,
+      "basis": "85项离线验收含无query直属列表、128条五页完整遍历、中文、排序、变化快照拒绝、真实junction和预算；真实NI examples根目录36子目录三页与独立目录清单一致；最新59项MCP含browse和pagination。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-0220875e26cc41e6bc180c335169a291\\discovery-acceptance.json",
+          "sha256": "6bc5b45515da3a16d6b68042f1241f0e70ba63301c760b43e351287bf1922690"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-0220875e26cc41e6bc180c335169a291\\live-filesystem-probe.json",
+          "sha256": "8c919798ecbf202a3e93459e06079ee9997fba0a80ed5cc41ebceea8a5412fbf"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-offline-acceptance.json",
+          "sha256": "c26610608180e8d462a3e2524d27b96059736fca8e6677cc5307daaa92ddf706"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-e0e699f972ae492c8282cd5e9621b470\\discovery-acceptance.json",
+          "sha256": "e10492473f4b163d22bebee8cd420d4c0f28bdbaf7494f178c3a7b3195efffc1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-e0e699f972ae492c8282cd5e9621b470\\live-browse-probe.json",
+          "sha256": "68bd25f0534781a00f2aea2de868f3006f9d2a78af6771b3a62bec854e3c7f10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-acceptance.json",
+          "sha256": "63daae0fb9862b4f355c562c68a43d0e1152a5ef254b160ece64b434e468543c"
+        }
+      ]
+    },
+    {
+      "operation": "move_Control_Terminal",
+      "accepted": true,
+      "basis": "公开未连线控件端子移入同VI While内图后连计数器，两个有限错误簇循环得到i0；请求0,0/40,50的真实位置306,106/346,156。两个只读fresh clients独立读Structure.ContentRect6360805=[306,106,1094,594]及Diag.VisBounds788/488，证明相对内边界原点的映射而非猜6像素边框；owner/Path+UID/type/hash一致，无新targetRun。跨VI/原始整数reference由既有守卫拒绝。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForLoopDemo_20261012_153642_59a434a6\\recipe-report.json",
+          "sha256": "c13a3d49b0ba77a8c3db87867721f39dff96f2d489c686ac81eb717922905a9c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213152\\acceptance.json",
+          "sha256": "c02d5e2d3e0496c9b37493b805fbb783deffb24a3fa8865668acc225b891738a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\move_coordinate_readonly_20261012_220111_101522\\acceptance.json",
+          "sha256": "666c94f82054ba4f06dd9ac6f00326a4364bb14d959efddb76906261d650914a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\move_coordinate_readonly_20261012_220111_762615\\acceptance.json",
+          "sha256": "666c94f82054ba4f06dd9ac6f00326a4364bb14d959efddb76906261d650914a"
+        }
+      ]
+    },
+    {
+      "operation": "place_Array_Control",
+      "accepted": true,
+      "basis": "现有free元素移入并保持身份/方向；DBL、Boolean、String的一二维默认值与echo及Cluster一维空echo通过。Cluster非空默认格式未在原schema定义，当前不支持。 新增I32真实元素移入、Array继承原input/output方向，actual typed Int32[]一维默认[1,3,5]与Int32[,]二维默认[[1,3],[5,7]]保存重开通过；6次有限新current echo，source UID/panel delta/原始保存字节一致。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Discovery.cs",
+          "sha256": "3135a0c7ce5d5f70489a26765e15564c2b65eb9608008724844defef0cb16732"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-defaults-runtime-acceptance.json",
+          "sha256": "5c0ce8bf35fc9f340b39e6fe2e0bde5d12c0e8dc9cc6499587258dcaa27f04f3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-defaults-reopen-acceptance.json",
+          "sha256": "ccc9bea2a28e0b8ed51a47b5ce5be2898ca68bb218c186a305588791ee8be218"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArrays_20261012_104526_61cba1_20261012_184535_0b50c1bd\\recipe-report.json",
+          "sha256": "d5d45ac239e5d49bea5b2c505dc0119e6f4d23a96a14cd63023a10695fcbd977"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-digital1-runtime-acceptance.json",
+          "sha256": "ec563bf664d87c4856826e16abfa39999e0897b9c057e29467702ab428f47ae3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-digital1-reopen-acceptance.json",
+          "sha256": "3e4a29865fc6099071ab82ef0c1260e39a977ba4290aa1f61f553547ff0dcb98"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-digital2-runtime-acceptance.json",
+          "sha256": "41899f3456240fa6cd5b9536d7635ed4a05a2adc13d80440f49b92ed9b47162e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-digital2-reopen-acceptance.json",
+          "sha256": "e30358bfc146c7ac2622bafd35bf93c3c309835dd35014d3243345d46605d85e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-boolean1-runtime-acceptance.json",
+          "sha256": "0e02ec20ef484ae4c1f6def11558ce841a65847c9e9cb99c8078712b658efc85"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-boolean1-reopen-acceptance.json",
+          "sha256": "c11d25c943fd1a844d964162e0bdc2e5540d29de85bb7614694593684e032e72"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-boolean2-runtime-acceptance.json",
+          "sha256": "5816b63bfcb4e8351207f11172ad4364723dbf999c9dc0ff10b09a4cb375b424"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-boolean2-reopen-acceptance.json",
+          "sha256": "2347589cbeda06450d327be679a073ede0ae83fcda6553c5e4958213feca8cdc"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-string1-runtime-acceptance.json",
+          "sha256": "9172f56b44b7d88d335d712ac8ca8159e84c87a8cee964dcc5ba6a664e3dc1ae"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-string1-reopen-acceptance.json",
+          "sha256": "17f24cdf9ed8cc5d0a6735ef9b0d598cfba1582fc360f61440b6db6c4534e01c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-string2-runtime-acceptance.json",
+          "sha256": "6dbdbd9e1df95439764f1dbdb29f282b39b7d5d9b4b61f5f6c1f6e29c7d5af97"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-string2-reopen-acceptance.json",
+          "sha256": "dfd01cfae7d566cda7e604714e78b85171df9a246cc62705599420c4b247669e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-cluster1-runtime-acceptance.json",
+          "sha256": "3c62c6dd9ad3b5a3a7e2a0fdc60d182bb0040e37caf6a12272fed02e5a6b2eac"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-move-cluster1-reopen-acceptance.json",
+          "sha256": "2a132d70d28158b27aaa3bfbda2f04082c8d4018da79fdfc4d5b9666ba597040"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\array_move_i32_20261012_231805_f28b219a\\acceptance.json",
+          "sha256": "e9c84b50b598f63cc3be5592c22dcb998bb66a8410729293b8c2d37c95830ea1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\array_move_i32_20261012_232314_d74dc9b0\\acceptance.json",
+          "sha256": "4b22396969aac83c70e045f37aa8a8740c5fa27319536d41279ee09e8a6b9075"
+        }
+      ]
+    },
+    {
+      "operation": "place_Bool_Control",
+      "accepted": true,
+      "basis": "8种按钮样式、独立bool_text、空text保留原文字、真假默认值及实际属性保存重开通过；样式目标不Run。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\CaseDemo_20261012_155605_91777dcb\\recipe-report.json",
+          "sha256": "ab71bebb3026c47dd74b648e4c8716938b285b80546bc4eeb03207001ef61a70"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-runtime-acceptance.json",
+          "sha256": "340daeced6f2ee48d4e56dce92745524906e82d9249ec9fe91c4f87632ca8694"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-reopen-acceptance.json",
+          "sha256": "583d5a282c113b53e0c87adae1bdcdb830d0b5779eaebc8cbac662dc3f994fe2"
+        }
+      ]
+    },
+    {
+      "operation": "place_Bool_Indicator",
+      "accepted": true,
+      "basis": "4种LED样式、输出方向与真实保存默认值通过，和输入默认值证据分开。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-app-build.json",
+          "sha256": "d8d1a41b6e46c09e52bd9ad35a93ab45536897eddad59a8a57ca1639f25492f2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-runtime-acceptance.json",
+          "sha256": "340daeced6f2ee48d4e56dce92745524906e82d9249ec9fe91c4f87632ca8694"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-reopen-acceptance.json",
+          "sha256": "583d5a282c113b53e0c87adae1bdcdb830d0b5779eaebc8cbac662dc3f994fe2"
+        }
+      ]
+    },
+    {
+      "operation": "place_object_on_diagram",
+      "accepted": true,
+      "basis": "按owner、name/style、坐标放置通用节点已由算术/比较、Property/Invoke、Formula及Named Bundle/Unbundle代表图运行覆盖。Named数值、字符串、嵌套Cluster两组运行通过，缺字段/超行数明确失败。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\BoundControlReadResetRead_20261012_171529_2ac2d3da\\recipe-report.json",
+          "sha256": "1b15d47d91b0492437077498a3b9f1e592fe0b290d0825e45fc2014ad390e324"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\copy-generic-runtime-acceptance.json",
+          "sha256": "5dbe65070fa33d4e01107bc34d7ec7d8741b9c7d1b8014e1d4d89a6aae982c10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\generic-errors-acceptance.json",
+          "sha256": "f680d66a3eb6e5567c93e00ee8cea72c8f450b491840358fc622247884fce0ed"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-acceptance.json",
+          "sha256": "63daae0fb9862b4f355c562c68a43d0e1152a5ef254b160ece64b434e468543c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\formula-runtime-acceptance.json",
+          "sha256": "128feeb02ff3ad56345a8010adf0f30f71ff722d6d51e799402a8d02d79e6bbc"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\named-bundle-runtime-acceptance.json",
+          "sha256": "8c37dcace1a8deb3902ea3157ac7eaed33d10c15b45b6aef430b32beed0bb323"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\named-bundle-errors-acceptance.json",
+          "sha256": "4d11d935afe3b7a012dcaede5e4d1513dd224f2bb28dd6939353f435534b87ca"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\named-bundle-app-build.json",
+          "sha256": "3fed7a4ad4deefd45ce8f1400331a33982d0cab204ee666c91d7a38fa02045b7"
+        }
+      ]
+    },
+    {
+      "operation": "place_Numeric_Control",
+      "accepted": true,
+      "basis": "3种数值输入样式与表示/默认值真实读回；十种dType由representation的已验收码组合提供，整数/浮点边界按显式无损策略拒绝。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArithmetic_20261012_084630_c6f97b_20261012_084631_8f3f1e35\\build-report.json",
+          "sha256": "7d9ef08af785d6edb9814c902d40e21e28d5cb20eac1f8ac9580df2aa1615605"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-safety-acceptance.json",
+          "sha256": "50328997e59d389bc9fb9bdf4cc0524416ff2e8a6f163cb7ee0d20c00481716e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-runtime-acceptance.json",
+          "sha256": "340daeced6f2ee48d4e56dce92745524906e82d9249ec9fe91c4f87632ca8694"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-reopen-acceptance.json",
+          "sha256": "583d5a282c113b53e0c87adae1bdcdb830d0b5779eaebc8cbac662dc3f994fe2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-values-runtime-acceptance.json",
+          "sha256": "b85643000e75a31ba0598cd57397f967a2c61014a53619d15c2ebc837180a386"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-values-reopen-acceptance.json",
+          "sha256": "b077795e0482ce5eda6258318874f98cd1cac669f3dbe36b3e753f1b3ef77522"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-representations-runtime-acceptance.json",
+          "sha256": "45956cd1cc73abff316b2429e218273cc9635adaf1172b918f29a97947dc4afd"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\numeric-representations-reopen-acceptance.json",
+          "sha256": "4f4f06822691ae57c65f0aeea5be2d6ee52837cd1cff19c2baaf2074d3f3b039"
+        }
+      ]
+    },
+    {
+      "operation": "place_Numeric_Indicator",
+      "accepted": true,
+      "basis": "9种数值输出样式含六种Slide；DBL表示、实际输出方向和-2.5保存默认值重开通过。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpArithmetic_20261012_084630_c6f97b_20261012_084631_8f3f1e35\\build-report.json",
+          "sha256": "7d9ef08af785d6edb9814c902d40e21e28d5cb20eac1f8ac9580df2aa1615605"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-runtime-acceptance.json",
+          "sha256": "340daeced6f2ee48d4e56dce92745524906e82d9249ec9fe91c4f87632ca8694"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\control-style-contracts-reopen-acceptance.json",
+          "sha256": "583d5a282c113b53e0c87adae1bdcdb830d0b5779eaebc8cbac662dc3f994fe2"
+        }
+      ]
+    },
+    {
+      "operation": "place_case_structure",
+      "accepted": true,
+      "basis": "公开Boolean false/true、I32 -1/2/default99、String alpha/beta/defaultother/empty各branch运行和fresh重开；每框inside selector按真实owningframe Path+UID对齐并echo选择值，outside为父图sink，actualtype正确。三个Case实际位置220,120/尺寸640,400/rootowner和framecount由两只读客户端核验。旧frame/selector经插入/改名/type wire失效拒绝。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\CaseDemo_20261012_155605_91777dcb\\recipe-report.json",
+          "sha256": "ab71bebb3026c47dd74b648e4c8716938b285b80546bc4eeb03207001ef61a70"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_211759\\acceptance.json",
+          "sha256": "69b5fb4e5c7e2a173960e1d636fa13ad5fa1837c781afe65c267133f6a6a78ac"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_case\\runs\\20261012_202714\\acceptance.json",
+          "sha256": "f5782d4a801b6ec7b49bc5b010e10931ba4a04b0fc03b1a6b7abf8385ebb3f9c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213149\\acceptance.json",
+          "sha256": "d15254e18e6f818372cda2349d233f027741c12024fca6472ea336a9fb0adb1d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\geometry_20261012_213415\\acceptance.json",
+          "sha256": "a5c7fb3f5cbf3f01819335d604cf86946f8174b705c2c51086c10d951ee52102"
+        }
+      ]
+    },
+    {
+      "operation": "place_file_object_on_diagram",
+      "accepted": true,
+      "basis": "独立自有subVI、CTL常量、global读/写已按有限fixture运行重开；公开place_ni_file的精确已审查NI polymorphic/class两候选真实放置、方向/类型/实际实例依赖闭包和fresh worker重开95检查通过。源hash保留，class不Run；任意外部class/poly及未证实继承关系不外推。 新增prepare_file/file_place公开路径与指定当前Diagram：class root/For/Case、poly root/For、外部独立CTL Case、global read/write共8placements+2fresh读回49检查通过；source/caller均未Run，source未Save。外部独立自有lvclass bundle仍实现中。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TripleCallerClosure_20261012_170957_7faf912d\\recipe-report.json",
+          "sha256": "aa67ff774b98f0859411cff7933819a9933cdc119ea197b3c77c21b5c67a0b79"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TripleCallerClosure_20261012_170957_7faf912d\\subvi-dependency-report.json",
+          "sha256": "d6380c727010f664d0e1245dae4dc58530556320fde21c12ad27148516da1fce"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\copy-generic-runtime-acceptance.json",
+          "sha256": "5dbe65070fa33d4e01107bc34d7ec7d8741b9c7d1b8014e1d4d89a6aae982c10"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\DeletedSubviClosure_20261012_170958_cb252e7f\\subvi-dependency-report.json",
+          "sha256": "3f3f47fbdef92fe38e45043fd70598d30e7ebef9172cfee0a5107530021d8dbb"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\generated-vi-dependency-acceptance-d7a072ee5e984bd2b5f9c4ec7eda61c2\\generated-vi-dependency-acceptance.json",
+          "sha256": "9ecac54ce0c8929f630ba4d3266b823d14ed8c4b68ae4fce85e6c7b67a30c718"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-app-build.json",
+          "sha256": "17cd141ed5d171774f76e9d9da136c08a3c6c00e0085cb3f11fbfb5e60119ec2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-runtime-acceptance.json",
+          "sha256": "2b1072ac78de75c9cf94dc160cdc2cada411f2a3e85de3010ba455a2f4ab6131"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-reopen-acceptance.json",
+          "sha256": "7e6d131c2979f95616344cc5f61248df11b14948ebc49e0fd14a5dbf29b8ee13"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\vi-import-boundaries-acceptance.json",
+          "sha256": "0230d1fb4f83ef818c48da11e066ab473741df5ea5535095edf030aa9c53e362"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpImport_20261012_104526_61cba1_Import_9fe72264abd94244b8e35f0bd0d5b361\\build-report.json",
+          "sha256": "1f9e5499016ec89eada57d816b5857b71ddd509e57a94e0b340db4dcc5005ad6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\McpImportEdit_20261012_104526_61cba1_20261012_184529_0b4560f8\\recipe-report.json",
+          "sha256": "e8cd85ae1ff1d011ae32a7195c829f717f1c6e1edb311f76d86d0e5f243239a2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\typefile-ctl-runtime-acceptance.json",
+          "sha256": "b3bf8c5ff5c51938c2049391112ca1515fa87bf72ea62d518467ea9b70049922"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\typefile-ctl-reopen-acceptance.json",
+          "sha256": "847764af3e750e02c5a41b8531fbadb1199fe37de7c58ab51a3cc2a7755502b4"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\typefile-global-read-runtime-acceptance.json",
+          "sha256": "984c5e6e2da79ec52d0c4ff4b0f6fed66d7f6537f0651a40a7a8a34d9fa81838"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\typefile-global-read-reopen-acceptance.json",
+          "sha256": "2425d075cb26158de933bd6f5ca272f120ab81789f11034f9c26d676c6edbbf3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\typefile-global-write-runtime-acceptance.json",
+          "sha256": "6c5b0035600e39180cfa55d2fe01235c32fd657b9423b6e297f5d6b8edf4e6d3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\typefile-global-write-reopen-acceptance.json",
+          "sha256": "3d83b94e25efada41fa16a1312eedb7b4bf332456c8061704a21462598cb1d1c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\ni-file-public-b94fd6f82a0e40a08c9290bd090b9fb6\\acceptance.json",
+          "sha256": "938341355239bdc9621a068bdecd08688228050932799dc62df2419c1fc043bb"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\file_path_public_4e127cbccdec445b806e0655a96c7716\\acceptance.json",
+          "sha256": "6486ff99fd6b427d1749de18fbbb8e9b5acd2e62fdb4df44ada89841dffb1933"
+        }
+      ]
+    },
+    {
+      "operation": "place_for_loop",
+      "accepted": true,
+      "basis": "有限For N=0/1/3/5/10、shift sum和两种停止极性已有证据；公开innerN N=1/3/5与i=0/2/4、outside N为三不同UID的I32端子，owner/source方向核验。实际220,140位置及450,320/400,260尺寸、root/body由两readonlyclients核验；空标签保持原值，非空标签真实可见，显示标签的size比body多19像素。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForLoopDemo_20261012_153725_9639ffb1\\recipe-report.json",
+          "sha256": "30a91b7a34ad3fb242485a5d3f2019e7c42e7c53104c20c7e2240b77e74e7e56"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForConditionalDemo_20261012_160813_f793622f\\recipe-report.json",
+          "sha256": "e924a607d6602e5bac0efe82f279c0edb3b0d185d60fd64c964bca2f7dfcf5f9"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\loop-shift-runtime-acceptance.json",
+          "sha256": "1944dba9ce031703c1e8f001944b4beecb1725f2afa3d50331c0cd4fb0379e6e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-shift-app-build.json",
+          "sha256": "3bd89450b998df86ff57d7e1a67912f4c454a494f3d4ee8e5b544fda8b784b9c"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\for-zero-shift-app-build.json",
+          "sha256": "f155488df31c174996a15bac16758fa3262e616d4d53f4e6cf24775ff88a0845"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_211759\\acceptance.json",
+          "sha256": "69b5fb4e5c7e2a173960e1d636fa13ad5fa1837c781afe65c267133f6a6a78ac"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_node_label\\runs\\20261012_204818\\acceptance.json",
+          "sha256": "f30f7ee63737794790caed24d988c9cdbca83bf21f9ebd2b86d28a833bdd8555"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213149\\acceptance.json",
+          "sha256": "d15254e18e6f818372cda2349d233f027741c12024fca6472ea336a9fb0adb1d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\geometry_20261012_213415\\acceptance.json",
+          "sha256": "a5c7fb3f5cbf3f01819335d604cf86946f8174b705c2c51086c10d951ee52102"
+        }
+      ]
+    },
+    {
+      "operation": "place_while_loop",
+      "accepted": true,
+      "basis": "有限While shift sum、Boolean停止两极性已有运行重开；公开canonical Bool/I32/String错误簇true/code7/source停止于i0，savedI32实际int，两个freshphases通过。位置300,100/尺寸800,500及220,140/400,260、root/body由两readonlyclients核验；emptyLabel保留/nonemptyLabel可见通过，label扩展size19像素不改变实际位置。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\operations.json",
+          "sha256": "7ead2935c339019c9a39791f9532c0e46196d376aaf8603876bd7d255ef056fa"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\loop-shift-runtime-acceptance.json",
+          "sha256": "1944dba9ce031703c1e8f001944b4beecb1725f2afa3d50331c0cd4fb0379e6e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\while-shift-app-build.json",
+          "sha256": "290703c06f8af24ed370c2e1fc7529474bb797d1566ef0431ec7ecd4dc80ee5d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_node_label\\runs\\20261012_204818\\acceptance.json",
+          "sha256": "f30f7ee63737794790caed24d988c9cdbca83bf21f9ebd2b86d28a833bdd8555"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213152\\acceptance.json",
+          "sha256": "c02d5e2d3e0496c9b37493b805fbb783deffb24a3fa8865668acc225b891738a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\geometry_20261012_213415\\acceptance.json",
+          "sha256": "a5c7fb3f5cbf3f01819335d604cf86946f8174b705c2c51086c10d951ee52102"
+        }
+      ]
+    },
+    {
+      "operation": "save_vi",
+      "accepted": true,
+      "basis": "optional filename支持单个自选文件名，独立新projects目录；中文.vi/.ctl真实保存路径/VIType/默认值与hash重开通过，拒绝覆盖和目录穿越。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Recipe.cs",
+          "sha256": "13891f1baedd7e79d753116a8809ff2e6df4a7f9d6bbe4a9d684e6fb401d4960"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\src\\Native.cs",
+          "sha256": "17e681c1d218b4315caada554a32f6fc9705354571186518510c08edb68f051b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\project-reopen-initial-acceptance.json",
+          "sha256": "81061c03fccf7e031d81f118c717c7bab796c6914d2e0b58bdcd6325d0d98b86"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-app-build.json",
+          "sha256": "17cd141ed5d171774f76e9d9da136c08a3c6c00e0085cb3f11fbfb5e60119ec2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-runtime-acceptance.json",
+          "sha256": "2b1072ac78de75c9cf94dc160cdc2cada411f2a3e85de3010ba455a2f4ab6131"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\imported-math-reopen-acceptance.json",
+          "sha256": "7e6d131c2979f95616344cc5f61248df11b14948ebc49e0fd14a5dbf29b8ee13"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\filename-vi-reopen-acceptance.json",
+          "sha256": "4e216fd447531264b02b29c92ce7947805bc703a32549a30f817e8f7db5695a1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\filename-ctl-reopen-acceptance.json",
+          "sha256": "47a7e58805ea78ce7118cc62f761068fa2ebb985eddf2c12d6a93e31da22305e"
+        }
+      ]
+    },
+    {
+      "operation": "search_class",
+      "accepted": true,
+      "basis": "SearchStyles按exact/prefix/contains排序，返回name/style并严格拒绝未知参数；最新85项综合Discovery离线检查与59项MCP查询通过，候选仍明确为未逐项实例化的元数据。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-0220875e26cc41e6bc180c335169a291\\discovery-acceptance.json",
+          "sha256": "6bc5b45515da3a16d6b68042f1241f0e70ba63301c760b43e351287bf1922690"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-0220875e26cc41e6bc180c335169a291\\live-filesystem-probe.json",
+          "sha256": "8c919798ecbf202a3e93459e06079ee9997fba0a80ed5cc41ebceea8a5412fbf"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-offline-acceptance.json",
+          "sha256": "c26610608180e8d462a3e2524d27b96059736fca8e6677cc5307daaa92ddf706"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\discovery-acceptance-e0e699f972ae492c8282cd5e9621b470\\discovery-acceptance.json",
+          "sha256": "e10492473f4b163d22bebee8cd420d4c0f28bdbaf7494f178c3a7b3195efffc1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\mcp-acceptance.json",
+          "sha256": "63daae0fb9862b4f355c562c68a43d0e1152a5ef254b160ece64b434e468543c"
+        }
+      ]
+    },
+    {
+      "operation": "set_connector_pane",
+      "accepted": true,
+      "basis": "按实际输入/输出方向自动分配左右端子；A2+B3=5及caller既有运行重开通过。新增owned source_vi副本使用实际NI DiscAllTerms239a8003清空旧assignments再重配，copy B2/A1/Sum0与原A2/B1/Sum0分别读回，copy+newcaller各2fresh有限运行5，原source/report/hash不变。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TripleFunction_20261012_164646_639cbd93\\recipe-report.json",
+          "sha256": "c04cd76ab4a7a19cccbc1a1b8993fcacb001d3a04097b17750f56b8dd61d957d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TripleCaller_20261012_164714_21645157\\recipe-report.json",
+          "sha256": "1c17aa3415b095872bd27d7ff78427decc5ef921e82a80da98a839aeb000a1e3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\extended-runtime-acceptance.json",
+          "sha256": "2f60971b2e99c4ad2381bd61e91ab2ab132bd40792a87a5b9e56fb12ada4cf93"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\connector-auto-sum-runtime-acceptance.json",
+          "sha256": "e9f950a98e62d236f42867b14fc0ed84d19dcbf5c759c3d220ac424ed1ae7c22"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\connector-auto-sum-reopen-acceptance.json",
+          "sha256": "c35412679bc5b09631f10087b1eeed95ae8d69ecb96befd76deb17bb2c0e067a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\connector-auto-caller-runtime-acceptance.json",
+          "sha256": "f60885dc2e42839d74bca0655b43f8c65b9ba1f18f52d229ce3f2fa150e09662"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\connector-auto-caller-reopen-acceptance.json",
+          "sha256": "8000d0742af6d653aec4bc191c584d2055efe61594c9587e028862181744293d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\connector_reconfigure_20261012_220432\\acceptance.json",
+          "sha256": "e3652ee5f074011c55457a5de550af8abac3b50e402695fb5f1dca8b121d9e4d"
+        }
+      ]
+    },
+    {
+      "operation": "set_constant_value",
+      "accepted": true,
+      "basis": "DigitalNumericConstant的U32旧实例保留；新的diagram DBL常量运行/重开得到-2.5、0.125、1e-12、1e12，String diagram constant得到abcd；实际NI类别检查拒绝不匹配setter。控件默认值不计为diagram constant证据。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\RecipeMultiply_20261012_153433_6f7263fb\\recipe-report.json",
+          "sha256": "b2d18c7a2884c272c780303b1fc9478610015bb0d83cb4b692e87a2e9bc76644"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\ForConditionalDemo_20261012_160813_f793622f\\recipe-report.json",
+          "sha256": "e924a607d6602e5bac0efe82f279c0edb3b0d185d60fd64c964bca2f7dfcf5f9"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-safety-acceptance.json",
+          "sha256": "50328997e59d389bc9fb9bdf4cc0524416ff2e8a6f163cb7ee0d20c00481716e"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\recipe-runtime-acceptance.json",
+          "sha256": "dcaa524a98513a1349b234c19f461416abbd774386fd46f076ecaba0fe6192b5"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\generator32-tool-schemas.json",
+          "sha256": "0e3c52246a50ef232ad629bb46d8d1bd4f9e21b607fae363f2b847a0b612346d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-app-build.json",
+          "sha256": "d8d1a41b6e46c09e52bd9ad35a93ab45536897eddad59a8a57ca1639f25492f2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\generic-errors-acceptance.json",
+          "sha256": "f680d66a3eb6e5567c93e00ee8cea72c8f450b491840358fc622247884fce0ed"
+        }
+      ]
+    },
+    {
+      "operation": "set_control_direction",
+      "accepted": true,
+      "basis": "Digital、Boolean、String、Cluster在产品配方中输入→输出→输入，getter回读并重取端子；Array在两种rank下切换并重取array_info。标量/Cluster的13+13验收及Array runtime/reopen保存默认值与输出均通过。",
+      "historical_receipts": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\IndicatorDirectionDemo_20261012_164645_679bb7e9\\recipe-report.json",
+          "sha256": "3474410e9beebedf9e27849882194421e9210692b3c61f86ee788cf434228258"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\extended-runtime-acceptance.json",
+          "sha256": "2f60971b2e99c4ad2381bd61e91ab2ab132bd40792a87a5b9e56fb12ada4cf93"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\unit-acceptance.json",
+          "sha256": "81e6c24a869195b010ee78529e839bdf816f02dd4943347e519e16876044bfa1"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\generic-reference-audit_2d4c3bd7ff8544a68a15ccbdc041d862\\result.json",
+          "sha256": "d4c818abb278e67c4dc5c1031ef78787be9e9d6556df81e7767b95dc0bc63933"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-app-build.json",
+          "sha256": "d8d1a41b6e46c09e52bd9ad35a93ab45536897eddad59a8a57ca1639f25492f2"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-runtime-acceptance.json",
+          "sha256": "d50b4729aa105bdce33a6df0b9dd2377947d05a6b4cfdef22eddcea007d9053b"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\constants-defaults-reopen-acceptance.json",
+          "sha256": "0f6310a7fd7eb752d43013bbaaad3d5b4b3b504678868624f07230169f30f092"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-loop-product-acceptance.json",
+          "sha256": "571dbb78d815eb86bb16d80325ebfdb36c2cd3dfeb62bb9e8e6b8543afd538b6"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-defaults-runtime-acceptance.json",
+          "sha256": "5c0ce8bf35fc9f340b39e6fe2e0bde5d12c0e8dc9cc6499587258dcaa27f04f3"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\array-defaults-reopen-acceptance.json",
+          "sha256": "ccc9bea2a28e0b8ed51a47b5ce5be2898ca68bb218c186a305588791ee8be218"
+        }
+      ]
+    }
+  ],
+  "semantic_gaps_resolved": [
+    {
+      "gap": "selected_file_and_destination",
+      "resolved": true,
+      "evidence": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\file_path_public_4e127cbccdec445b806e0655a96c7716\\acceptance.json",
+          "sha256": "6486ff99fd6b427d1749de18fbbb8e9b5acd2e62fdb4df44ada89841dffb1933"
+        }
+      ]
+    },
+    {
+      "gap": "known_imported_and_repeated_merge",
+      "resolved": true,
+      "evidence": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-generalization-acceptance-8538548a3d3440f382aeb3d53cad595a\\acceptance.json",
+          "sha256": "4a2d46b4f9fe36a4af9177a049c8c72ca05a23c985d0749c6d0d4bd1ba329186"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-descriptor-acceptance-902d28c69e9a40b7a7fcd8ffbc07acf4\\acceptance.json",
+          "sha256": "6de9a1590c6314939f50d05c350f72ee74ec73f75979c3c1a17ec07ac6fb7908"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-nonempty-acceptance-c3af408ada924b1eb42b23faf4ae960b\\acceptance.json",
+          "sha256": "ae2d9e21d4f91f0bad348b0de0b2f1e45b83d74a4bbbd06b954b5cc8284d0b3d"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\merge-label-acceptance-402605919ff5429a84a3b2b860001320\\acceptance.json",
+          "sha256": "894b8283bf622bc4b2b8fa421f7d521e80a69440da3035ec1d529ccb83df8766"
+        }
+      ]
+    },
+    {
+      "gap": "assigned_connector_reconfiguration",
+      "resolved": true,
+      "evidence": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\connector_reconfigure_20261012_220432\\acceptance.json",
+          "sha256": "e3652ee5f074011c55457a5de550af8abac3b50e402695fb5f1dca8b121d9e4d"
+        }
+      ]
+    },
+    {
+      "gap": "move_coordinate_origin",
+      "resolved": true,
+      "evidence": [
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\move_coordinate_readonly_20261012_220111_101522\\acceptance.json",
+          "sha256": "666c94f82054ba4f06dd9ac6f00326a4364bb14d959efddb76906261d650914a"
+        },
+        {
+          "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\move_coordinate_readonly_20261012_220111_762615\\acceptance.json",
+          "sha256": "666c94f82054ba4f06dd9ac6f00326a4364bb14d959efddb76906261d650914a"
+        }
+      ]
+    }
+  ],
+  "unit_checks": 25,
+  "reference_guard_checks": 95,
+  "mcp_checks": 63,
+  "mcp_tools": 19,
+  "recipe_operations": 105,
+  "policies": [
+    {
+      "checks": 14,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\project-source-acceptance-e28e88136cbb4093bd2514f4388aabd9\\acceptance.json",
+      "sha256": "4a8e31fcaf740162e389abbe2ac7be4acaffaf735e034a23223df0640549db6c"
+    },
+    {
+      "checks": 137,
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\vi-merge-acceptance-8f2015b6b98345f2a8626715307c851b\\acceptance.json",
+      "sha256": "5e48b941497204ce7942d23f1366f9d771a6b2ab8c80fbd2b3339b95c357c695"
+    }
+  ],
+  "migration_audits": [
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\runtime-migration-independent-audit-at-completion.json",
+      "sha256": "46a22dbb9c366a40d23af4d68b3f7f1b292fbffbc73cad46c14148d0c0b16ae2"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\configured-own-server-offline-audit-at-completion.json",
+      "sha256": "f9b793704c6635efc7a75f93927170e49f4aebde901d5f7e1a3a49a02076a29f"
+    }
+  ],
+  "physical_runtime_manifest_entries": 212,
+  "limitations": [
+    "RT/FPGA and hardware/measurement execution are explicitly excluded by the user.",
+    "The accepted contract uses extracted metadata and typical/boundary fixtures; expired vendor licensing prevented a current original-product runtime comparison. Exhaustive NI API parity is not claimed.",
+    "No window operations, desktop visual or interaction acceptance was performed as requested.",
+    "Private type authoring supports DBL/Boolean/String, nested clusters and rectangular rank1..8 scalar/cluster arrays within published size budgets.",
+    "Custom method snapshots support normal own VI and NI static dependencies; own CTL/global/class dependencies inside a method body and ambiguous inherited interface method names are rejected explicitly.",
+    "Merge rejects opaque reference values and multi-pane/FP-decoration inputs; source connector migration during merge is not part of the agreed minimum contract.",
+    "Build specifications use own normal VI members and EXE/DLL/SDIST kinds. Files were actually built; no EXE user-interface launch or hardware deployment occurred.",
+    "The compiled helpers are part of the delivery. Full historical helper-authoring bootstrap is not an added acceptance gate.",
+    "Historical core fixture evidence was hash-checked and reconciled; the complete historical set was not rerun. Current-binary class/project/extension/MCP and relevant policy regressions are separate receipts."
+  ]
+}

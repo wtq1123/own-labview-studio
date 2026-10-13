@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "name": "ArrayMoveCluster1",
+  "steps": [
+    {
+      "id": "source",
+      "op": "control",
+      "args": {
+        "label": "Element",
+        "y": 40,
+        "style": "Cluster",
+        "x": 30
+      }
+    },
+    {
+      "id": "array",
+      "op": "control",
+      "args": {
+        "label": "Values",
+        "y": 40,
+        "style": "Array",
+        "x": 300
+      }
+    },
+    {
+      "id": "number",
+      "op": "cluster_child",
+      "args": {
+        "label": "Number",
+        "y": 20,
+        "owner_id": "$source.object_id",
+        "style": "Numeric Control",
+        "x": 15
+      }
+    },
+    {
+      "id": "text",
+      "op": "cluster_child",
+      "args": {
+        "label": "Text",
+        "y": 80,
+        "owner_id": "$source.object_id",
+        "style": "String Control",
+        "x": 15
+      }
+    },
+    {
+      "id": "move",
+      "op": "array_move_element",
+      "args": {
+        "y": 20,
+        "control_id": "$source.object_id",
+        "owner_id": "$array.object_id",
+        "x": 15
+      }
+    },
+    {
+      "id": "dimensions",
+      "op": "array_dimensions",
+      "args": {
+        "dimensions": 1,
+        "array_id": "$array.object_id"
+      }
+    },
+    {
+      "id": "fresh",
+      "op": "array_info",
+      "args": {
+        "array_id": "$array.object_id"
+      }
+    },
+    {
+      "id": "echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$fresh.terminal_id"
+      }
+    },
+    {
+      "id": "label",
+      "op": "label",
+      "args": {
+        "label": "Echo",
+        "control_id": "$echo.control_id"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1365 @@
+{
+  "control": {
+    "helper": "Native_AddControl_v2",
+    "inputs": {
+      "style": "style",
+      "x": "short",
+      "y": "short",
+      "label": "string"
+    },
+    "outputs": [
+      "object_id",
+      "terminal_id"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "node": {
+    "helper": "Own20261012_GuardedAddNodeInDiagram",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "style": "style",
+      "x": "short",
+      "y": "short"
+    },
+    "outputs": [
+      "object_id",
+      "terminal_ids"
+    ],
+    "target_path": true,
+    "acceptance": "Normal public finite Add2+3=5 and fresh client accepted with exact guarded production helper path/hash. UInt32-max direct helper probe did not return (Exec2 retained); arbitrary invalid-style error return is not accepted. Public node input accepts catalogued style names, not arbitrary integer styles.",
+    "positive_public_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\arithmetic_20261012_213717\\acceptance.json",
+    "controlled_extreme_invalid_style_acceptance": false
+  },
+  "growable": {
+    "helper": "Native_AddGrowableInDiagram",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "style": "style",
+      "x": "short",
+      "y": "short"
+    },
+    "outputs": [
+      "object_id",
+      "terminal_ids"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "grow": {
+    "helper": "Native_AddInputChunk",
+    "inputs": {
+      "object_id": "ref",
+      "chunks": "short"
+    },
+    "outputs": [
+      "terminal_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "for": {
+    "helper": "Native_AddFor",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "style": "style",
+      "x": "short",
+      "y": "short",
+      "bounds": "bounds"
+    },
+    "outputs": [
+      "for_id"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "while": {
+    "helper": "Native_AddWhile_v3",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "style": "style",
+      "x": "short",
+      "y": "short",
+      "bounds": "bounds"
+    },
+    "outputs": [
+      "loop_id"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "case": {
+    "helper": "Native_AddCase",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "style": "style",
+      "x": "short",
+      "y": "short",
+      "bounds": "bounds"
+    },
+    "outputs": [
+      "case_id"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "event": {
+    "helper": "Native_AddEvent",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "style": "style",
+      "x": "short",
+      "y": "short",
+      "bounds": "bounds"
+    },
+    "outputs": [
+      "event_id"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "for_info": {
+    "helper": "Native_GetForInfo",
+    "inputs": {
+      "for_id": "ref"
+    },
+    "outputs": [
+      "diagram_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "for_terminals": {
+    "helper": "Native_GetForTerminals",
+    "inputs": {
+      "for_id": "ref"
+    },
+    "outputs": [
+      "count_id",
+      "counter_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "while_info": {
+    "helper": "Native_GetWhileInfo_v3",
+    "inputs": {
+      "loop_id": "ref"
+    },
+    "outputs": [
+      "diagram_id",
+      "stop_id",
+      "counter_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "case_info": {
+    "helper": "Native_GetCaseInfo_v2",
+    "inputs": {
+      "case_id": "ref"
+    },
+    "outputs": [
+      "frame_ids",
+      "terminal_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "case_names": {
+    "helper": "Native_GetCaseFrameNames",
+    "inputs": {
+      "case_id": "ref"
+    },
+    "outputs": [
+      "frame_names"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "set_case_names": {
+    "helper": "Native_SetCaseFrameNames",
+    "inputs": {
+      "case_id": "ref",
+      "frame_names": "strings"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "case_frame": {
+    "helper": "Native_AddCaseFrame_v2",
+    "inputs": {
+      "case_id": "ref",
+      "reference_frame_index": "short",
+      "after": "bool"
+    },
+    "outputs": [
+      "frame_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "event_info": {
+    "helper": "Native_GetEventInfo_v2",
+    "inputs": {
+      "event_id": "ref"
+    },
+    "outputs": [
+      "frame_ids",
+      "terminal_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "event_frame": {
+    "helper": "Native_AddEventFrame_v2",
+    "inputs": {
+      "event_id": "ref",
+      "reference_frame_index": "short"
+    },
+    "outputs": [
+      "frame_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "for_shift": {
+    "helper": "Native_AddForShiftRegister",
+    "inputs": {
+      "for_id": "ref",
+      "y": "short"
+    },
+    "outputs": [
+      "right_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "while_shift": {
+    "helper": "Native_AddWhileShiftRegister",
+    "inputs": {
+      "loop_id": "ref",
+      "y": "short"
+    },
+    "outputs": [
+      "right_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "left_shift": {
+    "helper": "Native_GetLeftShiftRefs",
+    "inputs": {
+      "right_id": "ref"
+    },
+    "outputs": [
+      "left_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "tunnel_terms": {
+    "helper": "Native_GetTunnelTerminals_v2",
+    "inputs": {
+      "tunnel_id": "ref"
+    },
+    "outputs": [
+      "inside_ids",
+      "outside_id"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "for_tunnels": {
+    "helper": "Native_GetForTunnels",
+    "inputs": {
+      "for_id": "ref"
+    },
+    "outputs": [
+      "tunnel_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "set_index_mode": {
+    "helper": "Native_SetLoopTunnelIndexMode",
+    "inputs": {
+      "tunnel_id": "ref",
+      "index_mode": "uint"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "node_terminals": {
+    "helper": "Native_GetNodeTerminals",
+    "inputs": {
+      "node_id": "ref"
+    },
+    "outputs": [
+      "terminal_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "wire": {
+    "helper": "Native_Wire",
+    "inputs": {
+      "source_terminal": "ref",
+      "sink_terminal": "ref"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "move_terminal": {
+    "helper": "Native_MoveTerminal",
+    "inputs": {
+      "terminal_id": "ref",
+      "owner_diagram_id": "ref",
+      "x": "short",
+      "y": "short"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance",
+    "coordinate_semantics": "x/y relative to target diagram body origin. For the accepted While300,100, native Structure.ContentRect6360805 returns[306,106,1094,594]; requested0,0 and40,50 match saved absolute Terminal.Position306,106 and346,156. Diagram.Position/TotalRect are content-dependent and are not the origin.",
+    "coordinate_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\move_coordinate_readonly_20261012_220111_762615\\acceptance.json"
+  },
+  "move_node": {
+    "helper": "Native_MoveNode",
+    "inputs": {
+      "object_id": "ref",
+      "owner_diagram_id": "ref",
+      "x": "short",
+      "y": "short"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "delete": {
+    "helper": "Native_DeleteGObject",
+    "inputs": {
+      "object_id": "ref"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "constant": {
+    "helper": "Own20261012_CreateConstantFromTerminal",
+    "inputs": {
+      "terminal_id": "ref"
+    },
+    "outputs": [
+      "constant_id",
+      "created_terminal_id"
+    ],
+    "target_path": false,
+    "acceptance": "Repaired Create-to-Terminal error propagation; numeric succeeds, unsupported Void returns original NI1075 without secondary invalid-reference access"
+  },
+  "set_number": {
+    "helper": "Native_SetDigitalNumericConstantValue",
+    "inputs": {
+      "constant_id": "ref",
+      "value": "uint"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "set_string": {
+    "helper": "Native_SetStringConstantValue",
+    "inputs": {
+      "constant_id": "ref",
+      "value": "string"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "typed_control": {
+    "helper": "Own20261012_CreateControlFromTerminal",
+    "inputs": {
+      "terminal_id": "ref"
+    },
+    "outputs": [
+      "control_id",
+      "created_terminal_id"
+    ],
+    "target_path": false,
+    "acceptance": "Positive create and unsupported-terminal primary 1074 return verified; full error chain prevents secondary invalid-reference dialog"
+  },
+  "typed_indicator": {
+    "helper": "Own20261012_CreateIndicatorFromTerminal",
+    "inputs": {
+      "terminal_id": "ref"
+    },
+    "outputs": [
+      "control_id",
+      "created_terminal_id"
+    ],
+    "target_path": false,
+    "acceptance": "Positive create and unsupported-terminal primary 1074 return verified; full error chain prevents secondary invalid-reference dialog"
+  },
+  "label": {
+    "helper": "Native_SetControlLabel",
+    "inputs": {
+      "control_id": "ref",
+      "label": "string"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "position": {
+    "helper": "Native_SetControlPosition",
+    "inputs": {
+      "control_id": "ref",
+      "x": "short",
+      "y": "short"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "representation": {
+    "helper": "Native_SetNumericRepresentation",
+    "inputs": {
+      "numeric_id": "ref",
+      "representation": "uint"
+    },
+    "outputs": [],
+    "target_path": false,
+    "acceptance": "Direct actual Numeric.Rep setter with independent readback, using top-level Terminal descriptor or actual owned parent Cluster member descriptor for nested Numeric controls. Parent/type aliases invalidated on changes; no invented child Terminal."
+  },
+  "connector_assign": {
+    "helper": "Native_AssignConnectorTerminal",
+    "inputs": {
+      "control_id": "ref",
+      "terminal_index": "short"
+    },
+    "outputs": [],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "connector_controls": {
+    "helper": "Native_GetConnectorControls",
+    "inputs": {},
+    "outputs": [
+      "control_ids"
+    ],
+    "target_path": true,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "local": {
+    "helper": "Native_CreateLocalVariable_v5",
+    "inputs": {
+      "control_id": "ref",
+      "write": "bool"
+    },
+    "outputs": [
+      "local_id",
+      "terminal_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "diagram_objects": {
+    "helper": "Native_GetDiagramObjects",
+    "inputs": {
+      "diagram_id": "ref"
+    },
+    "outputs": [
+      "object_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "diagram_wires": {
+    "helper": "Native_GetDiagramWires",
+    "inputs": {
+      "diagram_id": "ref"
+    },
+    "outputs": [
+      "wire_ids"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "wire_broken": {
+    "helper": "Native_GetWireBroken",
+    "inputs": {
+      "wire_id": "ref"
+    },
+    "outputs": [
+      "is_broken"
+    ],
+    "target_path": false,
+    "acceptance": "requires native test; catalog presence is not acceptance"
+  },
+  "for_conditional": {
+    "helper": "Own20261012_SetForConditional",
+    "acceptance": "NI-only bootstrap toggle readback passed; full recipe behavior tested separately",
+    "target_path": false,
+    "outputs": [],
+    "inputs": {
+      "has_conditional_terminal": "bool",
+      "for_id": "ref"
+    }
+  },
+  "for_stop": {
+    "helper": "Own20261012_GetForStop",
+    "acceptance": "NI-only bootstrap reads conditional terminal; disabled returns NI 1515",
+    "target_path": false,
+    "outputs": [
+      "stop_id"
+    ],
+    "inputs": {
+      "for_id": "ref"
+    }
+  },
+  "cleanup": {
+    "helper": "Own20261012_CleanDiagram",
+    "acceptance": "NI-only bootstrap layout moved six objects, preserved wires and result 8.5",
+    "target_path": true,
+    "outputs": [],
+    "inputs": {}
+  },
+  "object_info": {
+    "acceptance": "Actual current target Path+UID checked before/after. bounds=[width,height] may include visible label; position=[x,y] read through separately audited own GObject.Position getter. All metadata Plain, no ref outputs.",
+    "outputs": [
+      "class_name",
+      "bounds",
+      "position",
+      "identity"
+    ],
+    "target_path": false,
+    "inputs": {
+      "object_id": "ref"
+    },
+    "helper": "Managed_ObjectInfo",
+    "bounds_semantics": "Actual two-value [width,height] native GObject size. Showing a label can extend this size; it is plain metadata, not a reference.",
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\geometry_20261012_213415\\acceptance.json",
+    "public_decoration_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\decoration_20261012_213412\\acceptance.json"
+  },
+  "set_indicator": {
+    "acceptance": "Actual Digital/Boolean/String/Cluster/Array class; exact Boolean direction readback; refresh terminal/container derived refs after mutation",
+    "inputs": {
+      "control_id": "ref",
+      "is_indicator": "bool"
+    },
+    "outputs": [],
+    "helper": "Own20261012_SetControlIndicator",
+    "target_path": false
+  },
+  "is_indicator": {
+    "acceptance": "Actual supported Digital/Boolean/String/Cluster/Array class",
+    "inputs": {
+      "control_id": "ref"
+    },
+    "outputs": [
+      "is_indicator"
+    ],
+    "helper": "Own20261012_GetControlIndicator",
+    "target_path": false
+  },
+  "control_terminal": {
+    "acceptance": "Reacquires a current control terminal; integrated native acceptance pending",
+    "inputs": {
+      "control_id": "ref"
+    },
+    "outputs": [
+      "terminal_id"
+    ],
+    "helper": "Native_GetControlTerminal",
+    "target_path": false
+  },
+  "subvi": {
+    "helper": "Native_AddSubVIInDiagram",
+    "inputs": {
+      "subvi_path": "generated_vi",
+      "x": "short",
+      "owner_diagram_id": "ref",
+      "y": "short"
+    },
+    "outputs": [
+      "object_id",
+      "terminal_ids"
+    ],
+    "acceptance": "Only application-generated compiled dependencies with matching provenance; native integrated acceptance pending",
+    "target_path": true
+  },
+  "find_control": {
+    "target_path": false,
+    "outputs": [
+      "control_id",
+      "terminal_id"
+    ],
+    "helper": "Managed_FindControl",
+    "inputs": {
+      "label": "string"
+    },
+    "acceptance": "One exact front-panel label in the generated VI/copy; ambiguous labels rejected; native integrated acceptance pending"
+  },
+  "property_info": {
+    "target_path": false,
+    "helper": "Own20261012_GetPropertyInfo",
+    "outputs": [
+      "class_name",
+      "supported_properties",
+      "property_count",
+      "property_item_ids",
+      "properties"
+    ],
+    "inputs": {
+      "property_id": "ref"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "property_class": {
+    "target_path": false,
+    "helper": "Own20261012_SetPropertyClass",
+    "outputs": [],
+    "inputs": {
+      "property_id": "ref",
+      "class_name": "string"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "property_select": {
+    "target_path": false,
+    "helper": "Own20261012_SelectProperties",
+    "outputs": [
+      "property_item_ids"
+    ],
+    "inputs": {
+      "allow_alternate_names": "bool",
+      "property_id_strings": "strings",
+      "property_id": "ref"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "property_item_info": {
+    "target_path": false,
+    "helper": "Own20261012_GetPropertyItemInfo",
+    "outputs": [
+      "is_write",
+      "property"
+    ],
+    "inputs": {
+      "property_item_id": "ref"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "property_item_write": {
+    "target_path": false,
+    "helper": "Own20261012_SetPropertyItemWrite",
+    "outputs": [],
+    "inputs": {
+      "property_item_id": "ref",
+      "is_write": "bool"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "property_item_select": {
+    "target_path": false,
+    "helper": "Own20261012_SetPropertyItem",
+    "outputs": [],
+    "inputs": {
+      "property_item_id": "ref",
+      "allow_alternate_names": "bool",
+      "property_id_string": "string"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "invoke_info": {
+    "target_path": false,
+    "helper": "Own20261012_GetInvokeInfo",
+    "outputs": [
+      "class_name",
+      "method",
+      "supported_methods"
+    ],
+    "inputs": {
+      "invoke_id": "ref"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "invoke_class": {
+    "target_path": false,
+    "helper": "Own20261012_SetInvokeClass",
+    "outputs": [],
+    "inputs": {
+      "invoke_id": "ref",
+      "class_name": "string"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "invoke_select": {
+    "target_path": false,
+    "helper": "Own20261012_SelectMethod",
+    "outputs": [],
+    "inputs": {
+      "invoke_id": "ref",
+      "method": "string"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "invoke_terminals": {
+    "target_path": false,
+    "helper": "Own20261012_GetInvokeTerminals",
+    "outputs": [
+      "input_terminal_ids",
+      "output_terminal_ids"
+    ],
+    "inputs": {
+      "invoke_id": "ref"
+    },
+    "acceptance": "Native helper and finite bound-reference behavior accepted; integrated recipe acceptance recorded separately"
+  },
+  "control_reference": {
+    "target_path": false,
+    "helper": "Own20261012_CreateControlReference",
+    "outputs": [
+      "reference_constant_id"
+    ],
+    "inputs": {
+      "control_id": "ref"
+    },
+    "acceptance": "Generic NI Control.Create.Control Ref, restricted by actual current target VI Path/UID and FP Control membership or actual Control.Owner ancestry. Readonly supported-property names/IDs acceptance is separate from strict typed Value write/read domains; String/Cluster/Slide native verification pending."
+  },
+  "formula_expression": {
+    "outputs": [],
+    "inputs": {
+      "expression": "formula_text",
+      "formula_id": "ref"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_SetFormulaExpression",
+    "target_path": false
+  },
+  "formula_info": {
+    "outputs": [
+      "expression",
+      "parameter_ids"
+    ],
+    "inputs": {
+      "formula_id": "ref"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_GetFormulaInfo",
+    "target_path": false
+  },
+  "formula_input": {
+    "outputs": [
+      "parameter_id"
+    ],
+    "inputs": {
+      "Name": "string",
+      "Position": "uint",
+      "formula_id": "ref"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_FormulaAddInput",
+    "target_path": false
+  },
+  "formula_output": {
+    "outputs": [
+      "parameter_id"
+    ],
+    "inputs": {
+      "Name": "string",
+      "Position": "uint",
+      "formula_id": "ref"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_FormulaAddOutput",
+    "target_path": false
+  },
+  "formula_parameter_info": {
+    "outputs": [
+      "name",
+      "is_input",
+      "terminal_id"
+    ],
+    "inputs": {
+      "parameter_id": "ref"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_GetFormulaParameterInfo",
+    "target_path": false
+  },
+  "formula_parameter_name": {
+    "outputs": [],
+    "inputs": {
+      "parameter_id": "ref",
+      "name": "string"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_SetFormulaParameterName",
+    "target_path": false
+  },
+  "formula_parameter_delete": {
+    "outputs": [],
+    "inputs": {
+      "parameter_id": "ref"
+    },
+    "acceptance": "Native helper ABI and finite Formula behavior accepted; integrated app evidence recorded separately",
+    "helper": "Own20261012_DeleteFormulaParameter",
+    "target_path": false
+  },
+  "cluster_child": {
+    "inputs": {
+      "style": "style",
+      "x": "short",
+      "y": "short",
+      "owner_id": "ref",
+      "label": "string"
+    },
+    "outputs": [
+      "object_id"
+    ],
+    "acceptance": "Verified Digital3000/Boolean3110/String3200/Cluster3400 children only; native Cluster owner and exact returned child class required; optional representation=3 sets and reads nested Digital I32 directly, never obtains a nonexistent standalone child BD terminal.",
+    "helper": "Own20261012_AddControlToOwner",
+    "target_path": false,
+    "optional_inputs": {
+      "representation": "uint"
+    },
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213152\\acceptance.json"
+  },
+  "named_bundle_info": {
+    "inputs": {
+      "bundler_id": "ref"
+    },
+    "outputs": [
+      "element_names",
+      "available_elements",
+      "full_element_names"
+    ],
+    "acceptance": "Five native helpers accepted in development; product uses actual-class, row-count, field-existence and exact selection readback guards. Product generation/runtime acceptance recorded separately.",
+    "helper": "Own20261012_GetNamedBundlerElements",
+    "target_path": false
+  },
+  "named_bundle_select": {
+    "inputs": {
+      "bundler_id": "ref",
+      "element_names": "strings"
+    },
+    "outputs": [
+      "element_names",
+      "available_elements",
+      "full_element_names"
+    ],
+    "acceptance": "Five native helpers accepted in development; product uses actual-class, row-count, field-existence and exact selection readback guards. Product generation/runtime acceptance recorded separately.",
+    "helper": "Own20261012_SetNamedBundlerElements",
+    "target_path": false
+  },
+  "named_unbundle_info": {
+    "inputs": {
+      "unbundler_id": "ref"
+    },
+    "outputs": [
+      "element_names",
+      "available_elements",
+      "full_element_names"
+    ],
+    "acceptance": "Five native helpers accepted in development; product uses actual-class, row-count, field-existence and exact selection readback guards. Product generation/runtime acceptance recorded separately.",
+    "helper": "Own20261012_GetNamedUnbundlerElements",
+    "target_path": false
+  },
+  "named_unbundle_select": {
+    "inputs": {
+      "unbundler_id": "ref",
+      "element_names": "strings"
+    },
+    "outputs": [
+      "element_names",
+      "available_elements",
+      "full_element_names"
+    ],
+    "acceptance": "Five native helpers accepted in development; product uses actual-class, row-count, field-existence and exact selection readback guards. Product generation/runtime acceptance recorded separately.",
+    "helper": "Own20261012_SetNamedUnbundlerElements",
+    "target_path": false
+  },
+  "set_double": {
+    "outputs": [
+      "value",
+      "type_descriptor"
+    ],
+    "target_path": false,
+    "acceptance": "Actual DigitalNumericConstant class; dedicated Native_GetConstantTerminal then fresh DBL descriptor0x0A; finite Double write and exact getter readback",
+    "inputs": {
+      "value": "number",
+      "constant_id": "ref"
+    },
+    "helper": "Own20261012_SetDoubleConstantValue"
+  },
+  "get_number": {
+    "outputs": [
+      "value"
+    ],
+    "target_path": false,
+    "acceptance": "Actual DigitalNumericConstant class; Variant must unbox to finite numeric",
+    "inputs": {
+      "constant_id": "ref"
+    },
+    "helper": "Own20261012_GetDigitalConstantValue"
+  },
+  "get_string": {
+    "outputs": [
+      "value"
+    ],
+    "target_path": false,
+    "acceptance": "Actual StringConstant class; Variant must unbox to String; set_string now checks exact readback",
+    "inputs": {
+      "constant_id": "ref"
+    },
+    "helper": "Native_GetStringConstantValue"
+  },
+  "control_default": {
+    "outputs": [
+      "value",
+      "class_name",
+      "label"
+    ],
+    "target_path": false,
+    "acceptance": "Exact unique top-level identity and finite scalar/known Cluster layout. Inputs: Digital/Boolean/String/known Cluster; indicators: Digital/Boolean only. Typed Set/Get exact readback then MakeCurValueDefault; final defaults stage.",
+    "inputs": {
+      "control_id": "ref",
+      "value": "control_value"
+    },
+    "helper": "Managed_ControlDefault"
+  },
+  "array_element": {
+    "outputs": [
+      "object_id"
+    ],
+    "target_path": false,
+    "acceptance": "Exactly one Digital style3000, String style3200 or Boolean style3110 child inside an empty current-recipe Array. Native actual Array/child class and Path+UID identity readback. String/Boolean rank1/rank2/empty-vector product ABI and saved finite echo accepted in typed-array-runtime/reopen-acceptance.json.",
+    "inputs": {
+      "owner_id": "ref",
+      "x": "short",
+      "y": "short",
+      "style": "style",
+      "label": "string"
+    },
+    "helper": "Own20261012_AddControlToOwner"
+  },
+  "array_info": {
+    "outputs": [
+      "dimensions",
+      "element_id",
+      "terminal_id"
+    ],
+    "target_path": false,
+    "acceptance": "Actual Array class; empty Array error1054 and unavailable refs reject. Refresh after dimensions/element/direction mutation.",
+    "inputs": {
+      "array_id": "ref"
+    },
+    "helper": "Own20261012_GetArrayInfo"
+  },
+  "array_dimensions": {
+    "outputs": [
+      "dimensions"
+    ],
+    "target_path": false,
+    "acceptance": "Ranks1/2; UInt32 exact Set/Get readback; add an element first. Invalidate prior terminals and derived element aliases.",
+    "inputs": {
+      "dimensions": "uint",
+      "array_id": "ref"
+    },
+    "helper": "Own20261012_SetArrayDimensions"
+  },
+  "array_default": {
+    "outputs": [
+      "value",
+      "dimensions",
+      "shape",
+      "value_clr_type",
+      "class_name",
+      "label",
+      "type_descriptor"
+    ],
+    "target_path": false,
+    "acceptance": "Exact rank1/2 Digital numeric defaults use actual Numeric.Rep, terminal TD and native SAFEARRAY CLR element type with strict scalar conversion; Boolean/String retain exact typed conversion. Input/indicator directions are read and preserved. Saved final native defaults must match typed current values. New nonempty I32 input/output default runtime/reopen acceptance pending; prior DBL/Boolean/String acceptance retained.",
+    "inputs": {
+      "value": "array_value",
+      "array_id": "ref"
+    },
+    "helper": "Managed_ArrayDefault"
+  },
+  "for_stop_if_true": {
+    "outputs": [
+      "stop_if_true"
+    ],
+    "target_path": false,
+    "acceptance": "Actual ForLoop class; exact Boolean setter/getter readback; generator never executes arbitrary loops",
+    "inputs": {
+      "for_id": "ref",
+      "stop_if_true": "bool"
+    },
+    "helper": "Own20261012_SetForStopIfTrue"
+  },
+  "for_stop_if_true_info": {
+    "outputs": [
+      "stop_if_true"
+    ],
+    "target_path": false,
+    "acceptance": "Actual ForLoop class",
+    "inputs": {
+      "for_id": "ref"
+    },
+    "helper": "Own20261012_GetForStopIfTrue"
+  },
+  "while_stop_if_true": {
+    "outputs": [
+      "stop_if_true"
+    ],
+    "target_path": false,
+    "acceptance": "Actual WhileLoop class; exact Boolean setter/getter readback; generator never executes arbitrary loops",
+    "inputs": {
+      "stop_if_true": "bool",
+      "while_id": "ref"
+    },
+    "helper": "Own20261012_SetWhileStopIfTrue"
+  },
+  "while_stop_if_true_info": {
+    "outputs": [
+      "stop_if_true"
+    ],
+    "target_path": false,
+    "acceptance": "Actual WhileLoop class",
+    "inputs": {
+      "while_id": "ref"
+    },
+    "helper": "Own20261012_GetWhileStopIfTrue"
+  },
+  "tunnel_conditional": {
+    "outputs": [
+      "is_conditional"
+    ],
+    "target_path": false,
+    "acceptance": "Actual LoopTunnel class; exact Boolean Set/Get; invalid input tunnel preserves native NI error1; invalidate old condition/data Terminal aliases",
+    "inputs": {
+      "is_conditional": "bool",
+      "tunnel_id": "ref"
+    },
+    "helper": "Own20261012_SetLoopTunnelConditional"
+  },
+  "tunnel_conditional_info": {
+    "outputs": [
+      "is_conditional"
+    ],
+    "target_path": false,
+    "acceptance": "Actual LoopTunnel class",
+    "inputs": {
+      "tunnel_id": "ref"
+    },
+    "helper": "Own20261012_GetLoopTunnelConditional"
+  },
+  "tunnel_condition_terminal": {
+    "outputs": [
+      "condition_terminal_id"
+    ],
+    "target_path": false,
+    "acceptance": "Require enabled conditional output LoopTunnel, nonzero returned reference and fresh Boolean descriptor0x21",
+    "inputs": {
+      "tunnel_id": "ref"
+    },
+    "helper": "Own20261012_GetLoopTunnelConditionTerminal"
+  },
+  "representation_info": {
+    "target_path": false,
+    "acceptance": "Actual Digital/Slide property0..14 and descriptor match. Top-level controls expose a fresh independent terminal_id. Current-recipe nested Cluster members read actual Ctl.Owner and validate selected scalar member in the real top parent Cluster Terminal TD; no child Terminal call, no zero ref. Metadata for nested controls includes owner_terminal_id and owner_type_descriptor; terminal_id alias is absent and rejected offline. Array element ownership/parent TD path is implemented but native public acceptance pending.",
+    "outputs": [
+      "representation",
+      "representation_name",
+      "terminal_id",
+      "type_descriptor"
+    ],
+    "helper": "Own20261012_GetNumericRepresentation",
+    "inputs": {
+      "numeric_id": "ref"
+    }
+  },
+  "connector_auto": {
+    "outputs": [
+      "pattern",
+      "terminal_count",
+      "terminal_bounds",
+      "assignments"
+    ],
+    "helper": "Managed_ConnectorAuto",
+    "inputs": {
+      "control_labels": "strings"
+    },
+    "acceptance": "1..28 unique top-level labels; actual direction and Path+UID identity; smallest verified left-input/right-output geometry; existing assignments on the new owned target are disconnected through exact native DiscAllTerms and independent zero-assignment readback, then allocated and independently verified. Original source remains unchanged. Public owned-source-copy reconfiguration and new caller accepted in two fresh clients each,4finite Runs returning5; original source hashes and connector mapping unchanged.",
+    "target_path": false,
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\connector_reconfigure_20261012_220432\\acceptance.json"
+  },
+  "connector_info": {
+    "acceptance": "Current VI only; metadata outputs contain labels and VI-path/UID identities, never reusable raw reference arrays.",
+    "helper": "Managed_ConnectorInfo",
+    "target_path": false,
+    "outputs": [
+      "pattern",
+      "terminal_count",
+      "terminal_bounds",
+      "assignments"
+    ],
+    "inputs": {}
+  },
+  "connect_source_to_structure": {
+    "helper": "Managed_ConnectSourceToStructure",
+    "target_path": false,
+    "inputs": {
+      "source_terminal": "ref",
+      "structure_id": "ref"
+    },
+    "outputs": [
+      "tunnel_id",
+      "inside_ids",
+      "outside_id",
+      "structure_class",
+      "tunnel_identity"
+    ],
+    "acceptance": "Actual For/While/Case/Event and direct-parent source Terminal; current target Path+UID; repeated physical pair rejected; preserve every previous tunnel identity and require exactly one new tunnel; fresh nonzero inside/outside refs. Generic generation never runs a structure."
+  },
+  "ctl_constant": {
+    "acceptance": "App-generated CTL only, immutable file/report hash snapshots; actual loaded VIType/Path and empty native callees; target identity checked. Product native acceptance pending.",
+    "target_path": false,
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "type_path": "generated_type",
+      "y": "short",
+      "x": "short"
+    },
+    "helper": "Managed_CtlConstant",
+    "outputs": [
+      "constant_id",
+      "terminal_id",
+      "type_descriptor",
+      "type_path",
+      "type_sha256"
+    ]
+  },
+  "global_node": {
+    "acceptance": "App-generated global VI only; exact unique field and read/write chosen atomically; actual loaded type/target identity, field readback and Terminal.IsSource direction checked. Product native acceptance pending.",
+    "target_path": false,
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "y": "short",
+      "control_name": "string",
+      "write": "bool",
+      "x": "short",
+      "type_path": "generated_type"
+    },
+    "helper": "Managed_GlobalNode",
+    "outputs": [
+      "object_id",
+      "terminal_ids",
+      "terminal_id",
+      "control_name",
+      "write",
+      "direction_verified",
+      "type_descriptor",
+      "type_path",
+      "type_sha256"
+    ]
+  },
+  "array_move_element": {
+    "inputs": {
+      "y": "short",
+      "control_id": "ref",
+      "owner_id": "ref",
+      "x": "short"
+    },
+    "helper": "Managed_ArrayMoveElement",
+    "target_path": false,
+    "outputs": [
+      "dimensions",
+      "element_id",
+      "terminal_id",
+      "class_name",
+      "element_identity",
+      "is_indicator",
+      "type_descriptor"
+    ],
+    "acceptance": "Move a free top-level control created by this recipe into an empty new Array before wiring, references or connector assignment. Digital uses actual Numeric.Rep and exact fresh element TD instead of assuming DBL. The Array inherits the source original direction after move; all terminals are reacquired. Prior DBL/Boolean/String rank1/2 and empty rank1 Cluster native evidence remains accepted. New I32/mismatched-direction public native acceptance pending."
+  },
+  "boolean_text": {
+    "inputs": {
+      "boolean_id": "ref",
+      "text": "string"
+    },
+    "helper": "Managed_BooleanText",
+    "target_path": false,
+    "outputs": [
+      "text",
+      "multiple_strings",
+      "mechanical_action",
+      "state_strings",
+      "label",
+      "is_indicator",
+      "value",
+      "changed"
+    ],
+    "acceptance": "Actual uniquely named top-level Boolean; empty text skips setter. Nonempty text writes exact current count1/4 states, independently reads text, preserves label/value/direction/MultiStrs/mechanical action. Product runtime pending."
+  },
+  "boolean_text_info": {
+    "inputs": {
+      "boolean_id": "ref"
+    },
+    "helper": "Managed_BooleanTextInfo",
+    "target_path": false,
+    "outputs": [
+      "text",
+      "multiple_strings",
+      "mechanical_action",
+      "state_strings",
+      "label",
+      "is_indicator",
+      "value",
+      "changed"
+    ],
+    "acceptance": "Read actual Boolean text and state strings plus unchanged top-level control metadata; outputs are data, not refs."
+  },
+  "node_label": {
+    "helper": "Managed_NodeLabel",
+    "inputs": {
+      "node_id": "ref",
+      "label": "string"
+    },
+    "outputs": [
+      "label",
+      "visible",
+      "bounds",
+      "class_name",
+      "identity",
+      "changed"
+    ],
+    "target_path": false,
+    "acceptance": "Public For/While build and two read-only saved clients passed; targets never Run. Empty label skips setters and preserves default text/visibility/bounds. Nonempty text+VisibleTrue independently read back. bounds is actual native size and can include a visible label.",
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_node_label\\runs\\20261012_204818\\acceptance.json"
+  },
+  "node_label_info": {
+    "helper": "Managed_NodeLabelInfo",
+    "inputs": {
+      "node_id": "ref"
+    },
+    "outputs": [
+      "label",
+      "visible",
+      "bounds",
+      "class_name",
+      "identity",
+      "changed"
+    ],
+    "target_path": false,
+    "acceptance": "Public For/While build and two read-only saved clients passed; targets never Run. Empty label skips setters and preserves default text/visibility/bounds. Nonempty text+VisibleTrue independently read back. bounds is actual native size and can include a visible label.",
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_node_label\\runs\\20261012_204818\\acceptance.json"
+  },
+  "for_count_info": {
+    "helper": "Managed_ForCountInfo",
+    "inputs": {
+      "for_id": "ref"
+    },
+    "outputs": [
+      "count_id",
+      "inside_count_id",
+      "counter_id",
+      "diagram_id",
+      "tunnel_id",
+      "type_descriptor"
+    ],
+    "target_path": false,
+    "acceptance": "Public finite N=1/3/5 and saved reopen verify distinct actual outside N, body N and body counter i; physical Path/UID, direction, owner and I32 descriptors checked.",
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213149\\acceptance.json",
+    "geometry_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\geometry_20261012_213415\\acceptance.json"
+  },
+  "case_selector_info": {
+    "helper": "Managed_CaseSelectorInfo",
+    "inputs": {
+      "case_id": "ref"
+    },
+    "outputs": [
+      "frame_ids",
+      "inside_ids",
+      "outside_id",
+      "selector_tunnel_id",
+      "type_descriptor",
+      "frame_identities"
+    ],
+    "target_path": false,
+    "acceptance": "Public Boolean false/true, I32 explicit/default and String explicit/default/empty inputs passed finite saved/fresh clients. Actual inner sources mapped to each owning frame Path+UID with exact descriptor/direction, distinct parent outside sink; fresh aliases after wire/frame/name mutations. Only tested Boolean/I32/String scalar families accepted.",
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\20261012_213149\\acceptance.json",
+    "boolean_development_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\boolean-inside-final-manifest.json",
+    "geometry_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\geometry_20261012_213415\\acceptance.json"
+  },
+  "decoration": {
+    "helper": "Managed_RootDecoration",
+    "inputs": {
+      "style": "uint",
+      "x": "short",
+      "y": "short"
+    },
+    "outputs": [
+      "object_id",
+      "class_name",
+      "bounds",
+      "position",
+      "identity"
+    ],
+    "target_path": true,
+    "acceptance": "Public root FlatBox3602 creation and deletion accepted; actual class/current Path+UID/position/size/root inventory verified. Stale deleted symbolic alias rejected; kept control geometry/identity/native saved default42.5 and zero wires retained in two readonly saved clients. No target Run; no other style inferred.",
+    "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\public_inside\\runs\\decoration_20261012_213412\\acceptance.json"
+  },
+  "file_place": {
+    "helper": "Managed_FilePlace",
+    "target_path": false,
+    "inputs": {
+      "source_path": "string",
+      "owner_diagram_id": "ref",
+      "x": "coordinate_i16",
+      "y": "coordinate_i16"
+    },
+    "optional_inputs": {
+      "category": "string",
+      "global_name": "string",
+      "write": "bool"
+    },
+    "outputs": [
+      "object_id",
+      "terminal_ids",
+      "owner_diagram_id",
+      "actual_class",
+      "category",
+      "source_path",
+      "source_sha256",
+      "terminals",
+      "source_dependency_closure",
+      "class_type_dependency",
+      "source_files_unchanged",
+      "source_saved",
+      "source_executed",
+      "helper_paths"
+    ],
+    "acceptance": "Filesystem policy preflight; borrowed existing NI app/refs/lease; exact actual target Diagram identity/membership and terminal ownership. Accepted NI candidates or audited prepare_file copies; source unchanged and never Run/Save. Saved closure audited separately with current native paths. singleton terminal_id is optional runtime metadata and is not a guaranteed symbolic Ref; use terminal_ids.0. Public native recipe acceptance pending."
+  },
+  "scripting_add": {
+    "helper": "Own20261013_ScriptingAdd_V2",
+    "inputs": {
+      "owner_diagram_id": "ref",
+      "source_x": "ref",
+      "source_y": "ref"
+    },
+    "outputs": [
+      "terminal_id"
+    ],
+    "target_path": false,
+    "acceptance": "Final-location adapter and public same-Diagram scalar DBL add creation/wiring accepted; saved finite results5,6.5,0; source-direction/owner and symbolic kind/deletion guards; produced VI has no MIT runtime callee. Other terminal data types are not claimed by these fixtures."
+  }
+}

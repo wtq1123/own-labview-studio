@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "name": "SourceStructureevent",
+  "steps": [
+    {
+      "id": "input",
+      "op": "control",
+      "args": {
+        "style": "Numeric Control",
+        "x": 40,
+        "y": 40,
+        "label": "Input"
+      }
+    },
+    {
+      "id": "structure",
+      "op": "event",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "bounds": [
+          550,
+          350
+        ],
+        "x": 240,
+        "y": 140,
+        "style": "Event Structure"
+      }
+    },
+    {
+      "id": "special",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$structure.event_id"
+      }
+    },
+    {
+      "id": "timeout",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$special.terminal_ids.2"
+      }
+    },
+    {
+      "id": "zeroTimeout",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$timeout.constant_id",
+        "value": 0
+      }
+    },
+    {
+      "id": "timeoutReadback",
+      "op": "get_number",
+      "args": {
+        "constant_id": "$timeout.constant_id"
+      }
+    },
+    {
+      "id": "connect",
+      "op": "connect_source_to_structure",
+      "args": {
+        "source_terminal": "$input.terminal_id",
+        "structure_id": "$structure.event_id"
+      }
+    },
+    {
+      "id": "out0",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$connect.inside_ids.0"
+      }
+    },
+    {
+      "id": "label0",
+      "op": "label",
+      "args": {
+        "control_id": "$out0.control_id",
+        "label": "Echo0"
+      }
+    },
+    {
+      "id": "inputDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$input.object_id",
+        "value": -3.25
+      }
+    }
+  ]
+}

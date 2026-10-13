@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "name": "CaseDemo",
+  "steps": [
+    {"id":"choice","op":"control","args":{"style":"Horizontal Toggle Switch","x":30,"y":30,"label":"Choice"}},
+    {"id":"case","op":"case","args":{"owner_diagram_id":"$root.diagram_id","style":"Case Structure","x":150,"y":100,"bounds":[450,300]}},
+    {"id":"info","op":"case_info","args":{"case_id":"$case.case_id"}},
+    {"id":"names","op":"case_names","args":{"case_id":"$case.case_id"}},
+    {"id":"select","op":"wire","args":{"source_terminal":"$choice.terminal_id","sink_terminal":"$info.terminal_ids.0"}},
+    {"id":"wired_info","op":"case_info","args":{"case_id":"$case.case_id"}},
+    {"id":"a","op":"node","args":{"owner_diagram_id":"$wired_info.frame_ids.0","style":"Increment","x":230,"y":170}},
+    {"id":"ac","op":"constant","args":{"terminal_id":"$a.pins.x"}},
+    {"id":"av","op":"set_number","args":{"constant_id":"$ac.constant_id","value":10}},
+    {"id":"ao","op":"typed_indicator","args":{"terminal_id":"$a.pins.x+1"}},
+    {"id":"al","op":"label","args":{"control_id":"$ao.control_id","label":"Branch zero"}},
+    {"id":"b","op":"node","args":{"owner_diagram_id":"$wired_info.frame_ids.1","style":"Increment","x":230,"y":170}},
+    {"id":"bc","op":"constant","args":{"terminal_id":"$b.pins.x"}},
+    {"id":"bv","op":"set_number","args":{"constant_id":"$bc.constant_id","value":20}},
+    {"id":"bo","op":"typed_indicator","args":{"terminal_id":"$b.pins.x+1"}},
+    {"id":"bl","op":"label","args":{"control_id":"$bo.control_id","label":"Branch one"}}
+  ]
+}

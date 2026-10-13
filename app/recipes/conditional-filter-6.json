@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "name": "ConditionalFilter6",
+  "steps": [
+    {
+      "id": "loop",
+      "op": "for",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "For Loop",
+        "x": 150,
+        "y": 100,
+        "bounds": [
+          500,
+          350
+        ]
+      }
+    },
+    {
+      "id": "body",
+      "op": "for_info",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "ports",
+      "op": "for_terminals",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "count",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$ports.count_id"
+      }
+    },
+    {
+      "id": "setCount",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$count.constant_id",
+        "value": 6
+      }
+    },
+    {
+      "id": "output",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 40,
+        "y": 40,
+        "label": "Filtered"
+      }
+    },
+    {
+      "id": "element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$output.object_id",
+        "style": "Numeric Control",
+        "x": 15,
+        "y": 15,
+        "label": "Element"
+      }
+    },
+    {
+      "id": "indicator",
+      "op": "set_indicator",
+      "args": {
+        "control_id": "$output.object_id",
+        "is_indicator": true
+      }
+    },
+    {
+      "id": "array",
+      "op": "array_info",
+      "args": {
+        "array_id": "$output.object_id"
+      }
+    },
+    {
+      "id": "outWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$ports.counter_id",
+        "sink_terminal": "$array.terminal_id"
+      }
+    },
+    {
+      "id": "tunnels",
+      "op": "for_tunnels",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "conditional",
+      "op": "tunnel_conditional",
+      "args": {
+        "tunnel_id": "$tunnels.tunnel_ids.0",
+        "is_conditional": true
+      }
+    },
+    {
+      "id": "conditionalRead",
+      "op": "tunnel_conditional_info",
+      "args": {
+        "tunnel_id": "$tunnels.tunnel_ids.0"
+      }
+    },
+    {
+      "id": "conditionPin",
+      "op": "tunnel_condition_terminal",
+      "args": {
+        "tunnel_id": "$tunnels.tunnel_ids.0"
+      }
+    },
+    {
+      "id": "compare",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$body.diagram_id",
+        "style": "Less?",
+        "x": 300,
+        "y": 200
+      }
+    },
+    {
+      "id": "counterWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$ports.counter_id",
+        "sink_terminal": "$compare.pins.x"
+      }
+    },
+    {
+      "id": "limit",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$compare.pins.y"
+      }
+    },
+    {
+      "id": "setLimit",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$limit.constant_id",
+        "value": 6
+      }
+    },
+    {
+      "id": "conditionWire",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$compare.terminal_ids.0",
+        "sink_terminal": "$conditionPin.condition_terminal_id"
+      }
+    }
+  ]
+}

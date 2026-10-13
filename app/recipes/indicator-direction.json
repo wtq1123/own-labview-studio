@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "IndicatorDirectionDemo",
+  "steps": [
+    {"id":"input","op":"control","args":{"style":"Numeric Control","x":100,"y":100,"label":"Input"}},
+    {"id":"output","op":"control","args":{"style":"Numeric Control","x":400,"y":100,"label":"Output"}},
+    {"id":"direction","op":"set_indicator","args":{"control_id":"$output.object_id","is_indicator":true}},
+    {"id":"readback","op":"is_indicator","args":{"control_id":"$output.object_id"}},
+    {"id":"fresh_output","op":"control_terminal","args":{"control_id":"$output.object_id"}},
+    {"id":"connect","op":"wire","args":{"source_terminal":"$input.terminal_id","sink_terminal":"$fresh_output.terminal_id"}}
+  ]
+}

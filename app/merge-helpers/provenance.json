@@ -1,0 +1,171 @@
+{
+  "status": "development_helper_and_one_finite_fixture_passed_not_product_integration",
+  "ni_session_released": true,
+  "ni_pid": 44972,
+  "helper": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_helper_e25c52bb39e347ab8b9ffb4cb79a3da1\\OwnMergeDiagram_75a8ff880a4e45db8adbb9b45fd37ec5.vi",
+  "helper_sha256": "7052eee4ecbd20d87eeeab2563c86162d92d0596ab2489efba8b8e2891e81316",
+  "build_report": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_helper_e25c52bb39e347ab8b9ffb4cb79a3da1\\build.json",
+  "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_acceptance_862fbb8896704bd3b4b060e39cdb8135\\acceptance.json",
+  "reopen_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_acceptance_862fbb8896704bd3b4b060e39cdb8135\\reopen.json",
+  "checks": {
+    "merge": 13,
+    "fresh_client": 12
+  },
+  "source_control_count": 6,
+  "target_control_count": 7,
+  "all_fixture_fp_controls_copied": true,
+  "root_and_nested_wires_copied": true,
+  "keepme_stable_uid_preserved": true,
+  "source_and_saved_hashes_unchanged": true,
+  "helper_abi": [
+    {
+      "label": "source_path",
+      "indicator": false,
+      "descriptor": [
+        20,
+        16434,
+        -1,
+        -1,
+        2931,
+        28533,
+        29283,
+        25951,
+        28769,
+        29800
+      ]
+    },
+    {
+      "label": "target_path",
+      "indicator": false,
+      "descriptor": [
+        20,
+        16434,
+        -1,
+        -1,
+        2932,
+        24946,
+        26469,
+        29791,
+        28769,
+        29800
+      ]
+    },
+    {
+      "label": "delta",
+      "indicator": false,
+      "descriptor": [
+        24,
+        16464,
+        2,
+        6,
+        16387,
+        344,
+        6,
+        16387,
+        345,
+        1380,
+        25964,
+        29793
+      ]
+    },
+    {
+      "label": "error out",
+      "indicator": true,
+      "descriptor": [
+        54,
+        16464,
+        3,
+        12,
+        16417,
+        1651,
+        29793,
+        29813,
+        29440,
+        10,
+        16387,
+        1123,
+        28516,
+        25856,
+        16,
+        16432,
+        -1,
+        -1,
+        1651,
+        28533,
+        29283,
+        25856,
+        2405,
+        29298,
+        28530,
+        8303,
+        30068
+      ]
+    },
+    {
+      "label": "selected_source_objects",
+      "indicator": true,
+      "descriptor": [
+        46,
+        16448,
+        1,
+        -1,
+        -1,
+        12,
+        112,
+        8,
+        36,
+        4,
+        0,
+        6003,
+        25964,
+        25955,
+        29797,
+        25695,
+        29551,
+        30066,
+        25445,
+        24431,
+        25194,
+        25955,
+        29811
+      ]
+    }
+  ],
+  "helper_callees": [
+    "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVDeltaXY32Cluster.ctl"
+  ],
+  "static_truth_condition": "DuplicatedObjects hardwired to Equal?(0,0); no destructive mode public input",
+  "selection": "TopLvlDiag.AllObjs[] plus TopLvlDiag.Wires[], joined by Insert Into Array then Make Selection",
+  "method_uid": "634900f",
+  "delta": "X Int32, Y Int32 native cluster",
+  "error_chain": "Open source -> source Diagram -> Open target -> target Diagram -> Clear Selection -> AllObjs[] and Wires[] -> Make Selection -> Move Selected Objects -> Close Reference source -> Close Reference target",
+  "caller_preflight": "The experiment checks duplicate source labels and intersection with target labels before invoking helper. Helper itself has no collision enforcement. Fresh-client collision test only verifies the preflight condition/unchanged target and does not call duplicate. Product must implement rejection before invoking helper.",
+  "unverified": [
+    "FP-only decorations, multiple panes, advanced control containers",
+    "General arbitrary VI dependency/class/type closure",
+    "Connector-pane assignment migration",
+    "Product Recipe/Core/Desktop/MCP integration"
+  ],
+  "corrections": [
+    "Historical build error-chain text predates Wires[] union; actual v4 graph and source include it.",
+    "acceptance.json free-form scope says seven source controls in error; actual source_panel length is six, target is seven including KeepMe. Structured evidence is authoritative."
+  ],
+  "source_files": [
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\probe_merge_metadata.py",
+      "sha256": "c4eb7b1f67178b7857b8ea12c3f0ec0f2f6a3d325c5a6942a6ed5a20fe5b199a"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\build_merge_helper.py",
+      "sha256": "85a4b94fe317ea6b1c21997032f74501ed73c0f998f5133aef985c84c359eb39"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\test_merge_helper.py",
+      "sha256": "e007eefb058245dcbc6f459be414eca8d9fbedc059c50dcf2006bd267bee05ef"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\reopen_merge_acceptance.py",
+      "sha256": "7cfa06f54870e2f5fb9702fd25f2f2be9eaa5ba739d84d1a652598d9486c684c"
+    }
+  ]
+}

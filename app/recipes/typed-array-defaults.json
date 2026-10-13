@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "name": "TypedArrayDefaults",
+  "steps": [
+    {
+      "id": "a0",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 40,
+        "label": "BoolVector",
+        "y": 40.0
+      }
+    },
+    {
+      "id": "a0element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$a0.object_id",
+        "style": "Horizontal Toggle Switch",
+        "x": 10,
+        "label": "Element",
+        "y": 10
+      }
+    },
+    {
+      "id": "a0dims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$a0.object_id",
+        "dimensions": 1
+      }
+    },
+    {
+      "id": "a0info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$a0.object_id"
+      }
+    },
+    {
+      "id": "a0echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$a0info.terminal_id"
+      }
+    },
+    {
+      "id": "a0label",
+      "op": "label",
+      "args": {
+        "label": "BoolVectorEcho",
+        "control_id": "$a0echo.control_id"
+      }
+    },
+    {
+      "id": "a1",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 390,
+        "label": "BoolMatrix",
+        "y": 40.0
+      }
+    },
+    {
+      "id": "a1element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$a1.object_id",
+        "style": "Horizontal Toggle Switch",
+        "x": 10,
+        "label": "Element",
+        "y": 10
+      }
+    },
+    {
+      "id": "a1dims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$a1.object_id",
+        "dimensions": 2
+      }
+    },
+    {
+      "id": "a1info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$a1.object_id"
+      }
+    },
+    {
+      "id": "a1echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$a1info.terminal_id"
+      }
+    },
+    {
+      "id": "a1label",
+      "op": "label",
+      "args": {
+        "label": "BoolMatrixEcho",
+        "control_id": "$a1echo.control_id"
+      }
+    },
+    {
+      "id": "a2",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 40,
+        "label": "TextVector",
+        "y": 200.0
+      }
+    },
+    {
+      "id": "a2element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$a2.object_id",
+        "style": "String Control",
+        "x": 10,
+        "label": "Element",
+        "y": 10
+      }
+    },
+    {
+      "id": "a2dims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$a2.object_id",
+        "dimensions": 1
+      }
+    },
+    {
+      "id": "a2info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$a2.object_id"
+      }
+    },
+    {
+      "id": "a2echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$a2info.terminal_id"
+      }
+    },
+    {
+      "id": "a2label",
+      "op": "label",
+      "args": {
+        "label": "TextVectorEcho",
+        "control_id": "$a2echo.control_id"
+      }
+    },
+    {
+      "id": "a3",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 390,
+        "label": "TextMatrix",
+        "y": 200.0
+      }
+    },
+    {
+      "id": "a3element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$a3.object_id",
+        "style": "String Control",
+        "x": 10,
+        "label": "Element",
+        "y": 10
+      }
+    },
+    {
+      "id": "a3dims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$a3.object_id",
+        "dimensions": 2
+      }
+    },
+    {
+      "id": "a3info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$a3.object_id"
+      }
+    },
+    {
+      "id": "a3echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$a3info.terminal_id"
+      }
+    },
+    {
+      "id": "a3label",
+      "op": "label",
+      "args": {
+        "label": "TextMatrixEcho",
+        "control_id": "$a3echo.control_id"
+      }
+    },
+    {
+      "id": "a4",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 40,
+        "label": "EmptyBool",
+        "y": 360.0
+      }
+    },
+    {
+      "id": "a4element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$a4.object_id",
+        "style": "Horizontal Toggle Switch",
+        "x": 10,
+        "label": "Element",
+        "y": 10
+      }
+    },
+    {
+      "id": "a4dims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$a4.object_id",
+        "dimensions": 1
+      }
+    },
+    {
+      "id": "a4info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$a4.object_id"
+      }
+    },
+    {
+      "id": "a4echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$a4info.terminal_id"
+      }
+    },
+    {
+      "id": "a4label",
+      "op": "label",
+      "args": {
+        "label": "EmptyBoolEcho",
+        "control_id": "$a4echo.control_id"
+      }
+    },
+    {
+      "id": "a5",
+      "op": "control",
+      "args": {
+        "style": "Array",
+        "x": 390,
+        "label": "EmptyText",
+        "y": 360.0
+      }
+    },
+    {
+      "id": "a5element",
+      "op": "array_element",
+      "args": {
+        "owner_id": "$a5.object_id",
+        "style": "String Control",
+        "x": 10,
+        "label": "Element",
+        "y": 10
+      }
+    },
+    {
+      "id": "a5dims",
+      "op": "array_dimensions",
+      "args": {
+        "array_id": "$a5.object_id",
+        "dimensions": 1
+      }
+    },
+    {
+      "id": "a5info",
+      "op": "array_info",
+      "args": {
+        "array_id": "$a5.object_id"
+      }
+    },
+    {
+      "id": "a5echo",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$a5info.terminal_id"
+      }
+    },
+    {
+      "id": "a5label",
+      "op": "label",
+      "args": {
+        "label": "EmptyTextEcho",
+        "control_id": "$a5echo.control_id"
+      }
+    },
+    {
+      "id": "a0default",
+      "op": "array_default",
+      "args": {
+        "array_id": "$a0.object_id",
+        "value": [
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "id": "a1default",
+      "op": "array_default",
+      "args": {
+        "array_id": "$a1.object_id",
+        "value": [
+          [
+            true,
+            false
+          ],
+          [
+            false,
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a2default",
+      "op": "array_default",
+      "args": {
+        "array_id": "$a2.object_id",
+        "value": [
+          "甲",
+          "Unicode α",
+          "line\nbreak"
+        ]
+      }
+    },
+    {
+      "id": "a3default",
+      "op": "array_default",
+      "args": {
+        "array_id": "$a3.object_id",
+        "value": [
+          [
+            "甲",
+            ""
+          ],
+          [
+            "β",
+            "a\nb"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a4default",
+      "op": "array_default",
+      "args": {
+        "array_id": "$a4.object_id",
+        "value": []
+      }
+    },
+    {
+      "id": "a5default",
+      "op": "array_default",
+      "args": {
+        "array_id": "$a5.object_id",
+        "value": []
+      }
+    }
+  ]
+}

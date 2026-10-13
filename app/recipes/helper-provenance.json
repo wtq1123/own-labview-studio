@@ -1,0 +1,2619 @@
+{
+  "date": "2026-10-12",
+  "authoring_source_sha256": "ff8c638a2036224b9541b67e75b496c869dfb4a7956600f307a3d933723152aa",
+  "helpers": {
+    "Native_AddCase": {
+      "sha256": "2fda76ce81f08815702c20b55ef0d7826c4f82fb1dc2f41d11cf141d12571da3",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddCase.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddCaseFrame_v2": {
+      "sha256": "a74f1ae2529f395218ddaf59f86abbc72346e5afeb4c44e6b70d2bf26bc38073",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddCaseFrame_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddControl_v2": {
+      "sha256": "3ff175fd05d93e5dd18c862465559b4ba718aeac03b78472048ca376e72c8329",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddControl_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddEvent": {
+      "sha256": "54e06d0cf927ecf704c2c1fa938bf31cea9b9cb32bfe4bd9705c555aef8cb08f",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddEvent.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddEventFrame_v2": {
+      "sha256": "53f767f886d8fcd2d2606e7c1fd2c19f1732daba4accda80c73b60f8eba3628f",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddEventFrame_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddFor": {
+      "sha256": "bb77ec5d8a0bf129b59f84d8de92894cd3e81dc535e269cc816ea974608d6778",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddFor.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddForShiftRegister": {
+      "sha256": "0218ecc7f444f400240caaa67b3d16cc577c8976ab84325575db0b148fc020ed",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddForShiftRegister.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddGrowableInDiagram": {
+      "sha256": "0fb1fd0910c0b2d346974b551ae403f6b18a5d3fa471fa20f8aa882595ffdbf8",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddGrowableInDiagram.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddInputChunk": {
+      "sha256": "007cda562893d3bbe1ee16a2c677262bffeb3c939ecc25d5104f57ad7dbc19ff",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddInputChunk.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddNodeInDiagram": {
+      "sha256": "e93db76f92dcce3467726671cdac20db2d8ba28a95784494e348d53111ea9e5d",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddNodeInDiagram.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddWhileShiftRegister": {
+      "sha256": "5ee394a3fde2dd923514e86486139af837249eb577d4f2d13c0448ff97752ee2",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddWhileShiftRegister.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddWhile_v3": {
+      "sha256": "9b0ee3c789ef5a2aa0ac9532ab6f25f0cd84f9a9688e8562048337435232dd20",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddWhile_v3.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AssignConnectorTerminal": {
+      "sha256": "ff3226aecf563e70974078b593fdac24676fd90418a9a45a75f64d716c0637a0",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AssignConnectorTerminal.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_Create": {
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_Create.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_CreateConstantFromTerminal_v2": {
+      "sha256": "d19bacb3edaac481f2efbd7660e19ca5f6287441ab23fd3077902bb7c865bcbc",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_CreateConstantFromTerminal_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_CreateControlFromTerminal_v2": {
+      "sha256": "ef06557eb808ff31026ef43ca21d51f30b005e5a11ffdaaf52b735e337030e1b",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_CreateControlFromTerminal_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_CreateIndicatorFromTerminal": {
+      "sha256": "453ed78304f2faad9c98d11ddff294d917f1301d359fbb3609fe8274ebed7a48",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_CreateIndicatorFromTerminal.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_CreateLocalVariable_v5": {
+      "sha256": "75a2699264e0abb133fdc38fd11887023690fee78e932305bd837d7122241bb1",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_CreateLocalVariable_v5.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_DeleteGObject": {
+      "sha256": "c210822959cc80f5bc1528fc83a40db5508b14b5f7619d2e682ac812a871dfb5",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_DeleteGObject.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetCaseFrameNames": {
+      "sha256": "d39b2468bbd7db52b3b8dbb2e70544fc118b85516e766c9c9f686f00b237cd49",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetCaseFrameNames.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetCaseInfo_v2": {
+      "sha256": "b6fd22930bf012dfb48ae273ce2e843582e21d767d40bc6be3f3e83dc656c04b",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetCaseInfo_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetConnectorControls": {
+      "sha256": "212a36ce61828b651958f33c7e1576e5c1092293e60ef7bc4fb76cc276acd92a",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetConnectorControls.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetDiagramObjects": {
+      "sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetDiagramObjects.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetDiagramWires": {
+      "sha256": "9245e706b6e886d66d6cba91eb0ad33559090798382fb89a649b58c6ac4ad09e",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetDiagramWires.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetEventInfo_v2": {
+      "sha256": "d51c3d0ab5e762f69aa5af57a9799992fea39bf86ef0cb7f4b49403817f2a737",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetEventInfo_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetForInfo": {
+      "sha256": "48fe6437c15f823182ad94bd26dd86d64ccf263181f5bb343ad6614e52ae9e07",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetForInfo.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetForTerminals": {
+      "sha256": "cbf622bfe456c98e0ded128f64db69baf987bf010def187eac424e3cff99749c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetForTerminals.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetForTunnels": {
+      "sha256": "50d57e1cea0979f4b802cd99d5e00282e4c44941c17b53b0916ebcb04d67d400",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetForTunnels.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetLeftShiftRefs": {
+      "sha256": "4605bf2e30d016fe7054c686220a5c404fcd93ed690771f2a057df2e409e3695",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetLeftShiftRefs.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetNodeTerminals": {
+      "sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetNodeTerminals.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetRootDiagram": {
+      "sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetRootDiagram.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetTerminalName": {
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetTerminalName.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetTunnelTerminals_v2": {
+      "sha256": "5c6b0646e80e10f0417d6b3b2746909d9c682affdeb95f97228009a047cf3f97",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetTunnelTerminals_v2.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetWhileInfo_v3": {
+      "sha256": "f3b9ebab7f60671833f82b9de0333c0ef5ed22474e590043c5024053e45f0ad7",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetWhileInfo_v3.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetWireBroken": {
+      "sha256": "6a36b23b98cae509ad4a002915de595a92587bc1f68ed22347aafdb789b86d31",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetWireBroken.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_MoveNode": {
+      "sha256": "814b7bd15cdd11a6d789b6dcf3924bc40b5c87a9a75d9271090cf3b474eddf4c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_MoveNode.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_MoveTerminal": {
+      "sha256": "b13cb1004ed05d6b133756a7a57031bf1f5e81a87026953a3fd46145985f57e8",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_MoveTerminal.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetCaseFrameNames": {
+      "sha256": "035694761203101e7e90320f95663792ea7666a239e0bc8bebd4b31e0dce9cb7",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetCaseFrameNames.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetControlLabel": {
+      "sha256": "2a41e72b01ab34279d49bcd9168b2495441c66cf13af3d83aef7e564aa000919",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetControlLabel.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetControlPosition": {
+      "sha256": "7a3f6316dbcaaf88b1163bdd052d1cf31b43af4240bb7c0fff9ce52308eb4609",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetControlPosition.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetDigitalNumericConstantValue": {
+      "sha256": "839b05ad69ab063351279d8f96803170aac8424083f07efe9976a4cef5273b08",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetDigitalNumericConstantValue.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetLoopTunnelIndexMode": {
+      "sha256": "c12b02c1f6909f0c1dcee635de8cd1864680b02f77813c2db0f12b92e0701843",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetLoopTunnelIndexMode.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetNumericRepresentation": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetNumericRepresentation.vi",
+      "outputs": {
+        "error out": "NI cluster [Boolean, Int32, String]"
+      },
+      "dependency_closure": [],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\numeric-final-manifest.json",
+      "sha256": "b3b60a6ccdc5e038adc22245af0f891eddd5ca4b4e0e4459b2a6e0998f228c0a",
+      "authoring": "Existing own NI-only helper; source unchanged.",
+      "inputs": {
+        "numeric_id": "UInt32 / VT_UI4 owned current-session Numeric subclass (verified Digital)",
+        "representation": "NI Digital backed by representation 6; COM integer. Exact native descriptor included; accepted domain 0..14."
+      },
+      "front_panel_types": [
+        {
+          "label": "numeric_id",
+          "direction": "input",
+          "type_descriptor": [
+            16,
+            16391,
+            2670,
+            30061,
+            25970,
+            26979,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "representation",
+          "direction": "input",
+          "type_descriptor": [
+            20,
+            16391,
+            3698,
+            25968,
+            29285,
+            29541,
+            28276,
+            24948,
+            26991,
+            28160
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "native_callees": []
+    },
+    "Native_SetStringConstantValue": {
+      "sha256": "32468ee8e2735bb82813cb03dbd8abcfc95d10f7a3b608bd7b0cae5ea02f424d",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetStringConstantValue.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_Wire": {
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_Wire.vi",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Own20261012_SetForConditional": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetForConditional.vi",
+      "authoring": "Authored via own NI helpers, retaining one configured NI-shipped example node and class type constant where required. No vendor modules imported.",
+      "ni_seed": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\examples\\Application Control\\VI Scripting\\Structures\\VI Scripting with Structures - For Loop.vi",
+      "ni_seed_sha256": "fc2a843a7d3b88f2a9083d12f33c40517183c566ec752913ed616ad16a7de3ee",
+      "sha256": "cb1244819fae8603ddc2b4b6739b7351cdd164edc83450ed94276c5299742d19"
+    },
+    "Own20261012_GetForStop": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetForStop.vi",
+      "authoring": "Authored via own NI helpers, retaining one configured NI-shipped example node and class type constant where required. No vendor modules imported.",
+      "ni_seed": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\examples\\Application Control\\VI Scripting\\Structures\\VI Scripting with Structures - For Loop.vi",
+      "ni_seed_sha256": "fc2a843a7d3b88f2a9083d12f33c40517183c566ec752913ed616ad16a7de3ee",
+      "sha256": "fb5a07fa7fd15e6c9af9b6e62fba114f7aea0c8f4c0d8a365c9ac93454b25b7d"
+    },
+    "Own20261012_CleanDiagram": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_CleanDiagram.vi",
+      "authoring": "Authored via own NI helpers, retaining one configured NI-shipped example node and class type constant where required. No vendor modules imported.",
+      "ni_seed": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\examples\\Application Control\\VI Scripting\\Creating Objects\\Script Random Strip Chart with Diagram Cleanup.vi",
+      "ni_seed_sha256": "83361bae3c55490af3504b185174b16a3016e053fc5cada3185440c39dde1493",
+      "sha256": "5f6e67407b0b93eed0a337d4a94f8e8a181c7fdc94845aab20e23715f7c6d378"
+    },
+    "Native_GetObjectInfo": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetObjectInfo.vi",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime.",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af"
+    },
+    "Own20261012_SetControlIndicator": {
+      "sha256": "ce01e30e9046fe47d475b06bd999d759a23bb1a42a00e9ea66a980b3d5744421",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetControlIndicator.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_GetControlIndicator": {
+      "sha256": "1c7c3eb4a7de4b75934b9f6f37f78d1e7ee62667cc1d4034f50d90ddeb8425b9",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetControlIndicator.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Native_GetControlTerminal": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetControlTerminal.vi",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime.",
+      "sha256": "0a617078f305776e134ce7514499c50f89a8ba616669eb014203f265303bc405"
+    },
+    "Native_AddSubVIInDiagram": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddSubVIInDiagram.vi",
+      "sha256": "60faea999548029fb9f379fec042bf5ae09f917e420a7497b515a1eea63d4e60",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime."
+    },
+    "Own20261012_CreateControlFromTerminal": {
+      "sha256": "25310668d586b66091e50f871db2fe2f07d3e10a438ab6a02cf621202e361215",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_CreateControlFromTerminal.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_CreateIndicatorFromTerminal": {
+      "sha256": "9f2c13b083a928e34dc20b147b9d5a252274de28594129c13dcc13ebdb47bb11",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_CreateIndicatorFromTerminal.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Native_GetPanelControls": {
+      "sha256": "6d64fe95f2d24d016b0d75777cf08854c8adbe4c796ffd20d91be07b6045cbb0",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetPanelControls.vi",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime."
+    },
+    "Native_GetControlLabel": {
+      "sha256": "84c7289d43bd66028eead6383485e80b89885f643cd2464d78324ebf77d5a179",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetControlLabel.vi",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime."
+    },
+    "Own20261012_GetPropertyInfo": {
+      "sha256": "3edab7ada7e52bfa7e9dd1a1b420b0e3b0ef94090d08480594a32461d5ae978d",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetPropertyInfo.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SetPropertyClass": {
+      "sha256": "a8045417e4a51368bccb2a34ae14d07b11f0a845ddccd5e56ab1fca97830e888",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetPropertyClass.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SelectProperties": {
+      "sha256": "9c481e423d5b331028474c19b19feffc1d6e4221d030655d78177ce410822e34",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SelectProperties.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_GetInvokeInfo": {
+      "sha256": "62eb48b1fcff6a1ce9b7e882200c44c78b6a445fabab1872018d0e1ee659421a",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetInvokeInfo.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SetInvokeClass": {
+      "sha256": "9ebe311b246a3118bd5410555a6644c4f45f0d15f5d50f712046e9a5fd86ee51",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetInvokeClass.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SelectMethod": {
+      "sha256": "3b39e4062cdd92dce421b81897445c5d0b13fc8465397ea2a0be4c182a0f54af",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SelectMethod.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_GetPropertyItemInfo": {
+      "sha256": "14ec413954b59169a4498436dbf676b6e76f8e4e56bed650297abb3d067a55bf",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetPropertyItemInfo.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SetPropertyItemWrite": {
+      "sha256": "3cad8685cde26caa29e146bbc1b9627f71ead7b1414016b95b3f5bfae43bab01",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetPropertyItemWrite.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SetPropertyItem": {
+      "sha256": "8086deab16522b0925cc0889c148d1a75c1c6471a7444ff15846ca80fdf102f3",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetPropertyItem.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_GetInvokeTerminals": {
+      "sha256": "f5a669a7321d292e921958b4f0f6c41f54d0cdbec31d476769f400875506e80c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetInvokeTerminals.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_CreateConstantFromTerminal": {
+      "sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_CreateConstantFromTerminal.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_CreateControlReference": {
+      "sha256": "d9f97bf37b6a15c99fdd171928cccdfc179d11ecd1874197507f71e6ff4510ee",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_CreateControlReference.vi",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\generic-final-manifest.json",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Own20261012_SetFormulaExpression": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetFormulaExpression.vi",
+      "sha256": "50dc8e58f647c80b50e882162eb049ee8a1f3aea03a2a92ff39df30410526faa",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_GetFormulaInfo": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetFormulaInfo.vi",
+      "sha256": "543a5574f55774b924735541c5592d9e6f452d5b761204af21ca234cca42e703",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_FormulaAddInput": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_FormulaAddInput.vi",
+      "sha256": "70b69a170aeb9c5ccb19d90bd246c55d9db597bad4916fe621261682d93c3eed",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_FormulaAddOutput": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_FormulaAddOutput.vi",
+      "sha256": "dcc5ff06fe71d59cf821bf32659edd630e23a9304f5f51c0f4f0badeb2defe42",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_GetFormulaParameterInfo": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetFormulaParameterInfo.vi",
+      "sha256": "1a68ee46e9ea4c5d081cec1e3132c309a4834770ca8703b7af7cbffcfe9091d7",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_SetFormulaParameterName": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetFormulaParameterName.vi",
+      "sha256": "390e5bbaa2a34b6bead176e3063f2db36fcdc1a029e94ba62ba10611a90862a1",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_DeleteFormulaParameter": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_DeleteFormulaParameter.vi",
+      "sha256": "ccd8f67ba61cc48064b17073babedb915e19c2726eec9ea7651cd470b017c7b2",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\formula-final-manifest.json",
+      "authoring": "New NI-only helper authored through the verified generic scripting selectors; no vendor runtime"
+    },
+    "Own20261012_AddControlToOwner": {
+      "original_source_sha256": "cb0500ce97595a0e73a7c4d7278ac4d9ed5aa5f88cf436e2d68c542bcae0343f",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\named-bundle-final-manifest.json",
+      "authoring": "User-authored NI-only helper migrated as development copy. No vendor runtime callees.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_AddControlToOwner.vi",
+      "outputs": {
+        "object_id": "UInt32 new child Control reference",
+        "error out": "NI [Boolean status,Int32 code,String source]"
+      },
+      "sha256": "cb0500ce97595a0e73a7c4d7278ac4d9ed5aa5f88cf436e2d68c542bcae0343f",
+      "inputs": {
+        "owner_id": "UInt32 / VT_UI4 owned current-session reference; tested Cluster only",
+        "style": "UInt32 / VT_UI4; tested 3000 Digital,3200 String,3400 Cluster",
+        "x": "Int16 / VT_I2",
+        "y": "Int16 / VT_I2",
+        "label": "String / VT_BSTR",
+        "object_id type": "UInt32 cast type template, default0; not a reference"
+      },
+      "native_callees": [],
+      "original_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddControlToOwner.vi"
+    },
+    "Own20261012_SetNamedBundlerElements": {
+      "original_source_sha256": "aa9ce65c1c103a879a64ad963d4dc8bccdac4ebb11cc1249ad3a714025d41db3",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\named-bundle-final-manifest.json",
+      "authoring": "User-authored NI-only helper migrated as development copy. No vendor runtime callees.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetNamedBundlerElements.vi",
+      "outputs": {
+        "error out": "NI [Boolean status,Int32 code,String source]"
+      },
+      "sha256": "aa9ce65c1c103a879a64ad963d4dc8bccdac4ebb11cc1249ad3a714025d41db3",
+      "inputs": {
+        "bundler_id": "UInt32 / VT_UI4 owned current-session reference",
+        "element_names": "SAFEARRAY(BSTR) requested current-row field names"
+      },
+      "native_callees": [],
+      "original_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetNamedBundlerElements.vi"
+    },
+    "Own20261012_SetNamedUnbundlerElements": {
+      "original_source_sha256": "d81e4c3bb0e7fd7f84e3cb7a657b8d0d6067475275bd3bf4cc90ea788ecbff78",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\named-bundle-final-manifest.json",
+      "authoring": "User-authored NI-only helper migrated as development copy. No vendor runtime callees.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetNamedUnbundlerElements.vi",
+      "outputs": {
+        "error out": "NI [Boolean status,Int32 code,String source]"
+      },
+      "sha256": "d81e4c3bb0e7fd7f84e3cb7a657b8d0d6067475275bd3bf4cc90ea788ecbff78",
+      "inputs": {
+        "unbundler_id": "UInt32 / VT_UI4 owned current-session reference",
+        "element_names": "SAFEARRAY(BSTR) requested current-row field names"
+      },
+      "native_callees": [],
+      "original_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetNamedUnbundlerElements.vi"
+    },
+    "Own20261012_GetNamedBundlerElements": {
+      "original_source_sha256": "aa9ce65c1c103a879a64ad963d4dc8bccdac4ebb11cc1249ad3a714025d41db3",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\named-bundle-final-manifest.json",
+      "authoring": "Own setter development copy changed to read the same NI ElemNms property; previous input removed and fresh typed output exposed.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetNamedBundlerElements.vi",
+      "outputs": {
+        "element_names": "String[] selected short names",
+        "available_elements": "String[] available top-level fields",
+        "full_element_names": "array of one-field clusters containing String[] paths; observed JSON [[[\"B\"]]]",
+        "error out": "NI [Boolean status,Int32 code,String source]"
+      },
+      "sha256": "c19cce5d0397f026e8efda016a0ad1a868105462e05f3a18f645ef7ff156f083",
+      "inputs": {
+        "bundler_id": "UInt32 / VT_UI4 owned current-session reference"
+      },
+      "native_callees": [],
+      "original_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetNamedBundlerElements.vi"
+    },
+    "Own20261012_GetNamedUnbundlerElements": {
+      "original_source_sha256": "d81e4c3bb0e7fd7f84e3cb7a657b8d0d6067475275bd3bf4cc90ea788ecbff78",
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\named-bundle-final-manifest.json",
+      "authoring": "Own setter development copy changed to read the same NI ElemNms property; previous input removed and fresh typed output exposed.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetNamedUnbundlerElements.vi",
+      "outputs": {
+        "element_names": "String[] selected short names",
+        "available_elements": "String[] available top-level fields",
+        "full_element_names": "array of one-field clusters containing String[] paths; observed JSON [[[\"A\"]],[[\"B\"]],[[\"Nested\"]]]",
+        "error out": "NI [Boolean status,Int32 code,String source]"
+      },
+      "sha256": "c146b82d25aeec5942a4e66c867b41565d44cd067f17be4d5f77516046ae85c7",
+      "inputs": {
+        "unbundler_id": "UInt32 / VT_UI4 owned current-session reference"
+      },
+      "native_callees": [],
+      "original_source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetNamedUnbundlerElements.vi"
+    },
+    "Own20261012_SetDoubleConstantValue": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status,Int32 code,String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved",
+      "sha256": "dd49c5952f6f06bc39f485fb00c76f83f3245098e3d3b4e4aac3b23f80153859",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetDoubleConstantValue.vi",
+      "inputs": {
+        "constant_id": "UInt32 / VT_UI4 owned DigitalNumericConstant reference; require DBL terminal first",
+        "value": "Double / VT_R8 finite scalar"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\constants-defaults-final-manifest.json"
+    },
+    "Own20261012_GetDigitalConstantValue": {
+      "outputs": {
+        "value": "NI Variant output; COM unboxes scalar according to actual constant representation. Verified Double for DBL and integer for U32.",
+        "error out": "NI cluster [Boolean status,Int32 code,String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved",
+      "sha256": "2353c7645c1ae5c075fcd88f11c75045b354117fe9aa84e94a802369d6541f5c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetDigitalConstantValue.vi",
+      "inputs": {
+        "constant_id": "UInt32 / VT_UI4 owned DigitalNumericConstant reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\constants-defaults-final-manifest.json"
+    },
+    "Native_GetTerminalTypeDescriptor": {
+      "outputs": {
+        "type_string": "1D signed Int16[] / SAFEARRAY(I2) type descriptor words",
+        "error out": "NI cluster [Boolean,Int32,String]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved",
+      "sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetTerminalTypeDescriptor.vi",
+      "inputs": {
+        "terminal_id": "UInt32 / COM VT_UI4 current-session Terminal reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\metadata-helpers-final-manifest.json"
+    },
+    "Native_GetStringConstantValue": {
+      "outputs": {
+        "value": "Native NI Variant (descriptor 0x53); COM unboxes to String/BSTR for the verified StringConstant",
+        "error out": "NI cluster [Boolean,Int32,String]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved",
+      "sha256": "2b112d0b4ad3d99dae8dc07a56cb0ee6d19f3f08dca499e6a60832b3cf6b2c47",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetStringConstantValue.vi",
+      "inputs": {
+        "constant_id": "UInt32 / COM VT_UI4 StringConstant reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\metadata-helpers-final-manifest.json"
+    },
+    "Own20261012_SetArrayDimensions": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "a1362cddca9d35a363b18d7bef14d3be7940eafbaf4bc94027d2ef439b46a216",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetArrayDimensions.vi",
+      "inputs": {
+        "array_id": "UInt32 / COM VT_UI4 owned current-session reference",
+        "dimensions": "UInt32 / COM VT_UI4"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_GetArrayInfo": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]",
+        "dimensions": "UInt32 / COM VT_UI4",
+        "element_id": "Native NI reference output unboxed as UInt32 by COM; treat as owned Control reference only after error=false",
+        "terminal_id": "Native NI reference output unboxed as UInt32 by COM; treat as owned Terminal reference only after error=false"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "2a1235fd5e5b40289d0f83b1e6b59dd82eebb08894b844dbd05e22bc5aa8fbef",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetArrayInfo.vi",
+      "inputs": {
+        "array_id": "UInt32 / COM VT_UI4 owned current-session reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_SetForStopIfTrue": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "d87f45f1001d3e0fe0e87d5ed763f11b13d9d149880c2d4ca0ed5db92714d429",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetForStopIfTrue.vi",
+      "inputs": {
+        "for_id": "UInt32 / COM VT_UI4 owned current-session reference",
+        "stop_if_true": "Boolean / COM VT_BOOL"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_GetForStopIfTrue": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]",
+        "stop_if_true": "Boolean / COM VT_BOOL"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "6852938519f69033be0782fac7581367eced62325f9b8cd053faeb2bb240ffcc",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetForStopIfTrue.vi",
+      "inputs": {
+        "for_id": "UInt32 / COM VT_UI4 owned current-session reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_SetWhileStopIfTrue": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "3094291e95093f3b0c19556dc169673b8ab07ecea1153240216809b2191392d4",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetWhileStopIfTrue.vi",
+      "inputs": {
+        "while_id": "UInt32 / COM VT_UI4 owned current-session reference",
+        "stop_if_true": "Boolean / COM VT_BOOL"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_GetWhileStopIfTrue": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]",
+        "stop_if_true": "Boolean / COM VT_BOOL"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "fc30baa101f67b3f393066cc0208d48a8f3729272532e73912d35ef0531ad3a5",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetWhileStopIfTrue.vi",
+      "inputs": {
+        "while_id": "UInt32 / COM VT_UI4 owned current-session reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_SetLoopTunnelConditional": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "d9c24e2ded21160feeecbc6bc2201630296ab88d0afc3925ad5ba0f7a839f2ff",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetLoopTunnelConditional.vi",
+      "inputs": {
+        "tunnel_id": "UInt32 / COM VT_UI4 owned current-session reference",
+        "is_conditional": "Boolean / COM VT_BOOL"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_GetLoopTunnelConditional": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]",
+        "is_conditional": "Boolean / COM VT_BOOL"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "9660c8c37d3c1efc6cedf2fad53ad4a3f80449383e4b444cc7efdd8d417c3ada",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetLoopTunnelConditional.vi",
+      "inputs": {
+        "tunnel_id": "UInt32 / COM VT_UI4 owned current-session reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Own20261012_GetLoopTunnelConditionTerminal": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]",
+        "condition_terminal_id": "Native NI reference output unboxed as UInt32 by COM; treat as owned Terminal reference only after error=false"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "0cbb5a697b587251fbdd451b1236b9aefd3b89b4d480ed28586f7271e27e1df2",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetLoopTunnelConditionTerminal.vi",
+      "inputs": {
+        "tunnel_id": "UInt32 / COM VT_UI4 owned current-session reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json"
+    },
+    "Native_GetConstantTerminal": {
+      "outputs": {
+        "terminal_id": "UInt32 / COM VT_UI4 nonzero Terminal reference",
+        "error out": "NI error cluster"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved",
+      "sha256": "ca3f058ff24f6596dd2f37dcac3b5d25fbbfd771d339d8a4075df5dfe7b22648",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetConstantTerminal.vi",
+      "inputs": {
+        "constant_id": "UInt32 / COM VT_UI4 current-session Constant reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\constant-terminal-final-manifest.json"
+    },
+    "Own20261012_GetObjectIdentity": {
+      "outputs": {
+        "uid": "Int32 object UID scoped to VI",
+        "vi_path": "LabVIEW Path exposed as COM String",
+        "error out": "NI error cluster"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved",
+      "sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetObjectIdentity.vi",
+      "inputs": {
+        "object_id": "UInt32 current-session GObject reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\object-identity-final-manifest.json"
+    },
+    "Own20261012_GetNumericRepresentation": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetNumericRepresentation.vi",
+      "outputs": {
+        "error out": "NI cluster [Boolean, Int32, String]",
+        "representation": "NI Enum backed by representation 6; COM integer. Exact native descriptor included; accepted domain 0..14."
+      },
+      "dependency_closure": [
+        {
+          "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\numeric\\LVNumericRepresentation.ctl",
+          "sha256": "c2f4a7436b3d733e981127de2b2294689f09ec8814d41e64c85a2173b327583c",
+          "callee_paths": []
+        }
+      ],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\numeric-final-manifest.json",
+      "sha256": "483a5a00aec0acaa8e75a74ce285ed45fe280839d0abd14ba5c197a949e6e8f0",
+      "authoring": "Copy of prior own NI-only Numeric.Rep setter; converted its single property row to a typed reader. No vendor import or original mutation.",
+      "inputs": {
+        "numeric_id": "UInt32 / VT_UI4 owned current-session Numeric subclass (verified Digital)"
+      },
+      "front_panel_types": [
+        {
+          "label": "numeric_id",
+          "direction": "input",
+          "type_descriptor": [
+            16,
+            16391,
+            2670,
+            30061,
+            25970,
+            26979,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        },
+        {
+          "label": "representation",
+          "direction": "output",
+          "type_descriptor": [
+            210,
+            16407,
+            15,
+            4677,
+            30836,
+            25966,
+            25701,
+            25632,
+            20594,
+            25955,
+            26995,
+            26991,
+            28176,
+            17519,
+            30050,
+            27749,
+            8272,
+            29285,
+            25449,
+            29545,
+            28526,
+            4179,
+            26990,
+            26476,
+            25888,
+            20594,
+            25955,
+            26995,
+            26991,
+            28164,
+            19567,
+            28263,
+            1111,
+            28530,
+            25604,
+            17017,
+            29797,
+            3413,
+            28275,
+            26983,
+            28261,
+            25632,
+            19567,
+            28263,
+            3413,
+            28275,
+            26983,
+            28261,
+            25632,
+            22383,
+            29284,
+            3413,
+            28275,
+            26983,
+            28261,
+            25632,
+            17017,
+            29797,
+            4163,
+            28525,
+            28780,
+            25976,
+            8261,
+            30836,
+            25966,
+            25701,
+            25614,
+            17263,
+            28016,
+            27749,
+            30752,
+            17519,
+            30050,
+            27749,
+            3651,
+            28525,
+            28780,
+            25976,
+            8275,
+            26990,
+            26476,
+            25860,
+            20853,
+            24932,
+            3413,
+            28275,
+            26983,
+            28261,
+            25632,
+            20853,
+            24932,
+            2886,
+            27000,
+            25956,
+            11600,
+            28521,
+            28276,
+            3698,
+            25968,
+            29285,
+            29541,
+            28276,
+            24948,
+            26991,
+            28160
+          ]
+        }
+      ],
+      "native_callees": [
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\numeric\\LVNumericRepresentation.ctl"
+      ]
+    },
+    "Own20261012_GetConnectorInfo": {
+      "authoring": "Prior independent NI-only ConnectorControls getter copied; final property row selection/output ABI replaced; source preserved.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetConnectorInfo.vi",
+      "outputs": {
+        "error out": "NI cluster [Boolean,Int32,String]",
+        "pattern": "UInt32 / VT_UI4",
+        "terminal_count": "UInt32 / VT_UI4",
+        "terminal_bounds": "1D array of NI Rectangle cluster [Int16 Left,Int16 Top,Int16 Right,Int16 Bottom]",
+        "control_ids": "1D native Control reference array; COM integer sequence; zero means unassigned; identify nonzero refs by VI Path+UID"
+      },
+      "native_callees": [
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVRectTypeDef.ctl"
+      ],
+      "front_panel_types": [
+        {
+          "label": "target_path",
+          "direction": "input",
+          "type_descriptor": [
+            20,
+            16434,
+            -1,
+            -1,
+            2932,
+            24946,
+            26469,
+            29791,
+            28769,
+            29800
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        },
+        {
+          "label": "pattern",
+          "direction": "output",
+          "type_descriptor": [
+            12,
+            16391,
+            1904,
+            24948,
+            29797,
+            29294
+          ]
+        },
+        {
+          "label": "terminal_count",
+          "direction": "output",
+          "type_descriptor": [
+            20,
+            16391,
+            3700,
+            25970,
+            28009,
+            28257,
+            27743,
+            25455,
+            30062,
+            29696
+          ]
+        },
+        {
+          "label": "terminal_bounds",
+          "direction": "output",
+          "type_descriptor": [
+            82,
+            16448,
+            1,
+            -1,
+            -1,
+            56,
+            16464,
+            4,
+            10,
+            16386,
+            1100,
+            25958,
+            29696,
+            8,
+            16386,
+            852,
+            28528,
+            10,
+            16386,
+            1362,
+            26983,
+            26740,
+            12,
+            16386,
+            1602,
+            28532,
+            29807,
+            27904,
+            2386,
+            25955,
+            29793,
+            28263,
+            27749,
+            3956,
+            25970,
+            28009,
+            28257,
+            27743,
+            25199,
+            30062,
+            25715
+          ]
+        },
+        {
+          "label": "control_ids",
+          "direction": "output",
+          "type_descriptor": [
+            34,
+            16448,
+            1,
+            -1,
+            -1,
+            12,
+            112,
+            8,
+            6,
+            4,
+            0,
+            2915,
+            28526,
+            29810,
+            28524,
+            24425,
+            25715
+          ]
+        }
+      ],
+      "inputs": {
+        "target_path": "NI Path input; COM String/BSTR absolute owned VI path"
+      },
+      "dependency_closure": [
+        {
+          "path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVRectTypeDef.ctl",
+          "sha256": "2b9cb06c922e7249772774edad5a5be1636e058fcae8b548dc2e084c6b9e7e9f",
+          "container_sha256": null,
+          "callee_paths": []
+        }
+      ],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\connector-final-manifest.json",
+      "sha256": "851e187934ebcaf08557e8aa9a3700abd7863a54bd42e897b739825a7e6ce84e"
+    },
+    "Own20261012_SetConnectorPattern": {
+      "authoring": "Prior independent NI-only ConnectorControls getter copied; final property row selection/output ABI replaced; source preserved.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetConnectorPattern.vi",
+      "outputs": {
+        "error out": "NI cluster [Boolean,Int32,String]"
+      },
+      "native_callees": [],
+      "front_panel_types": [
+        {
+          "label": "target_path",
+          "direction": "input",
+          "type_descriptor": [
+            20,
+            16434,
+            -1,
+            -1,
+            2932,
+            24946,
+            26469,
+            29791,
+            28769,
+            29800
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        },
+        {
+          "label": "pattern",
+          "direction": "input",
+          "type_descriptor": [
+            12,
+            16391,
+            1904,
+            24948,
+            29797,
+            29294
+          ]
+        }
+      ],
+      "inputs": {
+        "target_path": "NI Path input; COM String/BSTR absolute owned VI path",
+        "pattern": "UInt32 / VT_UI4; documented and live-tested range4800..4835"
+      },
+      "dependency_closure": [],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\connector-final-manifest.json",
+      "sha256": "bc910f3b691f515c9c61ad83451e158aab1a44df9f400b9cb980f20585daab7d"
+    },
+    "Own20261012_GetStructureInfo": {
+      "front_panel_types": [
+        {
+          "label": "structure_id",
+          "direction": "input",
+          "type_descriptor": [
+            18,
+            16391,
+            3187,
+            29810,
+            30051,
+            29813,
+            29285,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "owner_id",
+          "direction": "output",
+          "type_descriptor": [
+            22,
+            16496,
+            8,
+            3,
+            4,
+            0,
+            2159,
+            30574,
+            25970,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "diagram_ids",
+          "direction": "output",
+          "type_descriptor": [
+            34,
+            16448,
+            1,
+            -1,
+            -1,
+            12,
+            112,
+            8,
+            16384,
+            4,
+            0,
+            2916,
+            26977,
+            26482,
+            24941,
+            24425,
+            25715
+          ]
+        },
+        {
+          "label": "tunnel_ids",
+          "direction": "output",
+          "type_descriptor": [
+            34,
+            16448,
+            1,
+            -1,
+            -1,
+            12,
+            112,
+            8,
+            16426,
+            4,
+            0,
+            2676,
+            30062,
+            28261,
+            27743,
+            26980,
+            29440
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "native_callees": [],
+      "authoring": "New own NI graph built from verified public metadata; no vendor, original-file edits or GUI.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetStructureInfo.vi",
+      "outputs": {
+        "owner_id": "native GObject/Diagram ref; COM integer",
+        "diagram_ids": "1D native Diagram reference array",
+        "tunnel_ids": "1D native Tunnel reference array",
+        "error out": "NI error cluster [Boolean, Int32, String]"
+      },
+      "sha256": "02e8ecb95ceeda8221202461a568331856f5888db460c8b376ee7b363ed034f9",
+      "inputs": {
+        "structure_id": "UInt32 / VT_UI4; live current-VI structure reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\structure-connection-final-manifest.json"
+    },
+    "Own20261012_GetTerminalContext": {
+      "front_panel_types": [
+        {
+          "label": "terminal_id",
+          "direction": "input",
+          "type_descriptor": [
+            16,
+            16391,
+            2932,
+            25970,
+            28009,
+            28257,
+            27743,
+            26980
+          ]
+        },
+        {
+          "label": "is_source",
+          "direction": "output",
+          "type_descriptor": [
+            14,
+            16417,
+            2409,
+            29535,
+            29551,
+            30066,
+            25445
+          ]
+        },
+        {
+          "label": "diagram_id",
+          "direction": "output",
+          "type_descriptor": [
+            24,
+            16496,
+            8,
+            16384,
+            4,
+            0,
+            2660,
+            26977,
+            26482,
+            24941,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "native_callees": [],
+      "authoring": "New own NI graph built from verified public metadata; no vendor, original-file edits or GUI.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetTerminalContext.vi",
+      "outputs": {
+        "is_source": "Boolean / VT_BOOL",
+        "diagram_id": "native Diagram ref; COM integer",
+        "error out": "NI error cluster [Boolean, Int32, String]"
+      },
+      "sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1",
+      "inputs": {
+        "terminal_id": "UInt32 / VT_UI4; live current-VI terminal reference"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\structure-connection-final-manifest.json"
+    },
+    "Own20261012_ConnectSourceToStructure": {
+      "front_panel_types": [
+        {
+          "label": "structure_id",
+          "direction": "input",
+          "type_descriptor": [
+            18,
+            16391,
+            3187,
+            29810,
+            30051,
+            29813,
+            29285,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "source_terminal",
+          "direction": "input",
+          "type_descriptor": [
+            20,
+            16391,
+            3955,
+            28533,
+            29283,
+            25951,
+            29797,
+            29293,
+            26990,
+            24940
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "native_callees": [],
+      "authoring": "New own NI graph built from verified public metadata; no vendor, original-file edits or GUI.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_ConnectSourceToStructure.vi",
+      "outputs": {
+        "error out": "NI error cluster [Boolean, Int32, String]"
+      },
+      "sha256": "70d9834cb89605bc66817989932e0af374735c2482427516f72dbfde20edea72",
+      "inputs": {
+        "structure_id": "UInt32 / VT_UI4; live current-VI structure cast as NI Node",
+        "source_terminal": "UInt32 / VT_UI4; live direct-parent source Terminal"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\structure-connection-final-manifest.json"
+    },
+    "Own20261012_MoveControlToOwner": {
+      "front_panel_types": [
+        {
+          "label": "control_id",
+          "type_descriptor": [
+            16,
+            16391,
+            2659,
+            28526,
+            29810,
+            28524,
+            24425,
+            25600
+          ],
+          "direction": "input"
+        },
+        {
+          "label": "owner_id",
+          "type_descriptor": [
+            14,
+            16391,
+            2159,
+            30574,
+            25970,
+            24425,
+            25600
+          ],
+          "direction": "input"
+        },
+        {
+          "label": "x",
+          "type_descriptor": [
+            6,
+            16386,
+            376
+          ],
+          "direction": "input"
+        },
+        {
+          "label": "y",
+          "type_descriptor": [
+            6,
+            16386,
+            377
+          ],
+          "direction": "input"
+        },
+        {
+          "label": "error out",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ],
+          "direction": "output"
+        }
+      ],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-existing-element-final-manifest.json",
+      "native_callees": [],
+      "inputs": {
+        "control_id": "UInt32 / VT_UI4 source live Control reference",
+        "owner_id": "UInt32 / VT_UI4 destination live Array (typed Control owner)",
+        "x": "Int16 / VT_I2 position within destination owner",
+        "y": "Int16 / VT_I2 position within destination owner"
+      },
+      "outputs": {
+        "error out": "NI cluster [Boolean,Int32,String]"
+      },
+      "authoring": "Previously Codex-authored NI-only helper, copied with explicit user permission; historical licensed authoring tool recorded, no vendor runtime.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_MoveControlToOwner.vi",
+      "sha256": "2d248de92039718e0ad3c8e49638deb78ac38a494827a51cd213c269c6a641ba"
+    },
+    "Own20261012_SetBooleanStateStrings": {
+      "front_panel_types": [
+        {
+          "label": "boolean_id",
+          "direction": "input",
+          "type_descriptor": [
+            16,
+            16391,
+            2658,
+            28527,
+            27749,
+            24942,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "state_strings",
+          "direction": "input",
+          "type_descriptor": [
+            32,
+            16448,
+            1,
+            -1,
+            -1,
+            8,
+            48,
+            -1,
+            -1,
+            3443,
+            29793,
+            29797,
+            24435,
+            29810,
+            26990,
+            26483
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\boolean-style-final-manifest.json",
+      "native_callees": [],
+      "inputs": {
+        "boolean_id": "UInt32 / VT_UI4 current owned Boolean reference",
+        "state_strings": "1D NI String array / SAFEARRAY(BSTR); exact actual count1 or4"
+      },
+      "outputs": {
+        "error out": "NI cluster [Boolean,Int32,String]"
+      },
+      "authoring": "New own NI-only graph, no GUI or vendor runtime.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetBooleanStateStrings.vi",
+      "sha256": "ea5c3a87c0c45547b024e05a5476356a999c415ea79d671490330b7e0d372aaa"
+    },
+    "Own20261012_GetBooleanText": {
+      "front_panel_types": [
+        {
+          "label": "boolean_id",
+          "direction": "input",
+          "type_descriptor": [
+            16,
+            16391,
+            2658,
+            28527,
+            27749,
+            24942,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "text",
+          "direction": "output",
+          "type_descriptor": [
+            14,
+            16432,
+            -1,
+            -1,
+            1140,
+            25976,
+            29696
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\boolean-style-final-manifest.json",
+      "native_callees": [],
+      "inputs": {
+        "boolean_id": "UInt32 / VT_UI4 current owned Boolean reference"
+      },
+      "outputs": {
+        "error out": "NI cluster [Boolean,Int32,String]",
+        "text": "NI String / COM BSTR"
+      },
+      "authoring": "New own NI property graph; no GUI, vendor runtime or third-party VI dependency.",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetBooleanText.vi",
+      "sha256": "f62a356eacf4fae4f4ea7a26319558995d5fe07a90bc178ed1b8ba84fee308c9"
+    },
+    "Own20261012_GetBooleanStyleInfo": {
+      "front_panel_types": [
+        {
+          "label": "boolean_id",
+          "direction": "input",
+          "type_descriptor": [
+            16,
+            16391,
+            2658,
+            28527,
+            27749,
+            24942,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "text",
+          "direction": "output",
+          "type_descriptor": [
+            14,
+            16432,
+            -1,
+            -1,
+            1140,
+            25976,
+            29696
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        },
+        {
+          "label": "multiple_strings",
+          "direction": "output",
+          "type_descriptor": [
+            22,
+            16417,
+            4205,
+            30060,
+            29801,
+            28780,
+            25951,
+            29556,
+            29289,
+            28263,
+            29440
+          ]
+        },
+        {
+          "label": "mechanical_action",
+          "direction": "output",
+          "type_descriptor": [
+            22,
+            16391,
+            4461,
+            25955,
+            26721,
+            28265,
+            25441,
+            27743,
+            24931,
+            29801,
+            28526
+          ]
+        },
+        {
+          "label": "state_strings",
+          "direction": "output",
+          "type_descriptor": [
+            32,
+            16448,
+            1,
+            -1,
+            -1,
+            8,
+            48,
+            -1,
+            -1,
+            3443,
+            29793,
+            29797,
+            24435,
+            29810,
+            26990,
+            26483
+          ]
+        }
+      ],
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\boolean-style-final-manifest.json",
+      "native_callees": [],
+      "inputs": {
+        "boolean_id": "UInt32 / VT_UI4 current owned Boolean reference"
+      },
+      "outputs": {
+        "error out": "NI cluster [Boolean,Int32,String]",
+        "text": "NI String / COM BSTR",
+        "multiple_strings": "Boolean / VT_BOOL",
+        "mechanical_action": "UInt32 / VT_UI4; preserve measured native action",
+        "state_strings": "1D NI String array / SAFEARRAY(BSTR); count1 or4 observed"
+      },
+      "authoring": null,
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetBooleanStyleInfo.vi",
+      "sha256": "0b5ef4fbd0331b194c93d913e98e9a119c57c2d9348db99f165a232c75814824"
+    },
+    "Own20261012_PublicGetNodeLabel_v1": {
+      "sha256": "b12a05142a26379057d75cfef88a45e46c0cb59c759cd8aaee3116a30f6eef37",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetNodeLabel_v1.vi",
+      "authoring": "New self-authored NI-only helper; exact observed property selectors, complete primary error chain; no original/vendor runtime loaded. Copied unchanged under unique production basename.",
+      "inputs": {
+        "node_id": "U32 owned Node"
+      },
+      "outputs": {
+        "error out": "NI error cluster",
+        "label": "String/BSTR"
+      },
+      "selectors": {
+        "Node.Label": [
+          "6359001",
+          "Label",
+          "Label",
+          "标签"
+        ],
+        "Text.Text": [
+          "632d800",
+          "Text",
+          "Text",
+          "文本"
+        ]
+      },
+      "exec_state": 1,
+      "callee_paths": [],
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\node-label-v1-final-manifest.json",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetNodeLabel_v1.vi"
+    },
+    "Own20261012_PublicSetNodeLabel_v1": {
+      "sha256": "5308af0a71088a7d0107418dfcba46839152b928d90ca03b64994382db153d67",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetNodeLabel_v1.vi",
+      "authoring": "New self-authored NI-only helper; exact observed property selectors, complete primary error chain; no original/vendor runtime loaded. Copied unchanged under unique production basename.",
+      "inputs": {
+        "node_id": "U32 owned Node",
+        "label": "String/BSTR"
+      },
+      "outputs": {
+        "error out": "NI error cluster"
+      },
+      "selectors": {
+        "Node.Label": [
+          "6359001",
+          "Label",
+          "Label",
+          "标签"
+        ],
+        "Text.Text": [
+          "632d800",
+          "Text",
+          "Text",
+          "文本"
+        ]
+      },
+      "exec_state": 1,
+      "callee_paths": [],
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\node-label-v1-final-manifest.json",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicSetNodeLabel_v1.vi"
+    },
+    "Own20261012_PublicGetNodeLabelVisible_v1": {
+      "sha256": "12db6869d67060c2e67ef8a1e7fe5be72d6e3d934356235bd8b860034e797e3c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetNodeLabelVisible_v1.vi",
+      "authoring": "New self-authored NI-only helper; exact observed property selectors, complete primary error chain; no original/vendor runtime loaded. Copied unchanged under unique production basename.",
+      "inputs": {
+        "node_id": "U32 owned Node"
+      },
+      "outputs": {
+        "error out": "NI error cluster",
+        "visible": "Boolean/VT_BOOL"
+      },
+      "selectors": {
+        "Node.Label": [
+          "6359001",
+          "Label",
+          "Label",
+          "标签"
+        ],
+        "Text.Visible": [
+          "632cc06",
+          "Visible",
+          "Visible",
+          "可见"
+        ]
+      },
+      "exec_state": 1,
+      "callee_paths": [],
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\node-label-visible-v1-final-manifest.json",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetNodeLabelVisible_v1.vi"
+    },
+    "Own20261012_PublicSetNodeLabelVisible_v1": {
+      "sha256": "9592a982df2d92821eaf5b856d6e379acf365c874613616c7a2e7fd06a1a3ad4",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetNodeLabelVisible_v1.vi",
+      "authoring": "New self-authored NI-only helper; exact observed property selectors, complete primary error chain; no original/vendor runtime loaded. Copied unchanged under unique production basename.",
+      "inputs": {
+        "node_id": "U32 owned Node",
+        "visible": "Boolean/VT_BOOL"
+      },
+      "outputs": {
+        "error out": "NI error cluster"
+      },
+      "selectors": {
+        "Node.Label": [
+          "6359001",
+          "Label",
+          "Label",
+          "标签"
+        ],
+        "Text.Visible": [
+          "632cc06",
+          "Visible",
+          "Visible",
+          "可见"
+        ]
+      },
+      "exec_state": 1,
+      "callee_paths": [],
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\node-label-visible-v1-final-manifest.json",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicSetNodeLabelVisible_v1.vi"
+    },
+    "Own20261012_PublicGetForCountSides_v2": {
+      "sha256": "4b1a37a7ae0dcf45b2aea45e5183baa72f9d4cc1c0a1d0df533276e3e83f67d0",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetForCountSides_v2.vi",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetForCountSides_v2.vi",
+      "authoring": "New self-authored NI-only helper copied unchanged under unique production basename; keeps an audited own source configured property class, uses actual wire-specialized Tun class and observed inside/outside selectors; full primary error chain; no old/source/vendor runtime calls.",
+      "inputs": {
+        "for_id": "U32 owned ForLoop"
+      },
+      "outputs": {
+        "tunnel_id": "U32 owned tunnel",
+        "inside_ids": "U32 source Terminal[]; frame order must be proved by Diagram identity",
+        "outside_id": "U32 sink Terminal",
+        "error out": "NI error cluster"
+      },
+      "front_panel_types": [
+        {
+          "label": "for_id",
+          "direction": "input",
+          "descriptor": [
+            12,
+            16391,
+            1638,
+            28530,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "tunnel_id",
+          "direction": "output",
+          "descriptor": [
+            22,
+            16496,
+            8,
+            16426,
+            4,
+            0,
+            2420,
+            30062,
+            28261,
+            27743,
+            26980
+          ]
+        },
+        {
+          "label": "inside_ids",
+          "direction": "output",
+          "descriptor": [
+            34,
+            16448,
+            1,
+            -1,
+            -1,
+            12,
+            112,
+            8,
+            16441,
+            4,
+            0,
+            2665,
+            28275,
+            26980,
+            25951,
+            26980,
+            29440
+          ]
+        },
+        {
+          "label": "outside_id",
+          "direction": "output",
+          "descriptor": [
+            24,
+            16496,
+            8,
+            16456,
+            4,
+            0,
+            2671,
+            30068,
+            29545,
+            25701,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "callee_paths": [],
+      "exec_state": 1,
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\inside-terminal-v2-final-manifest.json",
+      "error_chain": "ForCount.reference property error out -> actual tunnel inside/outside property error in -> final error out"
+    },
+    "Own20261012_PublicGetCaseSelectorSides_v2": {
+      "sha256": "82c24877fa9b41e0fccfc65741f3d7069f0dec204905e172ffb5a06165ccc27c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetCaseSelectorSides_v2.vi",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetCaseSelectorSides_v2.vi",
+      "authoring": "New self-authored NI-only helper copied unchanged under unique production basename; keeps an audited own source configured property class, uses actual wire-specialized Tun class and observed inside/outside selectors; full primary error chain; no old/source/vendor runtime calls.",
+      "inputs": {
+        "case_id": "U32 owned CaseStructure"
+      },
+      "outputs": {
+        "tunnel_id": "U32 owned tunnel",
+        "inside_ids": "U32 source Terminal[]; frame order must be proved by Diagram identity",
+        "outside_id": "U32 sink Terminal",
+        "error out": "NI error cluster"
+      },
+      "front_panel_types": [
+        {
+          "label": "case_id",
+          "direction": "input",
+          "descriptor": [
+            12,
+            16391,
+            1891,
+            24947,
+            25951,
+            26980
+          ]
+        },
+        {
+          "label": "tunnel_id",
+          "direction": "output",
+          "descriptor": [
+            22,
+            16496,
+            8,
+            16426,
+            4,
+            0,
+            2420,
+            30062,
+            28261,
+            27743,
+            26980
+          ]
+        },
+        {
+          "label": "inside_ids",
+          "direction": "output",
+          "descriptor": [
+            34,
+            16448,
+            1,
+            -1,
+            -1,
+            12,
+            112,
+            8,
+            16441,
+            4,
+            0,
+            2665,
+            28275,
+            26980,
+            25951,
+            26980,
+            29440
+          ]
+        },
+        {
+          "label": "outside_id",
+          "direction": "output",
+          "descriptor": [
+            24,
+            16496,
+            8,
+            16456,
+            4,
+            0,
+            2671,
+            30068,
+            29545,
+            25701,
+            24425,
+            25600
+          ]
+        },
+        {
+          "label": "error out",
+          "direction": "output",
+          "descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "callee_paths": [],
+      "exec_state": 1,
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\inside-terminal-v2-final-manifest.json",
+      "error_chain": "CaseSelector.reference property error out -> actual tunnel inside/outside property error in -> final error out"
+    },
+    "Own20261012_GuardedAddNodeInDiagram": {
+      "sha256": "dea278358f127ccdf0b601114f9fd2cb64814e6882c8d666e4ce918c2d0ffab5",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompatGuard20261012_Native_AddNodeInDiagram.vi",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GuardedAddNodeInDiagram.vi",
+      "authoring": "Unchanged accepted independently authored compat helper; factory primary error out wired to Terms[] error in. Original helper preserved.",
+      "inputs": {
+        "target_path": "String",
+        "owner_diagram_id": "UInt32 reference",
+        "style": "UInt32 NI style",
+        "x": "Int16",
+        "y": "Int16"
+      },
+      "outputs": {
+        "object_id": "UInt32 reference",
+        "terminal_ids": "UInt32 reference array"
+      },
+      "exec_state": 1,
+      "callee_paths": [],
+      "runtime_tested": true,
+      "native_acceptance": "app/compat/tests/native_7e75016495a647309306fd9a1f341689/acceptance.json",
+      "error_chain": {
+        "source_primitive": "NewVIObject Function",
+        "source_terminal_name": "error out",
+        "observed_source_terminal_id": 2928672956,
+        "sink_property": "Terms[] Property",
+        "sink_terminal_name": "error in (no error)",
+        "observed_sink_terminal_id": 2918187186,
+        "reference_output_read_is_skipped_on_creation_error": true,
+        "final_error_remains_original_creation_error": true,
+        "observed_ids_scope": "These IDs describe the isolated authoring session only and must never be reused as production runtime references."
+      },
+      "causal_limit": "The old compat helper remained running and never returned its original NI error. Target keepalive, exact VT_UI4/VT_I2 variants and error gate were corrected together; individual root cause is not experimentally isolated."
+    },
+    "Own20261012_PublicGetObjectPosition": {
+      "name": "Own20261012_PublicGetObjectPosition",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetObjectPosition.vi",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetObjectPosition.vi",
+      "sha256": "d58b58006d96dd9ef30fd3a23d64857949e7b432df4d22f1a668d01d7a9c2847",
+      "exec_state": 1,
+      "callee_paths": [
+        "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\vi.lib\\Utility\\miscctls.llb\\LVPositionTypeDef.ctl"
+      ],
+      "inputs": {
+        "object_id": "UInt32 current owned GObject reference"
+      },
+      "outputs": {
+        "position": "native [x,y] Int32 cluster tuple",
+        "error out": "NI [Boolean,Int32,String]"
+      },
+      "front_panel_types": [
+        {
+          "label": "object_id",
+          "is_indicator": false,
+          "type_descriptor": [
+            14,
+            16391,
+            2415,
+            25194,
+            25955,
+            29791,
+            26980
+          ]
+        },
+        {
+          "label": "position",
+          "is_indicator": true,
+          "type_descriptor": [
+            34,
+            16464,
+            2,
+            10,
+            16387,
+            1100,
+            25958,
+            29696,
+            8,
+            16387,
+            852,
+            28528,
+            2160,
+            28531,
+            26996,
+            26991,
+            28160
+          ]
+        },
+        {
+          "label": "error out",
+          "is_indicator": true,
+          "type_descriptor": [
+            54,
+            16464,
+            3,
+            12,
+            16417,
+            1651,
+            29793,
+            29813,
+            29440,
+            10,
+            16387,
+            1123,
+            28516,
+            25856,
+            16,
+            16432,
+            -1,
+            -1,
+            1651,
+            28533,
+            29283,
+            25856,
+            2405,
+            29298,
+            28530,
+            8303,
+            30068
+          ]
+        }
+      ],
+      "source_run": false,
+      "source_save": false,
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\decoration_delete_v2_20261012_212647_917038\\acceptance.json",
+      "error_chain": "Original independently authored GObject.Position property primary error exported unchanged"
+    },
+    "Own20261012_PublicAddRootDecoration_v2": {
+      "sha256": "d3da1c7d3e37e41474b91264aae5ada41b726efb360e57fe3a7f3e1c849528df",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_AddRootDecoration_v2.vi",
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicAddRootDecoration_v2.vi",
+      "inputs": {
+        "target_path": [
+          20,
+          16434,
+          -1,
+          -1,
+          2932,
+          24946,
+          26469,
+          29791,
+          28769,
+          29800
+        ],
+        "style": [
+          10,
+          16391,
+          1395,
+          29817,
+          27749
+        ],
+        "x": [
+          6,
+          16386,
+          376
+        ],
+        "y": [
+          6,
+          16386,
+          377
+        ],
+        "object_id type": [
+          20,
+          16391,
+          3695,
+          25194,
+          25955,
+          29791,
+          26980,
+          8308,
+          31088,
+          25856
+        ]
+      },
+      "outputs": {
+        "object_id": [
+          14,
+          16391,
+          2415,
+          25194,
+          25955,
+          29791,
+          26980
+        ],
+        "error out": [
+          54,
+          16464,
+          3,
+          12,
+          16417,
+          1651,
+          29793,
+          29813,
+          29440,
+          10,
+          16387,
+          1123,
+          28516,
+          25856,
+          16,
+          16432,
+          -1,
+          -1,
+          1651,
+          28533,
+          29283,
+          25856,
+          2405,
+          29298,
+          28530,
+          8303,
+          30068
+        ]
+      },
+      "exec_state": 1,
+      "callee_paths": [],
+      "runtime_tested": true,
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\decoration_delete_v2_20261012_212647_917038\\acceptance.json",
+      "authoring": "Own helper with explicit VI.Diagram owner, existing generic class specifier, factory path physically unwired; only tested FlatBox3602 enabled. Source v1 failed primary1059 preserved.",
+      "error_chain": "Inherited accepted v1 Open target -> VI.Diagram -> New VI Object -> final error out"
+    },
+    "Own20261012_PublicDisconnectConnectorAll_v1": {
+      "passed": true,
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AssignConnectorTerminal.vi",
+      "source_sha256": "ff3226aecf563e70974078b593fdac24676fd90418a9a45a75f64d716c0637a0",
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_DisconnectConnectorAll_v1.vi",
+      "source_run": false,
+      "source_save": false,
+      "runtime_tested": true,
+      "exec_state": 1,
+      "callee_paths": [],
+      "sha256": "b3260666a0757feb8fdcdd3ceffddd5d54328e6325454ff32e864d0b0cf0819d",
+      "method": [
+        "239a8003",
+        "DiscAllTerms",
+        "DiscAllTerms",
+        "断开连接全部接线端"
+      ],
+      "error_chain": "OpenVIReference.error out -> VI.ConPane.error in -> ConPane.DiscAllTerms.error in -> final error out",
+      "inputs": {
+        "target_path": [
+          20,
+          16434,
+          -1,
+          -1,
+          2932,
+          24946,
+          26469,
+          29791,
+          28769,
+          29800
+        ]
+      },
+      "outputs": {
+        "error out": [
+          54,
+          16464,
+          3,
+          12,
+          16417,
+          1651,
+          29793,
+          29813,
+          29440,
+          10,
+          16387,
+          1123,
+          28516,
+          25856,
+          16,
+          16432,
+          -1,
+          -1,
+          1651,
+          28533,
+          29283,
+          25856,
+          2405,
+          29298,
+          28530,
+          8303,
+          30068
+        ]
+      },
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicDisconnectConnectorAll_v1.vi",
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\connector_reconfigure_20261012_215809\\acceptance.json",
+      "authoring": "Own exact ConPane.DiscAllTerms239a8003; OpenVIReference -> VI.ConPane -> DisconnectAllTerms -> final error. No source Run/Save; existing assignments independently cleared/reassigned on unique owned copy, then finite Sum and new caller return5."
+    },
+    "Own20261012_PublicGetControlOwner_v1": {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_GetControlOwner_v1.vi",
+      "sha256": "c90b07b8d1d7a688107dc4e36b847b3503b4d36dda206940e9cab35685874c1c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetControlTerminal.vi",
+      "source_sha256": "0a617078f305776e134ce7514499c50f89a8ba616669eb014203f265303bc405",
+      "source_unchanged": true,
+      "exec_state": 1,
+      "callee_paths": [],
+      "inputs": {
+        "control_id": "UInt32 owned current Ctl"
+      },
+      "outputs": {
+        "owner_id": "UInt32 actual owner; zero prohibited by managed caller",
+        "error out": "native error cluster"
+      },
+      "property_uid": "6327806",
+      "error_chain": "Original typed Ctl.Owner property -> final error out",
+      "runtime_tested": true,
+      "production_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_PublicGetControlOwner_v1.vi",
+      "native_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\nested_numeric_owner_20261012_220555\\acceptance.json"
+    },
+    "Own20261013_ScriptingAdd_V2": {
+      "relative_path": "recipes\\helpers\\Own20261013_ScriptingAdd_V2.vi",
+      "sha256": "0c1a35cfcdeddc798e06cb057d50570b8e90e74cba47ce4d8c3347e11ab2ea9d",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261013_ScriptingAdd_V2.vi",
+      "source_sha256": "0c1a35cfcdeddc798e06cb057d50570b8e90e74cba47ce4d8c3347e11ab2ea9d",
+      "provenance": "Self-authored at final deployment path; U32/native-ref adapter calling pinned MIT lv-scripting Create Add.vi; copied V1 failed relative-path resolution and is retained outside runtime helpers.",
+      "native_runtime_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\opensource-public_932c568cd32b44f3a12e40146eca091d\\add-runtime.json",
+      "public_recipe_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\opensource-public_d4a8b33c1617432dad233e2e58d0ed8b\\acceptance.json"
+    }
+  },
+  "independent_helper_rebuild": false,
+  "connector_patterns_sha256": "4bd31b12b54e7d94df38c4d19a08db4e0a021324b179167fbc1723713342380a",
+  "connector_patterns_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\connector-final-manifest.json"
+}

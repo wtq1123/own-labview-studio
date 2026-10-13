@@ -1,0 +1,330 @@
+{
+  "created": "2026-10-12T22:09:36.670972",
+  "target_run": false,
+  "source_run": false,
+  "source_save": false,
+  "helpers": {
+    "OwnMergePanelInventory": {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory.vi",
+      "actual_loaded_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory.vi",
+      "sha256": "6ce883319557ec672ebc70284ae245d4ada4f5ab3da0e2a9ae40f64f7fa56d85",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetPanelControls.vi",
+      "source_sha256": "6d64fe95f2d24d016b0d75777cf08854c8adbe4c796ffd20d91be07b6045cbb0",
+      "source_unchanged": true,
+      "exec_state": 1,
+      "callee_paths": [],
+      "native_abi_verified": true,
+      "inputs": {
+        "target_path": [
+          20,
+          16434,
+          -1,
+          -1,
+          2932,
+          24946,
+          26469,
+          29791,
+          28769,
+          29800
+        ]
+      },
+      "outputs": {
+        "all_object_ids": [
+          38,
+          16448,
+          1,
+          -1,
+          -1,
+          12,
+          112,
+          8,
+          36,
+          4,
+          0,
+          3681,
+          27756,
+          24431,
+          25194,
+          25955,
+          29791,
+          26980,
+          29440
+        ],
+        "decoration_ids": [
+          38,
+          16448,
+          1,
+          -1,
+          -1,
+          12,
+          112,
+          8,
+          4,
+          4,
+          0,
+          3684,
+          25955,
+          28530,
+          24948,
+          26991,
+          28255,
+          26980,
+          29440
+        ],
+        "pane_ids": [
+          32,
+          16448,
+          1,
+          -1,
+          -1,
+          12,
+          112,
+          8,
+          75,
+          4,
+          0,
+          2160,
+          24942,
+          25951,
+          26980,
+          29440
+        ],
+        "error out": [
+          54,
+          16464,
+          3,
+          12,
+          16417,
+          1651,
+          29793,
+          29813,
+          29440,
+          10,
+          16387,
+          1123,
+          28516,
+          25856,
+          16,
+          16432,
+          -1,
+          -1,
+          1651,
+          28533,
+          29283,
+          25856,
+          2405,
+          29298,
+          28530,
+          8303,
+          30068
+        ]
+      }
+    },
+    "OwnMergeObjectOwner": {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner.vi",
+      "actual_loaded_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner.vi",
+      "sha256": "688d431c067bb1806d98b0b572a077309204e1660411058acd508e1aa00e1c8c",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetObjectInfo.vi",
+      "source_sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "source_unchanged": true,
+      "exec_state": 1,
+      "callee_paths": [],
+      "native_abi_verified": true,
+      "inputs": {
+        "object_id": [
+          14,
+          16391,
+          2415,
+          25194,
+          25955,
+          29791,
+          26980
+        ]
+      },
+      "outputs": {
+        "owner_id": [
+          22,
+          16496,
+          8,
+          3,
+          4,
+          0,
+          2159,
+          30574,
+          25970,
+          24425,
+          25600
+        ],
+        "error out": [
+          54,
+          16464,
+          3,
+          12,
+          16417,
+          1651,
+          29793,
+          29813,
+          29440,
+          10,
+          16387,
+          1123,
+          28516,
+          25856,
+          16,
+          16432,
+          -1,
+          -1,
+          1651,
+          28533,
+          29283,
+          25856,
+          2405,
+          29298,
+          28530,
+          8303,
+          30068
+        ]
+      }
+    },
+    "OwnMergeWireTerms": {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms.vi",
+      "actual_loaded_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms.vi",
+      "sha256": "8e96936cb4b285580da14f6f3357f67055abe1f8d71f13045e9e2db637b9eed3",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetWireInfo.vi",
+      "source_sha256": "1e24c87663c0dc5b65b665a37dcfcd1674f01412c9167b5bd7df34276bafd56e",
+      "source_unchanged": true,
+      "exec_state": 1,
+      "callee_paths": [],
+      "native_abi_verified": true,
+      "inputs": {
+        "wire_id": [
+          12,
+          16391,
+          1911,
+          26994,
+          25951,
+          26980
+        ],
+        "terminal_ids type": [
+          22,
+          16391,
+          4468,
+          25970,
+          28009,
+          28257,
+          27743,
+          26980,
+          29472,
+          29817,
+          28773
+        ]
+      },
+      "outputs": {
+        "terminal_ids": [
+          46,
+          16448,
+          1,
+          -1,
+          -1,
+          22,
+          16391,
+          4468,
+          25970,
+          28009,
+          28257,
+          27743,
+          26980,
+          29472,
+          29817,
+          28773,
+          3188,
+          25970,
+          28009,
+          28257,
+          27743,
+          26980,
+          29440
+        ],
+        "error out": [
+          54,
+          16464,
+          3,
+          12,
+          16417,
+          1651,
+          29793,
+          29813,
+          29440,
+          10,
+          16387,
+          1123,
+          28516,
+          25856,
+          16,
+          16432,
+          -1,
+          -1,
+          1651,
+          28533,
+          29283,
+          25856,
+          2405,
+          29298,
+          28530,
+          8303,
+          30068
+        ]
+      }
+    }
+  },
+  "retained_partial_copies": [
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergePanelInventory_partial_20261012_220936.vi",
+      "sha256": "4fa07525a1c651e587d8e48f4bd1689df7bb39fcff86ace917f9a1d8c7ffaeb4"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeObjectOwner_partial_20261012_220936.vi",
+      "sha256": "49bb526c2084bf0f2231a3ab0c12b1672a98941cc8efd22cec9eccf7d5910c97"
+    },
+    {
+      "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\merge-helpers\\OwnMergeWireTerms_partial_20261012_220936.vi",
+      "sha256": "8e96936cb4b285580da14f6f3357f67055abe1f8d71f13045e9e2db637b9eed3"
+    }
+  ],
+  "probe": {
+    "path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_content_probe_20261012_220936\\OwnedMergeContentProbe.vi",
+    "sha256": "9860746bbb7577cc8381b28ee65051a0a78cf22875470a4b9e3308ab7097f1f7",
+    "panel": {
+      "all_object_ids": [
+        2409627810
+      ],
+      "decoration_ids": [],
+      "pane_ids": [
+        2410676376
+      ]
+    },
+    "wire_terminal_count": 2,
+    "owners": [
+      {
+        "error out": [
+          false,
+          0,
+          ""
+        ],
+        "uid": 3,
+        "vi_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_content_probe_20261012_220936\\OwnedMergeContentProbe.vi"
+      },
+      {
+        "error out": [
+          false,
+          0,
+          ""
+        ],
+        "uid": 44,
+        "vi_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\tests\\merge_content_probe_20261012_220936\\OwnedMergeContentProbe.vi"
+      }
+    ],
+    "target_run": false,
+    "passed": true
+  }
+}

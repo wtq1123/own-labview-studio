@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "name": "ForShiftSum",
+  "steps": [
+    {
+      "id": "loop",
+      "op": "for",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "For Loop",
+        "x": 180,
+        "y": 100,
+        "bounds": [
+          540,
+          340
+        ]
+      }
+    },
+    {
+      "id": "body",
+      "op": "for_info",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "ports",
+      "op": "for_terminals",
+      "args": {
+        "for_id": "$loop.for_id"
+      }
+    },
+    {
+      "id": "count",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$ports.count_id"
+      }
+    },
+    {
+      "id": "five",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$count.constant_id",
+        "value": 5
+      }
+    },
+    {
+      "id": "sum",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$body.diagram_id",
+        "style": "Add",
+        "x": 350,
+        "y": 210
+      }
+    },
+    {
+      "id": "shift",
+      "op": "for_shift",
+      "args": {
+        "for_id": "$loop.for_id",
+        "y": 205
+      }
+    },
+    {
+      "id": "left",
+      "op": "left_shift",
+      "args": {
+        "right_id": "$shift.right_id"
+      }
+    },
+    {
+      "id": "left_pins",
+      "op": "tunnel_terms",
+      "args": {
+        "tunnel_id": "$left.left_ids.0"
+      }
+    },
+    {
+      "id": "right_pins",
+      "op": "tunnel_terms",
+      "args": {
+        "tunnel_id": "$shift.right_id"
+      }
+    },
+    {
+      "id": "iteration",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$ports.counter_id",
+        "sink_terminal": "$sum.pins.y"
+      }
+    },
+    {
+      "id": "next",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$sum.pins.x+y",
+        "sink_terminal": "$right_pins.inside_ids.0"
+      }
+    },
+    {
+      "id": "previous",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$left_pins.inside_ids.0",
+        "sink_terminal": "$sum.pins.x"
+      }
+    },
+    {
+      "id": "seed",
+      "op": "constant",
+      "args": {
+        "terminal_id": "$left_pins.outside_id"
+      }
+    },
+    {
+      "id": "ten",
+      "op": "set_number",
+      "args": {
+        "constant_id": "$seed.constant_id",
+        "value": 10
+      }
+    },
+    {
+      "id": "out",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$right_pins.outside_id"
+      }
+    },
+    {
+      "id": "out_label",
+      "op": "label",
+      "args": {
+        "control_id": "$out.control_id",
+        "label": "Sum"
+      }
+    },
+    {
+      "id": "last",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$ports.counter_id"
+      }
+    },
+    {
+      "id": "last_label",
+      "op": "label",
+      "args": {
+        "control_id": "$last.control_id",
+        "label": "Last iteration"
+      }
+    }
+  ]
+}

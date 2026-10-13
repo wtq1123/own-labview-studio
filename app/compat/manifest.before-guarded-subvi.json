@@ -1,0 +1,199 @@
+{
+  "scope": "Two migrated research Python consumers; helper execution only, no vendor runtime.",
+  "helpers": {
+    "Native_Create": {
+      "actual_helper": "Native_Create",
+      "relative_path": "helpers/OwnCompat20261012_Native_Create.vi",
+      "sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_Create.vi",
+      "source_sha256": "9584b6301a3cac018f7d494c94e825e5295ed5606b1aa728dfc3a0718d754523",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetRootDiagram": {
+      "actual_helper": "Native_GetRootDiagram",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetRootDiagram.vi",
+      "sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetRootDiagram.vi",
+      "source_sha256": "6ad4dcb2e6a27a336cf499362e8f2f164777f3d890dbbd9620024f4384534cfd",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetDiagramObjects": {
+      "actual_helper": "Native_GetDiagramObjects",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetDiagramObjects.vi",
+      "sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetDiagramObjects.vi",
+      "source_sha256": "420ad4376575864a71f2c96541e99e9851219cb97fbd576201740fdaba305249",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetObjectInfo": {
+      "actual_helper": "Native_GetObjectInfo",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetObjectInfo.vi",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetObjectInfo.vi",
+      "source_sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime."
+    },
+    "Native_GetNodeTerminals": {
+      "actual_helper": "Native_GetNodeTerminals",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetNodeTerminals.vi",
+      "sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetNodeTerminals.vi",
+      "source_sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetTerminalName": {
+      "actual_helper": "Native_GetTerminalName",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetTerminalName.vi",
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetTerminalName.vi",
+      "source_sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetWhileInfo": {
+      "actual_helper": "Native_GetWhileInfo_v3",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetWhileInfo_v3.vi",
+      "sha256": "f3b9ebab7f60671833f82b9de0333c0ef5ed22474e590043c5024053e45f0ad7",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetWhileInfo_v3.vi",
+      "source_sha256": "f3b9ebab7f60671833f82b9de0333c0ef5ed22474e590043c5024053e45f0ad7",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetForInfo": {
+      "actual_helper": "Native_GetForInfo",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetForInfo.vi",
+      "sha256": "48fe6437c15f823182ad94bd26dd86d64ccf263181f5bb343ad6614e52ae9e07",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetForInfo.vi",
+      "source_sha256": "48fe6437c15f823182ad94bd26dd86d64ccf263181f5bb343ad6614e52ae9e07",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetCaseInfo": {
+      "actual_helper": "Native_GetCaseInfo_v2",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetCaseInfo_v2.vi",
+      "sha256": "b6fd22930bf012dfb48ae273ce2e843582e21d767d40bc6be3f3e83dc656c04b",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetCaseInfo_v2.vi",
+      "source_sha256": "b6fd22930bf012dfb48ae273ce2e843582e21d767d40bc6be3f3e83dc656c04b",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetCaseFrameNames": {
+      "actual_helper": "Native_GetCaseFrameNames",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetCaseFrameNames.vi",
+      "sha256": "d39b2468bbd7db52b3b8dbb2e70544fc118b85516e766c9c9f686f00b237cd49",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetCaseFrameNames.vi",
+      "source_sha256": "d39b2468bbd7db52b3b8dbb2e70544fc118b85516e766c9c9f686f00b237cd49",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_GetEventInfo_v2": {
+      "actual_helper": "Native_GetEventInfo_v2",
+      "relative_path": "helpers/OwnCompat20261012_Native_GetEventInfo_v2.vi",
+      "sha256": "d51c3d0ab5e762f69aa5af57a9799992fea39bf86ef0cb7f4b49403817f2a737",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_GetEventInfo_v2.vi",
+      "source_sha256": "d51c3d0ab5e762f69aa5af57a9799992fea39bf86ef0cb7f4b49403817f2a737",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddNodeInDiagram": {
+      "actual_helper": "Native_AddNodeInDiagram",
+      "relative_path": "helpers/OwnCompat20261012_Native_AddNodeInDiagram.vi",
+      "sha256": "e93db76f92dcce3467726671cdac20db2d8ba28a95784494e348d53111ea9e5d",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddNodeInDiagram.vi",
+      "source_sha256": "e93db76f92dcce3467726671cdac20db2d8ba28a95784494e348d53111ea9e5d",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AddSubVIInDiagram": {
+      "actual_helper": "Native_AddSubVIInDiagram",
+      "relative_path": "helpers/OwnCompat20261012_Native_AddSubVIInDiagram.vi",
+      "sha256": "60faea999548029fb9f379fec042bf5ae09f917e420a7497b515a1eea63d4e60",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AddSubVIInDiagram.vi",
+      "source_sha256": "60faea999548029fb9f379fec042bf5ae09f917e420a7497b515a1eea63d4e60",
+      "authoring": "Self-authored NI helper; historical licensed vendor authoring; no vendor runtime."
+    },
+    "Native_Wire": {
+      "actual_helper": "Native_Wire",
+      "relative_path": "helpers/OwnCompat20261012_Native_Wire.vi",
+      "sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_Wire.vi",
+      "source_sha256": "861cb2e3c51a17a43a18e58638f9f45a181413904d344a65397f4d43f2157a27",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_CreateControlFromTerminal_v2": {
+      "actual_helper": "Own20261012_CreateControlFromTerminal",
+      "relative_path": "helpers/OwnCompat20261012_Own20261012_CreateControlFromTerminal.vi",
+      "sha256": "25310668d586b66091e50f871db2fe2f07d3e10a438ab6a02cf621202e361215",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateControlFromTerminal.vi",
+      "source_sha256": "25310668d586b66091e50f871db2fe2f07d3e10a438ab6a02cf621202e361215",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Native_CreateIndicatorFromTerminal": {
+      "actual_helper": "Own20261012_CreateIndicatorFromTerminal",
+      "relative_path": "helpers/OwnCompat20261012_Own20261012_CreateIndicatorFromTerminal.vi",
+      "sha256": "9f2c13b083a928e34dc20b147b9d5a252274de28594129c13dcc13ebdb47bb11",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateIndicatorFromTerminal.vi",
+      "source_sha256": "9f2c13b083a928e34dc20b147b9d5a252274de28594129c13dcc13ebdb47bb11",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Native_CreateConstantFromTerminal_v2": {
+      "actual_helper": "Own20261012_CreateConstantFromTerminal",
+      "relative_path": "helpers/OwnCompat20261012_Own20261012_CreateConstantFromTerminal.vi",
+      "sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_CreateConstantFromTerminal.vi",
+      "source_sha256": "fa5a8d5be3ae98cdd3b86eafda4197df8afc57c878f3d73a02527e6d043784cb",
+      "authoring": "Authored with NI public scripting factories and own helpers; no vendor runtime. Final ABI, error propagation and finite behavior recorded in acceptance manifest."
+    },
+    "Native_SetControlLabel": {
+      "actual_helper": "Native_SetControlLabel",
+      "relative_path": "helpers/OwnCompat20261012_Native_SetControlLabel.vi",
+      "sha256": "2a41e72b01ab34279d49bcd9168b2495441c66cf13af3d83aef7e564aa000919",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetControlLabel.vi",
+      "source_sha256": "2a41e72b01ab34279d49bcd9168b2495441c66cf13af3d83aef7e564aa000919",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetControlPosition": {
+      "actual_helper": "Native_SetControlPosition",
+      "relative_path": "helpers/OwnCompat20261012_Native_SetControlPosition.vi",
+      "sha256": "7a3f6316dbcaaf88b1163bdd052d1cf31b43af4240bb7c0fff9ce52308eb4609",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetControlPosition.vi",
+      "source_sha256": "7a3f6316dbcaaf88b1163bdd052d1cf31b43af4240bb7c0fff9ce52308eb4609",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_MoveTerminal": {
+      "actual_helper": "Native_MoveTerminal",
+      "relative_path": "helpers/OwnCompat20261012_Native_MoveTerminal.vi",
+      "sha256": "b13cb1004ed05d6b133756a7a57031bf1f5e81a87026953a3fd46145985f57e8",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_MoveTerminal.vi",
+      "source_sha256": "b13cb1004ed05d6b133756a7a57031bf1f5e81a87026953a3fd46145985f57e8",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_SetDigitalNumericConstantValue": {
+      "actual_helper": "Native_SetDigitalNumericConstantValue",
+      "relative_path": "helpers/OwnCompat20261012_Native_SetDigitalNumericConstantValue.vi",
+      "sha256": "839b05ad69ab063351279d8f96803170aac8424083f07efe9976a4cef5273b08",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_SetDigitalNumericConstantValue.vi",
+      "source_sha256": "839b05ad69ab063351279d8f96803170aac8424083f07efe9976a4cef5273b08",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Native_AssignConnectorTerminal": {
+      "actual_helper": "Native_AssignConnectorTerminal",
+      "relative_path": "helpers/OwnCompat20261012_Native_AssignConnectorTerminal.vi",
+      "sha256": "ff3226aecf563e70974078b593fdac24676fd90418a9a45a75f64d716c0637a0",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Native_AssignConnectorTerminal.vi",
+      "source_sha256": "ff3226aecf563e70974078b593fdac24676fd90418a9a45a75f64d716c0637a0",
+      "authoring": "Self-authored NI helper, originally produced using licensed vendor authoring automation; vendor is not loaded at runtime."
+    },
+    "Own20261012_GetObjectIdentity": {
+      "actual_helper": "Own20261012_GetObjectIdentity",
+      "relative_path": "helpers/OwnCompat20261012_Own20261012_GetObjectIdentity.vi",
+      "sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\helpers\\Own20261012_GetObjectIdentity.vi",
+      "source_sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "authoring": "Independent self-authored NI helper; accepted exact ABI and runtime; original preserved"
+    }
+  },
+  "native_acceptance_pending": true,
+  "styles": {
+    "relative_path": "styles.json",
+    "sha256": "cab5f5ab8e3b339e24921898f262a74d82f8cf7b9c35aec97500d9be2aadf77b",
+    "source_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\recipes\\ni-styles.json",
+    "source_sha256": "a91fa58cad81a267b07dbbde69b81548c60322148b333898953ae9cf92076dd4",
+    "legacy_source_sha256": "69363bde0b06b91e943dc24d5e052c07935383ffb60cbd7545b7aa70f797c40a",
+    "legacy_entries_identical": 985,
+    "entries": 985
+  }
+}

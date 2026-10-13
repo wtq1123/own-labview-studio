@@ -1,0 +1,16 @@
+{
+  "authorized_request": "Delete LabVIEWBuilder and LabVIEWBridge after complete implementation acceptance",
+  "acceptance_report": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\reports\\completion-acceptance-20261013.json",
+  "acceptance_sha256": "6EAB85DA2638E1ED7912CD8C1EB6176A8388BFDAACA324EFDAC073FFCA86C34B",
+  "verified_backup_files": 3922,
+  "archive": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\migration\\archive_20261012_195318",
+  "targets": [
+    "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder",
+    "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBridge"
+  ],
+  "started": "2026-10-13T21:11:27.4268071+08:00",
+  "old_directories_deleted": true,
+  "window_operations_used": false,
+  "completed": "2026-10-13T21:11:28.6152055+08:00",
+  "archive_retained": true
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "name": "TypeFileglobal_write",
+  "steps": [
+    {
+      "id": "gN",
+      "op": "global_node",
+      "args": {
+        "control_name": "N",
+        "y": 100,
+        "x": 200,
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeGlobal_Type_8d43162493324385a727fc6947885f92\\TypeGlobal_Type_8d43162493324385a727fc6947885f92.vi",
+        "write": true,
+        "owner_diagram_id": "$root.diagram_id"
+      }
+    },
+    {
+      "id": "cN",
+      "op": "typed_control",
+      "args": {
+        "terminal_id": "$gN.terminal_id"
+      }
+    },
+    {
+      "id": "lN",
+      "op": "label",
+      "args": {
+        "control_id": "$cN.control_id",
+        "label": "WriteN"
+      }
+    },
+    {
+      "id": "gS",
+      "op": "global_node",
+      "args": {
+        "control_name": "S",
+        "y": 240,
+        "x": 200,
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeGlobal_Type_8d43162493324385a727fc6947885f92\\TypeGlobal_Type_8d43162493324385a727fc6947885f92.vi",
+        "write": true,
+        "owner_diagram_id": "$root.diagram_id"
+      }
+    },
+    {
+      "id": "cS",
+      "op": "typed_control",
+      "args": {
+        "terminal_id": "$gS.terminal_id"
+      }
+    },
+    {
+      "id": "lS",
+      "op": "label",
+      "args": {
+        "control_id": "$cS.control_id",
+        "label": "WriteS"
+      }
+    },
+    {
+      "id": "gB",
+      "op": "global_node",
+      "args": {
+        "control_name": "B",
+        "y": 380,
+        "x": 200,
+        "type_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\projects\\TypeGlobal_Type_8d43162493324385a727fc6947885f92\\TypeGlobal_Type_8d43162493324385a727fc6947885f92.vi",
+        "write": true,
+        "owner_diagram_id": "$root.diagram_id"
+      }
+    },
+    {
+      "id": "cB",
+      "op": "typed_control",
+      "args": {
+        "terminal_id": "$gB.terminal_id"
+      }
+    },
+    {
+      "id": "lB",
+      "op": "label",
+      "args": {
+        "control_id": "$cB.control_id",
+        "label": "WriteB"
+      }
+    },
+    {
+      "id": "dN",
+      "op": "control_default",
+      "args": {
+        "value": 8.25,
+        "control_id": "$cN.control_id"
+      }
+    },
+    {
+      "id": "dS",
+      "op": "control_default",
+      "args": {
+        "value": "写入 global\nα",
+        "control_id": "$cS.control_id"
+      }
+    },
+    {
+      "id": "dB",
+      "op": "control_default",
+      "args": {
+        "value": false,
+        "control_id": "$cB.control_id"
+      }
+    }
+  ]
+}

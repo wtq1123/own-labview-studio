@@ -1,0 +1,19 @@
+{"attached": true}
+{"about_to_read": "Native_Create"}
+{"helper": "Native_Create", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_Create.vi", "execution_state": 1}
+{"about_to_read": "Native_GetRootDiagram"}
+{"helper": "Native_GetRootDiagram", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetRootDiagram.vi", "execution_state": 1}
+{"about_to_read": "Native_AddNodeInDiagram"}
+{"helper": "Native_AddNodeInDiagram", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_AddNodeInDiagram.vi", "execution_state": 2}
+{"about_to_read": "Native_GetTerminalName"}
+{"helper": "Native_GetTerminalName", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_GetTerminalName.vi", "execution_state": 1}
+{"about_to_read": "Native_CreateControlFromTerminal_v2"}
+{"helper": "Native_CreateControlFromTerminal_v2", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_CreateControlFromTerminal.vi", "execution_state": 1}
+{"about_to_read": "Native_CreateIndicatorFromTerminal"}
+{"helper": "Native_CreateIndicatorFromTerminal", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_CreateIndicatorFromTerminal.vi", "execution_state": 1}
+{"about_to_read": "Native_CreateConstantFromTerminal_v2"}
+{"helper": "Native_CreateConstantFromTerminal_v2", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Own20261012_CreateConstantFromTerminal.vi", "execution_state": 1}
+{"about_to_read": "Native_SetControlPosition"}
+{"helper": "Native_SetControlPosition", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_SetControlPosition.vi", "execution_state": 1}
+{"about_to_read": "Native_MoveTerminal"}
+{"helper": "Native_MoveTerminal", "actual_path": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\compat\\helpers\\OwnCompat20261012_Native_MoveTerminal.vi", "execution_state": 1}

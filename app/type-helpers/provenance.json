@@ -1,0 +1,129 @@
+{
+  "reuse_authorized": true,
+  "helpers": {
+    "Native_CreateControlVI": {
+      "relative_path": "type-helpers\\Native_CreateControlVI.vi",
+      "sha256": "cdf93f1e29dc23d9029abb9e0866d850fecaf905438613d0ca67640ec6a7afbf",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_CreateControlVI.vi",
+      "source_sha256": "cdf93f1e29dc23d9029abb9e0866d850fecaf905438613d0ca67640ec6a7afbf",
+      "source_preserved": true
+    },
+    "Native_AddControlInControlVI": {
+      "relative_path": "type-helpers\\Native_AddControlInControlVI.vi",
+      "sha256": "9f15ed753e5dbcd8a8bf55ec6071d801e57de1b74ae2a045d9d15d3c0f5fe734",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddControlInControlVI.vi",
+      "source_sha256": "9f15ed753e5dbcd8a8bf55ec6071d801e57de1b74ae2a045d9d15d3c0f5fe734",
+      "source_preserved": true
+    },
+    "Native_SetControlVIType": {
+      "relative_path": "type-helpers\\Native_SetControlVIType.vi",
+      "sha256": "038eadd968f01739e928b02cc8c5092c052614a7df8daf9f84ec3e614c6a806d",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetControlVIType.vi",
+      "source_sha256": "038eadd968f01739e928b02cc8c5092c052614a7df8daf9f84ec3e614c6a806d",
+      "source_preserved": true
+    },
+    "Native_GetControlVIType": {
+      "relative_path": "type-helpers\\Native_GetControlVIType.vi",
+      "sha256": "31bdb1107fcbdcf8847a84388ddce0b6015c220841970eb84cee2a4a2d06a30d",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetControlVIType.vi",
+      "source_sha256": "31bdb1107fcbdcf8847a84388ddce0b6015c220841970eb84cee2a4a2d06a30d",
+      "source_preserved": true
+    },
+    "Own20261012_AddControlToOwner": {
+      "relative_path": "recipes\\helpers\\Own20261012_AddControlToOwner.vi",
+      "sha256": "cb0500ce97595a0e73a7c4d7278ac4d9ed5aa5f88cf436e2d68c542bcae0343f",
+      "existing_application_copy": true
+    },
+    "Native_GetObjectInfo": {
+      "relative_path": "recipes\\helpers\\Native_GetObjectInfo.vi",
+      "sha256": "b540b11135ed4593d414c85b9dd40dc165461c913276caedb444cbf2523f64af",
+      "existing_application_copy": true
+    },
+    "Own20261012_GetObjectIdentity": {
+      "relative_path": "recipes\\helpers\\Own20261012_GetObjectIdentity.vi",
+      "sha256": "1f1178dfc54ab7d84cb5e1a2d9c0a3c51921adb044ad051bb50a50dade2c5cee",
+      "existing_application_copy": true
+    },
+    "Native_GetControlLabel": {
+      "relative_path": "recipes\\helpers\\Native_GetControlLabel.vi",
+      "sha256": "84c7289d43bd66028eead6383485e80b89885f643cd2464d78324ebf77d5a179",
+      "existing_application_copy": true
+    },
+    "Native_GetPanelControls": {
+      "relative_path": "recipes\\helpers\\Native_GetPanelControls.vi",
+      "sha256": "6d64fe95f2d24d016b0d75777cf08854c8adbe4c796ffd20d91be07b6045cbb0",
+      "existing_application_copy": true
+    },
+    "Native_AddConstantFromTypedef": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddConstantFromTypedef.vi",
+      "sha256": "3561a2e6ecc8ff3848787c3da7dfeb64bb42f0de5923c1d761f3b7fa0557bcaf",
+      "relative_path": "type-helpers\\Native_AddConstantFromTypedef.vi",
+      "source_sha256": "3561a2e6ecc8ff3848787c3da7dfeb64bb42f0de5923c1d761f3b7fa0557bcaf",
+      "source_preserved": true
+    },
+    "Native_AddGlobalInDiagram": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_AddGlobalInDiagram.vi",
+      "sha256": "150b4674de5aab211cb152270b35b4225cac7668cd20acc265a9cd55eb8cc37b",
+      "relative_path": "type-helpers\\Native_AddGlobalInDiagram.vi",
+      "source_sha256": "150b4674de5aab211cb152270b35b4225cac7668cd20acc265a9cd55eb8cc37b",
+      "source_preserved": true
+    },
+    "Native_SetGlobalControlName": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetGlobalControlName.vi",
+      "sha256": "cf10a0a0d1e6b574823bff30a2ca0b48bcc12c74d83e6d7cff8ef709951eafb3",
+      "relative_path": "type-helpers\\Native_SetGlobalControlName.vi",
+      "source_sha256": "cf10a0a0d1e6b574823bff30a2ca0b48bcc12c74d83e6d7cff8ef709951eafb3",
+      "source_preserved": true
+    },
+    "Native_SetGlobalWrite": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_SetGlobalWrite.vi",
+      "sha256": "826b695b966873d1ea79f3cee030ff031c25a3c5dbc52448c3f28911a379ecc8",
+      "relative_path": "type-helpers\\Native_SetGlobalWrite.vi",
+      "source_sha256": "826b695b966873d1ea79f3cee030ff031c25a3c5dbc52448c3f28911a379ecc8",
+      "source_preserved": true
+    },
+    "Native_GetGlobalControlName": {
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\LabVIEWBuilder\\native\\helpers\\Native_GetGlobalControlName.vi",
+      "sha256": "95d797a939a4a4c95dce1485c2fe79783d3d6d6a5fda975a29a57ca984baa964",
+      "relative_path": "type-helpers\\Native_GetGlobalControlName.vi",
+      "source_sha256": "95d797a939a4a4c95dce1485c2fe79783d3d6d6a5fda975a29a57ca984baa964",
+      "source_preserved": true
+    },
+    "Native_GetTerminalTypeDescriptor": {
+      "existing_application_copy": true,
+      "sha256": "7f9ec2ccd0391b9091e5b1ee9d6c0b15f1cbee1e0dd5c3b5dd502a531f44076c",
+      "relative_path": "recipes\\helpers\\Native_GetTerminalTypeDescriptor.vi"
+    },
+    "Native_GetTerminalName": {
+      "existing_application_copy": true,
+      "sha256": "5a0020c934d746e0a7f0ab005f7801c28f039146a9cd17a6fa21eff4b2384659",
+      "relative_path": "recipes\\helpers\\Native_GetTerminalName.vi"
+    },
+    "Native_GetNodeTerminals": {
+      "existing_application_copy": true,
+      "sha256": "9d89600bc61183373585fa35a71b7dffff498695c9a5a0f5a9b42b006be2ee86",
+      "relative_path": "recipes\\helpers\\Native_GetNodeTerminals.vi"
+    },
+    "Own20261012_GetTerminalContext": {
+      "relative_path": "recipes\\helpers\\Own20261012_GetTerminalContext.vi",
+      "existing_application_copy": true,
+      "sha256": "5517808f2187140601295316496c57b9932d6e6b7532ab57ed73a464bb5276a1"
+    },
+    "Own20261012_SetArrayDimensions": {
+      "outputs": {
+        "error out": "NI cluster [Boolean status, Int32 code, String source]"
+      },
+      "native_callees": [],
+      "authoring": "Independent self-authored NI helper; accepted ABI and bounded runtime; original preserved",
+      "sha256": "a1362cddca9d35a363b18d7bef14d3be7940eafbaf4bc94027d2ef439b46a216",
+      "source": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\helpers\\Own20261012_SetArrayDimensions.vi",
+      "inputs": {
+        "array_id": "UInt32 / COM VT_UI4 owned current-session reference",
+        "dimensions": "UInt32 / COM VT_UI4"
+      },
+      "acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\array-loop-final-manifest.json",
+      "relative_path": "recipes\\helpers\\Own20261012_SetArrayDimensions.vi"
+    }
+  },
+  "native_acceptance_pending": true
+}

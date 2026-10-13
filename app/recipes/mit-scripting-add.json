@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "name": "MITAddPublic",
+  "steps": [
+    {
+      "id": "a",
+      "op": "control",
+      "args": {
+        "style": "Numeric Control",
+        "label": "A",
+        "x": 40,
+        "y": 40
+      }
+    },
+    {
+      "id": "b",
+      "op": "control",
+      "args": {
+        "style": "Numeric Control",
+        "label": "B",
+        "x": 40,
+        "y": 110
+      }
+    },
+    {
+      "id": "add",
+      "op": "scripting_add",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "source_x": "$a.terminal_id",
+        "source_y": "$b.terminal_id"
+      }
+    },
+    {
+      "id": "out",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$add.terminal_id"
+      }
+    },
+    {
+      "id": "nameOut",
+      "op": "label",
+      "args": {
+        "control_id": "$out.control_id",
+        "label": "Sum"
+      }
+    }
+  ]
+}

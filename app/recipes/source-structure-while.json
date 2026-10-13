@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "name": "SourceStructurewhile",
+  "steps": [
+    {
+      "id": "input",
+      "op": "control",
+      "args": {
+        "style": "Numeric Control",
+        "x": 40,
+        "y": 40,
+        "label": "Input"
+      }
+    },
+    {
+      "id": "structure",
+      "op": "while",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "bounds": [
+          550,
+          350
+        ],
+        "x": 240,
+        "y": 140,
+        "style": "While Loop"
+      }
+    },
+    {
+      "id": "body",
+      "op": "while_info",
+      "args": {
+        "loop_id": "$structure.loop_id"
+      }
+    },
+    {
+      "id": "polarity",
+      "op": "while_stop_if_true",
+      "args": {
+        "while_id": "$structure.loop_id",
+        "stop_if_true": true
+      }
+    },
+    {
+      "id": "eq",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$body.diagram_id",
+        "x": 400,
+        "y": 220,
+        "style": "Equal?"
+      }
+    },
+    {
+      "id": "wx",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$body.counter_id",
+        "sink_terminal": "$eq.pins.x"
+      }
+    },
+    {
+      "id": "wy",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$body.counter_id",
+        "sink_terminal": "$eq.pins.y"
+      }
+    },
+    {
+      "id": "stop",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$eq.terminal_ids.0",
+        "sink_terminal": "$body.stop_id"
+      }
+    },
+    {
+      "id": "connect",
+      "op": "connect_source_to_structure",
+      "args": {
+        "source_terminal": "$input.terminal_id",
+        "structure_id": "$structure.loop_id"
+      }
+    },
+    {
+      "id": "out0",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$connect.inside_ids.0"
+      }
+    },
+    {
+      "id": "label0",
+      "op": "label",
+      "args": {
+        "control_id": "$out0.control_id",
+        "label": "Echo0"
+      }
+    },
+    {
+      "id": "inputDefault",
+      "op": "control_default",
+      "args": {
+        "control_id": "$input.object_id",
+        "value": -3.25
+      }
+    }
+  ]
+}

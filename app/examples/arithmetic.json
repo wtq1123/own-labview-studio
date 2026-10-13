@@ -1,0 +1,77 @@
+{
+  "name": "ArithmeticAcceptance",
+  "wires": [
+    {
+      "from": "a.out",
+      "to": "sum.a"
+    },
+    {
+      "from": "b.out",
+      "to": "sum.b"
+    },
+    {
+      "from": "sum.out",
+      "to": "difference.a"
+    },
+    {
+      "from": "b.out",
+      "to": "difference.b"
+    },
+    {
+      "from": "difference.out",
+      "to": "product.a"
+    },
+    {
+      "from": "b.out",
+      "to": "product.b"
+    },
+    {
+      "from": "product.out",
+      "to": "quotient.a"
+    },
+    {
+      "from": "b.out",
+      "to": "quotient.b"
+    },
+    {
+      "from": "quotient.out",
+      "to": "result.in"
+    }
+  ],
+  "nodes": [
+    {
+      "label": "A",
+      "id": "a",
+      "value": 8.5,
+      "kind": "input"
+    },
+    {
+      "label": "B",
+      "id": "b",
+      "value": 2,
+      "kind": "input"
+    },
+    {
+      "kind": "add",
+      "id": "sum"
+    },
+    {
+      "kind": "subtract",
+      "id": "difference"
+    },
+    {
+      "kind": "multiply",
+      "id": "product"
+    },
+    {
+      "kind": "divide",
+      "id": "quotient"
+    },
+    {
+      "label": "Result",
+      "id": "result",
+      "kind": "indicator"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "class-helpers\\Own20261013_AddClassFields_RefsV3.vi": "4df6636a448f2c4cf86140be0f5237fa4bcf99b8626c3830a7a646ec8c8befec",
+    "class-helpers\\Own20261013_ReadClassFields.vi": "208c110180189844354bac9a9e66299405a24b0cc623898cbc25d75fd958db30",
+    "class-helpers\\OwnClass20261013_PanelControls.vi": "3145a45346a1e36241b68415f3fd65ff11fcfdcba89dcd6c913823a2e45bc7b8",
+    "class-helpers\\OwnOop20261013_CreateChildV5.vi": "185b7ca5b13ed1f690c1cd8bd326d3577cc67dd545e8dccf6e7d5733a0288442",
+    "class-helpers\\OwnOop20261013_CreateAccessorsDetached.vi": "1b96417f58dd6579d7dae6b61bca429f022d4725ace2a56eaec6fafa2f537567",
+    "class-helpers\\OwnOop20261013_ParentInfoV3.vi": "970dbaf78d702d09dcb9527e2b5fa9e9f438b2408c49d95bc39c6055ee3c9ec3",
+    "class-helpers\\OwnOop20261013_CreateOverride.vi": "0f05f650d868527aca2e03efc01a37e8b517610c35558f160523c2885f2b9b16",
+    "class-helpers\\OwnOop20261013_ParentIsNoneV3.vi": "1a76337979a64d1c573ab93ba3fdac728823e563a07a1259011cc6f8f7437c15",
+    "class-helpers\\OwnOop20261013_SetBooleanConstant.vi": "926e15fdcdc32c92985ac3b606cab52510ff283e47900dcfa006e41ae4a87dff",
+    "class-helpers\\OwnMethod20261013_SetWireRule.vi": "aab3f772d049f02c597ba1982c43ff26322268d4d9b74ea4a19eb314c2b34d35",
+    "class-helpers\\OwnMethod20261013_GetWiringRule.vi": "c64de8de9d22c40d04c825be6d71eba6694fa5bc0b6e3563be9cd3d8c1218fea",
+    "class-helpers\\OwnMethod20261013_RelinkSubVI.vi": "9493bcc63de6e3388e418d6d3e4f88debf1525e970afe22693ae8cae348cd9e0",
+    "class-helpers\\OwnInterface20261013_Create.vi": "60c865dfa2826d6d007b752560a091d4c2b3855908c4a4fdd3af46e7bbc260c4",
+    "class-helpers\\OwnInterface20261013_AddParent.vi": "cc1889f82b932721cc49702bcef98a453dddacfe26b15915c56e8f1a694c5086",
+    "class-helpers\\OwnInterface20261013_Info.vi": "48819903f951dd5cd4675d75e40d81dafd0901d17cdd708d581d8b387d609e3d",
+    "class-helpers\\OwnInterface20261013_ParentPath.vi": "ee7cc41f07f82ef698faad6e02ae525aebf0721f13a0b15dacac67823ac111c2",
+    "class-helpers\\OwnInterface20261013_MustOverride.vi": "7e6d5f5f136fab787a63b47501a32e133a96ab13b106fe90e668a26a64407d0e",
+    "class-helpers\\OwnBuild20261013_CreateDLL.vi": "0fa7964675278b475c8b01f195d6a56eae901ec34b44aeaa043576717303d6f0",
+    "class-helpers\\OwnBuild20261013_CreateEXE.vi": "fd921b6f9c6c140ca5ae9a973aa5cf05c1b4f8247d922ad99e4a619360d67528",
+    "class-helpers\\OwnBuild20261013_CreateSDIST.vi": "08e453857b6652b8cfabcfd1f3bb707363850ff76076c62b06261454290a6e9f",
+    "class-helpers\\OwnLibrary20261013_Create.vi": "d4919395c1c53ebe6ad31f762e4a5fcf257a703a0236bdaa188e5949e6d484da"
+  },
+  "scope": "Self-authored NI provider adapters and connector copy of own independent helper; Zuehlke MIT reference workflow",
+  "license_notice": "licenses/zuehlke-labview-mcp-MIT.txt",
+  "oop_prototype_evidence": "tests/oop-prototype_5f1681620f1741d2a177840bd143a2a7/dispatch-runtime.json",
+  "private_typedef_note": "Only the own wrapper Access UI control was disconnected; NI files untouched. Native private-scope compiler diagnostics and source hashes preserved."
+}

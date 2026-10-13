@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "name": "NumericRepresentations",
+  "steps": [
+    {
+      "id": "r0",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 40.0,
+        "label": "EXT",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r0rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r0.object_id",
+        "representation": 0
+      }
+    },
+    {
+      "id": "r0info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r0.object_id"
+      }
+    },
+    {
+      "id": "r1",
+      "op": "control",
+      "args": {
+        "x": 220,
+        "y": 40.0,
+        "label": "DBL",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r1rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r1.object_id",
+        "representation": 1
+      }
+    },
+    {
+      "id": "r1info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r1.object_id"
+      }
+    },
+    {
+      "id": "r2",
+      "op": "control",
+      "args": {
+        "x": 400,
+        "y": 40.0,
+        "label": "SGL",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r2rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r2.object_id",
+        "representation": 2
+      }
+    },
+    {
+      "id": "r2info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r2.object_id"
+      }
+    },
+    {
+      "id": "r3",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 120.0,
+        "label": "I32",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r3rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r3.object_id",
+        "representation": 3
+      }
+    },
+    {
+      "id": "r3info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r3.object_id"
+      }
+    },
+    {
+      "id": "r4",
+      "op": "control",
+      "args": {
+        "x": 220,
+        "y": 120.0,
+        "label": "I16",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r4rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r4.object_id",
+        "representation": 4
+      }
+    },
+    {
+      "id": "r4info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r4.object_id"
+      }
+    },
+    {
+      "id": "r5",
+      "op": "control",
+      "args": {
+        "x": 400,
+        "y": 120.0,
+        "label": "I8",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r5rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r5.object_id",
+        "representation": 5
+      }
+    },
+    {
+      "id": "r5info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r5.object_id"
+      }
+    },
+    {
+      "id": "r6",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 200.0,
+        "label": "U32",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r6rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r6.object_id",
+        "representation": 6
+      }
+    },
+    {
+      "id": "r6info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r6.object_id"
+      }
+    },
+    {
+      "id": "r7",
+      "op": "control",
+      "args": {
+        "x": 220,
+        "y": 200.0,
+        "label": "U16",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r7rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r7.object_id",
+        "representation": 7
+      }
+    },
+    {
+      "id": "r7info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r7.object_id"
+      }
+    },
+    {
+      "id": "r8",
+      "op": "control",
+      "args": {
+        "x": 400,
+        "y": 200.0,
+        "label": "U8",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r8rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r8.object_id",
+        "representation": 8
+      }
+    },
+    {
+      "id": "r8info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r8.object_id"
+      }
+    },
+    {
+      "id": "r9",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 280.0,
+        "label": "CEXT",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r9rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r9.object_id",
+        "representation": 9
+      }
+    },
+    {
+      "id": "r9info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r9.object_id"
+      }
+    },
+    {
+      "id": "r10",
+      "op": "control",
+      "args": {
+        "x": 220,
+        "y": 280.0,
+        "label": "CDBL",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r10rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r10.object_id",
+        "representation": 10
+      }
+    },
+    {
+      "id": "r10info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r10.object_id"
+      }
+    },
+    {
+      "id": "r11",
+      "op": "control",
+      "args": {
+        "x": 400,
+        "y": 280.0,
+        "label": "CSGL",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r11rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r11.object_id",
+        "representation": 11
+      }
+    },
+    {
+      "id": "r11info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r11.object_id"
+      }
+    },
+    {
+      "id": "r12",
+      "op": "control",
+      "args": {
+        "x": 40,
+        "y": 360.0,
+        "label": "I64",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r12rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r12.object_id",
+        "representation": 12
+      }
+    },
+    {
+      "id": "r12info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r12.object_id"
+      }
+    },
+    {
+      "id": "r13",
+      "op": "control",
+      "args": {
+        "x": 220,
+        "y": 360.0,
+        "label": "U64",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r13rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r13.object_id",
+        "representation": 13
+      }
+    },
+    {
+      "id": "r13info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r13.object_id"
+      }
+    },
+    {
+      "id": "r14",
+      "op": "control",
+      "args": {
+        "x": 400,
+        "y": 360.0,
+        "label": "FXP",
+        "style": "Numeric Control"
+      }
+    },
+    {
+      "id": "r14rep",
+      "op": "representation",
+      "args": {
+        "numeric_id": "$r14.object_id",
+        "representation": 14
+      }
+    },
+    {
+      "id": "r14info",
+      "op": "representation_info",
+      "args": {
+        "numeric_id": "$r14.object_id"
+      }
+    }
+  ]
+}

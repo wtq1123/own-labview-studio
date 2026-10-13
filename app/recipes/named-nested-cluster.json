@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "name": "NamedNestedCluster",
+  "steps": [
+    {
+      "id": "record",
+      "op": "control",
+      "args": {
+        "style": "Cluster",
+        "label": "Record",
+        "x": 30,
+        "y": 30
+      }
+    },
+    {
+      "id": "a",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$record.object_id",
+        "style": "Numeric Control",
+        "x": 15,
+        "y": 20,
+        "label": "A"
+      }
+    },
+    {
+      "id": "b",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$record.object_id",
+        "style": "String Control",
+        "x": 15,
+        "y": 55,
+        "label": "B"
+      }
+    },
+    {
+      "id": "nested",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$record.object_id",
+        "style": "Cluster",
+        "x": 15,
+        "y": 90,
+        "label": "Nested"
+      }
+    },
+    {
+      "id": "inner",
+      "op": "cluster_child",
+      "args": {
+        "owner_id": "$nested.object_id",
+        "style": "Numeric Control",
+        "x": 15,
+        "y": 20,
+        "label": "Inner"
+      }
+    },
+    {
+      "id": "text",
+      "op": "control",
+      "args": {
+        "style": "String Control",
+        "label": "NewText",
+        "x": 330,
+        "y": 30
+      }
+    },
+    {
+      "id": "bundle",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Bundle By Name",
+        "x": 350,
+        "y": 150
+      }
+    },
+    {
+      "id": "unbundle",
+      "op": "node",
+      "args": {
+        "owner_diagram_id": "$root.diagram_id",
+        "style": "Unbundle By Name",
+        "x": 600,
+        "y": 150
+      }
+    },
+    {
+      "id": "recordterm",
+      "op": "control_terminal",
+      "args": {
+        "control_id": "$record.object_id"
+      }
+    },
+    {
+      "id": "wrecord",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$recordterm.terminal_id",
+        "sink_terminal": "$bundle.pins.1"
+      }
+    },
+    {
+      "id": "bundletyped",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$bundle.object_id"
+      }
+    },
+    {
+      "id": "unbundlefresh",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$unbundle.object_id"
+      }
+    },
+    {
+      "id": "wcluster",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$bundletyped.pins.0",
+        "sink_terminal": "$unbundlefresh.pins.0"
+      }
+    },
+    {
+      "id": "bundleinfo",
+      "op": "named_bundle_info",
+      "args": {
+        "bundler_id": "$bundle.object_id"
+      }
+    },
+    {
+      "id": "unbundleinfo",
+      "op": "named_unbundle_info",
+      "args": {
+        "unbundler_id": "$unbundle.object_id"
+      }
+    },
+    {
+      "id": "grow",
+      "op": "grow",
+      "args": {
+        "object_id": "$unbundle.object_id",
+        "chunks": 2
+      }
+    },
+    {
+      "id": "selectb",
+      "op": "named_bundle_select",
+      "args": {
+        "bundler_id": "$bundle.object_id",
+        "element_names": [
+          "B"
+        ]
+      }
+    },
+    {
+      "id": "selectall",
+      "op": "named_unbundle_select",
+      "args": {
+        "unbundler_id": "$unbundle.object_id",
+        "element_names": [
+          "A",
+          "B",
+          "Nested"
+        ]
+      }
+    },
+    {
+      "id": "bundlefinal",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$bundle.object_id"
+      }
+    },
+    {
+      "id": "wtext",
+      "op": "wire",
+      "args": {
+        "source_terminal": "$text.terminal_id",
+        "sink_terminal": "$bundlefinal.pins.B"
+      }
+    },
+    {
+      "id": "apins",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$unbundle.object_id"
+      }
+    },
+    {
+      "id": "aout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$apins.pins.A"
+      }
+    },
+    {
+      "id": "alabel",
+      "op": "label",
+      "args": {
+        "control_id": "$aout.control_id",
+        "label": "A_Out"
+      }
+    },
+    {
+      "id": "bpins",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$unbundle.object_id"
+      }
+    },
+    {
+      "id": "bout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$bpins.pins.B"
+      }
+    },
+    {
+      "id": "blabel",
+      "op": "label",
+      "args": {
+        "control_id": "$bout.control_id",
+        "label": "B_Out"
+      }
+    },
+    {
+      "id": "nestedpins",
+      "op": "node_terminals",
+      "args": {
+        "node_id": "$unbundle.object_id"
+      }
+    },
+    {
+      "id": "nestedout",
+      "op": "typed_indicator",
+      "args": {
+        "terminal_id": "$nestedpins.pins.Nested"
+      }
+    },
+    {
+      "id": "nestedlabel",
+      "op": "label",
+      "args": {
+        "control_id": "$nestedout.control_id",
+        "label": "Nested_Out"
+      }
+    },
+    {
+      "id": "finalbundle",
+      "op": "named_bundle_info",
+      "args": {
+        "bundler_id": "$bundle.object_id"
+      }
+    },
+    {
+      "id": "finalunbundle",
+      "op": "named_unbundle_info",
+      "args": {
+        "unbundler_id": "$unbundle.object_id"
+      }
+    }
+  ]
+}

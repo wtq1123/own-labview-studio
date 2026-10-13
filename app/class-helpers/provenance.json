@@ -1,0 +1,11 @@
+{
+  "helper_sha256": "4d9522f676c03dc13fe07c98e25f486c0d3c405124f78702e1e321a198196e27",
+  "source_wrapper": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\development\\class-provider_76dc60bf17a94980bf3cc9433b7174e8\\AuthorProviderClass_ced5ae39.vi",
+  "source_wrapper_sha256": "4d9522f676c03dc13fe07c98e25f486c0d3c405124f78702e1e321a198196e27",
+  "provider_path": "C:\\Program Files (x86)\\National Instruments\\LabVIEW 2024\\resource\\Framework\\Providers\\AddClass\\Support\\Add Class to Project (path).vi",
+  "provider_sha256": "9e71d6825d549d0fc8518440d98b51588d9f299f12055acf4137443374695a96",
+  "reference_repository": "https://github.com/Zuehlke/labview-mcp",
+  "reference_commit": "7702e6d42bcd1218ed4227657b3634547d82b636",
+  "authoring": "Own NI VI Scripting wrapper, adapted NI provider workflow; no 2026 private service",
+  "license_notice": "../licenses/zuehlke-labview-mcp-MIT.txt"
+}
