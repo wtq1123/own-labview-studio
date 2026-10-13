@@ -1,6 +1,15 @@
-# This service is already registered on this computer. This is its reference configuration.
+# Example deployment; change absolute paths to the selected installation.
 [mcp_servers.own-labview]
-command = 'E:\BaiduSyncdisk\2026.04paper_phasechange\wtq_Labview\REA_Reconstruction_20261012\app\bin\OwnLabViewMcp.exe'
+command = 'D:\OwnLabVIEWStudio\app\bin\OwnLabViewMcp.exe'
 args = ['--mcp']
 startup_timeout_sec = 30
 tool_timeout_sec = 240
+
+[mcp_servers.lvkit]
+command = 'D:\LabVIEWTools\lvkit\.venv\Scripts\lvkit-mcp.exe'
+startup_timeout_sec = 30
+tool_timeout_sec = 240
+
+[mcp_servers.lvkit.env]
+PYTHONUTF8 = '1'
+PYTHONIOENCODING = 'utf-8'

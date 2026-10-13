@@ -125,6 +125,9 @@ public static class RecipeReferenceGuard {
         case "Native_CreateLocalVariable_v5":return c.In("control_id","Control").Out("local_id","Node").Out("terminal_ids","Terminal","array");
         case "Native_GetDiagramObjects":return c.In("diagram_id","Diagram").Out("object_ids","GObject","array").Derived("diagram_id");
         case "Native_GetDiagramWires":return c.In("diagram_id","Diagram").Out("wire_ids","Wire","array").Derived("diagram_id");
+        case "Native_GetTerminalWire":return c.In("terminal_id","Terminal").Out("wire_id","Wire").Derived("terminal_id");
+        case "Native_GetWireInfo":return c.In("wire_id","Wire").Out("terminal_ids","Terminal","array").Derived("wire_id");
+        case "Native_GetSubVIPath":return c.In("subvi_id","SubVI").Out("vi_path","Plain").Derived("subvi_id");
         case "Native_GetWireBroken":return c.In("wire_id","Wire").Out("is_broken","Plain").Derived("wire_id");
         case "Native_GetObjectInfo":return c.In("object_id","GObject").Out("class_name","Plain").Out("bounds","Plain","array");
         case "Own20261012_SetControlIndicator":return c.In("control_id","Control");

@@ -62,7 +62,7 @@ try {
     $process.StandardInput.WriteLine('{"jsonrpc":"2.0","method":"notifications/initialized"}')
     $process.StandardInput.Flush()
     $toolList = Request 'tools/list' @{}
-    $expectedTools = @('studio_capabilities','import_vi','merge_vi','place_ni_file','prepare_file','create_type_artifact','create_library','create_project','search_styles','find_ni_examples','validate_graph','evaluate_graph','save_graph','labview_status','inspect_vi','build_vi','recipe_catalog','validate_recipe','build_recipe')
+    $expectedTools = @('studio_capabilities','export_vi_html','auto_wire_copy','import_vi','merge_vi','place_ni_file','prepare_file','create_type_artifact','create_library','create_project','search_styles','find_ni_examples','validate_graph','evaluate_graph','save_graph','labview_status','inspect_vi','build_vi','recipe_catalog','validate_recipe','build_recipe')
     $actualTools = @($toolList.tools | ForEach-Object { $_.name })
     Check 'All expected MCP tools advertised exactly once' (($actualTools.Count -eq $expectedTools.Count) -and (@(Compare-Object -ReferenceObject $expectedTools -DifferenceObject $actualTools).Count -eq 0))
     $styles = CallTool 'search_styles' @{query='Add';limit=5}

@@ -16,13 +16,14 @@ Windows 桌面应用和 Codex MCP 共用的 LabVIEW 生成、复制编辑后台�
 
 `build.ps1` 使用 Windows 自带的 .NET Framework C# 编译器，生成两个 x86 程序并运行离线自测。运行生成操作还需要本机 NI 开发环境和启用的 VI Scripting；发布构建需要可用的 NI Application Builder。Python 只用于部分验收脚本，不是生产运行依赖。
 
-将 `codex-mcp.example.toml` 的 `command` 改为实际绝对路径后配置到 Codex。MCP 是逐行 JSON-RPC / stdio；日志不混入协议输出。当前公开 19 个工具，配方目录有 105 项操作。完整参数以 `tools/list` 和 `recipe_catalog` 返回值为准。
+将 `codex-mcp.example.toml` 的 `command` 改为实际绝对路径后配置到 Codex。MCP 是逐行 JSON-RPC / stdio；日志不混入协议输出。当前公开 21 个工具，配方目录有 108 项操作。完整参数以 `tools/list` 和 `recipe_catalog` 返回值为准。首次部署和开源组件安装见 [部署说明](DEPLOYMENT.md)。
 
 ## VI 与配方
 
 - `validate_graph`、`evaluate_graph`、`save_graph`、`build_vi` 提供有限算术图入口。
 - `validate_recipe`、`build_recipe` 提供节点、控件、常量、结构、连线、循环寄存器、隧道、Formula、命名簇、属性及方法节点、连接器自动分配和重分配等操作。
 - `search_styles`、`find_ni_examples` 检索本地样式和 NI 例程；`labview_status`、`inspect_vi` 读取原生状态。
+- `export_vi_html` 独立导出 NI HTML 与 PNG，`auto_wire_copy` 对新磁盘副本做一条受检顶层连线；配方新增端子连线、连线端点及子 VI 路径读取。详细约束见部署说明。
 - `import_vi`、`prepare_file` 准备独立副本；`source_vi` 编辑自有 VI 副本。`file_place` 将已准备 VI、CTL、全局、类或已审核 NI 多态文件放入当前根/循环/Case 框图。`place_ni_file` 保留审核过的 NI 快捷候选。
 - `merge_vi` 在新目标副本中合并实际前面板控件和框图。检查保存默认值、原生类型、几何位置、拓扑和依赖；同名复制控件加来源前缀并返回映射。导入、已复制和已合并产物可以继续组合。
 

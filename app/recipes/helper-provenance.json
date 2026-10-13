@@ -2611,6 +2611,36 @@
       "provenance": "Self-authored at final deployment path; U32/native-ref adapter calling pinned MIT lv-scripting Create Add.vi; copied V1 failed relative-path resolution and is retained outside runtime helpers.",
       "native_runtime_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\opensource-public_932c568cd32b44f3a12e40146eca091d\\add-runtime.json",
       "public_recipe_acceptance": "E:\\BaiduSyncdisk\\2026.04paper_phasechange\\wtq_Labview\\REA_Reconstruction_20261012\\app\\tests\\opensource-public_d4a8b33c1617432dad233e2e58d0ed8b\\acceptance.json"
+    },
+    "Native_GetTerminalWire": {
+      "sha256": "e779483249f57c556ec066e05a058c641c6aa424331a4811f08e77953bbdd0b5",
+      "source": "LabVIEWBuilder/native/helpers/Native_GetTerminalWire.vi",
+      "authoring": "Self-authored NI helper migrated for basic copy wiring; no vendor runtime."
+    },
+    "Native_GetWireInfo": {
+      "sha256": "1e24c87663c0dc5b65b665a37dcfcd1674f01412c9167b5bd7df34276bafd56e",
+      "source": "LabVIEWBuilder/native/helpers/Native_GetWireInfo.vi",
+      "authoring": "Self-authored low-level NI inspection helper; legacy analysis compatibility, no vendor runtime."
+    },
+    "Native_GetSubVIPath": {
+      "sha256": "baed43af7a175156c6691cb73813cd23cb52666b53df9477347a18ffb468dc90",
+      "source": "LabVIEWBuilder/native/helpers/Native_GetSubVIPath.vi",
+      "authoring": "Self-authored low-level NI inspection helper; legacy analysis compatibility, no vendor runtime."
+    },
+    "Native_GetNumericConstantValue": {
+      "sha256": "883d967be85967bfe655bc39a10467e2fa017aa5e75961be09ff1007fb479b06",
+      "source": "LabVIEWBuilder/native/helpers/Native_GetNumericConstantValue.vi",
+      "authoring": "Self-authored low-level NI inspection helper; legacy analysis compatibility, no vendor runtime."
+    },
+    "Native_GetCaseInfo": {
+      "sha256": "e14a5b1b4b822ace3049045bf42ce0646557229e32500d29894e6e2c57f84801",
+      "source": "LabVIEWBuilder/native/helpers/Native_GetCaseInfo.vi",
+      "authoring": "Self-authored low-level NI inspection helper; legacy analysis compatibility, no vendor runtime."
+    },
+    "Native_GetWhileInfo": {
+      "sha256": "a4d64b9e225d7021a3d19330c05bb7351bf3d9e629d85233f5cd6b03f2471ee2",
+      "source": "LabVIEWBuilder/native/helpers/Native_GetWhileInfo.vi",
+      "authoring": "Self-authored low-level NI inspection helper; legacy analysis compatibility, no vendor runtime."
     }
   },
   "independent_helper_rebuild": false,

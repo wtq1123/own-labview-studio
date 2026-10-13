@@ -1361,5 +1361,38 @@
     ],
     "target_path": false,
     "acceptance": "Final-location adapter and public same-Diagram scalar DBL add creation/wiring accepted; saved finite results5,6.5,0; source-direction/owner and symbolic kind/deletion guards; produced VI has no MIT runtime callee. Other terminal data types are not claimed by these fixtures."
+  },
+  "wire_terminals": {
+    "target_path": false,
+    "inputs": {
+      "wire_id": "ref"
+    },
+    "outputs": [
+      "terminal_ids"
+    ],
+    "helper": "Native_GetWireInfo",
+    "acceptance": "Read-only actual wire endpoint lookup; derived current-target references"
+  },
+  "subvi_path": {
+    "target_path": false,
+    "inputs": {
+      "subvi_id": "ref"
+    },
+    "outputs": [
+      "vi_path"
+    ],
+    "helper": "Native_GetSubVIPath",
+    "acceptance": "Read-only SubVI call target lookup; actual SubVI reference required"
+  },
+  "terminal_wire": {
+    "target_path": false,
+    "inputs": {
+      "terminal_id": "ref"
+    },
+    "outputs": [
+      "wire_id"
+    ],
+    "helper": "Native_GetTerminalWire",
+    "acceptance": "Read-only terminal wire lookup; derived current-target reference"
   }
 }

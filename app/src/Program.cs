@@ -14,6 +14,7 @@ public static class Program {
             if(args.Length==1&&args[0]=="--mcp"){Protocol.Run();return 0;}
             if(args.Length==1&&args[0]=="--capabilities"){Console.WriteLine(Data.Json.Serialize(Service.Capabilities()));return 0;}
             if(args.Length==3&&args[0]=="--call"){Console.WriteLine(Data.Json.Serialize(Service.Call(args[1],Data.Map(Data.Json.DeserializeObject(File.ReadAllText(args[2],Encoding.UTF8))))));return 0;}
+            if(args.Length==2&&args[0]=="--wire-copy-worker"){Console.WriteLine(Data.Json.Serialize(BasicViTools.Worker(args[1])));return 0;}
             if(args.Length==3&&args[0]=="--build-worker"){Console.WriteLine(Data.Json.Serialize(Native.Worker(args[1],args[2]=="verify")));return 0;}
             if(args.Length==2&&args[0]=="--recipe-worker"){Console.WriteLine(Data.Json.Serialize(Recipe.Worker(args[1])));return 0;}
             if(args.Length==2&&args[0]=="--library-worker"){Console.WriteLine(Data.Json.Serialize(Libraries.Worker(args[1])));return 0;}

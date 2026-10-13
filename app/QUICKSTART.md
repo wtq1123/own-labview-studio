@@ -1,6 +1,6 @@
 # Own LabVIEW Studio 使用指南
 
-适用环境：本机 LabVIEW 2024 32 位。后台生成不需要操作 LabVIEW 窗口。应用及已有配置可以直接使用；本文没有要求重新安装 REA、lvkit 或 Python。
+适用环境：LabVIEW 2024 32 位。后台生成不需要操作 LabVIEW 窗口。新电脑须按 [部署说明](DEPLOYMENT.md) 安装并配置；lvkit 是独立读取工具，不能假定它已在新环境安装。
 
 ## 通过 Codex 使用
 
@@ -21,7 +21,7 @@
 在 Windows PowerShell 中执行：
 
 ```powershell
-& 'E:\BaiduSyncdisk\2026.04paper_phasechange\wtq_Labview\REA_Reconstruction_20261012\app\examples\Build-DynamicClassDemo.ps1'
+& 'D:\OwnLabVIEWStudio\app\examples\Build-DynamicClassDemo.ps1'
 ```
 
 脚本生成加法方法体、乘法方法体、父类 `Compute` 动态方法、子类重写和一个包含子类的工程。每次生成独立目录，子类包含独立的父类快照。最后输出 `project_path` 与 `requests_and_reports`；后者保存全部请求、返回结果和 `demo-result.json`。
